@@ -1,17 +1,16 @@
 name: fetch-media
-# Storage only: copies finished film files from a staging address into this repository (no website build). — Sion's Tab agent
+# Storage only: brings finished film files into this repository (no website build). Two ways in:
+#  - url:    files downloaded from a staging address (inputs.base + src)
+#  - parts:  files uploaded in <=2 MB parts to a short-lived branch (inputs.branch), joined here, then the branch is deleted
+# Every file is checked against its sha256 and GitHub's 25 MB limit. — Sion's Tab agent
 on:
   workflow_dispatch:
     inputs:
-      base:
-        description: 'staging base URL (ends with /)'
-        required: true
-      files:
-        description: 'JSON list of {"src": "...", "dst": "...", "sha256": "..."}'
-        required: true
-      message:
-        description: 'commit message'
-        required: true
+      mode: { description: 'url | parts', required: true, default: 'parts' }
+      base: { description: 'url mode: staging base URL ending with /', required: false, default: '' }
+      branch: { description: 'parts mode: the branch holding the parts', required: false, default: '' }
+      files: { description: 'JSON list: url mode {src,dst,sha256}; parts mode {parts:[paths],dst,sha256}', required: true }
+      message: { description: 'commit message', required: true }
 permissions:
   contents: write
 concurrency:
@@ -24,22 +23,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: main, fetch-depth: 1 }
-      - name: Download and verify
+      - name: Fetch parts branch
+        if: inputs.mode == 'parts'
+        run: git fetch --depth 1 origin "${{ inputs.branch }}:parts_src"
+      - name: Bring files in and verify
         env:
+          MODE: ${{ inputs.mode }}
           BASE: ${{ inputs.base }}
           FILES: ${{ inputs.files }}
         run: |
           python3 - <<'PY'
-          import json, os, hashlib, urllib.request, pathlib
-          base = os.environ['BASE']; files = json.loads(os.environ['FILES'])
+          import json, os, hashlib, urllib.request, pathlib, subprocess
+          mode = os.environ['MODE']; files = json.loads(os.environ['FILES'])
           for f in files:
-              url = base + f['src']; dst = pathlib.Path(f['dst']); dst.parent.mkdir(parents=True, exist_ok=True)
-              req = urllib.request.Request(url, headers={'User-Agent': 'cedwyn-movie-fetch'})
-              data = urllib.request.urlopen(req, timeout=300).read()
+              if mode == 'url':
+                  req = urllib.request.Request(os.environ['BASE'] + f['src'], headers={'User-Agent': 'cedwyn-movie-fetch'})
+                  data = urllib.request.urlopen(req, timeout=300).read()
+              else:
+                  data = b''.join(subprocess.run(['git', 'show', 'parts_src:' + p], capture_output=True, check=True).stdout for p in f['parts'])
               h = hashlib.sha256(data).hexdigest()
-              if f.get('sha256') and h != f['sha256']: raise SystemExit(f"sha256 mismatch for {f['src']}: {h}")
-              if len(data) > 25 * 1024 * 1024 - 1: raise SystemExit(f"{f['dst']} is over GitHub's 25 MB limit")
-              dst.write_bytes(data); print('ok', f['dst'], len(data), h)
+              if f.get('sha256') and h != f['sha256']: raise SystemExit(f"sha256 mismatch for {f['dst']}: {h}")
+              if len(data) >= 25 * 1024 * 1024: raise SystemExit(f"{f['dst']} is over GitHub's 25 MB limit")
+              dst = pathlib.Path(f['dst']); dst.parent.mkdir(parents=True, exist_ok=True); dst.write_bytes(data); print('ok', f['dst'], len(data), h)
           PY
       - name: Commit
         env:
@@ -49,3 +54,6 @@ jobs:
           git config user.email "tymawr.giftshop@mail.tab.bot"
           git add -A
           git diff --cached --quiet && echo "nothing to commit" || (git commit -m "$MSG" && git push origin HEAD:main)
+      - name: Delete the parts branch
+        if: inputs.mode == 'parts' && success()
+        run: git push origin --delete "${{ inputs.branch }}"
