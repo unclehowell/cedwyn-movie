@@ -1,0 +1,51 @@
+name: fetch-media
+# Storage only: copies finished film files from a staging address into this repository (no website build). — Sion's Tab agent
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: 'staging base URL (ends with /)'
+        required: true
+      files:
+        description: 'JSON list of {"src": "...", "dst": "...", "sha256": "..."}'
+        required: true
+      message:
+        description: 'commit message'
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: fetch-media
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - name: Download and verify
+        env:
+          BASE: ${{ inputs.base }}
+          FILES: ${{ inputs.files }}
+        run: |
+          python3 - <<'PY'
+          import json, os, hashlib, urllib.request, pathlib
+          base = os.environ['BASE']; files = json.loads(os.environ['FILES'])
+          for f in files:
+              url = base + f['src']; dst = pathlib.Path(f['dst']); dst.parent.mkdir(parents=True, exist_ok=True)
+              req = urllib.request.Request(url, headers={'User-Agent': 'cedwyn-movie-fetch'})
+              data = urllib.request.urlopen(req, timeout=300).read()
+              h = hashlib.sha256(data).hexdigest()
+              if f.get('sha256') and h != f['sha256']: raise SystemExit(f"sha256 mismatch for {f['src']}: {h}")
+              if len(data) > 25 * 1024 * 1024 - 1: raise SystemExit(f"{f['dst']} is over GitHub's 25 MB limit")
+              dst.write_bytes(data); print('ok', f['dst'], len(data), h)
+          PY
+      - name: Commit
+        env:
+          MSG: ${{ inputs.message }}
+        run: |
+          git config user.name "Sion's Tab agent"
+          git config user.email "tymawr.giftshop@mail.tab.bot"
+          git add -A
+          git diff --cached --quiet && echo "nothing to commit" || (git commit -m "$MSG" && git push origin HEAD:main)
