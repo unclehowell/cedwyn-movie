@@ -1,0 +1,325 @@
+{
+ "_meta": {
+  "made": "2026-10-25",
+  "vendor": "ElevenLabs via Tab vendor door (direct)",
+  "model_id": "eleven_v4",
+  "why": "eleven_v4 speaks Welsh intelligibly with language_code 'cy' (transcribe-back match 0.92-1.0); eleven_multilingual_v2 cannot speak Welsh (0.0); eleven_v3 is weaker on Welsh (0.72-0.87). One designed voice per actor across cy/en/es keeps the same timbre in all three languages.",
+  "how_to_call": "POST {B}/elevenlabs/v1/text-to-speech/<voice_id>?output_format=mp3_44100_64 json {text, model_id:'eleven_v4', language_code:'cy'|'en'|'es', voice_settings}",
+  "voice_settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "voices_created_by": "text-to-voice design (eleven_ttv_v3) then POST /v1/text-to-voice; names 'Cedwyn <ID>' on the shared account; GET /v1/voices (list) is closed at the door, use the ids below",
+  "fallback_welsh": "Google AI gemini-3.8-flash-tts (prebuilt voice Kore) scored 0.95 on Welsh; use only if an eleven_v4 Welsh line fails transcribe-back, accepting a timbre change",
+  "qc": "Every line: transcribe back with OpenAI gpt-4o-transcribe through the model door (Groq Whisper is refused: org restricted for overdue payment) and require word match >= 0.8; spell years as words; for English/Spanish keep 'Tŷ Mawr' and 'Llandough' as written, the voice handles them",
+  "sample_lines": {
+   "en": "Good morning. This is Great House Farm, in Llandough. The papers tell the whole story.",
+   "cy": "Bore da. Dyma Dŷ Mawr, Llandochau. Mae'r papurau'n dweud y stori i gyd.",
+   "es": "Buen día. Esta es la granja Tŷ Mawr, en Llandough. Los papeles cuentan toda la historia."
+  }
+ },
+ "actors": {
+  "A_MARY": {
+   "voice_id": "uZ2F64pQ4awvfM38w9V9",
+   "name": "Cedwyn A_MARY",
+   "design_prompt": "A Welsh woman in her late thirties from the Vale of Glamorgan, warm, low, steady voice with a gentle South Wales lilt, plain-spoken farm woman, natural and unhurried.",
+   "gender": "female",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/A_MARY_en.mp3",
+     "transcribe_back_match": 0.93
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/A_MARY_cy.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/A_MARY_es.mp3",
+     "transcribe_back_match": 1.0
+    }
+   }
+  },
+  "B_JOHN": {
+   "voice_id": "ft0WkOZmCF3NFIbyp280",
+   "name": "Cedwyn B_JOHN",
+   "design_prompt": "A Welsh farmer in his late fifties from the Vale of Glamorgan, deep weathered gravelly voice, slow and plain-spoken, strong South Wales accent, kindly but stubborn.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/B_JOHN_en.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/B_JOHN_cy.mp3",
+     "transcribe_back_match": 0.74
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/B_JOHN_es.mp3",
+     "transcribe_back_match": 0.81
+    }
+   }
+  },
+  "C_FRED": {
+   "voice_id": "XZLLk8LKa4NX4HsuCPiS",
+   "name": "Cedwyn C_FRED",
+   "design_prompt": "An English-born man of about forty who has lived long in South Wales, soft gentle tenor voice, shy and polite, light mixed Welsh-English accent, careful speech.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/C_FRED_en.mp3",
+     "transcribe_back_match": 0.9
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/C_FRED_cy.mp3",
+     "transcribe_back_match": 0.85
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/C_FRED_es.mp3",
+     "transcribe_back_match": 0.94
+    }
+   }
+  },
+  "D_BILLY": {
+   "voice_id": "bi1ppGIASFluT4PbdRza",
+   "name": "Cedwyn D_BILLY",
+   "design_prompt": "A Welsh man in his mid-forties from Cardiff, clear warm baritone, thoughtful and determined, modern South Wales accent, conversational.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/D_BILLY_en.mp3",
+     "transcribe_back_match": 0.9
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/D_BILLY_cy.mp3",
+     "transcribe_back_match": 0.92
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/D_BILLY_es.mp3",
+     "transcribe_back_match": 1.0
+    }
+   }
+  },
+  "E_AGENT": {
+   "voice_id": "2Jm4mkkEDFemeO085c56",
+   "name": "Cedwyn E_AGENT",
+   "design_prompt": "A formal English estate official in his fifties, precise dry clipped voice, received pronunciation, measured and unreadable, a lawyer's calm.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/E_AGENT_en.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/E_AGENT_cy.mp3",
+     "transcribe_back_match": 0.92
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/E_AGENT_es.mp3",
+     "transcribe_back_match": 0.94
+    }
+   }
+  },
+  "F_GWEN": {
+   "voice_id": "UmQyXL5FYPCIbuUQZKqK",
+   "name": "Cedwyn F_GWEN",
+   "design_prompt": "A chatty Welsh woman in her mid-sixties, bright rosy sing-song voice, strong Valleys accent, warm, nosy and quick, a village gossip reading from the newspaper.",
+   "gender": "female",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/F_GWEN_en.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/F_GWEN_cy.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/F_GWEN_es.mp3",
+     "transcribe_back_match": 0.81
+    }
+   }
+  },
+  "G_DAI": {
+   "voice_id": "bjneJtpl97NGdlhAINbN",
+   "name": "Cedwyn G_DAI",
+   "design_prompt": "A big Welsh innkeeper in his sixties, booming hearty bass voice, broad South Wales accent, jovial and teasing, a pub landlord.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/G_DAI_en.mp3",
+     "transcribe_back_match": 0.83
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/G_DAI_cy.mp3",
+     "transcribe_back_match": 0.85
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/G_DAI_es.mp3",
+     "transcribe_back_match": 0.88
+    }
+   }
+  },
+  "H_CLERK": {
+   "voice_id": "nzPzKJE9RrymxViKMFhm",
+   "name": "Cedwyn H_CLERK",
+   "design_prompt": "An austere elderly British judge in his sixties, deep slow grave voice, crisp received pronunciation with faint Welsh vowels, authoritative and solemn.",
+   "gender": "male",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/H_CLERK_en.mp3",
+     "transcribe_back_match": 0.83
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/H_CLERK_cy.mp3",
+     "transcribe_back_match": 0.92
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/H_CLERK_es.mp3",
+     "transcribe_back_match": 0.94
+    }
+   }
+  },
+  "I_NIA": {
+   "voice_id": "XEKRPEMYQPpow8lb1XZN",
+   "name": "Cedwyn I_NIA",
+   "design_prompt": "A Welsh woman archivist in her early thirties, clear bright intelligent voice, North-and-South mixed Welsh accent, precise and friendly, curious.",
+   "gender": "female",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/I_NIA_en.mp3",
+     "transcribe_back_match": 1.0
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/I_NIA_cy.mp3",
+     "transcribe_back_match": 0.77
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/I_NIA_es.mp3",
+     "transcribe_back_match": 1.0
+    }
+   }
+  },
+  "J_ELENA": {
+   "voice_id": "VJAA1A5gQklMXZjm0smO",
+   "name": "Cedwyn J_ELENA",
+   "design_prompt": "An Argentine woman in her thirties from Patagonia of Welsh descent, warm husky voice, rioplatense Spanish accent when speaking English, lively and warm.",
+   "gender": "female",
+   "model_id": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "languages": {
+    "en": {
+     "language_code": "en",
+     "sample": "voices/J_ELENA_en.mp3",
+     "transcribe_back_match": 0.83
+    },
+    "cy": {
+     "language_code": "cy",
+     "sample": "voices/J_ELENA_cy.mp3",
+     "transcribe_back_match": 0.81
+    },
+    "es": {
+     "language_code": "es",
+     "sample": "voices/J_ELENA_es.mp3",
+     "transcribe_back_match": 1.0
+    }
+   }
+  }
+ }
+}
