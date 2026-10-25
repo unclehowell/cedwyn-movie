@@ -16,7 +16,7 @@ The film's page lives in the Cedwyn site's movie theme, which plays these files 
 | `subs/Fnnn.<lang>.vtt` | WebVTT subtitles in cy / en / es. |
 | `clips/Fnnn.webm` | the frame: 1280×720 VP9 video with three Opus audio tracks (cy, en, es), under 25 MB. |
 | `audio/Fnnn.<lang>.webm` | each language track on its own (Opus), for the page's audio toggle. |
-| `bible/` | the consistency bible: cast reference portraits, set references, voices, palette and the per-scene recipe. |
+| `bible/` | the consistency bible (BIBLE.md): cast reference portraits, set references, voice samples, palette and the per-scene recipe. |
 
 ## Rules for every frame
 

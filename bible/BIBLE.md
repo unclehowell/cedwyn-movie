@@ -1,7 +1,7 @@
 # CEDWYN — consistency bible (v1.0.0, 25 Oct 2026)
 
 *A tab.bot production.* Everything a daily scene run needs so that the last frame shows the same people, voices, buildings and landscapes as the first.
-Files: `bible/cast/`, `bible/sets/`, `bible/voices/`, `bible/VOICES.json`, `bible/MODELS.md` (model tests and costs), `bible/test/` (the test clip).
+Files: `bible/cast/`, `bible/sets/`, `bible/voices/`, `bible/VOICES.json`, `bible/test/` (the test clip).
 
 ## 1. The repertory company
 
@@ -76,5 +76,5 @@ Documents appear as props on the table; the real quoted words are overlaid by Hy
 
 ## 6. Storage and upload
 
-Files over ~4 MB cannot go through the GitHub API door in one piece. Upload with `upload_media()` in the runner tools: parts of ≤ 1.8 MB go to a short-lived `inbox-*` branch,
+Large files are uploaded in parts: parts of ≤ 1.8 MB go to a short-lived `inbox-*` branch,
 the repository's `fetch-media` workflow joins them on main, checks sha256 and the 25 MB limit, commits ("— Sion's Tab agent") and deletes the branch. Proved with the test clip on 25 Oct 2026.
