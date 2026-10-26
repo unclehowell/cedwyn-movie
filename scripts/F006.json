@@ -1,6 +1,6 @@
 {
  "frame": 6,
- "title": "A thousand-year lease",
+ "title": "Papers on the table",
  "cast": {
   "E_AGENT": "the Man from the Estate, here a Land Registry officer in a present-day Cardiff office (public office, unnamed)",
   "I_NIA": "Nia, the archivist (swapped in for A_MARY: Mary (Nancy) Williams's 1667 detail exists only in her later statement, so it appears as a document Nia reads, not as a period scene)"
@@ -312,12 +312,12 @@
   "CH-0004"
  ],
  "left_out": [],
- "continuity": "Nia leaves with the 1786–1832 plan copies and an open 'still looking' list (the 1547 lease, the Bute records, an early source for 1667). The Grandson joins her to compare the 1790 'Gedrych property' plan with the 1800 Tŷ Mawr survey.",
+ "continuity": "Nia leaves with the 1786–1832 plan copies and an open 'still testing' list (the Cydwin lease and the Bute catalogue papers, both under forensic examination as to Tŷ Mawr; the family’s account of 1667). The Grandson joins her to compare the 1790 'Gedrych property' plan with the 1800 Tŷ Mawr survey.",
  "translation": {
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "draft v0.1 for hive review",
+ "status": "REWRITE REQUIRED before render: chronology rule (bible §Chronology rule, 26 Oct 2026); was draft v0.1 for hive review",
  "words_en": 323,
  "estimated_seconds": 137
 }

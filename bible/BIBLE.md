@@ -78,3 +78,11 @@ Documents appear as props on the table; the real quoted words are overlaid by Hy
 
 Large files are uploaded in parts: parts of ≤ 1.8 MB go to a short-lived `inbox-*` branch,
 the repository's `fetch-media` workflow joins them on main, checks sha256 and the 25 MB limit, commits ("— Sion's Tab agent") and deletes the branch. Proved with the test clip on 25 Oct 2026.
+
+## Chronology rule (Sion, 11:45 GMT 26 Oct 2026) — read before every script and render
+
+- Tŷ Mawr is first named in the record we have found in the 1824 David Stewart survey of the Bute Glamorgan estates (EV-0211). In the family's account, Tŷ Mawr was acquired in 1667.
+- Never present "the 1547 lease" or "the 1552 Bute deed" as Tŷ Mawr records. Bute estate and other third-party documents are never shown as records of Tŷ Mawr before 1824: on screen they are Bute (or third-party) papers whose application to Tŷ Mawr is under forensic examination, and the Bute freeholds are under forensic examination for validity.
+- Outside narratives (websites, catalogue summaries, secondary books) are tested on screen, not repeated. Our film asserts and defends our evidence and our interpretation.
+- Names have been played on (Cydwin, Cydfin, Cedfin, Ked Fen, Tŷ Mawr, Great House, Great House Farm; Llandough-juxta-Penarth CF64 vs Llandough near Cowbridge CF71): the register is the e-book "Enwau" on cedwyn.bucklerfamily.estate/ebooks/.
+- F006 ("A thousand-year lease") is re-titled and must be rewritten to this rule before it is rendered; F005's hand-over line and F006's continuity are updated.

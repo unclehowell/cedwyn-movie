@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "1.1.1",
+ "version": "1.1.2",
  "built": "2026-10-26T03:59Z",
  "chronology_version": "1.0.0",
  "frames": 148,
@@ -338,24 +338,26 @@
     "cy": "Cyn y gweithredoedd",
     "es": "Antes de las escrituras"
    },
-   "date_from": "1547",
-   "date_to": "1786-1832",
-   "sort_from": "1547-00-00",
-   "sort_to": "1786-18-00",
-   "date_range": "1547 – 1786-1832",
+   "date_from": "1667",
+   "date_to": "1824",
+   "sort_from": "1667-00-00",
+   "sort_to": "1824-00-00",
+   "date_range": "1667 – 1824",
    "events": [
+    "EV-0211",
     "EV-0002",
     "EV-0003",
     "CH-0003",
     "CH-0004"
    ],
    "evidence": [
+    "EV-0211",
     "EV-0002",
     "EV-0003"
    ],
    "parts": [],
-   "title": "A thousand-year lease",
-   "logline": "The Man from the Estate holds the 1547 lease to Vaughan, Mary (Nancy) Williams recounts 1667 Williams occupancy, and the estate plans of 1786–1832 are laid on the table.",
+   "title": "Papers on the table",
+   "logline": "The Man from the Estate lays Bute catalogue papers and a Cydwin lease on the table. Nia tests each one against the family’s account of 1667: none of them names Tŷ Mawr before David Stewart’s survey of 1824, so each stays under forensic examination.",
    "setting": "s06",
    "cast": [
     "E_AGENT=the Man from the Estate, here a Land Registry officer in a present-day Cardiff office (public office, unnamed)",
@@ -365,16 +367,16 @@
    "status": "empty",
    "clip": null,
    "script": "scripts/F006.json",
-   "logline_status": "draft (machine-written, for hive review)",
+   "logline_status": "draft, re-titled 26 Oct 2026 to the chronology rule (bible); script to be rewritten before render",
    "estimated_seconds": 137,
    "i18n": {
     "cy": {
-     "title": "Prydles mil o flynyddoedd",
-     "logline": "Mae'r Dyn o'r Ystad yn dal prydles 1547 i Vaughan, mae Mary (Nancy) Williams yn adrodd hanes meddiannaeth y Williamsiaid ym 1667, a gosodir cynlluniau'r ystad 1786–1832 ar y bwrdd."
+     "title": "Papurau ar y bwrdd",
+     "logline": "Mae’r Dyn o’r Ystad yn gosod papurau catalog Bute a phrydles Cydwin ar y bwrdd. Mae Nia yn profi pob un yn erbyn cyfrif y teulu o 1667: nid oes un ohonynt yn enwi Tŷ Mawr cyn arolwg David Stewart ym 1824, felly mae pob un yn aros dan archwiliad fforensig."
     },
     "es": {
-     "title": "Un arrendamiento de mil años",
-     "logline": "El Hombre de la Hacienda sostiene el arrendamiento de 1547 a Vaughan, Mary (Nancy) Williams relata la ocupación de los Williams en 1667, y se extienden sobre la mesa los planos de la hacienda de 1786–1832."
+     "title": "Papeles sobre la mesa",
+     "logline": "El Hombre de la Hacienda pone sobre la mesa papeles del catálogo Bute y un arrendamiento de Cydwin. Nia contrasta cada uno con el relato familiar de 1667: ninguno nombra Tŷ Mawr antes del catastro de David Stewart de 1824, así que todos siguen bajo examen forense."
     }
    },
    "thumb": "thumbs/F006.webp",
