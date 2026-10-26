@@ -357,7 +357,7 @@
    ],
    "parts": [],
    "title": "Papers on the table",
-   "logline": "The Man from the Estate lays Bute catalogue papers and a Cydwin lease on the table. Nia tests each one against the family’s account of 1667: none of them names Tŷ Mawr before David Stewart’s survey of 1824, so each stays under forensic examination.",
+   "logline": "The Man from the Estate lays Bute catalogue papers and a Cydwin lease on the table. Nia tests each one against the Williams family’s 1667 acquisition (Mary Williams’ statement, 1974 newspapers; ITV News, 1988): none of them names Tŷ Mawr before David Stewart’s survey of 1824, so each stays under forensic examination.",
    "setting": "s06",
    "cast": [
     "E_AGENT=the Man from the Estate, here a Land Registry officer in a present-day Cardiff office (public office, unnamed)",
@@ -372,7 +372,7 @@
    "i18n": {
     "cy": {
      "title": "Papurau ar y bwrdd",
-     "logline": "Mae’r Dyn o’r Ystad yn gosod papurau catalog Bute a phrydles Cydwin ar y bwrdd. Mae Nia yn profi pob un yn erbyn cyfrif y teulu o 1667: nid oes un ohonynt yn enwi Tŷ Mawr cyn arolwg David Stewart ym 1824, felly mae pob un yn aros dan archwiliad fforensig."
+     "logline": "Mae’r Dyn o’r Ystad yn gosod papurau catalog Bute a phrydles Cydwin ar y bwrdd. Mae Nia yn profi pob un yn erbyn caffaeliad teulu Williams yn 1667 (datganiad Mary Williams, papurau newydd 1974; ITV News, 1988): nid oes un ohonynt yn enwi Tŷ Mawr cyn arolwg David Stewart ym 1824, felly mae pob un yn aros dan archwiliad fforensig."
     },
     "es": {
      "title": "Papeles sobre la mesa",
