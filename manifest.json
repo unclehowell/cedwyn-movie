@@ -1,9 +1,32 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.0.0",
- "updated": "2026-10-25T17:22Z",
+ "version": "1.0.1",
+ "updated": "2026-10-26T03:59Z",
  "frames_total": 148,
- "filled": [],
+ "filled": [
+  {
+   "n": 1,
+   "clip": "clips/F001.webm",
+   "audio": {
+    "cy": "audio/F001.cy.webm",
+    "en": "audio/F001.en.webm",
+    "es": "audio/F001.es.webm"
+   },
+   "subs": {
+    "cy": "subs/F001.cy.vtt",
+    "en": "subs/F001.en.vtt",
+    "es": "subs/F001.es.vtt"
+   },
+   "poster": "stills/F001.jpg",
+   "seconds": 149.5,
+   "made": "2026-10-26T03:59Z",
+   "released": "2026-10-26",
+   "script_version": "v0.2.0",
+   "prompt_sha": "b9468f3",
+   "left_out": [],
+   "notes": "720p VP9; 12 shots: 4 OmniHuman 2.0 close-ups (English lip-sync, cy/es dubbed), 2 image-to-video shots, 6 stills with slow push-ins; document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-translated cy/es for native review."
+  }
+ ],
  "left_out_register": [],
  "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door."
 }
