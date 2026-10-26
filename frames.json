@@ -1074,8 +1074,8 @@
     "EV-0219"
    ],
    "parts": [],
-   "title": "Occupier Since Eighteen Fifty-Five",
-   "logline": "At the Cardiff estate office, the Man from the Estate reads the rent audit naming John Williams \"of Llandough Farm\" as occupier since 1855, while coppice woods go to auction.",
+   "title": "Of Llandough Farm Since Eighteen Fifty-Five",
+   "logline": "At the Cardiff estate office, the Man from the Estate reads the rent audit naming John Williams \"of Llandough Farm\" from 1855, a juror of the manor court, while coppice woods go to auction.",
    "setting": "s06",
    "cast": [
     "E_AGENT=the Man from the Estate",
@@ -1088,12 +1088,12 @@
    "logline_status": "draft (machine-written, for hive review)",
    "i18n": {
     "cy": {
-     "title": "Deiliad Ers Mil Wyth Cant Pum Deg Pump",
-     "logline": "Yn swyddfa ystad Caerdydd, mae'r Dyn o'r Ystad yn darllen yr archwiliad rhent sy'n enwi John Williams \"of Llandough Farm\" fel deiliad ers 1855, tra bo coetir prysgwydd yn mynd dan y morthwyl."
+     "title": "O Llandough Farm Ers Mil Wyth Cant Pum Deg Pump",
+     "logline": "Yn swyddfa ystad Caerdydd, mae'r Dyn o'r Ystad yn darllen yr archwiliad rhent sy'n enwi John Williams \"of Llandough Farm\" o 1855, rheithiwr llys y faenor, tra bo coetir prysgwydd yn mynd dan y morthwyl."
     },
     "es": {
-     "title": "Ocupante Desde Mil Ochocientos Cincuenta Y Cinco",
-     "logline": "En la oficina de la hacienda en Cardiff, el Hombre de la Hacienda lee la auditoría de rentas que nombra a John Williams «of Llandough Farm» como ocupante desde 1855, mientras los bosques de monte bajo salen a subasta."
+     "title": "De Llandough Farm Desde Mil Ochocientos Cincuenta Y Cinco",
+     "logline": "En la oficina de la hacienda en Cardiff, el Hombre de la Hacienda lee la auditoría de rentas que nombra a John Williams «of Llandough Farm» desde 1855, jurado del tribunal señorial, mientras los bosques de monte bajo salen a subasta."
     }
    },
    "thumb": "thumbs/F020.webp",
