@@ -71,12 +71,12 @@
    "lines": [
     {
      "who": "D_BILLY",
-     "en": "So does it prove the farm was Cedwyn land? That we held it from some medieval manor?",
+     "en": "So does it prove the Great House stood on Cedwyn land? That my family's roots there go back before any deed?",
      "cite": [
       "EV-0195"
      ],
-     "cy": "Felly ydy e'n profi mai tir Cedwyn oedd y fferm? Ein bod ni'n ei dal o ryw faenor ganoloesol?",
-     "es": "¿Entonces prueba que la granja era tierra Cedwyn? ¿Que la teníamos por algún señorío medieval?"
+     "cy": "Felly ydy e'n profi fod y Tŷ Mawr wedi sefyll ar dir Cedwyn? Bod gwreiddiau fy nheulu yno'n mynd 'nôl cyn unrhyw weithred?",
+     "es": "¿Entonces esto prueba que la Casa Grande se encontraba en tierras de Cedwyn? ¿Que las raíces de mi familia allí se remontan a antes de cualquier escritura?"
     }
    ]
   },
@@ -89,12 +89,12 @@
    "lines": [
     {
      "who": "I_NIA",
-     "en": "No. It proves we've catalogued the leads, nothing more. It doesn't show the variants are the same place, or that they mean Great House Farm, or that any old lease decides who owned what after 1877.",
+     "en": "Not on its own. It proves the leads are catalogued. Whether the variants are one place, whether they mean Tŷ Mawr, and what any old lease meant for the land after 1877: those are the next checks.",
      "cite": [
       "EV-0195"
      ],
-     "cy": "Na. Mae'n profi ein bod ni wedi catalogio'r trywyddau, dim mwy na hynny. Dyw e ddim yn dangos bod yr amrywiadau yn yr un lle, na'u bod nhw'n golygu Great House Farm, na bod unrhyw hen brydles yn penderfynu pwy oedd piau beth ar ôl mil wyth gant saith deg saith.",
-     "es": "No. Prueba que catalogamos las pistas, nada más. No muestra que las variantes sean el mismo lugar, ni que signifiquen Great House Farm, ni que algún contrato antiguo decida quién era dueño después de 1877."
+     "cy": "Dim ar ei ben ei hun. Mae'n profi bod y trywyddion wedi'u catalogio. P'un a yw'r amrywiadau'n un lle, p'un a ydyn nhw'n golygu Tŷ Mawr, a beth oedd ystyr unrhyw hen brydles i'r tir ar ôl 1877: dyna'r pethau nesaf i'w gwirio.",
+     "es": "No por sí sola. Prueba que las pistas están catalogadas. Si las variantes son un mismo lugar, si significan Tŷ Mawr, y qué implicó algún arrendamiento antiguo para la tierra después de 1877: esas son las próximas verificaciones."
     }
    ]
   },
@@ -117,12 +117,12 @@
     },
     {
      "who": "I_NIA",
-     "en": "They do. But there's no source attached yet. We don't know when the name was first written, where its edges ran, or whether it ever touched the farm. Checking is still to do.",
+     "en": "They do. But there's no source attached yet. We don't know when the name was first written, where its edges ran, or whether it ever touched Tŷ Mawr. Checking is still to do.",
      "cite": [
       "EV-0200"
      ],
-     "cy": "Ydyn, maen nhw. Ond does dim ffynhonnell ynghlwm eto. Dy'n ni ddim yn gwybod pryd gafodd yr enw ei ysgrifennu gyntaf, ble roedd ei ffiniau, na p'un a oedd e byth yn cyffwrdd y fferm. Mae gwirio eto i'w wneud.",
-     "es": "Así es. Pero todavía no tiene fuente. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tocó la granja. Falta comprobarlo."
+     "cy": "Odyn, glei. Ond sdim ffynhonnell ynghlwm wrtho eto. Sa i'n gwybod pryd gafodd yr enw ei ysgrifennu gyntaf, lle roedd ei ffiniau'n rhedeg, na p'un a oedd e byth yn cyffwrdd â Thŷ Mawr. Mae'r gwirio i'w wneud o hyd.",
+     "es": "Así es. Pero todavía no hay una fuente adjunta. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tuvo relación con Tŷ Mawr. Aún queda por verificar."
     }
    ]
   },
@@ -153,12 +153,12 @@
     },
     {
      "who": "I_NIA",
-     "en": "That one points to a primary document, and we haven't got it. Not held. So for now it shows us nothing; only that the family noted the name. Name, place, date, link to Tŷ Mawr: all still to be checked.",
+     "en": "That one points to a primary document, and we haven't got it yet. So for now it shows us one thing: the family noted the name. Name, place, date, link to Tŷ Mawr: all still to be checked.",
      "cite": [
       "EV-0198"
      ],
-     "cy": "Mae hwnnw'n cyfeirio at ddogfen wreiddiol, a does dim gyda ni. Ddim yn ein meddiant. Felly am nawr dyw e'n dangos dim i ni; dim ond bod y teulu wedi nodi'r enw. Enw, lle, dyddiad, cyswllt â Tŷ Mawr: popeth eto i'w wirio.",
-     "es": "Ese apunta a un documento primario, y no lo tenemos. No está en nuestro poder. Por ahora no muestra nada; solo que la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo falta por comprobar."
+     "cy": "Mae hwnna'n pwyntio at ddogfen wreiddiol, a sdim gyda ni eto. Felly am nawr mae'n dangos un peth i ni: bod y teulu wedi nodi'r enw. Enw, lle, dyddiad, cyswllt â Thŷ Mawr: mae pob un yn dal i fod angen ei wirio.",
+     "es": "Ese dato señala un documento primario, y todavía no lo tenemos. Así que por ahora nos muestra una sola cosa: la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo sigue pendiente de verificación."
     }
    ]
   },
@@ -177,7 +177,7 @@
       "EV-0210"
      ],
      "cy": "Ynys-Cedwyn yw'r un od.",
-     "es": "Ynys-Cedwyn es la rara del grupo."
+     "es": "La rara del grupo es Ynys-Cedwyn."
     },
     {
      "who": "I_NIA",
@@ -217,12 +217,12 @@
    "lines": [
     {
      "who": "I_NIA",
-     "en": "The note doesn't even try. No primary source, the place and the giant both waiting to be checked, and no connection to Great House Farm stated at all.",
+     "en": "Not yet. No primary source, the place and the giant both waiting to be checked, and no link to Tŷ Mawr written down.",
      "cite": [
       "EV-0210"
      ],
-     "cy": "Dyw'r nodyn ddim hyd yn oed yn trio. Dim ffynhonnell wreiddiol, y lle a'r cawr ill dau'n aros i'w gwirio, a dim cyswllt â Great House Farm wedi'i nodi o gwbl.",
-     "es": "La nota ni lo intenta. Sin fuente primaria, el lugar y el gigante por comprobar, y ninguna conexión con Great House Farm."
+     "cy": "Dim eto. Sdim ffynhonnell wreiddiol, mae'r lle a'r cawr ill dau'n aros i gael eu gwirio, a sdim cyswllt â Thŷ Mawr wedi'i gofnodi.",
+     "es": "Todavía no. No hay fuente primaria, el lugar y el gigante aún esperan ser verificados, y no hay ningún vínculo con Tŷ Mawr registrado por escrito."
     }
    ]
   },
@@ -266,7 +266,9 @@
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "draft v0.1 for hive review",
- "words_en": 326,
- "estimated_seconds": 140
+ "status": "v0.2.0 (forensic wording pass: Tŷ Mawr not \"farm\"; neutral on family notes) for hive review",
+ "words_en": 324,
+ "estimated_seconds": 140,
+ "script_version": "v0.2.0",
+ "rendered_seconds": 149.47
 }
