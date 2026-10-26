@@ -1,0 +1,64 @@
+name: release-asset
+# Storage only: publishes big finished files (over the 25 MB repo limit) as GitHub RELEASE ASSETS (up to 2 GB each).
+# Parts (<=2 MB each) arrive on a short-lived inbox-* branch (inputs.branch); this job joins them, checks each file's
+# sha256 and size, creates the release (or reuses it) and uploads the assets with this workflow's token, then deletes
+# the branch. Nothing is committed to main and no page links to the release. — Sion's Tab agent
+on:
+  workflow_dispatch:
+    inputs:
+      branch: { description: 'branch holding the parts', required: true }
+      files: { description: 'JSON list of {parts:[paths], name, sha256, size}', required: true }
+      tag: { description: 'release tag', required: true }
+      title: { description: 'release title', required: true }
+      notes: { description: 'release notes', required: false, default: '' }
+      prerelease: { description: 'true | false', required: false, default: 'true' }
+permissions:
+  contents: write
+concurrency:
+  group: release-asset
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - name: Fetch parts branch
+        run: git fetch --depth 1 origin "${{ inputs.branch }}:parts_src"
+      - name: Join parts and verify
+        env:
+          FILES: ${{ inputs.files }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/assets"
+          python3 - <<'PY'
+          import json, os, hashlib, subprocess
+          out = os.path.join(os.environ['RUNNER_TEMP'], 'assets')
+          for f in json.loads(os.environ['FILES']):
+              h = hashlib.sha256(); n = 0; path = os.path.join(out, f['name'])
+              with open(path, 'wb') as fh:
+                  for p in f['parts']:
+                      b = subprocess.run(['git', 'show', 'parts_src:' + p], capture_output=True, check=True).stdout
+                      fh.write(b); h.update(b); n += len(b)
+              if h.hexdigest() != f['sha256']: raise SystemExit(f"sha256 mismatch for {f['name']}: {h.hexdigest()}")
+              if f.get('size') and n != int(f['size']): raise SystemExit(f"size mismatch for {f['name']}: {n}")
+              print('ok', f['name'], n, h.hexdigest())
+          PY
+          ls -l "$RUNNER_TEMP/assets"
+      - name: Create release and upload assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          TITLE: ${{ inputs.title }}
+          NOTES: ${{ inputs.notes }}
+          PRE: ${{ inputs.prerelease }}
+        run: |
+          if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            flag=""; [ "$PRE" = "true" ] && flag="--prerelease"
+            gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target main --title "$TITLE" --notes "$NOTES" $flag
+          fi
+          gh release upload "$TAG" "$RUNNER_TEMP"/assets/* --repo "$GITHUB_REPOSITORY" --clobber
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json url,assets --jq '.url, (.assets[] | "\(.name) \(.size) \(.url)")'
+      - name: Delete the parts branch
+        if: success()
+        run: git push origin --delete "${{ inputs.branch }}"
