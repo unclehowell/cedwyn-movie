@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "1.1.2",
+ "version": "1.1.3",
  "built": "2026-10-26T03:59Z",
  "chronology_version": "1.0.0",
  "frames": 148,
@@ -169,8 +169,8 @@
     "D_BILLY=the Grandson (on screen in the archive bookend, no lines)"
    ],
    "target_seconds": 120,
-   "status": "empty",
-   "clip": null,
+   "status": "filled",
+   "clip": "clips/F002.webm",
    "script": "scripts/F002.json",
    "logline_status": "draft (machine-written, for hive review)",
    "estimated_seconds": 116,
@@ -185,7 +185,9 @@
     }
    },
    "thumb": "thumbs/F002.webp",
-   "release_planned": "2026-10-27"
+   "release_date": "2026-10-27",
+   "seconds": 147.0,
+   "script_version": "v0.1.1"
   },
   {
    "n": 3,
@@ -674,14 +676,14 @@
    "logline": "The Man from the Estate serves notice to quit; Mary (Nancy) Williams recounts a sale to Daniel Thomas and a lease back to John Williams, the deed and lease unlocated.",
    "setting": "s01",
    "cast": [
-    "E_AGENT=the Bute estate agent",
-    "A_MARY=Mary (Nancy) Williams",
-    "B_JOHN=John Williams"
+    "E_AGENT=the Bute estate office clerk, Cardiff, 1877 (ordinary office business with held and catalogued records only)",
+    "I_NIA=Nia, the archivist (2020s frame)",
+    "D_BILLY=the Grandson (2020s frame; replaces A_MARY: every 1877 Llandough fact here comes only from Mary (Nancy) Williams's c.1974 statement, so it is read as a document. B_JOHN is dropped because no record places John Williams of Great House at these 1877 events.)"
    ],
    "target_seconds": 120,
    "status": "empty",
    "clip": null,
-   "script": null,
+   "script": "scripts/F012.json",
    "logline_status": "draft (machine-written, for hive review)",
    "i18n": {
     "cy": {
@@ -694,7 +696,8 @@
     }
    },
    "thumb": "thumbs/F012.webp",
-   "release_planned": "2026-11-06"
+   "release_planned": "2026-11-06",
+   "estimated_seconds": 139
   },
   {
    "n": 13,
@@ -7816,5 +7819,5 @@
  "thumbs_note": "thumbs/Fnnn.webp in the storage repo: one AI-generated artist's impression per scene (1024x576 webp, <=150 KB), served through jsDelivr pinned to thumbs_ref.",
  "release_rule": "One scene a day at 06:00 Europe/London in frame order; release_date = actual (released), release_planned = planned (not yet released).",
  "thumbs_ref": "dbd6819040df8f87efb2d59a204702dd3c5ae834",
- "chronology_checked": "2026-10-26T03:39Z (+CH-0593, CH-0594 into frame 148)"
+ "chronology_checked": "2026-10-27T06:03Z (755 events, no changes)"
 }
