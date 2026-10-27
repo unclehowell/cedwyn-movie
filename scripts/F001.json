@@ -3,7 +3,7 @@
  "title": "Place-names before the deeds",
  "cast": {
   "I_NIA": "Nia, the archivist",
-  "D_BILLY": "the Grandson (2020s, 40s)"
+  "D_BILLY": "the Grandson (2020s, 40s); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member"
  },
  "setting": "s08",
  "target_seconds": 120,
@@ -19,9 +19,30 @@
   {
    "shot": 2,
    "set": "s08",
-   "direction": "Wide establishing shot of the archive reading room; Nia pulls on cotton gloves and slides a stack of folders across to the Grandson, who sits down with his laptop.",
+   "direction": "HOOK (after the title card, 0-5 s of speech): talking close-up of Nia, gloved, a single note card in her hand.",
+   "image_prompt": "",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Before any deed, there was a name. Whose name, and whose hill?",
+     "cy": "Cyn unrhyw weithred, roedd enw. Enw pwy, a bryn pwy?",
+     "es": "Antes de cualquier escritura, había un nombre. ¿El nombre de quién, y la colina de quién?",
+     "cite": [
+      "EV-0195"
+     ],
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
+    }
+   ],
+   "lip_sync": "en"
+  },
+  {
+   "shot": 3,
+   "set": "s08",
+   "direction": "Wide establishing shot of the archive reading room; Nia pulls on cotton gloves and slides a stack of folders across to the Grandson, who sits down with his laptop. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal modern county records office reading room, long wooden tables, grey archive boxes on steel shelving, tall windows with soft overcast Welsh daylight; a Welsh woman in her 30s with a black bob haircut, round tortoiseshell glasses, mustard cardigan and white cotton gloves lays out folders; opposite her a man in his 40s with dark curly hair, blue eyes, short beard and a waxed jacket opens a laptop beside paper folders; no text, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -30,7 +51,9 @@
       "EV-0195"
      ],
      "cy": "Bore da. Menig ymlaen cyn i chi gyffwrdd dim byd. Cyn unrhyw weithred, mae gyda ni enwau. Dim ond enwau, wedi'u hysgrifennu yn nodiadau ymchwil eich teulu.",
-     "es": "Bore da. Guantes puestos antes de tocar nada. Antes de cualquier escritura, tenemos nombres. Solo nombres, escritos en las notas de investigación de tu familia."
+     "es": "Bore da. Guantes puestos antes de tocar nada. Antes de cualquier escritura, tenemos nombres. Solo nombres, escritos en las notas de investigación de tu familia.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "D_BILLY",
@@ -39,31 +62,38 @@
       "EV-0195"
      ],
      "cy": "Cedwyn. Dyna'r gair dwi'n baglu drosto o hyd. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Wedyn Cedfin, Cydfin, Cydwin. A Tŷ Mawr, y 'Great House'.",
-     "es": "Cedwyn. Esa es la palabra con la que tropiezo. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Luego Cedfin, Cydfin, Cydwin. Y Tŷ Mawr, la Casa Grande."
+     "es": "Cedwyn. Esa es la palabra con la que tropiezo. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Luego Cedfin, Cydfin, Cydwin. Y Tŷ Mawr, la Casa Grande.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 3,
+   "shot": 4,
    "set": "s08",
-   "direction": "Overhead insert: Nia's gloved finger runs down a printed index sheet laid on the table.",
+   "direction": "Overhead insert: Nia's gloved finger runs down a printed index sheet laid on the table. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal overhead view of a printed research index sheet with typed columns and handwritten pencil ticks, a gloved hand pointing down the rows, wooden table, reading lamp light, text on the sheet blurred and illegible, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "document": "EV-0195 Cedwyn / Cwm-Cedwyn place-name notes: reference index and dependency register (GHF-E174 to GHF-E179)",
    "lines": [
     {
      "who": "I_NIA",
-     "en": "This is the index. Six research leads, GHF-E174 to GHF-E179. It shows where each name turns up, and which notes lean on which. Pull one out, you see what wobbles.",
+     "en": "This is the index. Six research leads. It shows where each name turns up, and which notes lean on which. Pull one out, you see what wobbles.",
      "cite": [
       "EV-0195"
      ],
-     "cy": "Dyma'r mynegai. Chwe trywydd ymchwil, GHF-E174 i GHF-E179. Mae'n dangos ble mae pob enw'n codi, a pha nodiadau sy'n dibynnu ar bwy. Tynnwch un allan, chi'n gweld beth sy'n simsanu.",
-     "es": "Este es el índice. Seis pistas de investigación, de GHF-E174 a GHF-E179. Muestra dónde aparece cada nombre, y qué notas se apoyan en cuáles. Si sacas una, ves qué se tambalea."
+     "cy": "Dyma'r mynegai. Chwe trywydd ymchwil. Mae'n dangos ble mae pob enw'n codi, a pha nodiadau sy'n dibynnu ar bwy. Tynnwch un allan, chi'n gweld beth sy'n simsanu.",
+     "es": "Este es el índice. Seis pistas de investigación. Muestra dónde aparece cada nombre, y qué notas se apoyan en cuáles. Si sacas una, ves qué se tambalea.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 4,
+   "shot": 5,
    "set": "s08",
    "direction": "Close-up on the Grandson, leaning in, hopeful.",
    "image_prompt": "Photoreal close-up portrait of a Welsh man in his 40s, dark curly hair, blue eyes, short beard, waxed jacket, lit by a warm reading lamp in an archive reading room, folders blurred in the background, no text, no heraldry",
@@ -76,12 +106,15 @@
       "EV-0195"
      ],
      "cy": "Felly ydy e'n profi fod y Tŷ Mawr wedi sefyll ar dir Cedwyn? Bod gwreiddiau fy nheulu yno'n mynd 'nôl cyn unrhyw weithred?",
-     "es": "¿Entonces esto prueba que la Casa Grande se encontraba en tierras de Cedwyn? ¿Que las raíces de mi familia allí se remontan a antes de cualquier escritura?"
+     "es": "¿Entonces esto prueba que la Casa Grande se encontraba en tierras de Cedwyn? ¿Que las raíces de mi familia allí se remontan a antes de cualquier escritura?",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 5,
+   "shot": 6,
    "set": "s08",
    "direction": "Close-up on Nia, gentle but firm, taking off her glasses.",
    "image_prompt": "Photoreal close-up portrait of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses held in a cotton-gloved hand, mustard cardigan, archive shelving softly blurred behind, warm lamp light, no text, no heraldry",
@@ -94,16 +127,19 @@
       "EV-0195"
      ],
      "cy": "Dim ar ei ben ei hun. Mae'n profi bod y trywyddion wedi'u catalogio. P'un a yw'r amrywiadau'n un lle, p'un a ydyn nhw'n golygu Tŷ Mawr, a beth oedd ystyr unrhyw hen brydles i'r tir ar ôl 1877: dyna'r pethau nesaf i'w gwirio.",
-     "es": "No por sí sola. Prueba que las pistas están catalogadas. Si las variantes son un mismo lugar, si significan Tŷ Mawr, y qué implicó algún arrendamiento antiguo para la tierra después de 1877: esas son las próximas verificaciones."
+     "es": "No por sí sola. Prueba que las pistas están catalogadas. Si las variantes son un mismo lugar, si significan Tŷ Mawr, y qué implicó algún arrendamiento antiguo para la tierra después de 1877: esas son las próximas verificaciones.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 6,
+   "shot": 7,
    "set": "s08",
-   "direction": "Insert: the Grandson lays a typed note card beside an unmarked sketch of a river bend.",
+   "direction": "Insert: the Grandson lays a typed note card beside an unmarked sketch of a river bend. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal close-up of a typed index card and a pencil sketch of a river bend among trees on tracing paper, on a wooden archive table, lettering blurred and illegible, reading lamp light, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "document": "EV-0200 Place-name note: Cwm-Cedwyn, wooded dell on the Ely between Leckwith and Llandough",
    "lines": [
     {
@@ -113,7 +149,9 @@
       "EV-0200"
      ],
      "cy": "Cwm-Cedwyn. Pant coediog ar lan afon Elái, rhwng Lecwydd a Llandochau. Mae fy nodiadau i'n ei ddefnyddio o hyd.",
-     "es": "Cwm-Cedwyn. Un valle boscoso sobre el Ely, entre Leckwith y Llandough. Mis notas lo usan todo el tiempo."
+     "es": "Cwm-Cedwyn. Un valle boscoso sobre el Ely, entre Leckwith y Llandough. Mis notas lo usan todo el tiempo.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -122,12 +160,16 @@
       "EV-0200"
      ],
      "cy": "Odyn, glei. Ond sdim ffynhonnell ynghlwm wrtho eto. Sa i'n gwybod pryd gafodd yr enw ei ysgrifennu gyntaf, lle roedd ei ffiniau'n rhedeg, na p'un a oedd e byth yn cyffwrdd â Thŷ Mawr. Mae'r gwirio i'w wneud o hyd.",
-     "es": "Así es. Pero todavía no hay una fuente adjunta. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tuvo relación con Tŷ Mawr. Aún queda por verificar."
+     "es": "Así es. Pero todavía no hay una fuente adjunta. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tuvo relación con Tŷ Mawr. Aún queda por verificar.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 7,
+   "shot": 8,
    "set": "s09",
    "direction": "Slow drift through Leckwith woods down to the River Ely in morning mist, birdsong, no people.",
    "image_prompt": "Photoreal wooded valley with steep oak and ash slopes falling to the River Ely below Llandough hill, early morning mist, autumn light, wet leaves, distant hint of Cardiff Bay haze, no people, no buildings in focus, no text, no heraldry",
@@ -135,11 +177,11 @@
    "lines": []
   },
   {
-   "shot": 8,
+   "shot": 9,
    "set": "s08",
-   "direction": "Insert: an empty labelled folder sleeve, nothing inside, held up to the lamp.",
+   "direction": "Insert: an empty labelled folder sleeve, nothing inside, held up to the lamp. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal close-up of an empty clear archive folder sleeve held up in a cotton-gloved hand against warm lamp light, a placeholder slip inside with illegible typing, archive shelves blurred behind, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "document": "EV-0198 Nant-Cedwyn: place-name note for a brook near Leckwith/Llandough (primary document not yet held)",
    "lines": [
     {
@@ -149,7 +191,9 @@
       "EV-0198"
      ],
      "cy": "A Nant-Cedwyn. Nant sy'n llifo i'r Elái ger Lecwydd.",
-     "es": "Y Nant-Cedwyn. Un arroyo que desemboca en el Ely cerca de Leckwith."
+     "es": "Y Nant-Cedwyn. Un arroyo que desemboca en el Ely cerca de Leckwith.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -158,16 +202,20 @@
       "EV-0198"
      ],
      "cy": "Mae hwnna'n pwyntio at ddogfen wreiddiol, a sdim gyda ni eto. Felly am nawr mae'n dangos un peth i ni: bod y teulu wedi nodi'r enw. Enw, lle, dyddiad, cyswllt â Thŷ Mawr: mae pob un yn dal i fod angen ei wirio.",
-     "es": "Ese dato señala un documento primario, y todavía no lo tenemos. Así que por ahora nos muestra una sola cosa: la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo sigue pendiente de verificación."
+     "es": "Ese dato señala un documento primario, y todavía no lo tenemos. Así que por ahora nos muestra una sola cosa: la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo sigue pendiente de verificación.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 9,
+   "shot": 10,
    "set": "s08",
-   "direction": "Insert: a third note card set apart from the others, at the edge of the table.",
+   "direction": "Insert: a third note card set apart from the others, at the edge of the table. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal close-up of a single typed index card set apart at the edge of a wooden archive table, the other cards out of focus, illegible lettering, lamp light, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "document": "EV-0210 Ynys-Cedwyn: place-name associated with Cedwyn Gawr (research note)",
    "lines": [
     {
@@ -177,7 +225,9 @@
       "EV-0210"
      ],
      "cy": "Ynys-Cedwyn yw'r un od.",
-     "es": "La rara del grupo es Ynys-Cedwyn."
+     "es": "La rara del grupo es Ynys-Cedwyn.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -186,12 +236,16 @@
       "EV-0210"
      ],
      "cy": "Mae Ynys-Cedwyn i fyny lle mae'r Twrch yn cwrdd â'r Tawe, ymhell o fan hyn. Mae'r nodyn yn ei gysylltu â Cedwyn Gawr, Cedwyn y Cawr.",
-     "es": "Ynys-Cedwyn está donde el Twrch se une al Tawe, bien lejos de aquí. La nota lo liga a Cedwyn Gawr, Cedwyn el Gigante."
+     "es": "Ynys-Cedwyn está donde el Twrch se une al Tawe, bien lejos de aquí. La nota lo liga a Cedwyn Gawr, Cedwyn el Gigante.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 10,
+   "shot": 11,
    "set": "s08",
    "direction": "Close-up on the Grandson, amused, half a laugh.",
    "image_prompt": "Photoreal close-up of a Welsh man in his 40s, dark curly hair, blue eyes, short beard, waxed jacket, wry smile, archive reading room behind him softly blurred, warm lamp light, no text, no heraldry",
@@ -204,12 +258,15 @@
       "EV-0210"
      ],
      "cy": "Cawr. Hyfryd. Oes unrhyw beth yn ei gysylltu e â Llandochau?",
-     "es": "Un gigante. Qué lindo. ¿Hay algo que lo conecte con Llandough?"
+     "es": "Un gigante. Qué lindo. ¿Hay algo que lo conecte con Llandough?",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 11,
+   "shot": 12,
    "set": "s08",
    "direction": "Close-up on Nia, tapping the card once.",
    "image_prompt": "Photoreal close-up of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses, mustard cardigan, cotton-gloved finger resting on an index card, archive reading room, warm lamp light, no text, no heraldry",
@@ -222,16 +279,19 @@
       "EV-0210"
      ],
      "cy": "Dim eto. Sdim ffynhonnell wreiddiol, mae'r lle a'r cawr ill dau'n aros i gael eu gwirio, a sdim cyswllt â Thŷ Mawr wedi'i gofnodi.",
-     "es": "Todavía no. No hay fuente primaria, el lugar y el gigante aún esperan ser verificados, y no hay ningún vínculo con Tŷ Mawr registrado por escrito."
+     "es": "Todavía no. No hay fuente primaria, el lugar y el gigante aún esperan ser verificados, y no hay ningún vínculo con Tŷ Mawr registrado por escrito.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 12,
+   "shot": 13,
    "set": "s08",
-   "direction": "Two-shot: the Grandson closes his laptop, Nia gathers the cards into one pile; the window light shifts toward the hills outside.",
+   "direction": "Two-shot: the Grandson closes his laptop, Nia gathers the cards into one pile; the window light shifts toward the hills outside. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal two-shot in a modern archive reading room: a Welsh woman in her 30s with black bob, tortoiseshell glasses, mustard cardigan and cotton gloves stacking index cards; a man in his 40s with dark curly hair, short beard and waxed jacket closing a laptop; tall window behind showing green hills under grey sky, no text, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "D_BILLY",
@@ -240,7 +300,9 @@
       "EV-0195"
      ],
      "cy": "Felly mae'r ffilm yn dechrau gydag enw dy'n ni ddim yn gallu ei bennu.",
-     "es": "Entonces la película empieza con un nombre que no podemos ubicar."
+     "es": "Entonces la película empieza con un nombre que no podemos ubicar.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -249,9 +311,13 @@
       "EV-0195"
      ],
      "cy": "Mae'n dechrau'n onest. Enw, a bryn oedd yno o'i flaen. Dewch i ni fynd i sefyll ar y bryn.",
-     "es": "Empieza con honestidad. Un nombre, y una colina que vino antes. Vamos a pararnos en la colina."
+     "es": "Empieza con honestidad. Un nombre, y una colina que vino antes. Vamos a pararnos en la colina.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   }
  ],
  "covers": [
@@ -266,9 +332,12 @@
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "v0.2.0 (forensic wording pass: Tŷ Mawr not \"farm\"; neutral on family notes) for hive review",
+ "status": "v0.3.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review",
  "words_en": 324,
  "estimated_seconds": 140,
- "script_version": "v0.2.0",
- "rendered_seconds": 149.47
+ "script_version": "v0.3.0",
+ "rendered_seconds": 149.47,
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue"
 }
