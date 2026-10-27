@@ -43,10 +43,12 @@
    "seconds": 147.0,
    "made": "2026-10-27T06:39Z",
    "released": "2026-10-27",
-   "script_version": "v0.1.1",
+   "script_version": "v0.1.2",
    "prompt_sha": "eb6775d",
    "left_out": [],
-   "notes": "720p VP9; 12 shots: 1 OmniHuman 2.0 close-up (the roundhouse mother, English lip-sync, cy/es dubbed), 11 stills with slow push-ins and pans (shared render budget day); document overlay cites CH-0174; PX-01 on the date card. Machine-translated cy/es for native review."
+   "notes": "720p VP9; 12 shots: 1 OmniHuman 2.0 close-up (the roundhouse mother, English lip-sync, cy/es dubbed), 11 stills with slow push-ins and pans (shared render budget day); document overlay cites CH-0174; PX-01 on the date card. Machine-translated cy/es for native review.",
+   "revised": "2026-10-27T06:59Z",
+   "revision_note": "v0.1.2: elder's line in shot 2 'the sea' -> 'the weather' (cy/en/es re-voiced and spliced at the same timestamp); the hill is inland."
   }
  ],
  "left_out_register": [],

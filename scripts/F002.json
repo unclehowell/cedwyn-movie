@@ -37,12 +37,12 @@
    "lines": [
     {
      "who": "B_JOHN",
-     "en": "Held, aye. The wind off the estuary tried it. This hill takes everything the sea throws at it.",
+     "en": "Held, aye. The wind off the estuary tried it. This hill takes everything the weather throws at it.",
      "cite": [
       "PX-01"
      ],
-     "cy": "Daliodd, do. Trïodd y gwynt o'r aber ei lwc arno fe. Mae'r bryn 'ma'n cymryd popeth mae'r môr yn ei daflu.",
-     "es": "Aguantó, sí. El viento del estuario lo probó. Esta colina resiste todo lo que el mar le manda."
+     "cy": "Daliodd, do. Trïodd y gwynt o'r aber ei lwc arno fe. Mae'r bryn 'ma'n cymryd popeth mae'r tywydd yn ei daflu.",
+     "es": "Aguantó, sí. El viento del estuario lo probó. Esta colina resiste todo lo que el tiempo le manda."
     }
    ]
   },
@@ -249,9 +249,9 @@
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "v0.1.1 rendered 27 Oct 2026 (Tab daily run): shot 11 dig date set to 1979 per CH-0174",
+ "status": "v0.1.2 27 Oct 2026: shot 2 elder line 'the sea' -> 'the weather' (cy 'môr'->'tywydd', es 'mar'->'tiempo'); the hill is inland, overlooking the Ely, the marshes and the estuary. Line re-voiced and spliced; rest of the v0.1.1 render unchanged.",
  "words_en": 289,
  "estimated_seconds": 116,
- "script_version": "v0.1.1",
+ "script_version": "v0.1.2",
  "rendered": "2026-10-27"
 }
