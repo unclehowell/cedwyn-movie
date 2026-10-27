@@ -210,13 +210,13 @@
    "lines": [
     {
      "who": "I_NIA",
-     "en": "And it doesn't tie anyone to the farm. No deed, no family line reaches back that far. The dig itself gets its own day, in 1988, where it belongs.",
+     "en": "And it doesn't tie anyone to the farm. No deed, no family line reaches back that far. The dig itself gets its own day, in 1979, where it belongs.",
      "cite": [
       "PX-01",
       "CH-0174"
      ],
-     "cy": "Ac dyw e ddim yn clymu neb wrth y fferm. Dim gweithred, dim llinach deuluol yn mynd mor bell yn ôl â hynny. Mae'r cloddio ei hun yn cael ei ddiwrnod ei hun, ym 1988, lle mae'n perthyn.",
-     "es": "Y no vincula a nadie con la granja. Ningún título, ninguna línea familiar llega tan atrás. La excavación misma tiene su propia fecha, en 1988, que es a la que pertenece."
+     "cy": "Ac dyw e ddim yn clymu neb wrth y fferm. Dim gweithred, dim llinach deuluol yn mynd mor bell yn ôl â hynny. Mae'r cloddio ei hun yn cael ei ddiwrnod ei hun, ym 1979, lle mae'n perthyn.",
+     "es": "Y no vincula a nadie con la granja. Ningún título, ninguna línea familiar llega tan atrás. La excavación misma tiene su propia fecha, en 1979, que es a la que pertenece."
     }
    ]
   },
@@ -249,7 +249,9 @@
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "draft v0.1 for hive review",
+ "status": "v0.1.1 rendered 27 Oct 2026 (Tab daily run): shot 11 dig date set to 1979 per CH-0174",
  "words_en": 289,
- "estimated_seconds": 116
+ "estimated_seconds": 116,
+ "script_version": "v0.1.1",
+ "rendered": "2026-10-27"
 }
