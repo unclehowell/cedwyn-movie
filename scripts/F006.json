@@ -1,323 +1,250 @@
 {
  "frame": 6,
- "title": "Papers on the table",
+ "title": "The family's account, and the papers in question",
  "cast": {
-  "E_AGENT": "the Man from the Estate, here a Land Registry officer in a present-day Cardiff office (public office, unnamed)",
-  "I_NIA": "Nia, the archivist (swapped in for A_MARY: Mary (Nancy) Williams's 1667 detail exists only in her later statement, so it appears as a document Nia reads, not as a period scene)"
+  "I_NIA": "Nia, the archivist (on camera, 2020s)",
+  "D_BILLY": "the Grandson (on camera, 2020s; invented face)"
  },
- "setting": "s06",
+ "setting": "s08",
  "target_seconds": 120,
  "shots": [
   {
    "shot": 1,
-   "set": "s06",
-   "direction": "Wide on a present-day Cardiff office on a wet morning. Nia comes in with a folder under her arm, and the officer clears archive boxes from a chair.",
-   "image_prompt": "Photoreal present-day Cardiff public office interior, rain streaking a tall window, grey filing cabinets and stacked archive boxes, a pale clean-shaven man in his 50s with thin-rimmed spectacles and a dark suit lifting a box off a chair, a Welsh woman in her 30s with a black bob, round tortoiseshell glasses and a mustard cardigan entering with a folder, soft overcast light, no text, no heraldry",
-   "animate": "i2v",
+   "set": "s08",
+   "direction": "HOOK (0-5 s): talking close-up of Nia at the reading-room table, two thin folders and a typed statement in front of her.",
+   "image_prompt": "",
+   "animate": "omnihuman",
    "lines": [
     {
-     "who": "E_AGENT",
-     "en": "Bore da. Mind the boxes. You asked about a lease from fifteen forty-seven. A thousand years.",
+     "who": "I_NIA",
+     "en": "Bore da. How far back can we follow Tŷ Mawr on paper? Today we sort what we hold from what we're still chasing.",
+     "cy": "Bore da. Pa mor bell yn ôl allwn ni ddilyn Tŷ Mawr ar bapur? Heddiw, rydyn ni'n gwahanu'r hyn sydd gyda ni oddi wrth yr hyn rydyn ni'n dal i chwilio amdano.",
+     "es": "Bore da. ¿Hasta dónde podemos seguir Tŷ Mawr en el papel? Hoy separamos lo que tenemos de lo que aún buscamos.",
      "cite": [
-      "EV-0002"
+      "CH-0003",
+      "EV-0211"
      ],
-     "cy": "Bore da. Gwyliwch y bocsys. Oeddech chi'n gofyn am brydles o bymtheg pedwar deg saith. Mil o flynyddoedd.",
-     "es": "Bore da. Cuidado con las cajas. Preguntó por un contrato de mil quinientos cuarenta y siete. Mil años."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 2,
-   "set": "s06",
-   "direction": "Medium close-up on Nia as she sits and opens her folder.",
-   "image_prompt": "Photoreal medium close-up of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses, mustard cardigan, seated at an office desk opening a cardboard folder, rain-light from a window, shallow depth of field, no text, no heraldry",
+   "set": "s08",
+   "direction": "Talking close-up of the Grandson laying the typed statement on the foam cradle.",
+   "image_prompt": "",
    "animate": "omnihuman",
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "Sir George Herbert to someone called Vaughan, a thousand-year lease of Cydwin. That's how the family research note puts it.",
+     "who": "D_BILLY",
+     "en": "Start with the family's own account. Mary (Nancy) Williams's statement.",
+     "cy": "Dechreuwch gyda hanes y teulu ei hun. Datganiad Mary (Nancy) Williams.",
+     "es": "Empecemos por el relato de la propia familia. La declaración de Mary (Nancy) Williams.",
      "cite": [
-      "EV-0002"
+      "CH-0003"
      ],
-     "cy": "Syr George Herbert i rywun o'r enw Vaughan, prydles fil o flynyddoedd ar Gydwin. Dyna sut mae'r nodyn ymchwil teuluol yn ei roi.",
-     "es": "Sir George Herbert a alguien llamado Vaughan, un contrato de mil años de Cydwin. Así lo pone la nota de investigación familiar."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 3,
-   "set": "s06",
-   "direction": "Close-up on the officer as he leans back with polite scepticism.",
-   "image_prompt": "Photoreal close-up of a pale clean-shaven man in his 50s, thin-rimmed spectacles, dark suit and plain tie, leaning back in an office chair with a leather document case on the desk, overcast window light, no text, no heraldry",
+   "set": "s08",
+   "direction": "Talking close-up of Nia, a gloved finger on the statement.",
+   "image_prompt": "",
    "animate": "omnihuman",
    "lines": [
     {
-     "who": "E_AGENT",
-     "en": "And the lease itself? The parchment?",
+     "who": "I_NIA",
+     "en": "In it she sets down that the Williams family came to Tŷ Mawr in sixteen sixty-seven. That's the family's account, and the Master Timeline lists it that way.",
+     "cy": "Ynddo mae hi'n nodi bod teulu Williams wedi dod i Dŷ Mawr yn un fil chwe chant chwe deg saith. Dyna hanes y teulu, ac felly mae'r Brif Linell Amser yn ei restru.",
+     "es": "En ella deja constancia de que la familia Williams llegó a Tŷ Mawr en mil seiscientos sesenta y siete. Ese es el relato de la familia, y así lo recoge la Cronología principal.",
      "cite": [
-      "EV-0002"
+      "CH-0003"
      ],
-     "cy": "A'r brydles ei hun? Y memrwn?",
-     "es": "¿Y el contrato en sí? ¿El pergamino?"
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 4,
-   "set": "s06",
-   "direction": "Insert of the evidence catalogue entry for EV-0002 as a printed sheet on the desk, with Nia's gloved finger resting beside it.",
-   "image_prompt": "Photoreal overhead insert of a single printed catalogue sheet on a wooden office desk, a cotton-gloved hand resting beside it, a pencil and folder nearby, the page shown as blurred unreadable blocks, no legible text, no heraldry",
-   "animate": "still",
+   "set": "s08",
+   "direction": "Talking close-up of the Grandson, leaning in.",
+   "image_prompt": "",
+   "animate": "omnihuman",
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "Not held. Nobody on our side has seen the original yet. The evidence catalogue files it as a primary document still to be found.",
+     "who": "D_BILLY",
+     "en": "And the oldest record that names the house?",
+     "cy": "A'r cofnod hynaf sy'n enwi'r tŷ?",
+     "es": "¿Y el registro más antiguo que nombra la casa?",
      "cite": [
-      "EV-0002"
+      "EV-0211"
      ],
-     "cy": "Dim yn ein meddiant. Does neb ar ein hochr ni wedi gweld y gwreiddiol eto. Mae'r catalog tystiolaeth yn ei restru fel dogfen wreiddiol sydd eto i'w chanfod.",
-     "es": "No lo tenemos. Nadie de nuestro lado ha visto el original todavía. El catálogo de pruebas lo marca como documento primario por encontrar."
-    },
-    {
-     "who": "E_AGENT",
-     "en": "So for now it's a note about a document, not the document. No terms, no boundaries, no signatures to read.",
-     "cite": [
-      "EV-0002"
-     ],
-     "cy": "Felly am nawr, nodyn am ddogfen yw e, nid y ddogfen. Dim telerau, dim ffiniau, dim llofnodion i'w darllen.",
-     "es": "Entonces, por ahora es una nota sobre un documento, no el documento. Sin términos, sin límites, sin firmas que leer."
-    },
-    {
-     "who": "I_NIA",
-     "en": "Exactly. And Cydwin is only tied to Great House Farm through the Cedwyn place-name index. A cross-reference, not a proven link.",
-     "cite": [
-      "EV-0002"
-     ],
-     "cy": "Yn union. Ac mae Cydwin ond yn gysylltiedig â Great House Farm trwy'r mynegai enwau lleoedd Cedwyn. Cyfeiriad croes, nid cysylltiad profedig.",
-     "es": "Exacto. Y Cydwin solo se vincula a Great House Farm por el índice de topónimos de Cedwyn. Una referencia cruzada, no un vínculo probado."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 5,
-   "set": "s06",
-   "direction": "Two-shot across the desk. The officer taps a second sheet and Nia turns it towards him.",
-   "image_prompt": "Photoreal two-shot across an office desk, a pale man in his 50s in a dark suit and thin-rimmed spectacles tapping a printed sheet, a Welsh woman in her 30s with a black bob, tortoiseshell glasses and a mustard cardigan turning the page towards him, rain on the window behind, no text, no heraldry",
-   "animate": "i2v",
+   "set": "s08",
+   "direction": "Talking close-up of Nia, turning a printed catalogue sheet toward him.",
+   "image_prompt": "",
+   "animate": "omnihuman",
    "lines": [
     {
-     "who": "E_AGENT",
-     "en": "What about the Bute side? Fifteen fifty-two to eighteen twenty-four, you wrote.",
-     "cite": [
-      "EV-0003"
-     ],
-     "cy": "Beth am ochr Bute? Pymtheg pum deg dau hyd ddeunaw dau ddeg pedwar, fel y gwnaethoch chi ysgrifennu.",
-     "es": "¿Y el lado de Bute? Mil quinientos cincuenta y dos a mil ochocientos veinticuatro, escribió usted."
-    },
-    {
      "who": "I_NIA",
-     "en": "Same family research note. It reports Bute estate records naming the holding Cedfin, Cydfin, Ken fin Farm, or Tŷ Mawr Farm.",
+     "en": "So far, eighteen twenty-four: David Stewart's survey of the Bute estates, plan nineteen, Cedfin or Tŷ Mawr. We open that next.",
+     "cy": "Hyd yma, un fil wyth cant dau ddeg pedwar: arolwg David Stewart o ystadau Bute, cynllun pedwar ar bymtheg, Cedfin neu Dŷ Mawr. Fe agorwn ni hwnnw nesaf.",
+     "es": "Por ahora, mil ochocientos veinticuatro: el levantamiento de David Stewart de las fincas de Bute, plano diecinueve, Cedfin o Tŷ Mawr. Lo abriremos a continuación.",
      "cite": [
-      "EV-0003"
+      "EV-0211"
      ],
-     "cy": "Yr un nodyn ymchwil teuluol. Mae'n nodi bod cofnodion ystad Bute yn enwi'r daliad yn Cedfin, Cydfin, Ken fin Farm, neu Tŷ Mawr Farm.",
-     "es": "La misma nota de investigación familiar. Menciona registros de la hacienda Bute que nombran el predio Cedfin, Cydfin, Ken fin Farm, o Tŷ Mawr Farm."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 6,
-   "set": "s06",
-   "direction": "Insert of the evidence catalogue entry for EV-0003 beside an empty archive box.",
-   "image_prompt": "Photoreal insert of a printed catalogue sheet lying next to an open, empty grey archive box on a desk, lit by cool window light, the text rendered as unreadable blur, no legible text, no heraldry",
+   "set": "s08",
+   "direction": "Wordless insert (3 s): two thin family research folders, unlabelled, beside an empty archive box.",
+   "image_prompt": "",
    "animate": "still",
-   "lines": [
-    {
-     "who": "E_AGENT",
-     "en": "Which records, though? Which box, which reference number?",
-     "cite": [
-      "EV-0003"
-     ],
-     "cy": "Pa gofnodion, 'te? Pa focs, pa rif cyfeirnod?",
-     "es": "¿Pero qué registros? ¿Qué caja, qué número de referencia?"
-    },
-    {
-     "who": "I_NIA",
-     "en": "That's the gap. The documents haven't been produced. No dates, no archive references, nothing tying those names to Great House Farm.",
-     "cite": [
-      "EV-0003"
-     ],
-     "cy": "Dyna'r bwlch. Dyw'r dogfennau ddim wedi'u cynhyrchu. Dim dyddiadau, dim cyfeirnodau archif, dim byd yn cysylltu'r enwau hynny â Great House Farm.",
-     "es": "Ahí está el vacío. Los documentos no se han presentado. Sin fechas, sin referencias de archivo, nada que una esos nombres con Great House Farm."
-    }
-   ]
+   "lines": []
   },
   {
    "shot": 7,
-   "set": "s06",
-   "direction": "Insert as Nia lays down a typed family statement, the prop of Mary (Nancy) Williams's statement.",
-   "image_prompt": "Photoreal close insert of a few typed, slightly yellowed sheets of paper laid on an office desk by a cotton-gloved hand, a paperclip at the corner, the type rendered as unreadable blur, no legible text, no heraldry",
-   "animate": "still",
+   "set": "s08",
+   "direction": "Talking close-up of the Grandson, tapping the two folders.",
+   "image_prompt": "",
+   "animate": "omnihuman",
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "Then there's this. Mary (Nancy) Williams's own statement. She sets down that the Williams family were on the farm from sixteen sixty-seven.",
+     "who": "D_BILLY",
+     "en": "What about the older notes in my folders? The long lease of Cydwin, the Bute papers.",
+     "cy": "Beth am yr hen nodiadau yn fy ffolderi? Y les hir ar Gydwin, papurau Bute.",
+     "es": "¿Y las notas antiguas de mis carpetas? El arrendamiento largo de Cydwin, los papeles de Bute.",
      "cite": [
-      "CH-0003"
+      "EV-0002",
+      "EV-0003"
      ],
-     "cy": "Wedyn mae hyn. Datganiad Mary (Nancy) Williams ei hun. Mae'n nodi bod teulu Williams ar y fferm o un fil chwe chant chwe deg a saith.",
-     "es": "Después está esto. La propia declaración de Mary (Nancy) Williams. Ella asienta que la familia Williams estuvo en la granja desde mil seiscientos sesenta y siete."
-    },
-    {
-     "who": "E_AGENT",
-     "en": "Sixteen sixty-seven. Three and a half centuries of Williamses.",
-     "cite": [
-      "CH-0003"
-     ],
-     "cy": "Un fil chwe chant chwe deg a saith. Tair canrif a hanner o deulu Williams.",
-     "es": "Mil seiscientos sesenta y siete. Tres siglos y medio de Williams."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 8,
-   "set": "s06",
-   "direction": "Close-up on Nia, careful and even.",
-   "image_prompt": "Photoreal close-up of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses, mustard cardigan, wearing white cotton gloves, holding typed papers, thoughtful expression, soft overcast office light, no text, no heraldry",
+   "set": "s08",
+   "direction": "Talking close-up of Nia, careful and even.",
+   "image_prompt": "",
    "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
-     "en": "That date rests on her statement. The Master Timeline on the Legal Wiki lists it that way, and an earlier written source is still awaited.",
+     "en": "They're notes about other people's papers, and nobody here has seen the originals. Whether any of them touches Tŷ Mawr, and whether the Bute freeholds were ever good, is under forensic examination. Until then, they're not Tŷ Mawr records.",
+     "cy": "Nodiadau am bapurau pobl eraill ydyn nhw, a does neb yma wedi gweld y rhai gwreiddiol. Mae p'un a yw unrhyw un ohonyn nhw'n cyffwrdd â Thŷ Mawr, ac a oedd rhyddfreiniau Bute erioed yn ddilys, dan archwiliad fforensig. Tan hynny, nid cofnodion Tŷ Mawr ydyn nhw.",
+     "es": "Son notas sobre papeles de otros, y nadie aquí ha visto los originales. Si alguno toca Tŷ Mawr, y si las propiedades de Bute fueron alguna vez válidas, está bajo examen forense. Hasta entonces, no son registros de Tŷ Mawr.",
      "cite": [
-      "CH-0003"
+      "EV-0002",
+      "EV-0003"
      ],
-     "cy": "Mae'r dyddiad hwnnw'n dibynnu ar ei datganiad hi. Mae'r Prif Linell Amser ar y Legal Wiki yn ei restru felly, ac mae ffynhonnell ysgrifenedig gynharach yn dal i gael ei disgwyl.",
-     "es": "Esa fecha se apoya en su declaración. La Línea de Tiempo Maestra en el Legal Wiki la pone así, y aún se espera una fuente escrita anterior."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 9,
-   "set": "s06",
-   "direction": "Close-up on the officer, softening slightly.",
-   "image_prompt": "Photoreal close-up of a pale clean-shaven man in his 50s, thin-rimmed spectacles, dark suit, a faint kind expression, hands folded over a leather document case, rain-light from a window, no text, no heraldry",
+   "set": "s08",
+   "direction": "Talking close-up of the Grandson, nodding.",
+   "image_prompt": "",
    "animate": "omnihuman",
    "lines": [
     {
-     "who": "E_AGENT",
-     "en": "A family's memory is still a record. It just needs company.",
+     "who": "D_BILLY",
+     "en": "So the family's account stands, and those papers have to earn their place.",
+     "cy": "Felly mae hanes y teulu'n sefyll, ac mae'n rhaid i'r papurau hynny ennill eu lle.",
+     "es": "Entonces el relato de la familia se mantiene, y esos papeles tienen que ganarse su sitio.",
      "cite": [
-      "CH-0003"
+      "CH-0003",
+      "EV-0002",
+      "EV-0003"
      ],
-     "cy": "Mae cof teulu yn dal yn gofnod. Mae angen cwmni arno, dyna i gyd.",
-     "es": "La memoria de una familia sigue siendo un registro. Solo necesita compañía."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 10,
-   "set": "s06",
-   "direction": "Nia unrolls large reproduction copies of the estate plans of 1786 to 1832 across the desk and weights the corners with boxes.",
-   "image_prompt": "Photoreal overhead shot of large reproduction copies of late-18th and early-19th-century hand-drawn estate plans unrolled across an office desk, coloured field parcels, hedgerows and a river course in faded ink, corners weighted by archive boxes, cotton-gloved hands smoothing the paper, no legible lettering, no crests, no coats of arms, no heraldry",
-   "animate": "still",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Company, I can offer. The Percy Randell collection. Estate plans, seventeen eighty-six to eighteen thirty-two.",
-     "cite": [
-      "CH-0004"
-     ],
-     "cy": "Cwmni, galla i gynnig. Casgliad Percy Randell. Cynlluniau ystad, un saith wyth chwech hyd un wyth tri dau.",
-     "es": "Compañía puedo ofrecer. La colección de Percy Randell. Planos de la hacienda, mil setecientos ochenta y seis a mil ochocientos treinta y dos."
-    },
-    {
-     "who": "E_AGENT",
-     "en": "Whose estate?",
-     "cite": [
-      "CH-0004"
-     ],
-     "cy": "Ystad pwy?",
-     "es": "¿De qué hacienda?"
-    },
-    {
-     "who": "I_NIA",
-     "en": "Herbert of White Friars, and the William Hurst estate. Lands in Cogan, Llandough-juxta-Penarth, Penarth, St Andrews Major and Sully.",
-     "cite": [
-      "CH-0004"
-     ],
-     "cy": "Herbert o White Friars, ac ystad William Hurst. Tiroedd yng Nghogan, Llandochau-juxta-Penarth, Penarth, Sain Andras Fawr a Sili.",
-     "es": "Herbert de White Friars, y la hacienda de William Hurst. Tierras en Cogan, Llandough-juxta-Penarth, Penarth, St Andrews Major y Sully."
-    },
-    {
-     "who": "E_AGENT",
-     "en": "Real maps, then. Field lines you can put your finger on.",
-     "cite": [
-      "CH-0004"
-     ],
-     "cy": "Mapiau go iawn, 'te. Llinellau caeau y galli di roi bys arnyn nhw.",
-     "es": "Mapas de verdad, entonces. Líneas de parcela que se pueden señalar con el dedo."
-    }
-   ]
+   "set": "s08",
+   "direction": "Wordless moving shot (4 s): Nia unrolls large reproduction estate plans across the table and weights the corners with boxes.",
+   "image_prompt": "",
+   "animate": "i2v",
+   "lines": []
   },
   {
    "shot": 11,
-   "set": "s06",
-   "direction": "Two-shot over the plans. The officer traces a field boundary while Nia makes a note.",
-   "image_prompt": "Photoreal two-shot over old estate plan reproductions on a desk, a pale man in his 50s in a dark suit and thin-rimmed spectacles tracing a field boundary with one finger, a Welsh woman in her 30s with a black bob, tortoiseshell glasses and a mustard cardigan writing in a notebook, warm desk lamp against grey window light, no text, no heraldry",
-   "animate": "i2v",
+   "set": "s08",
+   "direction": "Talking close-up of Nia over the plans.",
+   "image_prompt": "",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
-     "en": "Logged in our media register as MR-0223. What they show of our farm, we'll learn field by field.",
+     "en": "And here's company for the search: the Percy Randell collection, estate plans from seventeen eighty-six to eighteen thirty-two, for Cogan, Llandough, Penarth, St Andrews Major and Sully. What they show of Tŷ Mawr, we'll learn field by field.",
+     "cy": "A dyma gwmni i'r chwilio: casgliad Percy Randell, cynlluniau ystad o un fil saith cant wyth deg chwech hyd un fil wyth cant tri deg dau, ar gyfer Cogan, Llandochau, Penarth, St Andrews Major a Sully. Beth maen nhw'n ei ddangos o Dŷ Mawr, fe ddysgwn ni gae wrth gae.",
+     "es": "Y aquí hay compañía para la búsqueda: la colección Percy Randell, planos de fincas de mil setecientos ochenta y seis a mil ochocientos treinta y dos, de Cogan, Llandough, Penarth, St Andrews Major y Sully. Lo que muestren de Tŷ Mawr, lo aprenderemos campo a campo.",
      "cite": [
       "CH-0004"
      ],
-     "cy": "Wedi'u cofnodi yn ein cofrestr cyfryngau fel MR-0223. Beth maen nhw'n ei ddangos o'n fferm ni, cawn ni wybod cae wrth gae.",
-     "es": "Registrado en nuestro archivo de medios como MR-0223. Lo que muestren de nuestra granja, lo sabremos parcela por parcela."
-    },
-    {
-     "who": "E_AGENT",
-     "en": "And the thousand-year lease?",
-     "cite": [
-      "EV-0002"
-     ],
-     "cy": "A'r brydles fil o flynyddoedd?",
-     "es": "¿Y el contrato de los mil años?"
-    },
-    {
-     "who": "I_NIA",
-     "en": "Stays on the list marked 'still looking'. Next, the seventeen-ninety plan and the eighteen-hundred survey of Tŷ Mawr.",
-     "cite": [
-      "EV-0002"
-     ],
-     "cy": "Yn aros ar y rhestr dan 'dal i chwilio'. Nesaf, cynllun un saith naw dim a'r arolwg un wyth dim dim o Dŷ Mawr.",
-     "es": "Sigue en la lista marcada 'aún buscando'. Después, el plano de mil setecientos noventa y el relevamiento de mil ochocientos de Tŷ Mawr."
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
    "shot": 12,
    "set": "s09",
-   "direction": "Slow drift across the Llandough hill over the Ely towards Cardiff Bay, the same fields the plans draw. No dialogue.",
-   "image_prompt": "Photoreal wide landscape of the Llandough hill above the River Ely, patchwork green fields and hedgerows, Leckwith woods to one side and Cardiff Bay hazy in the distance, soft rain clearing, no text, no heraldry",
+   "direction": "Wordless drift (5 s) across the Llandough hill over the Ely marsh toward the distant estuary.",
+   "image_prompt": "",
    "animate": "i2v",
    "lines": []
   }
  ],
  "covers": [
+  "CH-0003",
+  "EV-0211",
   "EV-0002",
   "EV-0003",
-  "CH-0003",
   "CH-0004"
  ],
  "left_out": [],
- "continuity": "Nia leaves with the 1786–1832 plan copies and an open 'still testing' list (the Cydwin lease and the Bute catalogue papers, both under forensic examination as to Tŷ Mawr; the family’s account of 1667). The Grandson joins her to compare the 1790 'Gedrych property' plan with the 1800 Tŷ Mawr survey.",
+ "continuity": "Chronology rule (owner 26 Oct 11:45): Tŷ Mawr first named in the record found so far in 1824 (EV-0211); family account 1667 (CH-0003); third-party papers (EV-0002, EV-0003) are never shown as Tŷ Mawr records and their dates are not spoken (editorial: third-party paper dates are not given in public text). F008 opens the 1824 survey.",
  "translation": {
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "REWRITE REQUIRED before render: chronology rule (bible §Chronology rule, 26 Oct 2026); was draft v0.1 for hive review",
- "words_en": 323,
- "estimated_seconds": 137
+ "status": "v0.2.0 27 Oct 2026 script review: re-titled and rewritten to the chronology rule; for hive review",
+ "words_en": 196,
+ "estimated_seconds": 101,
+ "script_version": "v0.2.0",
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue"
 }

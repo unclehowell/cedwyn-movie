@@ -10,6 +10,27 @@
  "shots": [
   {
    "shot": 1,
+   "set": "s08",
+   "direction": "HOOK (0-5 s): talking close-up of Nia in the reading room before she steps into the 1824 office.",
+   "image_prompt": "",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "When does Tŷ Mawr first appear by name? In the papers we hold, eighteen twenty-four.",
+     "cy": "Pryd mae Tŷ Mawr yn ymddangos wrth ei enw gyntaf? Yn y papurau sydd gyda ni, un fil wyth cant dau ddeg pedwar.",
+     "es": "¿Cuándo aparece Tŷ Mawr por su nombre por primera vez? En los papeles que tenemos, en mil ochocientos veinticuatro.",
+     "cite": [
+      "CH-0008"
+     ],
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
+    }
+   ],
+   "lip_sync": "en"
+  },
+  {
+   "shot": 2,
    "set": "s06",
    "direction": "Wide on the Bute estate office in Cardiff, 1824; the agent unrolls a large bound survey volume across an oak table while Nia, in modern dress and cotton gloves, steps up beside him.",
    "image_prompt": "Photoreal 1824 Cardiff estate office, dark oak panelling, tall sash window with grey morning light, oak table with a large open bound survey volume of hand-coloured field plans, brass inkwell and quill, candle sconce; E_AGENT in his 50s, pale, clean-shaven, thin-rimmed spectacles, black 1820s frock coat and high white stock, leather document case at his elbow; I_NIA, 30s Welsh woman, black bob, round tortoiseshell glasses, mustard cardigan, white cotton archive gloves, standing beside him; no text in image, no crests, no coats of arms, no heraldry",
@@ -23,32 +44,37 @@
       "CH-0010"
      ],
      "cy": "Bore da, Miss Nia. Gofal efo'r inc, mae'n dal yn wlyb. Dyma arolwg Mr David Stewart o ystadau Bute, un wyth dau pedwar. Cynllun un naw.",
-     "es": "Buenos días, Miss Nia. Cuidado con la tinta, aún se seca. Es el plano de Mr David Stewart de las fincas Bute, mil ochocientos veinticuatro. Plano diecinueve."
+     "es": "Buenos días, Miss Nia. Cuidado con la tinta, aún se seca. Es el plano de Mr David Stewart de las fincas Bute, mil ochocientos veinticuatro. Plano diecinueve.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
    ]
   },
   {
-   "shot": 2,
+   "shot": 3,
    "set": "s06",
-   "direction": "Overhead insert on the open page of plan nineteen as Nia's gloved finger traces the heading.",
+   "direction": "Overhead insert on the open page of plan nineteen as Nia's gloved finger traces the heading. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal overhead close-up of an 1824 hand-drawn and watercolour-washed estate field plan in a bound survey volume, field boundaries in ink, woodland shaded green, hedgerows, a farmstead block, a gloved finger resting on the margin; handwriting rendered as illegible strokes, no readable text in image, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
-     "en": "Cedfin or Ty Mawr Farm. Two names for one farm, side by side. Today the Glamorgan Archives catalogue files it as Cedfin alias Ty Mawr farm, in Llandough, reference D B E one to two.",
+     "en": "Cedfin or Ty Mawr Farm. Two names for one farm, side by side. Today the Glamorgan Archives catalogue files it as Cedfin alias Ty Mawr farm, in Llandough.",
      "cite": [
       "CH-0009",
       "CH-0010"
      ],
-     "cy": "Cedfin neu Fferm Tŷ Mawr. Dau enw am un fferm, ochr yn ochr. Heddiw mae Archifau Morgannwg yn ei gofnodi fel Cedfin alias Tŷ Mawr farm, yn Llandochau, cyfeirnod D B E un i ddau.",
-     "es": "Cedfin o Ty Mawr Farm. Dos nombres para una finca, lado a lado. Hoy el archivo de Glamorgan la cataloga como Cedfin alias Ty Mawr farm, en Llandough, referencia D B E uno a dos."
+     "cy": "Cedfin neu Fferm Tŷ Mawr. Dau enw am un fferm, ochr yn ochr. Heddiw mae Archifau Morgannwg yn ei gofnodi fel Cedfin alias Tŷ Mawr farm, yn Llandochau.",
+     "es": "Cedfin o Ty Mawr Farm. Dos nombres para una finca, lado a lado. Hoy el archivo de Glamorgan la cataloga como Cedfin alias Ty Mawr farm, en Llandough.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ],
-   "prop": "Glamorgan Archives DB/E/1, plan 19 'Cedfin or Ty Mawr Farm' (EV-0211 page)"
+   "prop": "Glamorgan Archives DB/E/1, plan 19 'Cedfin or Ty Mawr Farm' (EV-0211 page)",
+   "lip_sync": "en"
   },
   {
-   "shot": 3,
+   "shot": 4,
    "set": "s06",
    "direction": "Talking close-up of the agent reading the acreage from the plan's reference table.",
    "image_prompt": "Photoreal close-up of E_AGENT, 50s, pale, clean-shaven, thin-rimmed spectacles, 1820s black frock coat and white stock, reading from an open survey volume by window light in a panelled Cardiff estate office, 1824; no text, no heraldry",
@@ -62,12 +88,15 @@
       "CH-0009"
      ],
      "cy": "Cant tri deg naw erw, tair rwd, wyth perc. O hynny, mae ugain erw, dwy rwd a phymtheg ar hugain o berc yn goedwig.",
-     "es": "Ciento treinta y nueve acres, tres roods, ocho perches. De eso, veinte acres, dos roods y treinta y cinco perches son bosque."
+     "es": "Ciento treinta y nueve acres, tres roods, ocho perches. De eso, veinte acres, dos roods y treinta y cinco perches son bosque.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 4,
+   "shot": 5,
    "set": "s06",
    "direction": "Talking close-up of Nia leaning in to the occupier's name, frowning at the handwriting.",
    "image_prompt": "Photoreal close-up of I_NIA, 30s Welsh woman, black bob, round tortoiseshell glasses, mustard cardigan, white cotton gloves, leaning over an 1820s survey volume in a dark-panelled office lit by a tall window; no text, no heraldry",
@@ -80,16 +109,19 @@
       "CH-0008"
      ],
      "cy": "A'r deiliad? Dw i'n darllen y llawysgrifen yna fel John Gedrick, ond fe hoffwn i gael ail barau o lygaid ar y llythrennau yna.",
-     "es": "¿Y el ocupante? Leo ese nombre como John Gedrick, pero quisiera otro par de ojos sobre esas letras."
+     "es": "¿Y el ocupante? Leo ese nombre como John Gedrick, pero quisiera otro par de ojos sobre esas letras.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 5,
+   "shot": 6,
    "set": "s06",
-   "direction": "Insert on a corner of the plan where a small added parcel is washed in a different tint; the agent's finger taps it.",
+   "direction": "Insert on a corner of the plan where a small added parcel is washed in a different tint; the agent's finger taps it. [27 Oct rule: no voice over a still; the line plays over a MOVING shot (i2v) or becomes a talking close-up if budget allows.]",
    "image_prompt": "Photoreal macro of a corner of an 1824 watercolour estate plan showing a small field parcel washed in a slightly different tint and joined to a larger holding, ink boundary lines, a man's finger in a black frock-coat cuff tapping it; illegible handwriting only, no readable text, no heraldry",
-   "animate": "still",
+   "animate": "i2v",
    "lines": [
     {
      "who": "E_AGENT",
@@ -98,13 +130,15 @@
       "CH-0008"
      ],
      "cy": "Gedrick, go agos. A nodwch y gornel yma: deg erw, tair rwd, tri deg naw perc o dir diweddar Thos. Williams, wedi'i ychwanegu.",
-     "es": "Gedrick, más o menos. Y marque esta esquina: diez acres, tres roods, treinta y nueve perches de tierra que fue de Thos. Williams, sumada aquí."
+     "es": "Gedrick, más o menos. Y marque esta esquina: diez acres, tres roods, treinta y nueve perches de tierra que fue de Thos. Williams, sumada aquí.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
    ],
    "prop": "DB/E/1 plan 19, detail: 10a 3r 39p 'late Thos. Williams' land (EV-0211)"
   },
   {
-   "shot": 6,
+   "shot": 7,
    "set": "s06",
    "direction": "Talking close-up of Nia, thoughtful, looking up from the plan toward the agent.",
    "image_prompt": "Photoreal close-up of I_NIA, black bob, round tortoiseshell glasses, mustard cardigan, cotton gloves, thoughtful expression, soft window light in an 1824 oak-panelled estate office, survey volume blurred in foreground; no text, no heraldry",
@@ -117,16 +151,19 @@
       "CH-0008"
      ],
      "cy": "Williams ar y tir yma yn un wyth dau pedwar. Mae'r cynllun yn dangos ei dir e'n uno â Thŷ Mawr. Dyw e ddim yn dangos pwy oedd e, na sut daeth e drosodd.",
-     "es": "Un Williams en este terreno en mil ochocientos veinticuatro. El plano muestra su tierra unida a Ty Mawr. No muestra quién era, ni cómo pasó a manos de Ty Mawr."
+     "es": "Un Williams en este terreno en mil ochocientos veinticuatro. El plano muestra su tierra unida a Ty Mawr. No muestra quién era, ni cómo pasó a manos de Ty Mawr.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 7,
+   "shot": 8,
    "set": "s08",
-   "direction": "Cut to the modern archive reading room: Nia at her desk with a printed image of an old map beside a laptop.",
+   "direction": "Cut to the modern archive reading room: Nia at her desk with a printed image of an old map beside a laptop. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal modern county records office reading room, pale wood desks, foam book supports, green-shaded lamp, I_NIA in mustard cardigan and tortoiseshell glasses seated with a large printout of an old hand-drawn farm map beside a closed laptop and pencil; no readable text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -135,17 +172,20 @@
       "EV-0004"
      ],
      "cy": "Mae wiki'r teulu'n dal llun wedi'i lwytho o'r enw map Tŷ Mawr un wyth dau pedwar. Does neb wedi cadarnhau pwy wnaeth ei dynnu, ei raddfa, ei daflen, lle mae'r gwreiddiol yn byw, na hyd yn oed os taw un wyth dau pedwar yw dyddiad y map ei hun.",
-     "es": "El wiki familiar tiene una imagen subida titulada mapa de mil ochocientos veinticuatro de Ty Mawr. Nadie ha establecido quién lo dibujó, su escala, su hoja, dónde está el original, ni si esa fecha es la del mapa mismo."
+     "es": "El wiki familiar tiene una imagen subida titulada mapa de mil ochocientos veinticuatro de Ty Mawr. Nadie ha establecido quién lo dibujó, su escala, su hoja, dónde está el original, ni si esa fecha es la del mapa mismo.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ],
-   "prop": "EV-0004 'Map of Ty Mawr dated 1824' (uploaded image)"
+   "prop": "EV-0004 'Map of Ty Mawr dated 1824' (uploaded image)",
+   "lip_sync": "en"
   },
   {
-   "shot": 8,
+   "shot": 9,
    "set": "s06",
-   "direction": "Back in 1824, medium two-shot: the agent slides the printout beside plan nineteen; Nia nods.",
+   "direction": "Back in 1824, medium two-shot: the agent slides the printout beside plan nineteen; Nia nods. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal medium two-shot in an 1824 Cardiff estate office: E_AGENT in frock coat and spectacles laying a loose modern printout of an old map beside an open bound survey plan, I_NIA in mustard cardigan and cotton gloves beside him, warm window light, oak table, quill and inkwell; no readable text, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "E_AGENT",
@@ -154,7 +194,9 @@
       "EV-0004"
      ],
      "cy": "Yna rhowch e wrth ymyl cynllun un naw, madam, a gadael i'r llinellau benderfynu.",
-     "es": "Entonces póngalo junto al plano diecinueve, señora, y que las líneas lo resuelvan."
+     "es": "Entonces póngalo junto al plano diecinueve, señora, y que las líneas lo resuelvan.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     },
     {
      "who": "I_NIA",
@@ -163,16 +205,20 @@
       "EV-0004"
      ],
      "cy": "Yn gywir. Nes iddyn nhw gael eu paru, llun yw e, nid prawf o unrhyw ffin a gofrestrwyd wedyn.",
-     "es": "Exacto. Hasta que coincidan, es solo una imagen, no prueba de ningún límite registrado después."
+     "es": "Exacto. Hasta que coincidan, es solo una imagen, no prueba de ningún límite registrado después.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (E_AGENT, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 9,
+   "shot": 10,
    "set": "s08",
-   "direction": "Insert on a second map printout on the reading-room desk, tithe-style field numbering faint and unreadable.",
+   "direction": "Insert on a second map printout on the reading-room desk, tithe-style field numbering faint and unreadable. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal overhead of a printout of a 19th-century parish-style field map with numbered field parcels (numbers illegible), lying on a pale wood reading-room desk next to a pencil and white cotton gloves; no readable text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -181,13 +227,16 @@
       "EV-0005"
      ],
      "cy": "Yna hwn, wedi'i gadw yn y llyfrgell gyfryngau fel map un wyth pedwar un. Dim teitl i'w drystio, dim dyddiad arolwg, dim rhif archif.",
-     "es": "Luego esta, guardada en la biblioteca de medios como mapa de mil ochocientos cuarenta y uno. Sin título confiable, sin fecha de relevamiento, sin número de archivo."
+     "es": "Luego esta, guardada en la biblioteca de medios como mapa de mil ochocientos cuarenta y uno. Sin título confiable, sin fecha de relevamiento, sin número de archivo.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ],
-   "prop": "EV-0005 historical map labelled '1841-map' (media library image)"
+   "prop": "EV-0005 historical map labelled '1841-map' (media library image)",
+   "lip_sync": "en"
   },
   {
-   "shot": 10,
+   "shot": 11,
    "set": "s06",
    "direction": "Talking close-up of the agent, eyebrows raised, a dry half-smile.",
    "image_prompt": "Photoreal close-up of E_AGENT, pale, clean-shaven, thin-rimmed spectacles, 1820s frock coat and white stock, eyebrows raised in dry amusement, oak panelling behind, 1824 Cardiff estate office; no text, no heraldry",
@@ -201,16 +250,19 @@
       "CH-0011"
      ],
      "cy": "Un deg saith mlynedd ar ôl Mr Stewart? Yna bydd dynion y degwm wedi bod yn brysur yn Llandochau.",
-     "es": "¿Diecisiete años después de Mr Stewart? Entonces los diezmeros habrán estado ocupados en Llandough."
+     "es": "¿Diecisiete años después de Mr Stewart? Entonces los diezmeros habrán estado ocupados en Llandough.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 11,
+   "shot": 12,
    "set": "s08",
-   "direction": "Slow push-in as Nia lifts a grey archive box onto the reading-room desk.",
+   "direction": "Slow push-in as Nia lifts a grey archive box onto the reading-room desk. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal modern records office reading room, I_NIA in mustard cardigan, tortoiseshell glasses and cotton gloves placing a grey archive box onto a desk beside foam supports, soft overhead light; no readable labels, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -219,12 +271,15 @@
       "CH-0011"
      ],
      "cy": "Oedden nhw. Mae cyfran degwm un wyth pedwar un Llandochau, Cogan a Llecwydd yn goroesi fel copi'r plwyf, Archifau Morgannwg P tri pump stroc deg.",
-     "es": "Así fue. El reparto de diezmos de mil ochocientos cuarenta y uno para Llandough, Cogan y Leckwith sobrevive como la copia parroquial, Glamorgan Archives P treinta y cinco barra diez."
+     "es": "Así fue. El reparto de diezmos de mil ochocientos cuarenta y uno para Llandough, Cogan y Leckwith sobrevive como la copia parroquial, Glamorgan Archives P treinta y cinco barra diez.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 12,
+   "shot": 13,
    "set": "s08",
    "direction": "Talking close-up of Nia, gloved hands resting on the archive box, direct and careful.",
    "image_prompt": "Photoreal close-up of I_NIA, black bob, round tortoiseshell glasses, mustard cardigan, gloved hands resting on a grey archive box, modern reading room softly blurred behind; no text, no heraldry",
@@ -238,16 +293,19 @@
       "CH-0011"
      ],
      "cy": "Ond does dim byd eto'n cysylltu'r ddelwedd yma â'r gyfran honno, a dyw'r un o'r ddau lun yn profi perchnogaeth, meddiant na throsglwyddiad.",
-     "es": "Pero nada liga aún esta imagen a ese reparto, y ninguna de las dos imágenes prueba propiedad, posesión ni ninguna transferencia."
+     "es": "Pero nada liga aún esta imagen a ese reparto, y ninguna de las dos imágenes prueba propiedad, posesión ni ninguna transferencia.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 13,
+   "shot": 14,
    "set": "s06",
-   "direction": "Wide: the agent closes the survey volume and buckles his document case; through the window, the green slope of Llandough hill in the distance; Nia turns to go.",
+   "direction": "Wide: the agent closes the survey volume and buckles his document case; through the window, the green slope of Llandough hill in the distance; Nia turns to go. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal wide of an 1824 Cardiff estate office at late morning, E_AGENT in frock coat closing a large bound survey volume and buckling a leather document case, I_NIA in mustard cardigan turning toward the door, tall sash window showing distant green hills and woodland above a river valley; no text, no crests, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "E_AGENT",
@@ -256,7 +314,9 @@
       "CH-0011"
      ],
      "cy": "Yna byddwch chi am gael y gyfran ei hun.",
-     "es": "Entonces querrá ver el reparto mismo."
+     "es": "Entonces querrá ver el reparto mismo.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     },
     {
      "who": "I_NIA",
@@ -265,9 +325,13 @@
       "CH-0008"
      ],
      "cy": "Peth cyntaf fory. Gadewch i ni ddilyn y Williamsiaid yna ymlaen a gweld pryd mae fferm Great House yn ymddangos mewn print.",
-     "es": "Mañana a primera hora. Sigamos a esos Williams hacia adelante y veamos cuándo aparece Great House farm por escrito."
+     "es": "Mañana a primera hora. Sigamos a esos Williams hacia adelante y veamos cuándo aparece Great House farm por escrito.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (E_AGENT, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   }
  ],
  "covers": [
@@ -284,7 +348,11 @@
   "cy": "machine translation (claude-sonnet-5), for native review",
   "es": "machine translation (claude-sonnet-5), for review"
  },
- "status": "draft v0.1 for hive review",
- "words_en": 318,
- "estimated_seconds": 128
+ "status": "v0.2.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review",
+ "words_en": 326,
+ "estimated_seconds": 150,
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue",
+ "script_version": "v0.2.0"
 }
