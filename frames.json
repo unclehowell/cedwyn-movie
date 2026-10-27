@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "1.1.3",
- "built": "2026-10-26T03:59Z",
+ "version": "1.2.0",
+ "built": "2026-10-27T12:15Z",
  "chronology_version": "1.0.0",
  "frames": 148,
  "target_seconds_each": 120,
@@ -17,10 +17,10 @@
   "s07": "a courtroom (magistrates, county court, High Court, Court of Appeal, by era)",
   "s08": "the archive reading room (modern records office) and the Grandson's desk",
   "s09": "Llandough hill landscape over the Ely, Leckwith woods and Cardiff Bay",
-  "s10": "prologue: the hill in prehistory/Roman/early-medieval times (roundhouse, villa, monastery)",
+  "s10": "prologue: the hill in prehistory and the early-medieval period (roundhouse, Romano-British fields, monastic cemetery); no villa shown (owner rule 27 Oct)",
   "s11": "the farmhouse 1974–88: aged, threatened, development around",
   "s12": "the site after demolition (1988–2026): housing estate, verge, green",
-  "s13": "Puerto Madryn coast, Patagonia (Argentina)"
+  "s13": "Patagonia (Argentina): arid steppe - dry tussock grass, gravel, low scrub, ochre and dun palette, wide sky; no flowers, gardens or lush green (owner rule 27 Oct 10:10); Welsh-Patagonian settlement setting kept separate from Wales"
  },
  "acts": [
   {
@@ -138,7 +138,10 @@
    "thumb": "thumbs/F001.webp",
    "release_date": "2026-10-26",
    "seconds": 149.5,
-   "script_version": "v0.2.0"
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 2,
@@ -187,7 +190,10 @@
    "thumb": "thumbs/F002.webp",
    "release_date": "2026-10-27",
    "seconds": 147.0,
-   "script_version": "v0.1.1"
+   "script_version": "v0.1.1",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 3,
@@ -208,33 +214,37 @@
    ],
    "evidence": [],
    "parts": [],
-   "title": "Villa on the same hill",
-   "logline": "The villa steward walks the hill at Llandough, the same ground the roundhouse once stood on, now built over in stone.",
+   "title": "Same hill, new neighbours",
+   "logline": "Nia asks who farmed the hill in the Roman years; a Romano-British farm family threshes spelt, grinds grain and talks of the weather, the soldiers' buyers at the ford and the children, in Welsh. No villa is shown.",
    "setting": "s10",
    "cast": [
-    "B_JOHN=the villa steward",
-    "A_MARY=a villa woman",
-    "I_NIA=Nia, the Archivist (archive bookend)",
-    "D_BILLY=the Grandson (archive bookend, non-speaking)"
+    "B_JOHN=a Romano-British farmer (prologue, invented portrait cast/B_JOHN_ironage.jpg aged on)",
+    "A_MARY=a Romano-British farm woman (prologue, invented portrait cast/A_MARY_ironage.jpg)",
+    "I_NIA=Nia, the archivist (on camera, 2020s)",
+    "D_BILLY=the Grandson (on camera, 2020s; invented face)"
    ],
    "target_seconds": 120,
    "status": "empty",
    "clip": null,
    "script": "scripts/F003.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 135,
+   "estimated_seconds": 91,
    "i18n": {
     "cy": {
-     "title": "Fila ar yr un bryn",
-     "logline": "Mae stiward y fila yn cerdded y bryn yn Llandochau, yr un tir lle safai'r tŷ crwn gynt, bellach wedi'i adeiladu drosto mewn carreg."
+     "title": "Yr un bryn, cymdogion newydd",
+     "logline": "Mae Nia'n gofyn pwy oedd yn ffermio'r bryn yn y blynyddoedd Rhufeinig; mae teulu fferm Brythonig-Rufeinig yn dyrnu sbelt, yn malu grawn ac yn sôn am y tywydd, prynwyr y milwyr wrth y rhyd a'r plant, yn Gymraeg. Ni ddangosir fila."
     },
     "es": {
-     "title": "Una villa en la misma colina",
-     "logline": "El mayordomo de la villa recorre la colina en Llandough, el mismo terreno donde antaño se alzaba la casa redonda, ahora cubierto de piedra."
+     "title": "La misma colina, nuevos vecinos",
+     "logline": "Nia pregunta quién cultivaba la colina en época romana; una familia campesina romano-británica trilla espelta, muele grano y habla del tiempo, de los compradores de los soldados en el vado y de los niños, en galés. No se muestra ninguna villa."
     }
    },
    "thumb": "thumbs/F003.webp",
-   "release_planned": "2026-10-28"
+   "release_planned": "2026-10-27 20:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 4,
@@ -256,8 +266,8 @@
    ],
    "evidence": [],
    "parts": [],
-   "title": "From villa to monastery",
-   "logline": "A monk of Llandough and Nia read the archaeology together: a monastic cemetery grows beside the old villa, St Dochdwy's older than anyone can date.",
+   "title": "Graves above the Ely",
+   "logline": "Nia asks who lay in the hundreds of graves on the hill; a monk of Llandough digs another grave above the Ely, while the 1994 dig's two burial counts are read side by side.",
    "setting": "s10",
    "cast": [
     "B_JOHN=a monk of Llandough (c. 650)",
@@ -268,19 +278,23 @@
    "clip": null,
    "script": "scripts/F004.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 120,
+   "estimated_seconds": 138,
    "i18n": {
     "cy": {
-     "title": "O fila i fynachlog",
-     "logline": "Mae mynach o Landochau a Nia yn darllen yr archaeoleg gyda'i gilydd: mae mynwent fynachaidd yn tyfu wrth ymyl yr hen fila, ac Eglwys Dochdwy'n hŷn nag y gall unrhyw un ei ddyddio."
+     "title": "Beddau uwchben Elái",
+     "logline": "Mae Nia'n gofyn pwy oedd yn y cannoedd o feddau ar y bryn; mae mynach o Landochau'n torri bedd arall uwchben afon Elái, tra darllenir dau gyfrif claddedigaethau cloddio 1994 ochr yn ochr."
     },
     "es": {
-     "title": "De villa a monasterio",
-     "logline": "Un monje de Llandough y Nia examinan juntos la arqueología: un cementerio monástico crece junto a la antigua villa, y St Dochdwy's es más antigua de lo que nadie puede datar."
+     "title": "Tumbas sobre el Ely",
+     "logline": "Nia pregunta quiénes yacían en los cientos de tumbas de la colina; un monje de Llandough cava otra tumba sobre el Ely, mientras se leen juntos los dos recuentos de enterramientos de la excavación de 1994."
     }
    },
    "thumb": "thumbs/F004.webp",
-   "release_planned": "2026-10-29"
+   "release_planned": "2026-10-28 02:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 5,
@@ -317,7 +331,7 @@
    "clip": null,
    "script": "scripts/F005.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 130,
+   "estimated_seconds": 145,
    "i18n": {
     "cy": {
      "title": "Croes Irbic a'r rhodd",
@@ -329,7 +343,11 @@
     }
    },
    "thumb": "thumbs/F005.webp",
-   "release_planned": "2026-10-30"
+   "release_planned": "2026-10-28 08:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 6,
@@ -358,31 +376,35 @@
     "EV-0003"
    ],
    "parts": [],
-   "title": "Papers on the table",
-   "logline": "The Man from the Estate lays Bute catalogue papers and a Cydwin lease on the table. Nia tests each one against the Williams family’s 1667 acquisition (Mary Williams’ statement, 1974 newspapers; ITV News, 1988): none of them names Tŷ Mawr before David Stewart’s survey of 1824, so each stays under forensic examination.",
-   "setting": "s06",
+   "title": "The family's account, and the papers in question",
+   "logline": "Nia and the Grandson sort what they hold from what they chase: the family's 1667 account in Mary (Nancy) Williams's statement, the 1824 survey as the first record found so far, and older third-party notes held under forensic examination.",
+   "setting": "s08",
    "cast": [
-    "E_AGENT=the Man from the Estate, here a Land Registry officer in a present-day Cardiff office (public office, unnamed)",
-    "I_NIA=Nia, the archivist (swapped in for A_MARY: Mary (Nancy) Williams's 1667 detail exists only in her later statement, so it appears as a document Nia reads, not as a period scene)"
+    "I_NIA=Nia, the archivist (on camera, 2020s)",
+    "D_BILLY=the Grandson (on camera, 2020s; invented face)"
    ],
    "target_seconds": 120,
    "status": "empty",
    "clip": null,
    "script": "scripts/F006.json",
    "logline_status": "draft, re-titled 26 Oct 2026 to the chronology rule (bible); script to be rewritten before render",
-   "estimated_seconds": 137,
+   "estimated_seconds": 101,
    "i18n": {
     "cy": {
-     "title": "Papurau ar y bwrdd",
-     "logline": "Mae’r Dyn o’r Ystad yn gosod papurau catalog Bute a phrydles Cydwin ar y bwrdd. Mae Nia yn profi pob un yn erbyn caffaeliad teulu Williams yn 1667 (datganiad Mary Williams, papurau newydd 1974; ITV News, 1988): nid oes un ohonynt yn enwi Tŷ Mawr cyn arolwg David Stewart ym 1824, felly mae pob un yn aros dan archwiliad fforensig."
+     "title": "Hanes y teulu, a'r papurau dan sylw",
+     "logline": "Mae Nia a'r Ŵyr yn gwahanu'r hyn sydd ganddyn nhw oddi wrth yr hyn maen nhw'n chwilio amdano: hanes 1667 y teulu yn natganiad Mary (Nancy) Williams, arolwg 1824 fel y cofnod cyntaf a gafwyd hyd yma, a nodiadau trydydd parti hŷn dan archwiliad fforensig."
     },
     "es": {
-     "title": "Papeles sobre la mesa",
-     "logline": "El Hombre de la Hacienda pone sobre la mesa papeles del catálogo Bute y un arrendamiento de Cydwin. Nia contrasta cada uno con el relato familiar de 1667: ninguno nombra Tŷ Mawr antes del catastro de David Stewart de 1824, así que todos siguen bajo examen forense."
+     "title": "El relato de la familia y los papeles en cuestión",
+     "logline": "Nia y el Nieto separan lo que tienen de lo que buscan: el relato familiar de 1667 en la declaración de Mary (Nancy) Williams, el levantamiento de 1824 como primer registro hallado hasta ahora y notas antiguas de terceros bajo examen forense."
     }
    },
    "thumb": "thumbs/F006.webp",
-   "release_planned": "2026-10-31"
+   "release_planned": "2026-10-28 14:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 7,
@@ -409,7 +431,7 @@
    "logline": "The Grandson and Nia compare the 1790 \"Gedrych property\" plan with the 1800 survey of Tŷ Mawr farm, as the new National School rises on Penlan Road.",
    "setting": "s08",
    "cast": [
-    "D_BILLY=the Grandson (2020s, 40s)",
+    "D_BILLY=the Grandson (2020s, 40s); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member",
     "I_NIA=Nia, the archivist"
    ],
    "target_seconds": 120,
@@ -417,7 +439,7 @@
    "clip": null,
    "script": "scripts/F007.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 131,
+   "estimated_seconds": 150,
    "i18n": {
     "cy": {
      "title": "Dau gynllun o Dŷ Mawr",
@@ -429,7 +451,11 @@
     }
    },
    "thumb": "thumbs/F007.webp",
-   "release_planned": "2026-11-01"
+   "release_planned": "2026-10-28 20:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 8,
@@ -471,7 +497,7 @@
    "clip": null,
    "script": "scripts/F008.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 128,
+   "estimated_seconds": 150,
    "i18n": {
     "cy": {
      "title": "Arolwg Cedfin neu Dŷ Mawr",
@@ -483,7 +509,11 @@
     }
    },
    "thumb": "thumbs/F008.webp",
-   "release_planned": "2026-11-02"
+   "release_planned": "2026-10-29 02:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 9,
@@ -524,7 +554,7 @@
    "clip": null,
    "script": "scripts/F009.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 131,
+   "estimated_seconds": 151,
    "i18n": {
     "cy": {
      "title": "John Williams yn olynu, Amy'n marw",
@@ -536,7 +566,11 @@
     }
    },
    "thumb": "thumbs/F009.webp",
-   "release_planned": "2026-11-03"
+   "release_planned": "2026-10-29 08:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 10,
@@ -575,7 +609,7 @@
    "clip": null,
    "script": "scripts/F010.json",
    "logline_status": "draft (machine-written, for hive review)",
-   "estimated_seconds": 136,
+   "estimated_seconds": 153,
    "i18n": {
     "cy": {
      "title": "Eglwys newydd, llyfr ardrethi",
@@ -587,7 +621,11 @@
     }
    },
    "thumb": "thumbs/F010.webp",
-   "release_planned": "2026-11-04"
+   "release_planned": "2026-10-29 14:00 UTC",
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 11,
@@ -640,8 +678,12 @@
     }
    },
    "thumb": "thumbs/F011.webp",
-   "release_planned": "2026-11-05",
-   "estimated_seconds": 141
+   "release_planned": "2026-10-29 20:00 UTC",
+   "estimated_seconds": 181,
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 12,
@@ -678,7 +720,7 @@
    "cast": [
     "E_AGENT=the Bute estate office clerk, Cardiff, 1877 (ordinary office business with held and catalogued records only)",
     "I_NIA=Nia, the archivist (2020s frame)",
-    "D_BILLY=the Grandson (2020s frame; replaces A_MARY: every 1877 Llandough fact here comes only from Mary (Nancy) Williams's c.1974 statement, so it is read as a document. B_JOHN is dropped because no record places John Williams of Great House at these 1877 events.)"
+    "D_BILLY=the Grandson (2020s frame; replaces A_MARY: every 1877 Llandough fact here comes only from Mary (Nancy) Williams's c.1974 statement, so it is read as a document. B_JOHN is dropped because no record places John Williams of Great House at these 1877 events.); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member"
    ],
    "target_seconds": 120,
    "status": "empty",
@@ -696,8 +738,12 @@
     }
    },
    "thumb": "thumbs/F012.webp",
-   "release_planned": "2026-11-06",
-   "estimated_seconds": 139
+   "release_planned": "2026-10-30 02:00 UTC",
+   "estimated_seconds": 192,
+   "script_version": "v0.2.0",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 13,
@@ -746,7 +792,10 @@
     }
    },
    "thumb": "thumbs/F013.webp",
-   "release_planned": "2026-11-07"
+   "release_planned": "2026-10-30 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 14,
@@ -797,7 +846,10 @@
     }
    },
    "thumb": "thumbs/F014.webp",
-   "release_planned": "2026-11-08"
+   "release_planned": "2026-10-30 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 15,
@@ -849,7 +901,10 @@
     }
    },
    "thumb": "thumbs/F015.webp",
-   "release_planned": "2026-11-09"
+   "release_planned": "2026-10-30 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 16,
@@ -897,7 +952,10 @@
     }
    },
    "thumb": "thumbs/F016.webp",
-   "release_planned": "2026-11-10"
+   "release_planned": "2026-10-31 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 17,
@@ -949,7 +1007,10 @@
     }
    },
    "thumb": "thumbs/F017.webp",
-   "release_planned": "2026-11-11"
+   "release_planned": "2026-10-31 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 18,
@@ -1000,7 +1061,10 @@
     }
    },
    "thumb": "thumbs/F018.webp",
-   "release_planned": "2026-11-12"
+   "release_planned": "2026-10-31 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 19,
@@ -1051,7 +1115,10 @@
     }
    },
    "thumb": "thumbs/F019.webp",
-   "release_planned": "2026-11-13"
+   "release_planned": "2026-10-31 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 20,
@@ -1100,7 +1167,10 @@
     }
    },
    "thumb": "thumbs/F020.webp",
-   "release_planned": "2026-11-14"
+   "release_planned": "2026-11-01 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 21,
@@ -1151,7 +1221,10 @@
     }
    },
    "thumb": "thumbs/F021.webp",
-   "release_planned": "2026-11-15"
+   "release_planned": "2026-11-01 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 22,
@@ -1201,7 +1274,10 @@
     }
    },
    "thumb": "thumbs/F022.webp",
-   "release_planned": "2026-11-16"
+   "release_planned": "2026-11-01 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 23,
@@ -1252,7 +1328,10 @@
     }
    },
    "thumb": "thumbs/F023.webp",
-   "release_planned": "2026-11-17"
+   "release_planned": "2026-11-01 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 24,
@@ -1299,7 +1378,10 @@
     }
    },
    "thumb": "thumbs/F024.webp",
-   "release_planned": "2026-11-18"
+   "release_planned": "2026-11-02 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 25,
@@ -1349,7 +1431,10 @@
     }
    },
    "thumb": "thumbs/F025.webp",
-   "release_planned": "2026-11-19"
+   "release_planned": "2026-11-02 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 26,
@@ -1400,7 +1485,10 @@
     }
    },
    "thumb": "thumbs/F026.webp",
-   "release_planned": "2026-11-20"
+   "release_planned": "2026-11-02 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 27,
@@ -1452,7 +1540,10 @@
     }
    },
    "thumb": "thumbs/F027.webp",
-   "release_planned": "2026-11-21"
+   "release_planned": "2026-11-02 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 28,
@@ -1499,7 +1590,10 @@
     }
    },
    "thumb": "thumbs/F028.webp",
-   "release_planned": "2026-11-22"
+   "release_planned": "2026-11-03 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 29,
@@ -1551,7 +1645,10 @@
     }
    },
    "thumb": "thumbs/F029.webp",
-   "release_planned": "2026-11-23"
+   "release_planned": "2026-11-03 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 30,
@@ -1603,7 +1700,10 @@
     }
    },
    "thumb": "thumbs/F030.webp",
-   "release_planned": "2026-11-24"
+   "release_planned": "2026-11-03 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 31,
@@ -1654,7 +1754,10 @@
     }
    },
    "thumb": "thumbs/F031.webp",
-   "release_planned": "2026-11-25"
+   "release_planned": "2026-11-03 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 32,
@@ -1705,7 +1808,10 @@
     }
    },
    "thumb": "thumbs/F032.webp",
-   "release_planned": "2026-11-26"
+   "release_planned": "2026-11-04 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 33,
@@ -1758,7 +1864,10 @@
     }
    },
    "thumb": "thumbs/F033.webp",
-   "release_planned": "2026-11-27"
+   "release_planned": "2026-11-04 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 34,
@@ -1809,7 +1918,10 @@
     }
    },
    "thumb": "thumbs/F034.webp",
-   "release_planned": "2026-11-28"
+   "release_planned": "2026-11-04 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 35,
@@ -1862,7 +1974,10 @@
     }
    },
    "thumb": "thumbs/F035.webp",
-   "release_planned": "2026-11-29"
+   "release_planned": "2026-11-04 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 36,
@@ -1913,7 +2028,10 @@
     }
    },
    "thumb": "thumbs/F036.webp",
-   "release_planned": "2026-11-30"
+   "release_planned": "2026-11-05 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 37,
@@ -1963,7 +2081,10 @@
     }
    },
    "thumb": "thumbs/F037.webp",
-   "release_planned": "2026-12-01"
+   "release_planned": "2026-11-05 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 38,
@@ -2015,7 +2136,10 @@
     }
    },
    "thumb": "thumbs/F038.webp",
-   "release_planned": "2026-12-02"
+   "release_planned": "2026-11-05 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 39,
@@ -2067,7 +2191,10 @@
     }
    },
    "thumb": "thumbs/F039.webp",
-   "release_planned": "2026-12-03"
+   "release_planned": "2026-11-05 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 40,
@@ -2118,7 +2245,10 @@
     }
    },
    "thumb": "thumbs/F040.webp",
-   "release_planned": "2026-12-04"
+   "release_planned": "2026-11-06 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 41,
@@ -2169,7 +2299,10 @@
     }
    },
    "thumb": "thumbs/F041.webp",
-   "release_planned": "2026-12-05"
+   "release_planned": "2026-11-06 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 42,
@@ -2219,7 +2352,10 @@
     }
    },
    "thumb": "thumbs/F042.webp",
-   "release_planned": "2026-12-06"
+   "release_planned": "2026-11-06 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 43,
@@ -2269,7 +2405,10 @@
     }
    },
    "thumb": "thumbs/F043.webp",
-   "release_planned": "2026-12-07"
+   "release_planned": "2026-11-06 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 44,
@@ -2319,7 +2458,10 @@
     }
    },
    "thumb": "thumbs/F044.webp",
-   "release_planned": "2026-12-08"
+   "release_planned": "2026-11-07 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 45,
@@ -2369,7 +2511,10 @@
     }
    },
    "thumb": "thumbs/F045.webp",
-   "release_planned": "2026-12-09"
+   "release_planned": "2026-11-07 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 46,
@@ -2419,7 +2564,10 @@
     }
    },
    "thumb": "thumbs/F046.webp",
-   "release_planned": "2026-12-10"
+   "release_planned": "2026-11-07 14:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 47,
@@ -2470,7 +2618,10 @@
     }
    },
    "thumb": "thumbs/F047.webp",
-   "release_planned": "2026-12-11"
+   "release_planned": "2026-11-07 20:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 48,
@@ -2517,7 +2668,10 @@
     }
    },
    "thumb": "thumbs/F048.webp",
-   "release_planned": "2026-12-12"
+   "release_planned": "2026-11-08 02:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 49,
@@ -2570,7 +2724,10 @@
     }
    },
    "thumb": "thumbs/F049.webp",
-   "release_planned": "2026-12-13"
+   "release_planned": "2026-11-08 08:00 UTC",
+   "spoken_language": "cy",
+   "subtitles": "en/es (cy for English speech)",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 50,
@@ -2621,7 +2778,10 @@
     }
    },
    "thumb": "thumbs/F050.webp",
-   "release_planned": "2026-12-14"
+   "release_planned": "2026-11-08 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 51,
@@ -2675,7 +2835,10 @@
     }
    },
    "thumb": "thumbs/F051.webp",
-   "release_planned": "2026-12-15"
+   "release_planned": "2026-11-08 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 52,
@@ -2725,7 +2888,10 @@
     }
    },
    "thumb": "thumbs/F052.webp",
-   "release_planned": "2026-12-16"
+   "release_planned": "2026-11-09 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 53,
@@ -2777,7 +2943,10 @@
     }
    },
    "thumb": "thumbs/F053.webp",
-   "release_planned": "2026-12-17"
+   "release_planned": "2026-11-09 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 54,
@@ -2828,7 +2997,10 @@
     }
    },
    "thumb": "thumbs/F054.webp",
-   "release_planned": "2026-12-18"
+   "release_planned": "2026-11-09 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 55,
@@ -2858,7 +3030,7 @@
    ],
    "parts": [],
    "title": "A Photograph From The Kitchen",
-   "logline": "In the records office, Nia and the Grandson find a family photograph of Branwen Buckler, pregnant in the farmhouse kitchen, filed beside BP's 1975 conveyance of the land.",
+   "logline": "In the records office, Nia and the Grandson find a family photograph from the farmhouse kitchen, filed beside BP's 1975 conveyance; the family member in it is not named or shown.",
    "setting": "s08",
    "cast": [
     "I_NIA=Nia",
@@ -2872,15 +3044,18 @@
    "i18n": {
     "cy": {
      "title": "Llun o'r Gegin",
-     "logline": "Yn y swyddfa gofnodion, mae Nia a'r Ŵyr yn dod o hyd i lun teuluol o Branwen Buckler, yn feichiog yng nghegin y ffermdy, wedi'i ffeilio wrth ymyl trosglwyddiad tir BP o 1975."
+     "logline": "Yn y swyddfa gofnodion, mae Nia a'r Ŵyr yn dod o hyd i lun teuluol o gegin y ffermdy, wedi'i ffeilio wrth ymyl trosglwyddiad BP yn 1975; nid yw aelod y teulu ynddo'n cael ei enwi na'i ddangos."
     },
     "es": {
      "title": "Una Fotografía de la Cocina",
-     "logline": "En la oficina de registros, Nia y el Nieto encuentran una fotografía familiar de Branwen Buckler, embarazada en la cocina de la granja, archivada junto a la cesión de tierras de BP de 1975."
+     "logline": "En la oficina de registros, Nia y el Nieto encuentran una fotografía familiar de la cocina de la granja, archivada junto a la cesión de BP de 1975; el familiar que aparece no se nombra ni se muestra."
     }
    },
    "thumb": "thumbs/F055.webp",
-   "release_planned": "2026-12-19"
+   "release_planned": "2026-11-09 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 56,
@@ -2906,7 +3081,7 @@
    "evidence": [],
    "parts": [],
    "title": "Digging Beside The Church",
-   "logline": "South of St Dochdwy's church, archaeologists uncover an Iron Age roundhouse and a Roman villa; Gwen tells Dai that Cadw has now listed Barons Court at Cogan Pill.",
+   "logline": "South of St Dochdwy's church, archaeologists uncover a possible Iron Age roundhouse and Roman-period remains; Gwen tells Dai that Cadw has now listed Barons Court at Cogan Pill.",
    "setting": "s03",
    "cast": [
     "F_GWEN=Gwen",
@@ -2920,15 +3095,19 @@
    "i18n": {
     "cy": {
      "title": "Cloddio Wrth Ymyl yr Eglwys",
-     "logline": "I'r de o eglwys San Dochdwy, mae archaeolegwyr yn datgelu tŷ crwn o'r Oes Haearn a fila Rufeinig; mae Gwen yn dweud wrth Dai bod Cadw bellach wedi rhestru Barons Court yn Cogan Pill."
+     "logline": "I'r de o eglwys San Dochdwy, mae archaeolegwyr yn datgelu tŷ crwn o'r Oes Haearn a olion o’r cyfnod Rhufeinig; mae Gwen yn dweud wrth Dai bod Cadw bellach wedi rhestru Barons Court yn Cogan Pill."
     },
     "es": {
      "title": "Excavando Junto a la Iglesia",
-     "logline": "Al sur de la iglesia de San Dochdwy, los arqueólogos descubren una casa redonda de la Edad del Hierro y una villa romana; Gwen le dice a Dai que Cadw ha catalogado ahora Barons Court en Cogan Pill."
+     "logline": "Al sur de la iglesia de San Dochdwy, los arqueólogos descubren una posible casa redonda de la Edad del Hierro y restos de época romana; Gwen le dice a Dai que Cadw ha catalogado ahora Barons Court en Cogan Pill."
     }
    },
    "thumb": "thumbs/F056.webp",
-   "release_planned": "2026-12-20"
+   "release_planned": "2026-11-10 02:00 UTC",
+   "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 57,
@@ -2960,7 +3139,7 @@
    ],
    "parts": [],
    "title": "Rowlands Criticises The Pension Fund",
-   "logline": "In the taproom, Gwen reads the Neath Guardian's report on the Roman villa dig; Dai repeats Hansard's account of Ted Rowlands MP's words against Western Ground Rents and BP.",
+   "logline": "In the taproom, Gwen reads the Neath Guardian's report on the Roman-period dig; Dai repeats Hansard's account of Ted Rowlands MP's words against Western Ground Rents and BP.",
    "setting": "s05",
    "cast": [
     "F_GWEN=Gwen",
@@ -2974,15 +3153,19 @@
    "i18n": {
     "cy": {
      "title": "Rowlands yn Beirniadu'r Gronfa Bensiwn",
-     "logline": "Yn y dafarn, mae Gwen yn darllen adroddiad y Neath Guardian ar y gloddfa fila Rufeinig; mae Dai yn ailadrodd cofnod Hansard o eiriau Ted Rowlands AS yn erbyn Western Ground Rents a BP."
+     "logline": "Yn y dafarn, mae Gwen yn darllen adroddiad y Neath Guardian ar y gloddfa olion o’r cyfnod Rhufeinig; mae Dai yn ailadrodd cofnod Hansard o eiriau Ted Rowlands AS yn erbyn Western Ground Rents a BP."
     },
     "es": {
      "title": "Rowlands Critica al Fondo de Pensiones",
-     "logline": "En la taberna, Gwen lee el informe del Neath Guardian sobre la excavación de la villa romana; Dai repite el relato de Hansard de las palabras del diputado Ted Rowlands contra Western Ground Rents y BP."
+     "logline": "En la taberna, Gwen lee el informe del Neath Guardian sobre la excavación de época romana; Dai repite el relato de Hansard de las palabras del diputado Ted Rowlands contra Western Ground Rents y BP."
     }
    },
    "thumb": "thumbs/F057.webp",
-   "release_planned": "2026-12-21"
+   "release_planned": "2026-11-10 08:00 UTC",
+   "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 58,
@@ -3034,7 +3217,10 @@
     }
    },
    "thumb": "thumbs/F058.webp",
-   "release_planned": "2026-12-22"
+   "release_planned": "2026-11-10 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 59,
@@ -3090,7 +3276,10 @@
     }
    },
    "thumb": "thumbs/F059.webp",
-   "release_planned": "2026-12-23"
+   "release_planned": "2026-11-10 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 60,
@@ -3146,7 +3335,10 @@
     }
    },
    "thumb": "thumbs/F060.webp",
-   "release_planned": "2026-12-24"
+   "release_planned": "2026-11-11 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 61,
@@ -3200,7 +3392,10 @@
     }
    },
    "thumb": "thumbs/F061.webp",
-   "release_planned": "2026-12-25"
+   "release_planned": "2026-11-11 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 62,
@@ -3255,7 +3450,10 @@
     }
    },
    "thumb": "thumbs/F062.webp",
-   "release_planned": "2026-12-26"
+   "release_planned": "2026-11-11 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 63,
@@ -3308,7 +3506,10 @@
     }
    },
    "thumb": "thumbs/F063.webp",
-   "release_planned": "2026-12-27"
+   "release_planned": "2026-11-11 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 64,
@@ -3359,7 +3560,10 @@
     }
    },
    "thumb": "thumbs/F064.webp",
-   "release_planned": "2026-12-28"
+   "release_planned": "2026-11-12 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 65,
@@ -3411,7 +3615,10 @@
     }
    },
    "thumb": "thumbs/F065.webp",
-   "release_planned": "2026-12-29"
+   "release_planned": "2026-11-12 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 66,
@@ -3463,7 +3670,10 @@
     }
    },
    "thumb": "thumbs/F066.webp",
-   "release_planned": "2026-12-30"
+   "release_planned": "2026-11-12 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 67,
@@ -3517,7 +3727,10 @@
     }
    },
    "thumb": "thumbs/F067.webp",
-   "release_planned": "2026-12-31"
+   "release_planned": "2026-11-12 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 68,
@@ -3571,7 +3784,10 @@
     }
    },
    "thumb": "thumbs/F068.webp",
-   "release_planned": "2027-01-01"
+   "release_planned": "2026-11-13 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 69,
@@ -3623,7 +3839,10 @@
     }
    },
    "thumb": "thumbs/F069.webp",
-   "release_planned": "2027-01-02"
+   "release_planned": "2026-11-13 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 70,
@@ -3673,7 +3892,10 @@
     }
    },
    "thumb": "thumbs/F070.webp",
-   "release_planned": "2027-01-03"
+   "release_planned": "2026-11-13 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 71,
@@ -3732,7 +3954,10 @@
     }
    },
    "thumb": "thumbs/F071.webp",
-   "release_planned": "2027-01-04"
+   "release_planned": "2026-11-13 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 72,
@@ -3785,7 +4010,10 @@
     }
    },
    "thumb": "thumbs/F072.webp",
-   "release_planned": "2027-01-05"
+   "release_planned": "2026-11-14 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 73,
@@ -3813,7 +4041,7 @@
    ],
    "parts": [],
    "title": "Chainsaw Standoff at the Farm",
-   "logline": "Billy Buckler blocks the drive with a tractor and holds bailiffs off with a chainsaw for four hours; the bailiffs withdraw as the Echo reports the family's background, in the yard.",
+   "logline": "Five bailiffs and about fifteen police arrive; Billy Buckler blocks the drive with a tractor and holds the bailiffs off with a chainsaw for four hours until they withdraw, as the Echo reports the family's background, in the yard.",
    "setting": "s01",
    "cast": [
     "D_BILLY=William (Billy) Buckler",
@@ -3828,15 +4056,19 @@
    "i18n": {
     "cy": {
      "title": "Wynebu â Llif Gadwyn ar y Fferm",
-     "logline": "Mae Billy Buckler yn blocio'r dreif â thractor ac yn cadw'r beilïaid draw â llif gadwyn am bedair awr; mae'r beilïaid yn tynnu'n ôl wrth i'r Echo adrodd ar gefndir y teulu, yn y buarth."
+     "logline": "Mae pump o feilïaid a thua pymtheg o heddlu'n cyrraedd; mae Billy Buckler yn cau'r dreif â thractor ac yn cadw'r beilïaid draw â llif gadwyn am bedair awr nes iddyn nhw dynnu'n ôl, wrth i'r Echo adrodd cefndir y teulu, yn y buarth."
     },
     "es": {
      "title": "Enfrentamiento con Motosierra en la Granja",
-     "logline": "Billy Buckler bloquea el camino con un tractor y mantiene a raya a los alguaciles con una motosierra durante cuatro horas; los alguaciles se retiran mientras el Echo informa sobre los antecedentes de la familia, en el patio."
+     "logline": "Llegan cinco alguaciles y unos quince policías; Billy Buckler bloquea el camino con un tractor y mantiene a raya a los alguaciles con una motosierra durante cuatro horas hasta que se retiran, mientras el Echo informa del trasfondo de la familia, en el patio."
     }
    },
    "thumb": "thumbs/F073.webp",
-   "release_planned": "2027-01-06"
+   "release_planned": "2026-11-14 08:00 UTC",
+   "source_note": "Numbers and four hours: family timeline scene ghf-19880429-1/-2 (bpvsbuckler llms.txt), press EV-0088 (Echo 29 Apr 1988) and EV-0089 ('Chainsaw farmer vows to fight on').",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 74,
@@ -3891,7 +4123,10 @@
     }
    },
    "thumb": "thumbs/F074.webp",
-   "release_planned": "2027-01-07"
+   "release_planned": "2026-11-14 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 75,
@@ -3944,7 +4179,10 @@
     }
    },
    "thumb": "thumbs/F075.webp",
-   "release_planned": "2027-01-08"
+   "release_planned": "2026-11-14 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 76,
@@ -3997,7 +4235,10 @@
     }
    },
    "thumb": "thumbs/F076.webp",
-   "release_planned": "2027-01-09"
+   "release_planned": "2026-11-15 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 77,
@@ -4051,7 +4292,10 @@
     }
    },
    "thumb": "thumbs/F077.webp",
-   "release_planned": "2027-01-10"
+   "release_planned": "2026-11-15 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 78,
@@ -4099,7 +4343,10 @@
     }
    },
    "thumb": "thumbs/F078.webp",
-   "release_planned": "2027-01-11"
+   "release_planned": "2026-11-15 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 79,
@@ -4158,7 +4405,10 @@
     }
    },
    "thumb": "thumbs/F079.webp",
-   "release_planned": "2027-01-12"
+   "release_planned": "2026-11-15 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 80,
@@ -4211,7 +4461,10 @@
     }
    },
    "thumb": "thumbs/F080.webp",
-   "release_planned": "2027-01-13"
+   "release_planned": "2026-11-16 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 81,
@@ -4261,7 +4514,10 @@
     }
    },
    "thumb": "thumbs/F081.webp",
-   "release_planned": "2027-01-14"
+   "release_planned": "2026-11-16 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 82,
@@ -4314,7 +4570,11 @@
     }
    },
    "thumb": "thumbs/F082.webp",
-   "release_planned": "2027-01-15"
+   "release_planned": "2026-11-16 14:00 UTC",
+   "date_note": "Demolition 6 Dec 1988 (RCAHMW NA/GL/88/49, EV-0629; Western Mail/Echo 6 Dec 1988; local history book pp.64-65). Open: RCAHMW NA/GL/89/208 is typed 'House demolished Nov. 1988' - recorded as an open question, not a finding.",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 83,
@@ -4367,7 +4627,10 @@
     }
    },
    "thumb": "thumbs/F083.webp",
-   "release_planned": "2027-01-16"
+   "release_planned": "2026-11-16 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 84,
@@ -4419,7 +4682,10 @@
     }
    },
    "thumb": "thumbs/F084.webp",
-   "release_planned": "2027-01-17"
+   "release_planned": "2026-11-17 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 85,
@@ -4467,7 +4733,10 @@
     }
    },
    "thumb": "thumbs/F085.webp",
-   "release_planned": "2027-01-18"
+   "release_planned": "2026-11-17 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 86,
@@ -4522,7 +4791,10 @@
     }
    },
    "thumb": "thumbs/F086.webp",
-   "release_planned": "2027-01-19"
+   "release_planned": "2026-11-17 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 87,
@@ -4576,7 +4848,10 @@
     }
    },
    "thumb": "thumbs/F087.webp",
-   "release_planned": "2027-01-20"
+   "release_planned": "2026-11-17 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 88,
@@ -4630,7 +4905,10 @@
     }
    },
    "thumb": "thumbs/F088.webp",
-   "release_planned": "2027-01-21"
+   "release_planned": "2026-11-18 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 89,
@@ -4682,7 +4960,10 @@
     }
    },
    "thumb": "thumbs/F089.webp",
-   "release_planned": "2027-01-22"
+   "release_planned": "2026-11-18 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 90,
@@ -4735,7 +5016,10 @@
     }
    },
    "thumb": "thumbs/F090.webp",
-   "release_planned": "2027-01-23"
+   "release_planned": "2026-11-18 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 91,
@@ -4784,7 +5068,10 @@
     }
    },
    "thumb": "thumbs/F091.webp",
-   "release_planned": "2027-01-24"
+   "release_planned": "2026-11-18 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 92,
@@ -4840,7 +5127,10 @@
     }
    },
    "thumb": "thumbs/F092.webp",
-   "release_planned": "2027-01-25"
+   "release_planned": "2026-11-19 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 93,
@@ -4889,7 +5179,10 @@
     }
    },
    "thumb": "thumbs/F093.webp",
-   "release_planned": "2027-01-26"
+   "release_planned": "2026-11-19 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 94,
@@ -4944,7 +5237,10 @@
     }
    },
    "thumb": "thumbs/F094.webp",
-   "release_planned": "2027-01-27"
+   "release_planned": "2026-11-19 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 95,
@@ -4997,7 +5293,10 @@
     }
    },
    "thumb": "thumbs/F095.webp",
-   "release_planned": "2027-01-28"
+   "release_planned": "2026-11-19 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 96,
@@ -5050,7 +5349,10 @@
     }
    },
    "thumb": "thumbs/F096.webp",
-   "release_planned": "2027-01-29"
+   "release_planned": "2026-11-20 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 97,
@@ -5086,7 +5388,7 @@
    ],
    "parts": [],
    "title": "Groundworks Begin Too Soon",
-   "logline": "On the village green, Gwen turns the pages of the new Glamorgan Village Book while Dai notes the Echo's Roman villa feature and the diggers already moving earth.",
+   "logline": "On the village green, Gwen turns the pages of the new Glamorgan Village Book while Dai notes the Echo's feature on the Roman-period dig and the diggers already moving earth.",
    "setting": "s04",
    "cast": [
     "F_GWEN=Gwen",
@@ -5100,15 +5402,19 @@
    "i18n": {
     "cy": {
      "title": "Gwaith Tir yn Dechrau'n Rhy Fuan",
-     "logline": "Ar faes glas y pentref, mae Gwen yn troi tudalennau'r Glamorgan Village Book newydd wrth i Dai nodi erthygl yr Echo am fila Rufeinig a'r peiriannau turio eisoes yn symud pridd."
+     "logline": "Ar faes glas y pentref, mae Gwen yn troi tudalennau'r Glamorgan Village Book newydd wrth i Dai nodi erthygl yr Echo am olion o’r cyfnod Rhufeinig a'r peiriannau turio eisoes yn symud pridd."
     },
     "es": {
      "title": "Las Obras de Movimiento de Tierra Comienzan Demasiado Pronto",
-     "logline": "En la zona verde del pueblo, Gwen pasa las páginas del nuevo Glamorgan Village Book mientras Dai señala el reportaje del Echo sobre la villa romana y las excavadoras ya removiendo tierra."
+     "logline": "En la zona verde del pueblo, Gwen pasa las páginas del nuevo Glamorgan Village Book mientras Dai señala el reportaje del Echo sobre la excavación de época romana y las excavadoras ya removiendo tierra."
     }
    },
    "thumb": "thumbs/F097.webp",
-   "release_planned": "2027-01-30"
+   "release_planned": "2026-11-20 08:00 UTC",
+   "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 98,
@@ -5157,7 +5463,10 @@
     }
    },
    "thumb": "thumbs/F098.webp",
-   "release_planned": "2027-01-31"
+   "release_planned": "2026-11-20 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 99,
@@ -5211,7 +5520,10 @@
     }
    },
    "thumb": "thumbs/F099.webp",
-   "release_planned": "2027-02-01"
+   "release_planned": "2026-11-20 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 100,
@@ -5259,7 +5571,10 @@
     }
    },
    "thumb": "thumbs/F100.webp",
-   "release_planned": "2027-02-02"
+   "release_planned": "2026-11-21 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 101,
@@ -5310,7 +5625,10 @@
     }
    },
    "thumb": "thumbs/F101.webp",
-   "release_planned": "2027-02-03"
+   "release_planned": "2026-11-21 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 102,
@@ -5361,7 +5679,10 @@
     }
    },
    "thumb": "thumbs/F102.webp",
-   "release_planned": "2027-02-04"
+   "release_planned": "2026-11-21 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 103,
@@ -5410,7 +5731,10 @@
     }
    },
    "thumb": "thumbs/F103.webp",
-   "release_planned": "2027-02-05"
+   "release_planned": "2026-11-21 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 104,
@@ -5458,7 +5782,10 @@
     }
    },
    "thumb": "thumbs/F104.webp",
-   "release_planned": "2027-02-06"
+   "release_planned": "2026-11-22 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 105,
@@ -5505,7 +5832,10 @@
     }
    },
    "thumb": "thumbs/F105.webp",
-   "release_planned": "2027-02-07"
+   "release_planned": "2026-11-22 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 106,
@@ -5559,7 +5889,10 @@
     }
    },
    "thumb": "thumbs/F106.webp",
-   "release_planned": "2027-02-08"
+   "release_planned": "2026-11-22 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 107,
@@ -5611,7 +5944,10 @@
     }
    },
    "thumb": "thumbs/F107.webp",
-   "release_planned": "2027-02-09"
+   "release_planned": "2026-11-22 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 108,
@@ -5661,7 +5997,10 @@
     }
    },
    "thumb": "thumbs/F108.webp",
-   "release_planned": "2027-02-10"
+   "release_planned": "2026-11-23 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 109,
@@ -5712,7 +6051,10 @@
     }
    },
    "thumb": "thumbs/F109.webp",
-   "release_planned": "2027-02-11"
+   "release_planned": "2026-11-23 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 110,
@@ -5763,7 +6105,10 @@
     }
    },
    "thumb": "thumbs/F110.webp",
-   "release_planned": "2027-02-12"
+   "release_planned": "2026-11-23 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 111,
@@ -5811,7 +6156,10 @@
     }
    },
    "thumb": "thumbs/F111.webp",
-   "release_planned": "2027-02-13"
+   "release_planned": "2026-11-23 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 112,
@@ -5859,7 +6207,10 @@
     }
    },
    "thumb": "thumbs/F112.webp",
-   "release_planned": "2027-02-14"
+   "release_planned": "2026-11-24 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 113,
@@ -5910,7 +6261,10 @@
     }
    },
    "thumb": "thumbs/F113.webp",
-   "release_planned": "2027-02-15"
+   "release_planned": "2026-11-24 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 114,
@@ -5955,7 +6309,10 @@
     }
    },
    "thumb": "thumbs/F114.webp",
-   "release_planned": "2027-02-16"
+   "release_planned": "2026-11-24 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 115,
@@ -6010,7 +6367,10 @@
     }
    },
    "thumb": "thumbs/F115.webp",
-   "release_planned": "2027-02-17"
+   "release_planned": "2026-11-24 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 116,
@@ -6063,7 +6423,10 @@
     }
    },
    "thumb": "thumbs/F116.webp",
-   "release_planned": "2027-02-18"
+   "release_planned": "2026-11-25 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 117,
@@ -6114,7 +6477,10 @@
     }
    },
    "thumb": "thumbs/F117.webp",
-   "release_planned": "2027-02-19"
+   "release_planned": "2026-11-25 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 118,
@@ -6167,7 +6533,10 @@
     }
    },
    "thumb": "thumbs/F118.webp",
-   "release_planned": "2027-02-20"
+   "release_planned": "2026-11-25 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 119,
@@ -6222,7 +6591,10 @@
     }
    },
    "thumb": "thumbs/F119.webp",
-   "release_planned": "2027-02-21"
+   "release_planned": "2026-11-25 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 120,
@@ -6275,7 +6647,10 @@
     }
    },
    "thumb": "thumbs/F120.webp",
-   "release_planned": "2027-02-22"
+   "release_planned": "2026-11-26 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 121,
@@ -6332,7 +6707,10 @@
     }
    },
    "thumb": "thumbs/F121.webp",
-   "release_planned": "2027-02-23"
+   "release_planned": "2026-11-26 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 122,
@@ -6388,7 +6766,10 @@
     }
    },
    "thumb": "thumbs/F122.webp",
-   "release_planned": "2027-02-24"
+   "release_planned": "2026-11-26 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 123,
@@ -6445,7 +6826,10 @@
     }
    },
    "thumb": "thumbs/F123.webp",
-   "release_planned": "2027-02-25"
+   "release_planned": "2026-11-26 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 124,
@@ -6501,7 +6885,10 @@
     }
    },
    "thumb": "thumbs/F124.webp",
-   "release_planned": "2027-02-26"
+   "release_planned": "2026-11-27 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 125,
@@ -6552,7 +6939,10 @@
     }
    },
    "thumb": "thumbs/F125.webp",
-   "release_planned": "2027-02-27"
+   "release_planned": "2026-11-27 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 126,
@@ -6605,7 +6995,10 @@
     }
    },
    "thumb": "thumbs/F126.webp",
-   "release_planned": "2027-02-28"
+   "release_planned": "2026-11-27 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 127,
@@ -6661,7 +7054,10 @@
     }
    },
    "thumb": "thumbs/F127.webp",
-   "release_planned": "2027-03-01"
+   "release_planned": "2026-11-27 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 128,
@@ -6709,7 +7105,10 @@
     }
    },
    "thumb": "thumbs/F128.webp",
-   "release_planned": "2027-03-02"
+   "release_planned": "2026-11-28 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 129,
@@ -6748,7 +7147,7 @@
    ],
    "parts": [],
    "title": "The Wiki Goes Live",
-   "logline": "Branwen Buckler's family account of the 1988 removal joins new Land Registry title plans and registers as the research wiki launches, archive desk, Llandough.",
+   "logline": "A family member's account of the 1988 removal joins new Land Registry title plans and registers as the research wiki launches, archive desk, Llandough.",
    "setting": "s08",
    "cast": [
     "D_BILLY=the Grandson",
@@ -6762,15 +7161,18 @@
    "i18n": {
     "cy": {
      "title": "Y Wici'n Mynd yn Fyw",
-     "logline": "Mae hanes teuluol Branwen Buckler o'r symud yn 1988 yn ymuno â chynlluniau teitl a chofrestrau newydd y Gofrestrfa Tir wrth i'r wici ymchwil lansio, desg yr archif, Llandochau."
+     "logline": "Mae hanes aelod o’r teulu o'r symud yn 1988 yn ymuno â chynlluniau teitl a chofrestrau newydd y Gofrestrfa Tir wrth i'r wici ymchwil lansio, desg yr archif, Llandochau."
     },
     "es": {
      "title": "La Wiki en Marcha",
-     "logline": "El relato familiar de Branwen Buckler sobre la retirada de 1988 se suma a los nuevos planos y registros del Registro de la Propiedad al lanzarse la wiki de investigación, mostrador del archivo, Llandough."
+     "logline": "El relato de un familiar sobre la retirada de 1988 se suma a los nuevos planos y registros del Registro de la Propiedad al lanzarse la wiki de investigación, mostrador del archivo, Llandough."
     }
    },
    "thumb": "thumbs/F129.webp",
-   "release_planned": "2027-03-03"
+   "release_planned": "2026-11-28 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 130,
@@ -6827,7 +7229,10 @@
     }
    },
    "thumb": "thumbs/F130.webp",
-   "release_planned": "2027-03-04"
+   "release_planned": "2026-11-28 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 131,
@@ -6881,7 +7286,10 @@
     }
    },
    "thumb": "thumbs/F131.webp",
-   "release_planned": "2027-03-05"
+   "release_planned": "2026-11-28 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 132,
@@ -6937,7 +7345,10 @@
     }
    },
    "thumb": "thumbs/F132.webp",
-   "release_planned": "2027-03-06"
+   "release_planned": "2026-11-29 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 133,
@@ -6992,7 +7403,10 @@
     }
    },
    "thumb": "thumbs/F133.webp",
-   "release_planned": "2027-03-07"
+   "release_planned": "2026-11-29 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 134,
@@ -7045,7 +7459,10 @@
     }
    },
    "thumb": "thumbs/F134.webp",
-   "release_planned": "2027-03-08"
+   "release_planned": "2026-11-29 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 135,
@@ -7099,7 +7516,10 @@
     }
    },
    "thumb": "thumbs/F135.webp",
-   "release_planned": "2027-03-09"
+   "release_planned": "2026-11-29 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 136,
@@ -7158,7 +7578,10 @@
     }
    },
    "thumb": "thumbs/F136.webp",
-   "release_planned": "2027-03-10"
+   "release_planned": "2026-11-30 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 137,
@@ -7218,7 +7641,10 @@
     }
    },
    "thumb": "thumbs/F137.webp",
-   "release_planned": "2027-03-11"
+   "release_planned": "2026-11-30 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 138,
@@ -7275,7 +7701,10 @@
     }
    },
    "thumb": "thumbs/F138.webp",
-   "release_planned": "2027-03-12"
+   "release_planned": "2026-11-30 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 139,
@@ -7325,7 +7754,10 @@
     }
    },
    "thumb": "thumbs/F139.webp",
-   "release_planned": "2027-03-13"
+   "release_planned": "2026-11-30 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 140,
@@ -7381,7 +7813,10 @@
     }
    },
    "thumb": "thumbs/F140.webp",
-   "release_planned": "2027-03-14"
+   "release_planned": "2026-12-01 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 141,
@@ -7433,7 +7868,10 @@
     }
    },
    "thumb": "thumbs/F141.webp",
-   "release_planned": "2027-03-15"
+   "release_planned": "2026-12-01 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 142,
@@ -7483,7 +7921,10 @@
     }
    },
    "thumb": "thumbs/F142.webp",
-   "release_planned": "2027-03-16"
+   "release_planned": "2026-12-01 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 143,
@@ -7535,7 +7976,10 @@
     }
    },
    "thumb": "thumbs/F143.webp",
-   "release_planned": "2027-03-17"
+   "release_planned": "2026-12-01 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 144,
@@ -7594,7 +8038,10 @@
     }
    },
    "thumb": "thumbs/F144.webp",
-   "release_planned": "2027-03-18"
+   "release_planned": "2026-12-02 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 145,
@@ -7651,7 +8098,10 @@
     }
    },
    "thumb": "thumbs/F145.webp",
-   "release_planned": "2027-03-19"
+   "release_planned": "2026-12-02 08:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 146,
@@ -7710,7 +8160,10 @@
     }
    },
    "thumb": "thumbs/F146.webp",
-   "release_planned": "2027-03-20"
+   "release_planned": "2026-12-02 14:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 147,
@@ -7763,7 +8216,10 @@
     }
    },
    "thumb": "thumbs/F147.webp",
-   "release_planned": "2027-03-21"
+   "release_planned": "2026-12-02 20:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   },
   {
    "n": 148,
@@ -7813,11 +8269,15 @@
     }
    },
    "thumb": "thumbs/F148.webp",
-   "release_planned": "2027-03-22"
+   "release_planned": "2026-12-03 02:00 UTC",
+   "spoken_language": "en",
+   "subtitles": "cy/es",
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
   }
  ],
  "thumbs_note": "thumbs/Fnnn.webp in the storage repo: one AI-generated artist's impression per scene (1024x576 webp, <=150 KB), served through jsDelivr pinned to thumbs_ref.",
- "release_rule": "One scene a day at 06:00 Europe/London in frame order; release_date = actual (released), release_planned = planned (not yet released).",
+ "release_rule": "One scene every 6 hours from 27 Oct 2026 20:00 UTC (owner 27 Oct 11:50) in frame order, when the render budget allows; release_date = actual, release_planned = planned.",
  "thumbs_ref": "dbd6819040df8f87efb2d59a204702dd3c5ae834",
- "chronology_checked": "2026-10-27T06:03Z (755 events, no changes)"
+ "chronology_checked": "2026-10-27T06:03Z (755 events, no changes)",
+ "changelog_1_2_0": "27 Oct 2026 script review (SCRIPT-REVIEW-2026-10-27.md): F003 retitled/logline (no villa); F004 retitled/logline; F006 retitled/logline (chronology rule); F055 family member name removed; F129 family member name removed; F056 villa wording neutral; F057 villa wording neutral; F097 villa wording neutral; F073 five bailiffs / about fifteen police added; F082 demolition-date open note; sets s10/s13 rewritten; spoken_language/subtitles/accent on all 148 frames"
 }
