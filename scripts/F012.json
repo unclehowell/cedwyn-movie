@@ -4,13 +4,35 @@
  "cast": {
   "E_AGENT": "the Bute estate office clerk, Cardiff, 1877 (ordinary office business with held and catalogued records only)",
   "I_NIA": "Nia, the archivist (2020s frame)",
-  "D_BILLY": "the Grandson (2020s frame; replaces A_MARY: every 1877 Llandough fact here comes only from Mary (Nancy) Williams's c.1974 statement, so it is read as a document. B_JOHN is dropped because no record places John Williams of Great House at these 1877 events.)"
+  "D_BILLY": "the Grandson (2020s frame; replaces A_MARY: every 1877 Llandough fact here comes only from Mary (Nancy) Williams's c.1974 statement, so it is read as a document. B_JOHN is dropped because no record places John Williams of Great House at these 1877 events.); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member"
  },
  "setting": "s08",
  "target_seconds": 120,
  "shots": [
   {
    "shot": 1,
+   "set": "s08",
+   "direction": "HOOK (0-5 s): talking close-up of Nia, a typed statement in front of her.",
+   "image_prompt": "",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Eighteen seventy-seven: a notice to quit, a sale, a lease. How much of it can we find on paper?",
+     "cy": "Un fil wyth cant saith deg saith: rhybudd i adael, gwerthiant, les. Faint ohono allwn ni ei ganfod ar bapur?",
+     "es": "Mil ochocientos setenta y siete: un aviso de desalojo, una venta, un arrendamiento. ¿Cuánto podemos encontrar en papel?",
+     "cite": [
+      "CH-0024",
+      "CH-0025"
+     ],
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
+    }
+   ],
+   "lip_sync": "en"
+  },
+  {
+   "shot": 2,
    "set": "s06",
    "direction": "Slow push-in on the clerk at a high desk in the gaslit Bute estate office as he blots a folded parchment and ties it with tape.",
    "image_prompt": "Photoreal 1877 Cardiff estate office interior, gaslight, tall sash window with a grey November sky, pigeonholes stacked with tied deed bundles, a pale clean-shaven man in his 50s with thin-rimmed spectacles and a dark frock coat blotting a folded parchment lease at a sloped desk, leather document case beside him, no legible text, no heraldry",
@@ -24,12 +46,14 @@
       "EV-0213"
      ],
      "cy": "Prydles gyfatebol, y chweched o Dachwedd, deunaw saith deg saith. Ymddiriedolwyr Bute i John Williams, adeiladydd, o System Street, Y Rhath. Llain yn Clyde Street. I mewn i flwch Y Rhath.",
-     "es": "Contrato de arrendamiento duplicado, seis de noviembre de mil ochocientos setenta y siete. Los Fideicomisarios de Bute a John Williams, constructor, de System Street, Roath. Un lote en Clyde Street. A la caja de Roath."
+     "es": "Contrato de arrendamiento duplicado, seis de noviembre de mil ochocientos setenta y siete. Los Fideicomisarios de Bute a John Williams, constructor, de System Street, Roath. Un lote en Clyde Street. A la caja de Roath.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
    ]
   },
   {
-   "shot": 2,
+   "shot": 3,
    "set": "s06",
    "direction": "Close-up of the clerk turning to a large ruled ledger and dipping his pen.",
    "image_prompt": "Photoreal close-up, same 1877 estate office and same pale spectacled man in a dark frock coat, opening a large ruled account ledger by gaslight, steel dip pen and inkwell, columns blurred and unreadable, no heraldry",
@@ -42,12 +66,15 @@
       "EV-0007"
      ],
      "cy": "Nawr crynodeb derbynion a thaliadau'r Ymddiriedolwyr am y flwyddyn. Pob punt i mewn, pob punt allan, wedi'i ysgrifennu'n daclus.",
-     "es": "Ahora el resumen de ingresos y pagos del año de los Fideicomisarios. Cada libra que entra, cada libra que sale, en limpio."
+     "es": "Ahora el resumen de ingresos y pagos del año de los Fideicomisarios. Cada libra que entra, cada libra que sale, en limpio.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 3,
+   "shot": 4,
    "set": "s01",
    "direction": "Static wide of Great House Farm in late autumn, mist on the yard and quarry scars on the hill beyond; there are no people.",
    "image_prompt": "Photoreal 1877 Welsh farmhouse exterior, Great House Farm / Ty Mawr, Llandough, whitewashed stone house with a slate roof, muddy cobbled yard, bare trees, low November mist, lime-quarry faces on the hillside behind, no people, no text, no heraldry",
@@ -55,7 +82,7 @@
    "lines": []
   },
   {
-   "shot": 4,
+   "shot": 5,
    "set": "s08",
    "direction": "Modern archive reading room: the Grandson sets a typed statement on the foam cradle in front of Nia.",
    "image_prompt": "Photoreal modern records office reading room, a man in his 40s with dark curly hair, short beard and blue eyes in a waxed jacket placing a typed 1970s statement on a grey foam book cradle, beside a woman in her 30s with a black bob, round tortoiseshell glasses, mustard cardigan and white cotton gloves, laptop and folders, soft daylight, no legible text",
@@ -68,7 +95,9 @@
       "CH-0024"
      ],
      "cy": "Datganiad Mary (Nancy) Williams, wedi'i deipio tua un naw saith pedwar. Mae hi'n ysgrifennu bod Bute wedi rhoi rhybudd i adael ym mil wyth saith saith.",
-     "es": "La declaración de Mary (Nancy) Williams, escrita a máquina alrededor de mil novecientos setenta y cuatro. En ella escribe que en mil ochocientos setenta y siete Bute notificó el desalojo."
+     "es": "La declaración de Mary (Nancy) Williams, escrita a máquina alrededor de mil novecientos setenta y cuatro. En ella escribe que en mil ochocientos setenta y siete Bute notificó el desalojo.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -77,16 +106,20 @@
       "CH-0024"
      ],
      "cy": "Daw hynny atom drwy ei datganiad hi, fel mae Prif Linell Amser y Legal Wiki yn ei gofnodi. Dydyn ni ddim wedi gweld unrhyw bapur rhybudd ei hun.",
-     "es": "Eso nos llega a través de su declaración, tal como lo registra la Línea Maestra del Legal Wiki. No hemos visto el documento de notificación en sí."
+     "es": "Eso nos llega a través de su declaración, tal como lo registra la Línea Maestra del Legal Wiki. No hemos visto el documento de notificación en sí.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 5,
+   "shot": 6,
    "set": "s08",
-   "direction": "Document insert: gloved fingers steady the typed page.",
+   "direction": "Document insert: gloved fingers steady the typed page. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Prop insert: Mary (Nancy) Williams's typed statement, c.1974, on a foam cradle under a weighted snake, white cotton-gloved fingers at the margin, text deliberately out of focus",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "D_BILLY",
@@ -95,16 +128,19 @@
       "CH-0025"
      ],
      "cy": "Yna gwerthiant. Y ffermdy, yr adeiladau a thua deg erw i Daniel Thomas, gyda thua naw erw yn cael eu cadw gan Bute. Mae'r weithred wreiddiol a'r cynllun ar goll.",
-     "es": "Luego una venta. La casa de la granja, los edificios y unas diez acres a Daniel Thomas, con unas nueve acres conservadas por Bute. Faltan la escritura original y el plano."
+     "es": "Luego una venta. La casa de la granja, los edificios y unas diez acres a Daniel Thomas, con unas nueve acres conservadas por Bute. Faltan la escritura original y el plano.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 6,
+   "shot": 7,
    "set": "s08",
-   "direction": "Document insert: a photographic print of an old estate plan beside a catalogue sheet.",
+   "direction": "Document insert: a photographic print of an old estate plan beside a catalogue sheet. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Prop insert: the family-identified plan image linked to the 1877 Bute and Daniel Thomas & Son agreement (EV-0006), shown as a faded photographic print of a hand-drawn estate plan with hatched parcels, beside a blank catalogue slip, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -113,12 +149,15 @@
       "EV-0006"
      ],
      "cy": "Mae'r catalog yn cysylltu'r ddelwedd cynllun hon, a nodwyd gan y teulu, â chytundeb o fil wyth saith saith rhwng Bute a Daniel Thomas a'i Fab. Does gennym ni mo'r cytundeb. Gwerthiant, neu brydles chwarel ar lain y tŷ? Telerau, statws y cynllun, unrhyw wrthddychweliad, ac a yw'r weithred yn goroesi y tu allan i bapurau'r teulu: popeth yn agored.",
-     "es": "El catálogo vincula esta imagen de plano identificada por la familia con un acuerdo de mil ochocientos setenta y siete entre Bute y Daniel Thomas and Son. No tenemos el acuerdo. ¿Venta, o arrendamiento de cantera sobre la parcela de la casa? Los términos, la validez del plano, cualquier reversión, si la escritura sobrevive fuera de los papeles de familia: todo sigue abierto."
+     "es": "El catálogo vincula esta imagen de plano identificada por la familia con un acuerdo de mil ochocientos setenta y siete entre Bute y Daniel Thomas and Son. No tenemos el acuerdo. ¿Venta, o arrendamiento de cantera sobre la parcela de la casa? Los términos, la validez del plano, cualquier reversión, si la escritura sobrevive fuera de los papeles de familia: todo sigue abierto.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 7,
+   "shot": 8,
    "set": "s08",
    "direction": "Close-up of Nia, tapping a finding-aid entry on the laptop.",
    "image_prompt": "Photoreal close-up, same archivist with black bob, tortoiseshell glasses and mustard cardigan, in the modern reading room, one gloved hand on a laptop, a grey archive box behind her, no legible text",
@@ -131,7 +170,9 @@
       "EV-0007"
      ],
      "cy": "Felly, yr arian. Bute X.6(12), crynodeb yr Ymddiriedolwyr am ddeunaw saith deg saith. Mae'r Dadansoddiad Achos yn ei alw'n brawf penderfynol: mae derbyniad cyfalaf yn golygu gwerthiant, rhent yn unig yn golygu prydles, a gorchymyn llys o bosib.",
-     "es": "Entonces, el dinero. Bute X.6(12), el resumen de los Fideicomisarios para mil ochocientos setenta y siete. El Análisis del Caso lo llama la prueba decisiva: un ingreso de capital significa venta, solo renta significa arrendamiento, y quizás una orden judicial."
+     "es": "Entonces, el dinero. Bute X.6(12), el resumen de los Fideicomisarios para mil ochocientos setenta y siete. El Análisis del Caso lo llama la prueba decisiva: un ingreso de capital significa venta, solo renta significa arrendamiento, y quizás una orden judicial.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "D_BILLY",
@@ -140,7 +181,9 @@
       "EV-0007"
      ],
      "cy": "A oes gennym ni hwnnw?",
-     "es": "¿Y lo tenemos?"
+     "es": "¿Y lo tenemos?",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -149,12 +192,16 @@
       "EV-0007"
      ],
      "cy": "Heb ei gael, heb ei drawsgrifio. Ac ni fyddai llyfr cyfrifon ar ei ben ei hun yn setlo'r natur gyfreithiol na'r maint.",
-     "es": "No obtenido, no transcripto. Y un libro de cuentas por sí solo no resolvería la naturaleza legal ni la extensión."
+     "es": "No obtenido, no transcripto. Y un libro de cuentas por sí solo no resolvería la naturaleza legal ni la extensión.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 8,
+   "shot": 9,
    "set": "s08",
    "direction": "Close-up of the Grandson turning to the last page.",
    "image_prompt": "Photoreal close-up, same man in his 40s with dark curly hair, short beard and waxed jacket, in the modern reading room, turning the last page of a typed statement, no legible text",
@@ -168,16 +215,19 @@
       "EV-0008"
      ],
      "cy": "Yn olaf oll: prydles wedi'i dyddio'r chweched o Dachwedd deunaw saith deg saith, i John Williams.",
-     "es": "Por último: un arrendamiento fechado el seis de noviembre de mil ochocientos setenta y siete, a John Williams."
+     "es": "Por último: un arrendamiento fechado el seis de noviembre de mil ochocientos setenta y siete, a John Williams.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 9,
+   "shot": 10,
    "set": "s08",
-   "direction": "Document insert: a Cardiff lease opened beside its catalogue ticket.",
+   "direction": "Document insert: a Cardiff lease opened beside its catalogue ticket. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Prop insert: Bute lease DBDT/79/1, dated 2 May 1877, for Pembroke Terrace, Cardiff, shown as a folded parchment with a red wax seal and a blank catalogue ticket on a reading-room table, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -186,16 +236,19 @@
       "CH-0026"
      ],
      "cy": "Ni chanfuwyd unrhyw weithred gyfatebol yn Llandochau. Gwiriwyd DBDT/79/1: yr ail o Fai deunaw saith deg saith, Pembroke Terrace, Caerdydd. Trywyddau catalog yn unig yw prydlesi eraill o Gaerdydd â'r un enw.",
-     "es": "No se encontró una escritura de Llandough que coincida. Se revisó DBDT/79/1: dos de mayo de mil ochocientos setenta y siete, Pembroke Terrace, Cardiff. Otros arrendamientos de Cardiff con nombres similares son solo pistas de catálogo."
+     "es": "No se encontró una escritura de Llandough que coincida. Se revisó DBDT/79/1: dos de mayo de mil ochocientos setenta y siete, Pembroke Terrace, Cardiff. Otros arrendamientos de Cardiff con nombres similares son solo pistas de catálogo.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 10,
+   "shot": 11,
    "set": "s08",
-   "direction": "Document insert: a photograph of the Roath counterpart lease, the same parchment seen in shot 1.",
+   "direction": "Document insert: a photograph of the Roath counterpart lease, the same parchment seen in shot 1. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Prop insert: photograph of the Bute Trustees counterpart lease of 6 November 1877 for a plot in Clyde Street, Roath (EV-0213), the same tied parchment as in the 1877 office, now shown as a print on the reading-room table, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "D_BILLY",
@@ -205,7 +258,9 @@
       "EV-0213"
      ],
      "cy": "Mae hon hyd yn oed â'r diwrnod cywir.",
-     "es": "Este incluso tiene la fecha correcta."
+     "es": "Este incluso tiene la fecha correcta.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -215,12 +270,16 @@
       "EV-0213"
      ],
      "cy": "Yr un dyddiad, Ymddiriedolwyr Bute, a John Williams. Ond adeiladydd o System Street, Y Rhath, ar gyfer llain yn Clyde Street. Wedi'i ffotograffu a'i eithrio. Nid y fferm.",
-     "es": "Misma fecha, Fideicomisarios de Bute, un John Williams. Pero un constructor de System Street, Roath, para un lote en Clyde Street. Fotografiado y descartado. No es la granja."
+     "es": "Misma fecha, Fideicomisarios de Bute, un John Williams. Pero un constructor de System Street, Roath, para un lote en Clyde Street. Fotografiado y descartado. No es la granja.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   },
   {
-   "shot": 11,
+   "shot": 12,
    "set": "s08",
    "direction": "Close-up of Nia, closing the folder gently.",
    "image_prompt": "Photoreal close-up, same archivist in her mustard cardigan and tortoiseshell glasses closing a manila folder in the modern reading room, soft window light, no legible text",
@@ -233,16 +292,19 @@
       "EV-0008"
      ],
      "cy": "Felly mae prydles Tachwedd yn aros heb ei lleoli. Hebddi, does dim ffin, dim trosglwyddiad i'r Williamsiaid, dim llwybr at Ystad Cedwyn. Mae'r partïon, yr eiddo, y cynllun, y rhent, y tymor, a'i chysylltiad â chwarelu Thomas i gyd yn anhysbys.",
-     "es": "Así que el arrendamiento de noviembre sigue sin ubicarse. Sin él no hay límite, ni transferencia a los Williams, ni camino hacia un Cedwyn Estate. Las partes, la propiedad, el plano, la renta, el plazo y su vínculo con la cantera de Thomas siguen siendo desconocidos."
+     "es": "Así que el arrendamiento de noviembre sigue sin ubicarse. Sin él no hay límite, ni transferencia a los Williams, ni camino hacia un Cedwyn Estate. Las partes, la propiedad, el plano, la renta, el plazo y su vínculo con la cantera de Thomas siguen siendo desconocidos.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 12,
+   "shot": 13,
    "set": "s01",
-   "direction": "Dusk wide of the farmhouse with the limeworks smoke drifting on the hill as the light fades.",
+   "direction": "Dusk wide of the farmhouse with the limeworks smoke drifting on the hill as the light fades. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal 1877 dusk, the same whitewashed Great House Farm house and cobbled yard as shot 3, one lit window, limekiln smoke drifting over quarry faces on the hill, no people, no text, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "D_BILLY",
@@ -251,7 +313,9 @@
       "EV-0007"
      ],
      "cy": "Felly rydyn ni'n dal ati i holi papurau Bute.",
-     "es": "Entonces seguimos preguntando a los papeles de Bute."
+     "es": "Entonces seguimos preguntando a los papeles de Bute.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     },
     {
      "who": "I_NIA",
@@ -260,9 +324,13 @@
       "EV-0007"
      ],
      "cy": "Blwch wrth flwch.",
-     "es": "Caja por caja."
+     "es": "Caja por caja.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
+   "lip_sync": "en"
   }
  ],
  "covers": [
@@ -279,6 +347,11 @@
   "cy": "machine translation, for native review",
   "es": "machine translation, for review"
  },
- "words_en": 334,
- "estimated_seconds": 139
+ "words_en": 353,
+ "estimated_seconds": 192,
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue",
+ "script_version": "v0.2.0",
+ "status": "v0.2.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review"
 }

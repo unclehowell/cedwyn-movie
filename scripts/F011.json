@@ -11,6 +11,28 @@
  "shots": [
   {
    "shot": 1,
+   "set": "s08",
+   "direction": "HOOK (0-5 s): talking close-up of Nia beside a printed estate plan.",
+   "image_prompt": "",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Eighteen seventy-six. Thirty-three acres go to the limeworks. Whose land was it?",
+     "cy": "Un fil wyth cant saith deg chwech. Mae tri deg tri erw yn mynd i'r gwaith calch. Tir pwy oedd e?",
+     "es": "Mil ochocientos setenta y seis. Treinta y tres acres pasan a la calera. ¿De quién era la tierra?",
+     "cite": [
+      "CH-0019",
+      "CH-0020"
+     ],
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
+    }
+   ],
+   "lip_sync": "en"
+  },
+  {
+   "shot": 2,
    "set": "s04",
    "direction": "Wide on Llandough village street in autumn 1876; Gwen steps out of the post office holding a freshly delivered directory as the estate agent approaches along the green.",
    "image_prompt": "Photoreal 1876 Welsh village street and green at Llandough in autumn light, stone cottages, muddy lane, a carrier's cart pulling away; a round-faced woman in her 60s with rosy cheeks and silver curls, wool shawl over a floral apron, reading glasses on a chain, holding a thick bound book open; a pale clean-shaven man in his 50s in a dark frock coat with thin-rimmed spectacles and a leather document case walking toward her; period-correct, no text in image, no heraldry",
@@ -24,12 +46,14 @@
       "CH-0020"
      ],
      "cy": "Bore da! Worrall's Directory of South Wales, oddi ar gert y cariwr. Dyma ni, plwyf Llandochau, adran Penarth: 'Williams John, Great House.' Mewn print i Gaerdydd i gyd.",
-     "es": "¡Bore da! El Directorio Worrall de Gales del Sur, recién bajado del carro del transportista. Aquí, parroquia de Llandough, sección de Penarth: 'Williams John, Great House.' Impreso para todo Cardiff."
+     "es": "¡Bore da! El Directorio Worrall de Gales del Sur, recién bajado del carro del transportista. Aquí, parroquia de Llandough, sección de Penarth: 'Williams John, Great House.' Impreso para todo Cardiff.",
+     "spoken": "cy",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ]
   },
   {
-   "shot": 2,
+   "shot": 3,
    "set": "s04",
    "direction": "Close-up of the estate agent, polite and dry, adjusting his spectacles.",
    "image_prompt": "Photoreal close-up portrait, 1876, pale clean-shaven man in his 50s, thin-rimmed spectacles, dark frock coat and high collar, leather document case under his arm, Llandough village street softly blurred behind, overcast autumn light, no text in image, no heraldry",
@@ -42,16 +66,19 @@
       "CH-0019"
      ],
      "cy": "Mae cyfeiriadur yn argraffu pwy bynnag sy'n ateb y canfaswr, Gwen. Mae'n rhoi John Williams yn Great House. Dyw e ddim yn dweud wrthot ti pwy sy berchen y lle.",
-     "es": "Un directorio imprime a quien le responda al encuestador, Gwen. Pone a John Williams en Great House. No te dice quién es el dueño del lugar."
+     "es": "Un directorio imprime a quien le responda al encuestador, Gwen. Pone a John Williams en Great House. No te dice quién es el dueño del lugar.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 3,
+   "shot": 4,
    "set": "s04",
-   "direction": "Insert: Gwen's finger on the open directory page as she answers him.",
+   "direction": "Insert: Gwen's finger on the open directory page as she answers him. [27 Oct rule: no voice over a still; the line plays over a MOVING shot (i2v) or becomes a talking close-up if budget allows.]",
    "image_prompt": "Photoreal close detail of a weathered woman's hand resting on an open 1870s Victorian trade directory, dense small columns of printed type rendered illegible and blurred, worn cloth binding, reading glasses on a chain dangling into frame, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "i2v",
    "lines": [
     {
      "who": "F_GWEN",
@@ -60,13 +87,15 @@
       "CH-0019"
      ],
      "cy": "Oedd Slater wedi'i gael e 'na yn chwe deg wyth hefyd, cofiwch. A'r tir? Y Marquess yw arglwydd y faenor, 'run fath â hanner y plwyf 'ma.",
-     "es": "Slater's lo tuvo ahí también en el sesenta y ocho, no lo olvides. ¿Y la tierra? El Marqués es señor del feudo, igual que en la mitad de esta parroquia."
+     "es": "Slater's lo tuvo ahí también en el sesenta y ocho, no lo olvides. ¿Y la tierra? El Marqués es señor del feudo, igual que en la mitad de esta parroquia.",
+     "spoken": "cy",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ],
    "prop": "Worrall's Directory of South Wales, 1875, p. 324 (Llandough, Penarth section) - from evidence page EV-0225 / Leicester Special Collections"
   },
   {
-   "shot": 4,
+   "shot": 5,
    "set": "s04",
    "direction": "Close-up of the agent as he unrolls the edge of an estate plan from his case and taps it.",
    "image_prompt": "Photoreal 1876 close-up, the same pale bespectacled estate agent in a dark frock coat, partly unrolling a hand-drawn linen estate plan with coloured field washes and no legible writing, village green behind, no text in image, no heraldry",
@@ -80,12 +109,15 @@
       "CH-0022"
      ],
      "cy": "Arglwydd y faenor, ie. Pwy piau'r rhydd-ddaliad o'r tir 'ma, 'allith cyfeiriadur ddim gweud 'thoch chi. A busnes ei arglwyddiaeth heddi yw'r gwaith calch. Tri deg tri erw, gynt yn rhan o Fferm y Plas Mawr, ar gyfer Gwaith Calch Llandochau. Mae'r cynllun wedi'i lunio a'i ysgrifennu'n derfynol ar y weithred yn swyddfa'r ystad.",
-     "es": "Señor del feudo, sí. Pero de quién es la propiedad absoluta de este terreno, un directorio no te lo puede decir. Y el asunto de su señoría hoy son las caleras. Treinta y tres acres, antes parte de Great House Farm, para las Caleras de Llandough. El plano está trazado y registrado en las escrituras, en la oficina de la propiedad."
+     "es": "Señor del feudo, sí. Pero de quién es la propiedad absoluta de este terreno, un directorio no te lo puede decir. Y el asunto de su señoría hoy son las caleras. Treinta y tres acres, antes parte de Great House Farm, para las Caleras de Llandough. El plano está trazado y registrado en las escrituras, en la oficina de la propiedad.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 5,
+   "shot": 6,
    "set": "s09",
    "direction": "Slow pan from the village across the Llandough hill fields toward a smoking lime kiln and quarry face above the Ely.",
    "image_prompt": "Photoreal 1876 landscape, Llandough hill over the River Ely, green fields bounded by hedges, Leckwith woods beyond, a stone lime kiln with pale smoke and a raw limestone quarry face cut into the hillside, Cardiff Bay hazy in the distance, autumn, no people in close view, no text in image, no heraldry",
@@ -98,16 +130,18 @@
       "CH-0023"
      ],
      "cy": "Mae odyn a chwarel Daniel Thomas and Son yno'n barod.",
-     "es": "El horno y la cantera de Daniel Thomas and Son ya están ahí abajo."
+     "es": "El horno y la cantera de Daniel Thomas and Son ya están ahí abajo.",
+     "spoken": "cy",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ]
   },
   {
-   "shot": 6,
+   "shot": 7,
    "set": "s04",
-   "direction": "Insert: the agent opens the parish poor rate book and runs a gloved finger down the columns.",
+   "direction": "Insert: the agent opens the parish poor rate book and runs a gloved finger down the columns. [27 Oct rule: no voice over a still; the line plays over a MOVING shot (i2v) or becomes a talking close-up if budget allows.]",
    "image_prompt": "Photoreal close-up of a large Victorian parish rate book open on a leather document case, ruled columns of handwritten ink entries rendered illegible, a gloved finger tracing a line, autumn daylight, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "i2v",
    "lines": [
     {
      "who": "E_AGENT",
@@ -116,13 +150,15 @@
       "CH-0023"
      ],
      "cy": "Sy'n dod â fi at y dreth dlodion. Hydref, Llandochau. John Williams, fferm, perchennog Yr Arglwydd Bute, tua saith deg chwech acer, cyfanswm pedwar deg un bunt dim swllt. Yr Arglwydd Bute, coetir yn ei law ei hun, tri deg dau acer, tri rhwd, tri deg naw perc. Daniel Thomas and Son, odyn galch a chwarel.",
-     "es": "Lo cual me lleva al impuesto de pobres. Octubre, Llandough. John Williams, granja, dueño Lord Bute, unos setenta y seis acres, bruto cuarenta y una libras, cero chelines. Lord Bute, bosque en mano, treinta y dos acres, tres roods, treinta y nueve perches. Daniel Thomas and Son, horno de cal y cantera."
+     "es": "Lo cual me lleva al impuesto de pobres. Octubre, Llandough. John Williams, granja, dueño Lord Bute, unos setenta y seis acres, bruto cuarenta y una libras, cero chelines. Lord Bute, bosque en mano, treinta y dos acres, tres roods, treinta y nueve perches. Daniel Thomas and Son, horno de cal y cantera.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
    ],
    "prop": "Llandough poor rate book, October 1876 - from evidence page EV-0212"
   },
   {
-   "shot": 7,
+   "shot": 8,
    "set": "s04",
    "direction": "Close-up of Gwen, eyebrows up, pressing the point.",
    "image_prompt": "Photoreal 1876 close-up portrait, round-faced Welsh woman in her 60s, rosy cheeks, silver curls under a bonnet, wool shawl, reading glasses on a chain, skeptical expression, village cottages blurred behind, no text in image, no heraldry",
@@ -136,12 +172,15 @@
       "CH-0021"
      ],
      "cy": "Felly mae John yn cael ei godi am saith deg chwech acer, a'r gwaith calch yn cael tri deg tri. Ydy dy lyfr di'n ei wneud e'n denant? Yn flynyddol? Ar les?",
-     "es": "Entonces a John se le cobra por setenta y seis acres, y la fábrica de cal se queda con treinta y tres. ¿Tu libro lo hace inquilino? ¿Anual? ¿Con contrato?"
+     "es": "Entonces a John se le cobra por setenta y seis acres, y la fábrica de cal se queda con treinta y tres. ¿Tu libro lo hace inquilino? ¿Anual? ¿Con contrato?",
+     "spoken": "cy",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "cy"
   },
   {
-   "shot": 8,
+   "shot": 9,
    "set": "s04",
    "direction": "Medium two-shot: the agent closes the rate book, tucks it away and tips his hat, turning down the lane toward the farm.",
    "image_prompt": "Photoreal 1876 medium two-shot on Llandough village green, the bespectacled estate agent in a frock coat closing a large ledger into his leather case and tipping his top hat to the silver-haired woman in a shawl, lane leading uphill behind, autumn, no text in image, no heraldry",
@@ -154,12 +193,14 @@
       "CH-0023"
      ],
      "cy": "Mae'n ei wneud e'n feddiannwr mae'r goruchwylwyr yn ei godi. Sut mae e'n dal y tir, busnes y stad yw hynny, nid y plwyf.",
-     "es": "Lo hace el ocupante al que los supervisores le cobran. Cómo lo tiene es asunto de la propiedad, no de la parroquia."
+     "es": "Lo hace el ocupante al que los supervisores le cobran. Cómo lo tiene es asunto de la propiedad, no de la parroquia.",
+     "spoken": "en",
+     "accent": "own (non-Welsh)"
     }
    ]
   },
   {
-   "shot": 9,
+   "shot": 10,
    "set": "s01",
    "direction": "Wide on Great House Farm exterior and yard, quiet, smoke from the chimney, the hill fields beyond; no dialogue, a transition.",
    "image_prompt": "Photoreal 1876 Welsh farmhouse, Great House Farm / Ty Mawr, large whitewashed stone house with slate roof and tall chimney smoking, cobbled yard, stone barn, hens, fields rising on Llandough hill behind, autumn afternoon, no people in close view, no text in image, no heraldry",
@@ -167,7 +208,7 @@
    "lines": []
   },
   {
-   "shot": 10,
+   "shot": 11,
    "set": "s08",
    "direction": "Present day: close-up of Nia in the archive reading room, gloved, with the directory scans on screen beside her.",
    "image_prompt": "Photoreal modern archive reading room, Welsh woman in her 30s with a black bob haircut, round tortoiseshell glasses, mustard cardigan, white cotton gloves, seated at a desk with a laptop and a bound Victorian directory, soft overhead light, no legible text, no heraldry",
@@ -181,16 +222,19 @@
       "CH-0020"
      ],
      "cy": "Worrall's 1875, tudalen 324, wedi'i ddigideiddio gan Gasgliadau Arbennig Prifysgol Leicester: ffermwr o'r enw Williams yn 'Great House', adran Penarth. Mae'r Legal Wiki yn ei ddilyn ymlaen: Slater's 1868 a 1880, Owen's 1887 a 1891, Cyfeiriadur Caerdydd 1901, pob un yn Great House. Mae rhestriad yn dangos ble roedd e'n byw, nid pwy oedd piau'r teitl.",
-     "es": "El Worrall de 1875, página 324, digitalizado por las Colecciones Especiales de la Universidad de Leicester: un granjero Williams en 'Great House', sección Penarth. El Legal Wiki lo sigue: Slater's de 1868 y 1880, Owen's de 1887 y 1891, el Directorio de Cardiff de 1901, todos en Great House. Un registro muestra dónde vivía, no quién tenía el título."
+     "es": "El Worrall de 1875, página 324, digitalizado por las Colecciones Especiales de la Universidad de Leicester: un granjero Williams en 'Great House', sección Penarth. El Legal Wiki lo sigue: Slater's de 1868 y 1880, Owen's de 1887 y 1891, el Directorio de Cardiff de 1901, todos en Great House. Un registro muestra dónde vivía, no quién tenía el título.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   },
   {
-   "shot": 11,
+   "shot": 12,
    "set": "s08",
-   "direction": "Insert: the catalogue entry for the Bute deeds on screen, Nia reading it aloud.",
+   "direction": "Insert: the catalogue entry for the Bute deeds on screen, Nia reading it aloud. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal close-up of a laptop screen in an archive reading room showing a library catalogue page, text blurred and illegible, a white-gloved hand beside a closed archive box, no legible text, no heraldry",
-   "animate": "still",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -200,17 +244,20 @@
       "CH-0022"
      ],
      "cy": "Mae catalog Llyfrgell Genedlaethol Cymru ar gyfer gweithredoedd Bute D153/4 i 8 yn darllen: 'tir (33 a.), oedd gynt yn rhan o Great House Farm, ar gyfer Gwaith Calch Llandochau (33 a.), 1876-1912.' Cynllun wedi'i ysgrifennu ar D153/3, 1875, a 4, 1876. Y gweithredoedd, y partïon, y darn tir yn union: dyn ni heb eu darllen nhw eto.",
-     "es": "El catálogo de la Biblioteca Nacional de Gales para las escrituras Bute D153/4 a 8 indica: 'tierra (33 a.), antes parte de Great House Farm, para la Llandough Limeworks (33 a.), 1876-1912.' Plano asentado en D153/3, 1875, y en el 4, 1876. Las escrituras, sus partes, la parcela exacta: todavía no las leímos."
+     "es": "El catálogo de la Biblioteca Nacional de Gales para las escrituras Bute D153/4 a 8 indica: 'tierra (33 a.), antes parte de Great House Farm, para la Llandough Limeworks (33 a.), 1876-1912.' Plano asentado en D153/3, 1875, y en el 4, 1876. Las escrituras, sus partes, la parcela exacta: todavía no las leímos.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
    ],
-   "prop": "NLW Bute deeds catalogue entry, D153/4-8 (Llandough Limeworks) - from evidence page EV-0291"
+   "prop": "NLW Bute deeds catalogue entry, D153/4-8 (Llandough Limeworks) - from evidence page EV-0291",
+   "lip_sync": "en"
   },
   {
-   "shot": 12,
+   "shot": 13,
    "set": "s08",
-   "direction": "Nia turns to a photocopy of the rate book pages, peering at a faded date, then sets her glasses down.",
+   "direction": "Nia turns to a photocopy of the rate book pages, peering at a faded date, then sets her glasses down. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
    "image_prompt": "Photoreal modern archive desk, the black-bobbed archivist in tortoiseshell glasses and mustard cardigan holding a photocopied Victorian rate book page up to a lamp, faded handwriting illegible, white cotton gloves, quiet reading room behind, no legible text, no heraldry",
-   "animate": "i2v",
+   "animate": "omnihuman",
    "lines": [
     {
      "who": "I_NIA",
@@ -219,9 +266,12 @@
       "CH-0023"
      ],
      "cy": "A llyfr y dreth: mae'r un drefn o enwau'n ymddangos mewn treth ugeinfed o Awst, deunaw saith deg rhywbeth. Alla i ddim darllen y ffigwr olaf. Mae'n dangos pwy gafodd ei godi, am beth. Dyw e ddim yn dangos les.",
-     "es": "Y el libro de impuestos: la misma secuencia de nombres aparece en un registro del veinte de agosto, mil ochocientos setenta y tantos. El último dígito no se puede leer. Muestra a quién se le cobró, y por qué. No muestra un contrato."
+     "es": "Y el libro de impuestos: la misma secuencia de nombres aparece en un registro del veinte de agosto, mil ochocientos setenta y tantos. El último dígito no se puede leer. Muestra a quién se le cobró, y por qué. No muestra un contrato.",
+     "spoken": "en",
+     "accent": "thick Welsh (Vale of Glamorgan)"
     }
-   ]
+   ],
+   "lip_sync": "en"
   }
  ],
  "covers": [
@@ -237,7 +287,11 @@
   "cy": "machine translation, for native review",
   "es": "machine translation, for review"
  },
- "words_en": 347,
- "estimated_seconds": 141,
- "status": "draft v0.1.0 for hive review (forensic note applied: Bute = lord of the manor)"
+ "words_en": 359,
+ "estimated_seconds": 181,
+ "status": "v0.2.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review",
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue",
+ "script_version": "v0.2.0"
 }
