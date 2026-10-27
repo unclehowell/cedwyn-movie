@@ -1,3 +1,7 @@
+> **27 Oct 2026, 12:50 GMT — keep it free (producer's rule).** Zero spend, free tools only, for every scene from now on. No paid video, image or voice models.
+> Free route proved 27 Oct: Piper TTS with the Welsh `cy_GB-bu_tts-medium` voices (South Wales speakers benyw-de-pro and gwryw-de-1) → Wav2Lip (ONNX, CPU) talking portraits from the bible cast → ffmpeg moves on stills, cards and VP9. About 30 s of CPU per 10 s of talking shot.
+> Limits: the mouth moves, the head and eyes stay still; ambient shots are stills with slow moves; new looks come from existing bible images or credited, openly licensed archive photos. Welsh before ~1970 with en/es subtitles, Welsh accents and on-camera narrators still apply.
+
 # CEDWYN — consistency bible (v1.0.0, 25 Oct 2026)
 
 *A tab.bot production.* Everything a daily scene run needs so that the last frame shows the same people, voices, buildings and landscapes as the first.
