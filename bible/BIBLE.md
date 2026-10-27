@@ -47,7 +47,7 @@ Every line is transcribed back (OpenAI gpt-4o-transcribe) and must match the scr
 | s10 | prologue: the hill in prehistory/Roman/early-medieval times (roundhouse, villa, monastery) | `sets/s10.jpg` |
 | s11 | the farmhouse 1974–88: aged, threatened, development around | `sets/s11.jpg` |
 | s12 | the site after demolition (1988–2026): housing estate, verge, green | `sets/s12.jpg` |
-| s13 | Puerto Madryn coast, Patagonia (Argentina) | `sets/s13.jpg` |
+| s13 | Chubut arid steppe, Patagonia (Argentina): dry tussock grass, gravel, low scrub, ochre and dun; no flowers, no lush green (27 Oct rule) | `sets/s13.jpg` |
 
 Rule: **every era of a set is an edit of its establishing reference** (s11, the farmhouse c. 1980, is an edit of s01 — same building, same viewpoint, aged, housing behind).
 Next improvement: condition s01/s02/s11 on the real archive photographs of Tŷ Mawr held in the Cedwyn media register (measured survey 1974, press photographs 1974–88) so the
@@ -79,10 +79,58 @@ Documents appear as props on the table; the real quoted words are overlaid by Hy
 Large files are uploaded in parts: parts of ≤ 1.8 MB go to a short-lived `inbox-*` branch,
 the repository's `fetch-media` workflow joins them on main, checks sha256 and the 25 MB limit, commits ("— Sion's Tab agent") and deletes the branch. Proved with the test clip on 25 Oct 2026.
 
-## Chronology rule (Sion, 11:45 GMT 26 Oct 2026) — read before every script and render
+## Chronology rule (the owner, 11:45 GMT 26 Oct 2026) — read before every script and render
 
 - Tŷ Mawr is first named in the record we have found in the 1824 David Stewart survey of the Bute Glamorgan estates (EV-0211). In the family's account, Tŷ Mawr was acquired in 1667.
 - Never present "the 1547 lease" or "the 1552 Bute deed" as Tŷ Mawr records. Bute estate and other third-party documents are never shown as records of Tŷ Mawr before 1824: on screen they are Bute (or third-party) papers whose application to Tŷ Mawr is under forensic examination, and the Bute freeholds are under forensic examination for validity.
 - Outside narratives (websites, catalogue summaries, secondary books) are tested on screen, not repeated. Our film asserts and defends our evidence and our interpretation.
 - Names have been played on (Cydwin, Cydfin, Cedfin, Ked Fen, Tŷ Mawr, Great House, Great House Farm; Llandough-juxta-Penarth CF64 vs Llandough near Cowbridge CF71): the register is the e-book "Enwau" on cedwyn.bucklerfamily.estate/ebooks/.
 - F006 ("A thousand-year lease") is re-titled and must be rewritten to this rule before it is rendered; F005's hand-over line and F006's continuity are updated.
+
+## Geography rule: Llandough hill is inland (27 Oct 2026, owner instruction 06:48 GMT)
+Llandough hill is inland — never describe the farm/hill as by the sea or on the coast; it overlooks the Ely, the marshes and the estuary.
+Applies to every language (en/cy/es) in scripts, subtitles, narration and image/shot prompts: no "by the sea", "on the coast", "seaside", "shore",
+"the sea throws" (cy "môr", "arfordir", "glan y môr"; es "mar", "costa", "orilla"). Use estuary / marsh / river / weather wording. In stills, the water
+below the hill is the distant estuary and the Ely marshes, not open sea at the foot of the hill. Even 2,200 years ago (higher, wetter marshes) the
+hill was never coastal. First applied: F002 v0.1.2 (elder's line "the sea" -> "the weather"). — Sion's Tab agent
+
+## PERIOD ACCURACY rule — every frame (27 Oct 2026, owner instruction 06:59 GMT)
+Owner, verbatim: "Don't use still photos with voice overs if you can, have them speak and be animated using ByteDance Omnihuman 2.0 . Don't show a roman villa in the scene 2200 years ago. That makes no sense. And dont have the character from 2200 years ago talk about title and deeds and occupancy or anything that will have concerned them. They'd be speaking welsh and just being very pramative humans then. Actually study them from that era to know"
+1. **Research the era first.** Before writing or rendering a frame, write `research/<era>-<frame>.md` from primary/academic sources (excavation reports, Amgueddfa Cymru, Cadw, Coflein/HER, university projects, contemporary texts), citing each point and marking interpretation as such. F002 example: `research/iron-age-F002.md`.
+2. **Nothing from a later age.** No buildings, objects, materials, animals, crops, clothes, tools, writing, money, religion or landscape features that did not exist in that year (e.g. no villa, coins, crosses or stone rectangular buildings in the Iron Age; no tarmac or pylons in 1850). Every era of a set is an era edit checked against the research, not just against the previous frame.
+3. **People speak only of what their own time cared about.** No modern legal ideas (title, deeds, ownership, occupancy, boundaries, rent, courts) before they existed, no hindsight or prophecy about what the place will become, no narrator's knowledge in a character's mouth. Iron Age people talk of weather, harvest, animals, food, cloth, children, kin, the seasons, water. Later eras use the concerns and words the records of that era show.
+4. **Language of the time.** Speech is in the language the people spoke; where that language is lost (Brittonic), use its closest living descendant (modern Welsh), lip-sync to it, and say so once on screen. Welsh is the primary track for Welsh-speaking eras.
+5. **Talking characters are animated, not stills with voice-over.** Every on-screen speaker is an OmniHuman 2.0 talking shot wherever the budget allows; lines that cannot be afforded play off-screen over MOVING shots (image-to-video), never over a still. A still may appear only without a voice (title, document insert, a brief wordless establishing hold).
+6. **Llandough hill is inland** (see Geography rule): the Ely, its marsh and the distant estuary below; never sea at the hill's foot.
+7. **Real people:** no likeness of real family members except where the owner supplied a photo and approved it for that character; prologue/ancestral roles use the invented portraits.
+Check before rendering: grep scripts, VTTs and image prompts (cy/en/es) for out-of-period words (villa, deed, title, owner, lease, rent, sea, coast...), and look at every still for later-period objects. — Sion's Tab agent
+
+## Owner 27 Oct — accents, language, on-camera narrators (hard rules, 27 Oct 2026)
+
+Owner steer at 11:50 and 11:52 GMT: *"At least have a think welsh accent from everyone until 1970, except the non welsh."* These rules are above every older section.
+
+1. **Thick Welsh accent.** Every Welsh character and both narrators (Nia, the Grandson) speak with a **thick** South Wales accent in any scene set before about 1970, and the narrators keep it in the 2020s. Non-Welsh characters keep their own accents: Estate, BP and Land Registry officials, outside bailiffs, English officials, Elena (Argentine).
+2. **Welsh first before ~1970.** Welsh characters speak Welsh (`cy`) on camera, lip-synced to the Welsh line, with en/es **subtitles** led by an `[in Welsh]` marker. No dubbed English or Spanish track for period lines. The 2020s narrators speak English. Each script line carries `spoken` and `accent`, and each frame carries `spoken_language` (FRAMES.json v1.2.0).
+3. **Narrators on camera.** Nia and the Grandson appear as OmniHuman 2.0 talking shots, lip-synced. **Never a voice-over on a still.** A shot with a voiced line is OmniHuman (one face per render) or a moving i2v shot with the line off-screen, never a still.
+4. **The Grandson's face.** D_BILLY in 2020s frames is the Grandson with the invented cast face (`bible/cast/D_BILLY.jpg`). He never gets a real person's likeness. William Buckler's real photo (approved 25 Oct) appears only in William's own-era frames.
+5. **Voices (cast list).** Library voices are free to add; each recast passes an accent check by an audio-capable model on one line **before** any OmniHuman spend. If a library pick reads mild, design a new "very thick South Wales" voice (costs credits; next budget window) and record its id in `bible/VOICES.json`.
+
+| actor | voice_id | voice | status |
+|---|---|---|---|
+| A_MARY | `73fZMjboCm1aBVyxTbBp` | Hannah (Welsh female, library) | recast from uZ2F64pQ4awvfM38w9V9 (gentle lilt) |
+| B_JOHN | `ft0WkOZmCF3NFIbyp280` | existing design, strong South Wales | kept |
+| C_FRED | `XZLLk8LKa4NX4HsuCPiS` | existing | kept for now; his origin is open. If the record shows he was Welsh-raised, recast to thick South Wales |
+| D_BILLY | `EmvLmNNZPnr2cOTaYrUc` | Rhys Horler (Welsh male, library) | recast from bi1ppGIASFluT4PbdRza (modern Cardiff); the Grandson narrator |
+| E_AGENT | `2Jm4mkkEDFemeO085c56` | existing, RP English | kept (non-Welsh) |
+| F_GWEN | `UmQyXL5FYPCIbuUQZKqK` | existing design, strong Valleys | kept |
+| G_DAI | `bjneJtpl97NGdlhAINbN` | existing design, broad South Wales | kept |
+| H_CLERK | `nzPzKJE9RrymxViKMFhm` | existing, RP | kept (non-Welsh official) |
+| I_NIA | `EoMKQ1XHxZPJ6KVTvPL3` | LOUISE (Welsh female, library) | recast from XEKRPEMYQPpow8lb1XZN (mixed North/South); the archivist narrator |
+| J_ELENA | `VJAA1A5gQklMXZjm0smO` | existing, Argentine | kept (non-Welsh) |
+
+   Spare Welsh library candidates: Chris `aKQdyEogZx5VoND0oujS`, Flameheart `698IrvLv5nahuUHY2tLv`, Zak `004KTmksPwLFhbYi3ENc`, `wUkGqD7qevNIshEdEC5s`, Daniel `sBU90Bu4NCleWDoNkGog`.
+6. **Subtitles.** Each cue has at most 2 lines of 42 characters, at most 20 characters per second, and lasts 0.83–7 s. Welsh-spoken cues start with `[in Welsh]`. Check with `work/bizdev/skills/tools/subtitle_check.py` before upload.
+7. **Hook.** A hook question asked on camera in the first 5 s. No catalogue IDs spoken in the first 30 s; they go on the document overlay after 0:30.
+8. **No villa shown** (see `research/roman-F003.md`). Patagonia is arid steppe with no flowers. The geography rule (inland hill) stands.
+
+— Sion's Tab agent

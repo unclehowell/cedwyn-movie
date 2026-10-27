@@ -4,7 +4,15 @@
 
 ## Current steer
 
-(none yet: the original brief below stands)
+### 27 Oct 2026 (owner, 11:50 and 11:52 GMT): accents, Welsh first, narrators on camera. HARD RULES
+- **Thick Welsh accent** for every Welsh character and both narrators in any scene set before about 1970. The narrators keep it in the 2020s. Non-Welsh characters (Estate, BP and Land Registry officials, outside bailiffs, English officials, Elena) keep their own accents.
+- **Welsh (`cy`) is the default spoken language before about 1970**: lip-synced on camera with en/es subtitles led by `[in Welsh]`. No dubbed English track for period lines. The 2020s narrators speak English.
+- **Nia and the Grandson appear on camera** as OmniHuman 2.0 talking shots, lip-synced. Never a voice-over on a still.
+- **Recast the narrators with Welsh-accented voices**: I_NIA `EoMKQ1XHxZPJ6KVTvPL3`, D_BILLY `EmvLmNNZPnr2cOTaYrUc`, A_MARY `73fZMjboCm1aBVyxTbBp`. B_JOHN, F_GWEN and G_DAI are kept. Each recast passes an accent check before any OmniHuman spend (BIBLE.md "Owner 27 Oct").
+- **The Grandson is always the invented cast face** (`bible/cast/D_BILLY.jpg`), never a real person's likeness.
+- **Subtitles**: at most 2 lines of 42 characters, at most 20 cps, 0.83–7 s per cue. Run `subtitle_check.py` before upload.
+- **Hook**: a hook question on camera in the first 5 s. No catalogue IDs spoken in the first 30 s.
+- Already-published scenes that break these rules are listed in `RERENDER-QUEUE.md`. The review of every script is in `SCRIPT-REVIEW-2026-10-27.md`.
 
 ## Original brief (25 Oct 2026)
 
