@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.0.1",
- "updated": "2026-10-26T03:59Z",
+ "version": "1.0.2",
+ "updated": "2026-10-27T06:39Z",
  "frames_total": 148,
  "filled": [
   {
@@ -25,6 +25,28 @@
    "prompt_sha": "b9468f3",
    "left_out": [],
    "notes": "720p VP9; 12 shots: 4 OmniHuman 2.0 close-ups (English lip-sync, cy/es dubbed), 2 image-to-video shots, 6 stills with slow push-ins; document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-translated cy/es for native review."
+  },
+  {
+   "n": 2,
+   "clip": "clips/F002.webm",
+   "audio": {
+    "cy": "audio/F002.cy.webm",
+    "en": "audio/F002.en.webm",
+    "es": "audio/F002.es.webm"
+   },
+   "subs": {
+    "cy": "subs/F002.cy.vtt",
+    "en": "subs/F002.en.vtt",
+    "es": "subs/F002.es.vtt"
+   },
+   "poster": "stills/F002.jpg",
+   "seconds": 147.0,
+   "made": "2026-10-27T06:39Z",
+   "released": "2026-10-27",
+   "script_version": "v0.1.1",
+   "prompt_sha": "eb6775d",
+   "left_out": [],
+   "notes": "720p VP9; 12 shots: 1 OmniHuman 2.0 close-up (the roundhouse mother, English lip-sync, cy/es dubbed), 11 stills with slow push-ins and pans (shared render budget day); document overlay cites CH-0174; PX-01 on the date card. Machine-translated cy/es for native review."
   }
  ],
  "left_out_register": [],
