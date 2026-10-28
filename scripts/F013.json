@@ -1,0 +1,240 @@
+{
+ "frame": 13,
+ "title": "Armour under the floor",
+ "cast": {
+  "B_JOHN": "John Williams, farmer, 1878–1881 (speaks Welsh on camera)",
+  "I_NIA": "Nia, the Archivist (2020s, English, thick South Wales accent)"
+ },
+ "setting": "s01",
+ "target_seconds": 120,
+ "shots": [
+  {
+   "shot": 1,
+   "set": "s08",
+   "direction": "Cold open: close on Nia at the reading-room table, gloved hands resting on a closed folder. She looks up and asks the hook question straight to camera within the first five seconds.",
+   "image_prompt": "Photoreal medium close-up, modern county records office reading room, soft daylight from tall windows, Welsh woman in her 30s with a black bob haircut, round tortoiseshell glasses, mustard cardigan, white cotton archive gloves, hands on a grey archival folder, shelves of boxes behind, shallow depth of field, no text in image, no heraldry",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "What was lying under the floor of Great House? And why does a census give the farm another name?",
+     "cite": [
+      "CH-0029",
+      "CH-0030"
+     ],
+     "cy": "Beth oedd yn gorwedd o dan lawr Tŷ Mawr? A pham mae cyfrifiad yn rhoi enw gwahanol i'r fferm?",
+     "es": "¿Qué había debajo del piso de Great House? ¿Y por qué un censo le da otro nombre a la granja?"
+    }
+   ]
+  },
+  {
+   "shot": 2,
+   "set": "s09",
+   "direction": "Wide, slow drift across the Llandough hill in 1878: two Ordnance Survey chain-men stretch a measuring chain along a hedgerow while a third sights through a brass theodolite on a tripod.",
+   "image_prompt": "Photoreal wide landscape, Llandough hill above the River Ely, spring 1878, hedged pasture fields, Leckwith woods beyond, distant Cardiff estuary under a grey-blue sky, three Victorian surveyors in dark wool coats and bowler hats, one at a brass theodolite on a wooden tripod, two stretching a surveyor's chain beside a hawthorn hedge, period-correct, no text in image, no heraldry",
+   "animate": "i2v",
+   "lines": []
+  },
+  {
+   "shot": 3,
+   "set": "s01",
+   "direction": "Great House Farm yard, 1878: John Williams at the yard gate glances toward the lane and calls back over his shoulder to the house. [in Welsh]",
+   "image_prompt": "Photoreal medium close-up, farmyard of a whitewashed Welsh stone farmhouse (Great House Farm / Tŷ Mawr), 1878, weathered Welsh farmer in his early 50s with a broad face, grey-flecked beard and heavy hands, flat cap, collarless shirt, waistcoat and wool jacket, leaning on a wooden five-bar gate, a sheepdog at his feet, muddy cobbles, overcast light, no text in image, no heraldry",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "B_JOHN",
+     "en": "Mary, those Ordnance men are out by the lane again with their chain and brass instrument, measuring every hedge in the parish. Keep the dog in, or he'll have their pegs.",
+     "cite": [
+      "CH-0027",
+      "CH-0028"
+     ],
+     "cy": "Mary, mae dynion yr Ordnance allan wrth y lôn eto gyda'u cadwyn a'u offeryn pres, yn mesur pob clawdd yn y plwyf. Cadwa'r ci i mewn, neu fe aiff e ar ôl eu pegiau nhw.",
+     "es": "Mary, esos hombres del Ordnance están otra vez junto al camino con su cadena y su instrumento de bronce, midiendo cada seto de la parroquia. Guardá al perro adentro, o les va a sacar las estacas."
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "set": "s08",
+   "direction": "Over Nia's shoulder from behind, her gloved hands unroll a large first-edition six-inch Ordnance Survey sheet across the table; her line plays off-screen as the map flattens.",
+   "image_prompt": "Photoreal over-the-shoulder shot from behind, archive reading room, a woman's black bob and mustard cardigan seen from the back, white-gloved hands unrolling a large Victorian Ordnance Survey six-inch map printed in fine black linework with fields, hedges and contours, map weights at the corners, warm desk lamp, no legible text in image, no heraldry",
+   "animate": "i2v",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "That's 1878. The Ordnance Survey walked Glamorgan for the six-inch map of the Cardiff and Penarth corner, surveyed 1878 to 79 and published in 1885. It's on the National Library of Scotland's site, but nobody has checked yet exactly where Llandough sits on it.",
+     "cite": [
+      "CH-0027"
+     ],
+     "cy": "1878 yw hwnna. Fe gerddodd yr Ordnance Survey Forgannwg ar gyfer y map chwe modfedd o gornel Caerdydd a Phenarth, ei arolygu rhwng 1878 a 79 a'i gyhoeddi yn 1885. Mae e ar wefan Llyfrgell Genedlaethol yr Alban, ond does neb wedi gwirio eto ble'n union mae Llandochau arno.",
+     "es": "Eso es de 1878. El Ordnance Survey recorrió Glamorgan para el mapa de seis pulgadas de la zona de Cardiff y Penarth, relevado entre 1878 y 79 y publicado en 1885. Está en el sitio de la National Library of Scotland, pero todavía nadie revisó dónde queda exactamente Llandough."
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "set": "s08",
+   "direction": "Slow push-in on a stack of large-scale OS plans in a council archive box; a gloved finger traces field boundaries and farm buildings. Nia's line plays off-screen.",
+   "image_prompt": "Photoreal close-up, archive table, a stack of Victorian large-scale Ordnance Survey plans showing field parcels and small farm building outlines in fine black ink with pale colour wash, a grey Glamorgan Archives storage box beside them, white-gloved finger tracing a hedge line, soft light, no legible text in image, no heraldry",
+   "animate": "i2v",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "That's sheet forty-seven. The large-scale sheets, forty-seven two to fifteen, do cover Llandough-juxta-Penarth. Glamorgan Archives keeps the council's copies. Fields and buildings, yes. Who owned them, no.",
+     "cite": [
+      "CH-0027",
+      "CH-0028"
+     ],
+     "cy": "Dalen pedwar deg saith yw honno. Mae'r dalennau raddfa fawr, pedwar deg saith dau i bymtheg, yn cwmpasu Llandochau-juxta-Penarth. Mae Archifau Morgannwg yn cadw copïau'r cyngor. Caeau ac adeiladau, ydyn. Pwy oedd piau nhw, na.",
+     "es": "Esa es la hoja cuarenta y siete. Las hojas a gran escala, de la cuarenta y siete dos a la quince, sí cubren Llandough-juxta-Penarth. Glamorgan Archives guarda las copias del consejo. Campos y edificios, sí. Quién era el dueño, no."
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "set": "s01",
+   "direction": "Interior of the farmhouse's rear wing, c.1880, lantern light: two unnamed labourers lever up a flagstone and lift out a lump of rusted ironwork; no dialogue, only the scrape of stone.",
+   "image_prompt": "Photoreal interior, rear wing of an old Welsh stone farmhouse c.1880, low beamed ceiling, lime-washed walls, oil lantern on the floor, two Victorian labourers in shirtsleeves, waistcoats and caps levering up a heavy flagstone with an iron bar, revealing corroded medieval iron plates and fittings in dark earth beneath, dust in the lantern beam, period-correct, no text in image, no heraldry",
+   "animate": "i2v",
+   "lines": []
+  },
+  {
+   "shot": 7,
+   "set": "s08",
+   "direction": "Nia, close, on camera, turns to a printed heritage record and reads it to us with careful emphasis.",
+   "image_prompt": "Photoreal medium close-up, archive reading room, Welsh woman in her 30s, black bob, round tortoiseshell glasses, mustard cardigan, white cotton gloves, holding a printed A4 heritage record sheet, laptop open beside her, daylight, shallow depth of field, no legible text in image, no heraldry",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Then, about 1880: armour, reported found under the floor of the rear wing of Great House. It's thought to be the medieval ironwork from Llandough now at the National Museum.",
+     "cite": [
+      "CH-0029"
+     ],
+     "cy": "Wedyn, tua 1880: nodir bod arfwisg wedi'i chanfod o dan lawr adain gefn Tŷ Mawr. Credir mai dyna'r gwaith haearn canoloesol o Landochau sydd nawr yn yr Amgueddfa Genedlaethol.",
+     "es": "Después, hacia 1880: una armadura que quedó registrada como hallada bajo el piso del ala trasera de Great House. Se cree que es el herraje medieval de Llandough que hoy está en el National Museum."
+    }
+   ]
+  },
+  {
+   "shot": 8,
+   "set": "s08",
+   "direction": "Document insert: the printed Heneb Historic Environment Record entry 02038s (Suggett, RCAHMW, Dec 1988) lies on the table beside a pencil; render as a prop from the evidence page.",
+   "image_prompt": "Photoreal top-down document insert, archive table, a printed heritage record sheet (Heneb HER 02038s) with a pencil and white cotton gloves beside it, soft even light, text rendered only as unreadable blocks, no heraldry",
+   "animate": "still",
+   "lines": []
+  },
+  {
+   "shot": 9,
+   "set": "s08",
+   "direction": "Slow push-in on a museum photograph of corroded medieval iron fragments laid on archive tissue; Nia's line plays off-screen.",
+   "image_prompt": "Photoreal close-up, archive table, a large glossy museum photograph of corroded medieval iron plates and fittings laid on acid-free tissue with a plain scale bar, a magnifying glass resting beside it, warm desk lamp, no legible text in image, no heraldry",
+   "animate": "i2v",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Thought to be. This comes from the Historic Environment Record, a note by Suggett for the Royal Commission in December 1988. It's a record written a century later, not a finder's account, and it names nobody who lifted it.",
+     "cite": [
+      "CH-0029"
+     ],
+     "cy": "Credir mai dyna ydyw. Daw hyn o'r Cofnod Amgylchedd Hanesyddol, nodyn gan Suggett i'r Comisiwn Brenhinol ym mis Rhagfyr 1988. Mae'n gofnod a ysgrifennwyd ganrif yn ddiweddarach, nid hanes gan y sawl a'i canfu, ac nid yw'n enwi neb a'i cododd.",
+     "es": "Se cree que es. Esto viene del Historic Environment Record, una nota de Suggett para la Royal Commission en diciembre de 1988. Es un registro escrito un siglo después, no el relato de quien la encontró, y no nombra a nadie que la haya levantado."
+    }
+   ]
+  },
+  {
+   "shot": 10,
+   "set": "s02",
+   "direction": "Farmhouse kitchen, Sunday night, 3 April 1881: John Williams at the table by the inglenook, pen in hand, filling the householder's census schedule by lamplight. [in Welsh]",
+   "image_prompt": "Photoreal medium close-up, Welsh farmhouse kitchen 1881, inglenook fireplace with a low fire, flagstone floor, oak dresser with blue-and-white plates, oil lamp on a scrubbed table, weathered Welsh farmer aged 53, broad face, grey-flecked beard, heavy hands, waistcoat and shirtsleeves, dipping a steel pen nib in an inkwell over a printed census household schedule, no legible text in image, no heraldry",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "B_JOHN",
+     "en": "Right, the paper for the census man. John Williams, head, fifty-three, farmer. Mary, wife. Then the children, oldest first. Plain and neat, mind.",
+     "cite": [
+      "CH-0030"
+     ],
+     "cy": "Reit, y papur ar gyfer dyn y cyfrifiad. John Williams, pen y teulu, pum deg tri, ffermwr. Mary, gwraig. Wedyn y plant, yr hynaf gyntaf. Plaen a thaclus, cofia.",
+     "es": "Bien, el papel para el hombre del censo. John Williams, jefe de familia, cincuenta y tres, agricultor. Mary, esposa. Después los hijos, el mayor primero. Claro y prolijo, eh."
+    }
+   ]
+  },
+  {
+   "shot": 11,
+   "set": "s08",
+   "direction": "Document insert: the 1881 census enumerator's book, RG11/5288 page 2, open at the Llandough entries; render as a prop from the evidence page (EV-0224).",
+   "image_prompt": "Photoreal top-down document insert, archive table, an open Victorian census enumerator's book with ruled columns of faded brown copperplate handwriting, rendered as unreadable script, white cotton gloves at the edge of frame, soft light, no heraldry",
+   "animate": "still",
+   "lines": []
+  },
+  {
+   "shot": 12,
+   "set": "s08",
+   "direction": "Slow lateral glide along the census page as a gloved fingertip pauses on the acreage figure, then the address column; Nia's line plays off-screen.",
+   "image_prompt": "Photoreal extreme close-up, faded copperplate handwriting in ruled columns of a Victorian census enumerator's book, a white-gloved fingertip resting beside one smudged numeral, raking light showing paper texture, script unreadable, no heraldry",
+   "animate": "i2v",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Census night, the third of April 1881. John Williams, fifty-three, 'Farmer of 170' acres, or maybe 120, the figure's hard to read. His wife Mary and the children. And the address: 'Llandough Home Farm'.",
+     "cite": [
+      "CH-0030"
+     ],
+     "cy": "Noson y cyfrifiad, y trydydd o Ebrill 1881. John Williams, pum deg tri, 'Ffermwr o 170' erw, neu efallai 120, mae'r ffigwr yn anodd ei ddarllen. Ei wraig Mary a'r plant. A'r cyfeiriad: 'Fferm Gartref Llandochau'.",
+     "es": "La noche del censo, el tres de abril de 1881. John Williams, cincuenta y tres, 'Farmer of 170' acres, o tal vez 120, la cifra es difícil de leer. Su esposa Mary y los hijos. Y la dirección: 'Llandough Home Farm'."
+    }
+   ]
+  },
+  {
+   "shot": 13,
+   "set": "s08",
+   "direction": "Nia, on camera, takes off her glasses, sets the case's reading beside the page and is straight with us about the difference between the two.",
+   "image_prompt": "Photoreal medium close-up, archive reading room, Welsh woman in her 30s, black bob, round tortoiseshell glasses held in one gloved hand, mustard cardigan, an open census volume and a laptop showing a plain timeline page beside her, late-afternoon window light, no legible text in image, no heraldry",
+   "animate": "omnihuman",
+   "lines": [
+    {
+     "who": "I_NIA",
+     "en": "Our case reads that as the census mixing up the Llandough farm with Great House Farm, so it's Great House under another name. That reading sits in the Legal Wiki's Master Timeline.",
+     "cite": [
+      "CH-0030"
+     ],
+     "cy": "Mae'n hachos ni'n darllen hynny fel bod y cyfrifiad wedi cymysgu fferm Llandochau â Fferm Tŷ Mawr, felly Tŷ Mawr yw e o dan enw gwahanol. Mae'r darlleniad hwnnw yn Amserlen Feistr y Legal Wiki.",
+     "es": "Nuestro caso interpreta eso como que el censo confundió la granja de Llandough con Great House Farm, o sea que es Great House con otro nombre. Esa interpretación figura en el Master Timeline del Legal Wiki."
+    },
+    {
+     "who": "I_NIA",
+     "en": "But be fair to the page. It never writes Great House. It shows a John Williams, a Mary, and a farm on census night. The rest is our reading.",
+     "cite": [
+      "CH-0030"
+     ],
+     "cy": "Ond byddwch yn deg â'r dudalen. Dyw hi byth yn ysgrifennu Tŷ Mawr. Mae'n dangos John Williams, Mary, a fferm ar noson y cyfrifiad. Ein darlleniad ni yw'r gweddill.",
+     "es": "Pero seamos justos con la página. Nunca escribe Great House. Muestra un John Williams, una Mary, y una granja la noche del censo. El resto es nuestra interpretación."
+    }
+   ]
+  },
+  {
+   "shot": 14,
+   "set": "s09",
+   "direction": "Closing wide at dusk, 1881: the farmhouse's chimney smoke drifts over the hill toward the Ely and the bay; no dialogue.",
+   "image_prompt": "Photoreal wide landscape at dusk, Llandough hill 1881, a whitewashed stone farmhouse with chimney smoke among hedged fields, the River Ely winding below, Leckwith woods dark against a fading sky, distant lights of Cardiff docks, period-correct, no text in image, no heraldry",
+   "animate": "i2v",
+   "lines": []
+  }
+ ],
+ "covers": [
+  "CH-0027",
+  "CH-0028",
+  "CH-0029",
+  "CH-0030"
+ ],
+ "left_out": [],
+ "continuity": "Next frame picks up the Williams household after 1881: John Williams junior gives evidence in the Barry Dock News report of apples taken 'over the hedge from the railway' from Great House Farm's orchard, as Daniel Thomas's obituary recalls the limeworks.",
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation, for review"
+ },
+ "words_en": 308,
+ "estimated_seconds": 142
+}
