@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
  "version": "1.0.2",
- "updated": "2026-10-27T06:39Z",
+ "updated": "2026-10-28T05:04Z",
  "frames_total": 148,
  "filled": [
   {
@@ -31,8 +31,8 @@
    "clip": "clips/F002.webm",
    "audio": {
     "cy": "audio/F002.cy.webm",
-    "en": "audio/F002.en.webm",
-    "es": "audio/F002.es.webm"
+    "en": "audio/F002.cy.webm",
+    "es": "audio/F002.cy.webm"
    },
    "subs": {
     "cy": "subs/F002.cy.vtt",
@@ -40,15 +40,25 @@
     "es": "subs/F002.es.vtt"
    },
    "poster": "stills/F002.jpg",
-   "seconds": 147.0,
-   "made": "2026-10-27T06:39Z",
+   "seconds": 91.6,
+   "made": "2026-10-28T05:04Z",
    "released": "2026-10-27",
-   "script_version": "v0.1.2",
+   "script_version": "v0.3.0",
    "prompt_sha": "eb6775d",
    "left_out": [],
-   "notes": "720p VP9; 12 shots: 1 OmniHuman 2.0 close-up (the roundhouse mother, English lip-sync, cy/es dubbed), 11 stills with slow push-ins and pans (shared render budget day); document overlay cites CH-0174; PX-01 on the date card. Machine-translated cy/es for native review.",
-   "revised": "2026-10-27T06:59Z",
-   "revision_note": "v0.1.2: elder's line in shot 2 'the sea' -> 'the weather' (cy/en/es re-voiced and spliced at the same timestamp); the hill is inland."
+   "notes": "720p VP9; 11 shots: 5 talking close-ups (Welsh lip-sync), 6 stills with slow moves; title card PX-01, closing card CH-0174. Welsh lines machine-assisted, for native review.",
+   "revised": "2026-10-28T05:04Z",
+   "revision_note": "v0.3.0 redo: the whole frame remade. Five on-camera talking shots (the roundhouse mother and the elder) lip-synced in Welsh; Welsh-only soundtrack (people of the time speak Welsh) with en/es subtitles marked [in Welsh]; hook question on camera at 0:04; no villa or coast wording; 1979 trench card cites CH-0174.",
+   "default_audio": "cy",
+   "previous_cut": {
+    "clip": "clips/F002.v1.webm",
+    "audio": {
+     "cy": "audio/F002.v1.cy.webm",
+     "en": "audio/F002.v1.en.webm",
+     "es": "audio/F002.v1.es.webm"
+    },
+    "made": "2026-10-27T06:39Z"
+   }
   }
  ],
  "left_out_register": [],
