@@ -13,29 +13,13 @@
   {
    "shot": 1,
    "set": "s10",
-   "direction": "About 12 s. Date-and-place card over a wide establishing still. It is late summer on the upper slope of Llandough hill. Half the field is reaped spelt stubble and half is standing golden grain. Below, the River Ely winds through green marshland towards a hazy estuary on the far horizon. The view is inland: no shore, no waves. No buildings are in frame except a small wattle-and-thatch barn at the field edge. Very slow push-in. Ambience: wind in the grain, skylarks, distant geese.",
+   "direction": "About 4 s. Date-and-place card over a wide establishing still (same hill and viewpoint as scene 2, roundhouses gone). Late summer; half the field reaped spelt stubble, half standing grain; a small wattle-and-thatch barn; thin smoke beyond the crest. Slow push-in. Ambience: wind in the grain, skylarks, distant geese.",
    "image_prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200, late summer afternoon. Inland hillside field on a gentle slope, half reaped stubble and half standing golden spelt wheat, sheaves stooked in rows. Below, a winding river through flat green marshland, a faint estuary haze far on the horizon, wooded valley sides. Small wattle-and-daub barn with thatched roof at the field edge. No people in close view, no stone buildings visible, no sea, no coastline, no beach. Soft natural light, muted earthy palette. No text, no heraldry.",
    "animate": "still",
    "captions": [
     {
-     "text": "c. AD 200 · Fields on Llandough hill, above the River Ely",
+     "text": "c. AD 200 · Fields on Llandough hill, above the River Ely · Spoken in modern Welsh, the nearest living language to theirs",
      "cite": []
-    }
-   ],
-   "lines": []
-  },
-  {
-   "shot": 2,
-   "set": "s10",
-   "direction": "About 10 s. Medium still with a slow lateral move. The farmer cuts spelt with an iron sickle. Behind him his wife binds a sheaf with a twist of straw. Hands, straw and dust are lit by the sun. Over the brow of the hill, out of frame, a thin thread of chimney smoke rises from the stone house; the house itself is never shown. Ambience only.",
-   "image_prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200. A weathered man in his fifties with a broad face, grey-flecked beard and heavy hands, wearing a coarse undyed wool tunic and leather belt, cuts golden spelt wheat with an iron sickle. Behind him a woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, wearing a plain wool dress and shawl, binds a sheaf with straw. Inland hillside field, a thin line of smoke rising beyond the crest of the hill with no building visible. Golden late-summer light, dust in the air. Invented faces, no text, no heraldry.",
-   "animate": "still",
-   "captions": [
-    {
-     "text": "2nd–4th century AD: Roman buildings stood on this same hill at Llandough, occupied from the 2nd to the 4th century. (PX-02)",
-     "cite": [
-      "PX-02"
-     ]
     }
    ],
    "lines": []
@@ -52,9 +36,9 @@
      "who": "B_JOHN",
      "spoken": "cy",
      "accent": "South Wales (Glamorgan) Welsh, rural; native review",
-     "cy": "Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm. Drych, mwg dros y grib. Ma' tân 'da nhw lan yn y tŷ cerrig yn barod.",
-     "en": "Good spelt this year. Dry enough to thresh before the rain comes up the valley. Look, smoke over the brow. They've the fires lit up at the stone house already.",
-     "es": "Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle. Mirá, humo sobre la cresta. Ya prendieron los fuegos allá arriba en la casa de piedra.",
+     "cy": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm.",
+     "en": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+     "es": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
      "cite": [
       "PX-02"
      ]
@@ -81,6 +65,22 @@
    ]
   },
   {
+   "shot": 2,
+   "set": "s10",
+   "direction": "About 10 s. Medium still with a slow lateral move. The farmer cuts spelt with an iron sickle. Behind him his wife binds a sheaf with a twist of straw. Hands, straw and dust are lit by the sun. Over the brow of the hill, out of frame, a thin thread of chimney smoke rises from the stone house; the house itself is never shown. Ambience only. Placed after the first exchange so its PX-02 caption appears after 0:30.",
+   "image_prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200. A weathered man in his fifties with a broad face, grey-flecked beard and heavy hands, wearing a coarse undyed wool tunic and leather belt, cuts golden spelt wheat with an iron sickle. Behind him a woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, wearing a plain wool dress and shawl, binds a sheaf with straw. Inland hillside field, a thin line of smoke rising beyond the crest of the hill with no building visible. Golden late-summer light, dust in the air. Invented faces, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "Roman-period remains on this same hill were in use from the 2nd to the 4th century AD (PX-02).",
+     "cite": [
+      "PX-02"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
    "shot": 5,
    "set": "s10",
    "direction": "About 12 s. Medium shot of the farmer leaning on the sickle. He looks across to the wattle barn and the yoked oxen beside it, where the old roundhouse of the previous scene once stood.",
@@ -98,6 +98,15 @@
      "cite": []
     }
    ]
+  },
+  {
+   "shot": "5b",
+   "set": "s10",
+   "direction": "About 9 s. Ambient still, slow push-in: geese walk between the stooks; the barn, the yoked oxen and the cart behind; grey cloud rising off the marshes below. Ambience: geese, a lowing ox, wind.",
+   "image_prompt": "Same hill and viewpoint, about AD 200, late afternoon: closer view of the reaped stubble near the field edge, plump white and grey geese walking between stooked spelt sheaves, a small wattle-and-thatch barn with two yoked oxen and a wooden cart behind them. Remove all roundhouses. Grey cloud starting to rise off the marshes far below. No people.",
+   "animate": "still",
+   "captions": [],
+   "lines": []
   },
   {
    "shot": 6,
@@ -121,7 +130,7 @@
   {
    "shot": 7,
    "set": "s10",
-   "direction": "About 8 s. Close shot of the farmer laughing. He waves the geese off the sheaves with his cap of straw rather than chasing them.",
+   "direction": "About 8 s. Close shot of the farmer laughing. He waves the geese off the sheaves with a wave of his hand rather than chasing them.",
    "image_prompt": "Photoreal 16:9 cinematic close shot, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy hands laughs warmly and waves a hand at geese wandering past stooked spelt sheaves. Coarse wool tunic and cloak, bareheaded. Hillside field, soft overcast light arriving. Invented face, no text, no heraldry.",
    "animate": "omnihuman",
    "captions": [],
@@ -151,8 +160,8 @@
   "PX-02"
  ],
  "continuity": "The rain comes up the valley over the cart track; on the same slope, centuries later, the next scene finds a monk of Llandough leading a burial in the monastic cemetery above the marshes of the Ely.",
- "script_version": "v0.4.0",
- "status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
+ "script_version": "v0.4.1",
+ "status": "v0.4.1 29 Oct 2026: rendered as scene 3 (in-period, no narrator). Changes from v0.4.0: line 1 reordered to open on the question ('See the smoke over the brow?') for the on-camera hook in the first 5 s; the harvest still with the PX-02 caption moved after the first exchange (no catalogue ID before 0:30); one wordless geese-and-barn still added; 'cap of straw' dropped. Welsh/Spanish machine-written, for native review.",
  "translation": {
   "cy": "machine-written (claude-opus-5-5), for native review",
   "es": "machine-written, Rioplatense, for review"
@@ -162,5 +171,6 @@
  "accent_rule": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
  "subtitles_rule": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
  "words_en": 127,
- "estimated_seconds": 63
+ "estimated_seconds": 63,
+ "rendered": "2026-10-29"
 }

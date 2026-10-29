@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.0.2",
- "updated": "2026-10-29T09:32Z",
+ "version": "1.0.3",
+ "updated": "2026-10-29T20:56Z",
  "frames_total": 148,
  "filled": [
   {
@@ -60,6 +60,29 @@
    },
    "dub_note": "29 Oct 2026: English and Spanish dub tracks added beside the original Welsh soundtrack (Welsh-accented English voices; Rioplatense / Patagonian Spanish wording, the mother's lines in a Patagonian voice). Spanish subtitles rewritten in Rioplatense Spanish. Scene 2 is free.",
    "default_audio": "cy"
+  },
+  {
+   "n": 3,
+   "clip": "clips/F003.webm",
+   "audio": {
+    "cy": "audio/F003.cy.webm",
+    "en": "audio/F003.en.webm",
+    "es": "audio/F003.es.webm"
+   },
+   "subs": {
+    "cy": "subs/F003.cy.vtt",
+    "en": "subs/F003.en.vtt",
+    "es": "subs/F003.es.vtt"
+   },
+   "poster": "stills/F003.jpg",
+   "seconds": 92.2,
+   "made": "2026-10-29T20:56Z",
+   "released": "2026-10-29",
+   "script_version": "v0.4.1",
+   "prompt_sha": "6f7ab6d",
+   "left_out": [],
+   "default_audio": "cy",
+   "notes": "720p VP9; in-period scene, c. AD 200, fields on Llandough hill above the River Ely; no narrator. 10 shots: 5 talking close-ups of the farming couple speaking to each other in Welsh (OmniHuman 2.0 lip-sync), 4 stills with slow moves, end card; caption PX-02 after 0:30. Welsh original with Welsh-accented English and Rioplatense Spanish dubs over it at 15%; en/es subtitles marked [in Welsh]. Welsh and Spanish machine-written, for native review."
   }
  ],
  "left_out_register": [],
