@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "2.0.0",
+ "version": "2.0.2",
  "built": "2026-10-29T17:43Z",
  "chronology_version": "1.0.0",
  "frames": 148,
@@ -238,7 +238,6 @@
     }
    },
    "thumb": "thumbs/F003.webp",
-   "release_planned": "2026-10-27 20:00 UTC",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -257,7 +256,8 @@
     "source": [],
     "source_in_sitemap": false
    },
-   "script_status": "in-period v0.4.0 written 29 Oct"
+   "script_status": "in-period v0.4.0 written 29 Oct",
+   "release_date": "2026-10-29"
   },
   {
    "n": 4,
@@ -303,7 +303,7 @@
     }
    },
    "thumb": "thumbs/F004.webp",
-   "release_planned": "2026-10-28 02:00 UTC",
+   "release_planned": "2026-10-30",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -375,7 +375,7 @@
     }
    },
    "thumb": "thumbs/F005.webp",
-   "release_planned": "2026-10-28 08:00 UTC",
+   "release_planned": "2026-10-31",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -452,7 +452,7 @@
     }
    },
    "thumb": "thumbs/F006.webp",
-   "release_planned": "2026-10-28 14:00 UTC",
+   "release_planned": "2026-11-01",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -525,7 +525,7 @@
     }
    },
    "thumb": "thumbs/F007.webp",
-   "release_planned": "2026-10-28 20:00 UTC",
+   "release_planned": "2026-11-02",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -601,7 +601,7 @@
     }
    },
    "thumb": "thumbs/F008.webp",
-   "release_planned": "2026-10-29 02:00 UTC",
+   "release_planned": "2026-11-03",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -683,7 +683,7 @@
     }
    },
    "thumb": "thumbs/F009.webp",
-   "release_planned": "2026-10-29 08:00 UTC",
+   "release_planned": "2026-11-04",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -761,7 +761,7 @@
     }
    },
    "thumb": "thumbs/F010.webp",
-   "release_planned": "2026-10-29 14:00 UTC",
+   "release_planned": "2026-11-05",
    "script_version": "v0.4.0",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -841,7 +841,7 @@
     }
    },
    "thumb": "thumbs/F011.webp",
-   "release_planned": "2026-10-29 20:00 UTC",
+   "release_planned": "2026-11-06",
    "estimated_seconds": 71,
    "script_version": "v0.4.0",
    "spoken_language": "cy",
@@ -924,7 +924,7 @@
     }
    },
    "thumb": "thumbs/F012.webp",
-   "release_planned": "2026-10-30 02:00 UTC",
+   "release_planned": "2026-11-07",
    "estimated_seconds": 34,
    "script_version": "v0.4.0",
    "spoken_language": "cy",
@@ -1003,7 +1003,7 @@
     }
    },
    "thumb": "thumbs/F013.webp",
-   "release_planned": "2026-10-30 08:00 UTC",
+   "release_planned": "2026-11-08",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1081,7 +1081,7 @@
     }
    },
    "thumb": "thumbs/F014.webp",
-   "release_planned": "2026-10-30 14:00 UTC",
+   "release_planned": "2026-11-09",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1159,7 +1159,7 @@
     }
    },
    "thumb": "thumbs/F015.webp",
-   "release_planned": "2026-10-30 20:00 UTC",
+   "release_planned": "2026-11-10",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1235,7 +1235,7 @@
     }
    },
    "thumb": "thumbs/F016.webp",
-   "release_planned": "2026-10-31 02:00 UTC",
+   "release_planned": "2026-11-11",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1313,7 +1313,7 @@
     }
    },
    "thumb": "thumbs/F017.webp",
-   "release_planned": "2026-10-31 08:00 UTC",
+   "release_planned": "2026-11-12",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1390,7 +1390,7 @@
     }
    },
    "thumb": "thumbs/F018.webp",
-   "release_planned": "2026-10-31 14:00 UTC",
+   "release_planned": "2026-11-13",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1468,7 +1468,7 @@
     }
    },
    "thumb": "thumbs/F019.webp",
-   "release_planned": "2026-10-31 20:00 UTC",
+   "release_planned": "2026-11-14",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1542,7 +1542,7 @@
     }
    },
    "thumb": "thumbs/F020.webp",
-   "release_planned": "2026-11-01 02:00 UTC",
+   "release_planned": "2026-11-15",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1617,7 +1617,7 @@
     }
    },
    "thumb": "thumbs/F021.webp",
-   "release_planned": "2026-11-01 08:00 UTC",
+   "release_planned": "2026-11-16",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1692,7 +1692,7 @@
     }
    },
    "thumb": "thumbs/F022.webp",
-   "release_planned": "2026-11-01 14:00 UTC",
+   "release_planned": "2026-11-17",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1769,7 +1769,7 @@
     }
    },
    "thumb": "thumbs/F023.webp",
-   "release_planned": "2026-11-01 20:00 UTC",
+   "release_planned": "2026-11-18",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1843,7 +1843,7 @@
     }
    },
    "thumb": "thumbs/F024.webp",
-   "release_planned": "2026-11-02 02:00 UTC",
+   "release_planned": "2026-11-19",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1916,7 +1916,7 @@
     }
    },
    "thumb": "thumbs/F025.webp",
-   "release_planned": "2026-11-02 08:00 UTC",
+   "release_planned": "2026-11-20",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -1993,7 +1993,7 @@
     }
    },
    "thumb": "thumbs/F026.webp",
-   "release_planned": "2026-11-02 14:00 UTC",
+   "release_planned": "2026-11-21",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2071,7 +2071,7 @@
     }
    },
    "thumb": "thumbs/F027.webp",
-   "release_planned": "2026-11-02 20:00 UTC",
+   "release_planned": "2026-11-22",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2145,7 +2145,7 @@
     }
    },
    "thumb": "thumbs/F028.webp",
-   "release_planned": "2026-11-03 02:00 UTC",
+   "release_planned": "2026-11-23",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2222,7 +2222,7 @@
     }
    },
    "thumb": "thumbs/F029.webp",
-   "release_planned": "2026-11-03 08:00 UTC",
+   "release_planned": "2026-11-24",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2297,7 +2297,7 @@
     }
    },
    "thumb": "thumbs/F030.webp",
-   "release_planned": "2026-11-03 14:00 UTC",
+   "release_planned": "2026-11-25",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2372,7 +2372,7 @@
     }
    },
    "thumb": "thumbs/F031.webp",
-   "release_planned": "2026-11-03 20:00 UTC",
+   "release_planned": "2026-11-26",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2449,7 +2449,7 @@
     }
    },
    "thumb": "thumbs/F032.webp",
-   "release_planned": "2026-11-04 02:00 UTC",
+   "release_planned": "2026-11-27",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2529,7 +2529,7 @@
     }
    },
    "thumb": "thumbs/F033.webp",
-   "release_planned": "2026-11-04 08:00 UTC",
+   "release_planned": "2026-11-28",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2607,7 +2607,7 @@
     }
    },
    "thumb": "thumbs/F034.webp",
-   "release_planned": "2026-11-04 14:00 UTC",
+   "release_planned": "2026-11-29",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2685,7 +2685,7 @@
     }
    },
    "thumb": "thumbs/F035.webp",
-   "release_planned": "2026-11-04 20:00 UTC",
+   "release_planned": "2026-11-30",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2764,7 +2764,7 @@
     }
    },
    "thumb": "thumbs/F036.webp",
-   "release_planned": "2026-11-05 02:00 UTC",
+   "release_planned": "2026-12-01",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2837,7 +2837,7 @@
     }
    },
    "thumb": "thumbs/F037.webp",
-   "release_planned": "2026-11-05 08:00 UTC",
+   "release_planned": "2026-12-02",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2913,7 +2913,7 @@
     }
    },
    "thumb": "thumbs/F038.webp",
-   "release_planned": "2026-11-05 14:00 UTC",
+   "release_planned": "2026-12-03",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -2991,7 +2991,7 @@
     }
    },
    "thumb": "thumbs/F039.webp",
-   "release_planned": "2026-11-05 20:00 UTC",
+   "release_planned": "2026-12-04",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3067,7 +3067,7 @@
     }
    },
    "thumb": "thumbs/F040.webp",
-   "release_planned": "2026-11-06 02:00 UTC",
+   "release_planned": "2026-12-05",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3144,7 +3144,7 @@
     }
    },
    "thumb": "thumbs/F041.webp",
-   "release_planned": "2026-11-06 08:00 UTC",
+   "release_planned": "2026-12-06",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3221,7 +3221,7 @@
     }
    },
    "thumb": "thumbs/F042.webp",
-   "release_planned": "2026-11-06 14:00 UTC",
+   "release_planned": "2026-12-07",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3295,7 +3295,7 @@
     }
    },
    "thumb": "thumbs/F043.webp",
-   "release_planned": "2026-11-06 20:00 UTC",
+   "release_planned": "2026-12-08",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3369,7 +3369,7 @@
     }
    },
    "thumb": "thumbs/F044.webp",
-   "release_planned": "2026-11-07 02:00 UTC",
+   "release_planned": "2026-12-09",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3443,7 +3443,7 @@
     }
    },
    "thumb": "thumbs/F045.webp",
-   "release_planned": "2026-11-07 08:00 UTC",
+   "release_planned": "2026-12-10",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3518,7 +3518,7 @@
     }
    },
    "thumb": "thumbs/F046.webp",
-   "release_planned": "2026-11-07 14:00 UTC",
+   "release_planned": "2026-12-11",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3595,7 +3595,7 @@
     }
    },
    "thumb": "thumbs/F047.webp",
-   "release_planned": "2026-11-07 20:00 UTC",
+   "release_planned": "2026-12-12",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3667,7 +3667,7 @@
     }
    },
    "thumb": "thumbs/F048.webp",
-   "release_planned": "2026-11-08 02:00 UTC",
+   "release_planned": "2026-12-13",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3745,7 +3745,7 @@
     }
    },
    "thumb": "thumbs/F049.webp",
-   "release_planned": "2026-11-08 08:00 UTC",
+   "release_planned": "2026-12-14",
    "spoken_language": "cy",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3822,7 +3822,7 @@
     }
    },
    "thumb": "thumbs/F050.webp",
-   "release_planned": "2026-11-08 14:00 UTC",
+   "release_planned": "2026-12-15",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3901,7 +3901,7 @@
     }
    },
    "thumb": "thumbs/F051.webp",
-   "release_planned": "2026-11-08 20:00 UTC",
+   "release_planned": "2026-12-16",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -3948,7 +3948,9 @@
     "CH-0159",
     "CH-0160",
     "EV-0048",
-    "CH-0161"
+    "CH-0161",
+    "EV-0630",
+    "EV-0631"
    ],
    "evidence": [
     "EV-0048"
@@ -3978,7 +3980,7 @@
     }
    },
    "thumb": "thumbs/F052.webp",
-   "release_planned": "2026-11-09 02:00 UTC",
+   "release_planned": "2026-12-17",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4055,7 +4057,7 @@
     }
    },
    "thumb": "thumbs/F053.webp",
-   "release_planned": "2026-11-09 08:00 UTC",
+   "release_planned": "2026-12-18",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4132,7 +4134,7 @@
     }
    },
    "thumb": "thumbs/F054.webp",
-   "release_planned": "2026-11-09 14:00 UTC",
+   "release_planned": "2026-12-19",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4209,7 +4211,7 @@
     }
    },
    "thumb": "thumbs/F055.webp",
-   "release_planned": "2026-11-09 20:00 UTC",
+   "release_planned": "2026-12-20",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4282,7 +4284,7 @@
     }
    },
    "thumb": "thumbs/F056.webp",
-   "release_planned": "2026-11-10 02:00 UTC",
+   "release_planned": "2026-12-21",
    "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -4362,7 +4364,7 @@
     }
    },
    "thumb": "thumbs/F057.webp",
-   "release_planned": "2026-11-10 08:00 UTC",
+   "release_planned": "2026-12-22",
    "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -4442,7 +4444,7 @@
     }
    },
    "thumb": "thumbs/F058.webp",
-   "release_planned": "2026-11-10 14:00 UTC",
+   "release_planned": "2026-12-23",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4523,7 +4525,7 @@
     }
    },
    "thumb": "thumbs/F059.webp",
-   "release_planned": "2026-11-10 20:00 UTC",
+   "release_planned": "2026-12-24",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4606,7 +4608,7 @@
     }
    },
    "thumb": "thumbs/F060.webp",
-   "release_planned": "2026-11-11 02:00 UTC",
+   "release_planned": "2026-12-25",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4688,7 +4690,7 @@
     }
    },
    "thumb": "thumbs/F061.webp",
-   "release_planned": "2026-11-11 08:00 UTC",
+   "release_planned": "2026-12-26",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4772,7 +4774,7 @@
     }
    },
    "thumb": "thumbs/F062.webp",
-   "release_planned": "2026-11-11 14:00 UTC",
+   "release_planned": "2026-12-27",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4851,7 +4853,7 @@
     }
    },
    "thumb": "thumbs/F063.webp",
-   "release_planned": "2026-11-11 20:00 UTC",
+   "release_planned": "2026-12-28",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -4928,7 +4930,7 @@
     }
    },
    "thumb": "thumbs/F064.webp",
-   "release_planned": "2026-11-12 02:00 UTC",
+   "release_planned": "2026-12-29",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5004,7 +5006,7 @@
     }
    },
    "thumb": "thumbs/F065.webp",
-   "release_planned": "2026-11-12 08:00 UTC",
+   "release_planned": "2026-12-30",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5080,7 +5082,7 @@
     }
    },
    "thumb": "thumbs/F066.webp",
-   "release_planned": "2026-11-12 14:00 UTC",
+   "release_planned": "2026-12-31",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5127,7 +5129,8 @@
     "CH-0209",
     "CH-0210",
     "CH-0211",
-    "CH-0212"
+    "CH-0212",
+    "EV-0632"
    ],
    "evidence": [],
    "parts": [
@@ -5160,7 +5163,7 @@
     }
    },
    "thumb": "thumbs/F067.webp",
-   "release_planned": "2026-11-12 20:00 UTC",
+   "release_planned": "2027-01-01",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5240,7 +5243,7 @@
     }
    },
    "thumb": "thumbs/F068.webp",
-   "release_planned": "2026-11-13 02:00 UTC",
+   "release_planned": "2027-01-02",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5316,7 +5319,7 @@
     }
    },
    "thumb": "thumbs/F069.webp",
-   "release_planned": "2026-11-13 08:00 UTC",
+   "release_planned": "2027-01-03",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5387,7 +5390,7 @@
     }
    },
    "thumb": "thumbs/F070.webp",
-   "release_planned": "2026-11-13 14:00 UTC",
+   "release_planned": "2027-01-04",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5468,7 +5471,7 @@
     }
    },
    "thumb": "thumbs/F071.webp",
-   "release_planned": "2026-11-13 20:00 UTC",
+   "release_planned": "2027-01-05",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5549,7 +5552,7 @@
     }
    },
    "thumb": "thumbs/F072.webp",
-   "release_planned": "2026-11-14 02:00 UTC",
+   "release_planned": "2027-01-06",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5626,7 +5629,7 @@
     }
    },
    "thumb": "thumbs/F073.webp",
-   "release_planned": "2026-11-14 08:00 UTC",
+   "release_planned": "2027-01-07",
    "source_note": "Numbers and four hours: family timeline scene ghf-19880429-1/-2 (bpvsbuckler llms.txt), press EV-0088 (Echo 29 Apr 1988) and EV-0089 ('Chainsaw farmer vows to fight on').",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -5707,7 +5710,7 @@
     }
    },
    "thumb": "thumbs/F074.webp",
-   "release_planned": "2026-11-14 14:00 UTC",
+   "release_planned": "2027-01-08",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5788,7 +5791,7 @@
     }
    },
    "thumb": "thumbs/F075.webp",
-   "release_planned": "2026-11-14 20:00 UTC",
+   "release_planned": "2027-01-09",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5868,7 +5871,7 @@
     }
    },
    "thumb": "thumbs/F076.webp",
-   "release_planned": "2026-11-15 02:00 UTC",
+   "release_planned": "2027-01-10",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -5949,7 +5952,7 @@
     }
    },
    "thumb": "thumbs/F077.webp",
-   "release_planned": "2026-11-15 08:00 UTC",
+   "release_planned": "2027-01-11",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6026,7 +6029,7 @@
     }
    },
    "thumb": "thumbs/F078.webp",
-   "release_planned": "2026-11-15 14:00 UTC",
+   "release_planned": "2027-01-12",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6108,7 +6111,7 @@
     }
    },
    "thumb": "thumbs/F079.webp",
-   "release_planned": "2026-11-15 20:00 UTC",
+   "release_planned": "2027-01-13",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6191,7 +6194,7 @@
     }
    },
    "thumb": "thumbs/F080.webp",
-   "release_planned": "2026-11-16 02:00 UTC",
+   "release_planned": "2027-01-14",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6265,7 +6268,7 @@
     }
    },
    "thumb": "thumbs/F081.webp",
-   "release_planned": "2026-11-16 08:00 UTC",
+   "release_planned": "2027-01-15",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6312,7 +6315,8 @@
     "CH-0258",
     "CH-0259",
     "EV-0104",
-    "EV-0105"
+    "EV-0105",
+    "EV-0629"
    ],
    "evidence": [
     "EV-0104",
@@ -6343,7 +6347,7 @@
     }
    },
    "thumb": "thumbs/F082.webp",
-   "release_planned": "2026-11-16 14:00 UTC",
+   "release_planned": "2027-01-16",
    "date_note": "Demolition 6 Dec 1988 (RCAHMW NA/GL/88/49, EV-0629; Western Mail/Echo 6 Dec 1988; local history book pp.64-65). Open: RCAHMW NA/GL/89/208 is typed 'House demolished Nov. 1988' - recorded as an open question, not a finding.",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -6425,7 +6429,7 @@
     }
    },
    "thumb": "thumbs/F083.webp",
-   "release_planned": "2026-11-16 20:00 UTC",
+   "release_planned": "2027-01-17",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6504,7 +6508,7 @@
     }
    },
    "thumb": "thumbs/F084.webp",
-   "release_planned": "2026-11-17 02:00 UTC",
+   "release_planned": "2027-01-18",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6576,7 +6580,7 @@
     }
    },
    "thumb": "thumbs/F085.webp",
-   "release_planned": "2026-11-17 08:00 UTC",
+   "release_planned": "2027-01-19",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6617,6 +6621,7 @@
     "CH-0268",
     "CH-0269",
     "EV-0201",
+    "EV-0645",
     "CH-0270",
     "CH-0271",
     "CH-0272",
@@ -6651,7 +6656,7 @@
     }
    },
    "thumb": "thumbs/F086.webp",
-   "release_planned": "2026-11-17 14:00 UTC",
+   "release_planned": "2027-01-20",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6734,7 +6739,7 @@
     }
    },
    "thumb": "thumbs/F087.webp",
-   "release_planned": "2026-11-17 20:00 UTC",
+   "release_planned": "2027-01-21",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6816,7 +6821,7 @@
     }
    },
    "thumb": "thumbs/F088.webp",
-   "release_planned": "2026-11-18 02:00 UTC",
+   "release_planned": "2027-01-22",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6895,7 +6900,7 @@
     }
    },
    "thumb": "thumbs/F089.webp",
-   "release_planned": "2026-11-18 08:00 UTC",
+   "release_planned": "2027-01-23",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -6971,7 +6976,7 @@
     }
    },
    "thumb": "thumbs/F090.webp",
-   "release_planned": "2026-11-18 14:00 UTC",
+   "release_planned": "2027-01-24",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7044,7 +7049,7 @@
     }
    },
    "thumb": "thumbs/F091.webp",
-   "release_planned": "2026-11-18 20:00 UTC",
+   "release_planned": "2027-01-25",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7122,7 +7127,7 @@
     }
    },
    "thumb": "thumbs/F092.webp",
-   "release_planned": "2026-11-19 02:00 UTC",
+   "release_planned": "2027-01-26",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7200,7 +7205,7 @@
     }
    },
    "thumb": "thumbs/F093.webp",
-   "release_planned": "2026-11-19 08:00 UTC",
+   "release_planned": "2027-01-27",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7281,7 +7286,7 @@
     }
    },
    "thumb": "thumbs/F094.webp",
-   "release_planned": "2026-11-19 14:00 UTC",
+   "release_planned": "2027-01-28",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7360,7 +7365,7 @@
     }
    },
    "thumb": "thumbs/F095.webp",
-   "release_planned": "2026-11-19 20:00 UTC",
+   "release_planned": "2027-01-29",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7439,7 +7444,7 @@
     }
    },
    "thumb": "thumbs/F096.webp",
-   "release_planned": "2026-11-20 02:00 UTC",
+   "release_planned": "2027-01-30",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7524,7 +7529,7 @@
     }
    },
    "thumb": "thumbs/F097.webp",
-   "release_planned": "2026-11-20 08:00 UTC",
+   "release_planned": "2027-01-31",
    "villa_note": "Owner rule 27 Oct: no villa reconstruction on screen. The dig report's own catalogue title may be read as a dated quotation on a document insert; no villa imagery.",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
@@ -7603,7 +7608,7 @@
     }
    },
    "thumb": "thumbs/F098.webp",
-   "release_planned": "2026-11-20 14:00 UTC",
+   "release_planned": "2027-02-01",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7680,7 +7685,7 @@
     }
    },
    "thumb": "thumbs/F099.webp",
-   "release_planned": "2026-11-20 20:00 UTC",
+   "release_planned": "2027-02-02",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7755,7 +7760,7 @@
     }
    },
    "thumb": "thumbs/F100.webp",
-   "release_planned": "2026-11-21 02:00 UTC",
+   "release_planned": "2027-02-03",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7831,7 +7836,7 @@
     }
    },
    "thumb": "thumbs/F101.webp",
-   "release_planned": "2026-11-21 08:00 UTC",
+   "release_planned": "2027-02-04",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7908,7 +7913,7 @@
     }
    },
    "thumb": "thumbs/F102.webp",
-   "release_planned": "2026-11-21 14:00 UTC",
+   "release_planned": "2027-02-05",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -7982,7 +7987,7 @@
     }
    },
    "thumb": "thumbs/F103.webp",
-   "release_planned": "2026-11-21 20:00 UTC",
+   "release_planned": "2027-02-06",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8057,7 +8062,7 @@
     }
    },
    "thumb": "thumbs/F104.webp",
-   "release_planned": "2026-11-22 02:00 UTC",
+   "release_planned": "2027-02-07",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8126,7 +8131,7 @@
     }
    },
    "thumb": "thumbs/F105.webp",
-   "release_planned": "2026-11-22 08:00 UTC",
+   "release_planned": "2027-02-08",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8171,6 +8176,7 @@
     "CH-0357",
     "CH-0358",
     "CH-0359",
+    "EV-0637",
     "EV-0137",
     "EV-0138",
     "CH-0360"
@@ -8204,7 +8210,7 @@
     }
    },
    "thumb": "thumbs/F106.webp",
-   "release_planned": "2026-11-22 14:00 UTC",
+   "release_planned": "2027-02-09",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8253,7 +8259,9 @@
     "CH-0364",
     "CH-0365",
     "CH-0366",
-    "EV-0139"
+    "EV-0139",
+    "EV-0643",
+    "EV-0640"
    ],
    "evidence": [
     "EV-0139"
@@ -8282,7 +8290,7 @@
     }
    },
    "thumb": "thumbs/F107.webp",
-   "release_planned": "2026-11-22 20:00 UTC",
+   "release_planned": "2027-02-10",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8327,8 +8335,10 @@
    "date_range": "2–22 Dec 2005 – 29 Aug 2012",
    "events": [
     "CH-0367",
+    "EV-0638",
     "CH-0368",
     "CH-0369",
+    "EV-0633",
     "CH-0370",
     "CH-0371"
    ],
@@ -8358,7 +8368,7 @@
     }
    },
    "thumb": "thumbs/F108.webp",
-   "release_planned": "2026-11-23 02:00 UTC",
+   "release_planned": "2027-02-11",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8434,7 +8444,7 @@
     }
    },
    "thumb": "thumbs/F109.webp",
-   "release_planned": "2026-11-23 08:00 UTC",
+   "release_planned": "2027-02-12",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8510,7 +8520,7 @@
     }
    },
    "thumb": "thumbs/F110.webp",
-   "release_planned": "2026-11-23 14:00 UTC",
+   "release_planned": "2027-02-13",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8583,7 +8593,7 @@
     }
    },
    "thumb": "thumbs/F111.webp",
-   "release_planned": "2026-11-23 20:00 UTC",
+   "release_planned": "2027-02-14",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8656,7 +8666,7 @@
     }
    },
    "thumb": "thumbs/F112.webp",
-   "release_planned": "2026-11-24 02:00 UTC",
+   "release_planned": "2027-02-15",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8731,7 +8741,7 @@
     }
    },
    "thumb": "thumbs/F113.webp",
-   "release_planned": "2026-11-24 08:00 UTC",
+   "release_planned": "2027-02-16",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8800,7 +8810,7 @@
     }
    },
    "thumb": "thumbs/F114.webp",
-   "release_planned": "2026-11-24 14:00 UTC",
+   "release_planned": "2027-02-17",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8877,7 +8887,7 @@
     }
    },
    "thumb": "thumbs/F115.webp",
-   "release_planned": "2026-11-24 20:00 UTC",
+   "release_planned": "2027-02-18",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -8958,7 +8968,7 @@
     }
    },
    "thumb": "thumbs/F116.webp",
-   "release_planned": "2026-11-25 02:00 UTC",
+   "release_planned": "2027-02-19",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9031,7 +9041,7 @@
     }
    },
    "thumb": "thumbs/F117.webp",
-   "release_planned": "2026-11-25 08:00 UTC",
+   "release_planned": "2027-02-20",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9109,7 +9119,7 @@
     }
    },
    "thumb": "thumbs/F118.webp",
-   "release_planned": "2026-11-25 14:00 UTC",
+   "release_planned": "2027-02-21",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9190,7 +9200,7 @@
     }
    },
    "thumb": "thumbs/F119.webp",
-   "release_planned": "2026-11-25 20:00 UTC",
+   "release_planned": "2027-02-22",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9271,7 +9281,7 @@
     }
    },
    "thumb": "thumbs/F120.webp",
-   "release_planned": "2026-11-26 02:00 UTC",
+   "release_planned": "2027-02-23",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9355,7 +9365,7 @@
     }
    },
    "thumb": "thumbs/F121.webp",
-   "release_planned": "2026-11-26 08:00 UTC",
+   "release_planned": "2027-02-24",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9438,7 +9448,7 @@
     }
    },
    "thumb": "thumbs/F122.webp",
-   "release_planned": "2026-11-26 14:00 UTC",
+   "release_planned": "2027-02-25",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9522,7 +9532,7 @@
     }
    },
    "thumb": "thumbs/F123.webp",
-   "release_planned": "2026-11-26 20:00 UTC",
+   "release_planned": "2027-02-26",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9604,7 +9614,7 @@
     }
    },
    "thumb": "thumbs/F124.webp",
-   "release_planned": "2026-11-27 02:00 UTC",
+   "release_planned": "2027-02-27",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9681,7 +9691,7 @@
     }
    },
    "thumb": "thumbs/F125.webp",
-   "release_planned": "2026-11-27 08:00 UTC",
+   "release_planned": "2027-02-28",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9758,7 +9768,7 @@
     }
    },
    "thumb": "thumbs/F126.webp",
-   "release_planned": "2026-11-27 14:00 UTC",
+   "release_planned": "2027-03-01",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9838,7 +9848,7 @@
     }
    },
    "thumb": "thumbs/F127.webp",
-   "release_planned": "2026-11-27 20:00 UTC",
+   "release_planned": "2027-03-02",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9913,7 +9923,7 @@
     }
    },
    "thumb": "thumbs/F128.webp",
-   "release_planned": "2026-11-28 02:00 UTC",
+   "release_planned": "2027-03-03",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -9995,7 +10005,7 @@
     }
    },
    "thumb": "thumbs/F129.webp",
-   "release_planned": "2026-11-28 08:00 UTC",
+   "release_planned": "2027-03-04",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10081,7 +10091,7 @@
     }
    },
    "thumb": "thumbs/F130.webp",
-   "release_planned": "2026-11-28 14:00 UTC",
+   "release_planned": "2027-03-05",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10162,7 +10172,7 @@
     }
    },
    "thumb": "thumbs/F131.webp",
-   "release_planned": "2026-11-28 20:00 UTC",
+   "release_planned": "2027-03-06",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10241,7 +10251,7 @@
     }
    },
    "thumb": "thumbs/F132.webp",
-   "release_planned": "2026-11-29 02:00 UTC",
+   "release_planned": "2027-03-07",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10322,7 +10332,7 @@
     }
    },
    "thumb": "thumbs/F133.webp",
-   "release_planned": "2026-11-29 08:00 UTC",
+   "release_planned": "2027-03-08",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10400,7 +10410,7 @@
     }
    },
    "thumb": "thumbs/F134.webp",
-   "release_planned": "2026-11-29 14:00 UTC",
+   "release_planned": "2027-03-09",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10478,7 +10488,7 @@
     }
    },
    "thumb": "thumbs/F135.webp",
-   "release_planned": "2026-11-29 20:00 UTC",
+   "release_planned": "2027-03-10",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10562,7 +10572,7 @@
     }
    },
    "thumb": "thumbs/F136.webp",
-   "release_planned": "2026-11-30 02:00 UTC",
+   "release_planned": "2027-03-11",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10653,7 +10663,7 @@
     }
    },
    "thumb": "thumbs/F137.webp",
-   "release_planned": "2026-11-30 08:00 UTC",
+   "release_planned": "2027-03-12",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10741,7 +10751,7 @@
     }
    },
    "thumb": "thumbs/F138.webp",
-   "release_planned": "2026-11-30 14:00 UTC",
+   "release_planned": "2027-03-13",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10819,7 +10829,7 @@
     }
    },
    "thumb": "thumbs/F139.webp",
-   "release_planned": "2026-11-30 20:00 UTC",
+   "release_planned": "2027-03-14",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10898,7 +10908,7 @@
     }
    },
    "thumb": "thumbs/F140.webp",
-   "release_planned": "2026-12-01 02:00 UTC",
+   "release_planned": "2027-03-15",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -10979,7 +10989,7 @@
     }
    },
    "thumb": "thumbs/F141.webp",
-   "release_planned": "2026-12-01 08:00 UTC",
+   "release_planned": "2027-03-16",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11056,7 +11066,7 @@
     }
    },
    "thumb": "thumbs/F142.webp",
-   "release_planned": "2026-12-01 14:00 UTC",
+   "release_planned": "2027-03-17",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11132,7 +11142,7 @@
     }
    },
    "thumb": "thumbs/F143.webp",
-   "release_planned": "2026-12-01 20:00 UTC",
+   "release_planned": "2027-03-18",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11217,7 +11227,7 @@
     }
    },
    "thumb": "thumbs/F144.webp",
-   "release_planned": "2026-12-02 02:00 UTC",
+   "release_planned": "2027-03-19",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11300,7 +11310,7 @@
     }
    },
    "thumb": "thumbs/F145.webp",
-   "release_planned": "2026-12-02 08:00 UTC",
+   "release_planned": "2027-03-20",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11385,7 +11395,7 @@
     }
    },
    "thumb": "thumbs/F146.webp",
-   "release_planned": "2026-12-02 14:00 UTC",
+   "release_planned": "2027-03-21",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11469,7 +11479,7 @@
     }
    },
    "thumb": "thumbs/F147.webp",
-   "release_planned": "2026-12-02 20:00 UTC",
+   "release_planned": "2027-03-22",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11544,7 +11554,7 @@
     }
    },
    "thumb": "thumbs/F148.webp",
-   "release_planned": "2026-12-03 02:00 UTC",
+   "release_planned": "2027-03-23",
    "spoken_language": "en",
    "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
    "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
@@ -11573,9 +11583,22 @@
   }
  ],
  "thumbs_note": "thumbs/Fnnn.webp in the storage repo: one AI-generated artist's impression per scene (1024x576 webp, <=150 KB), served through jsDelivr pinned to thumbs_ref.",
- "release_rule": "One scene every 6 hours from 27 Oct 2026 20:00 UTC (owner 27 Oct 11:50) in frame order, when the render budget allows; release_date = actual, release_planned = planned.",
+ "release_rule": "One scene a day at 06:00 Europe/London in frame order; release_date = actual (released), release_planned = planned (not yet released).",
  "thumbs_ref": "dbd6819040df8f87efb2d59a204702dd3c5ae834",
  "chronology_checked": "2026-10-27T06:03Z (755 events, no changes)",
  "changelog_1_2_0": "27 Oct 2026 script review (SCRIPT-REVIEW-2026-10-27.md): F003 retitled/logline (no villa); F004 retitled/logline; F006 retitled/logline (chronology rule); F055 family member name removed; F129 family member name removed; F056 villa wording neutral; F057 villa wording neutral; F097 villa wording neutral; F073 five bailiffs / about fifteen police added; F082 demolition-date open note; sets s10/s13 rewritten; spoken_language/subtitles/accent on all 148 frames",
- "changelog_2_0_0": "29 Oct 2026 IN-PERIOD rewrite (owner WhatsApp 16:04 GMT): from scene 3 onward every scene is one dated moment in strict chronological order, recreating who was there, what was most likely said and what it looked like; no narrator, no fourth wall, no archivist; other events of a scene become dated on-screen captions; each item carries moment{date, place, present, summary, anchor, captions, basis, source}; scenes 1-2 unchanged; scripts F003-F013 rewritten v0.4.0 (not rendered)."
+ "changelog_2_0_0": "29 Oct 2026 IN-PERIOD rewrite (owner WhatsApp 16:04 GMT): from scene 3 onward every scene is one dated moment in strict chronological order, recreating who was there, what was most likely said and what it looked like; no narrator, no fourth wall, no archivist; other events of a scene become dated on-screen captions; each item carries moment{date, place, present, summary, anchor, captions, basis, source}; scenes 1-2 unchanged; scripts F003-F013 rewritten v0.4.0 (not rendered).",
+ "updated": "2026-10-29T20:25Z",
+ "changelog": [
+  {
+   "v": "2.0.1",
+   "at": "2026-10-29T20:25Z",
+   "note": "Chronology re-check: EV-0629..EV-0645 (10 new evidence rows, 1974-2008) added to unfilled frames 52, 67, 82, 86, 106, 107, 108 by date. — Sion's Tab agent"
+  },
+  {
+   "v": "2.0.2",
+   "at": "2026-10-29T20:56Z",
+   "note": "Door 3 opened (released 2026-10-29); release_planned re-run (F004 on 2026-10-30). — Sion's Tab agent"
+  }
+ ]
 }
