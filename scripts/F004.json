@@ -1,285 +1,184 @@
 {
  "frame": 4,
  "title": "Graves above the Ely",
+ "date": "c. 650",
+ "place": "Monastic burial ground on Llandough hill, above the Ely",
  "cast": {
-  "B_JOHN": "a monk of Llandough (c. 650)",
-  "I_NIA": "Nia, the archivist (2020s reading room)"
+  "B_JOHN": "a monk of Llandough",
+  "A_MARY": "a woman of the district at the graveside (prologue, invented)"
  },
  "setting": "s10",
- "target_seconds": 120,
+ "spoken_language": "cy",
  "shots": [
   {
    "shot": 1,
-   "set": "s08",
-   "direction": "HOOK (0-5 s): talking close-up of Nia under the reading-room lamp, a thick bound journal open in front of her.",
-   "image_prompt": "Photoreal modern county records office reading room, soft lamplight, Welsh woman in her 30s with a black bob haircut, round tortoiseshell glasses and a mustard cardigan, wearing white cotton gloves, opening a heavy bound academic journal on a foam book cradle, grey archive boxes behind, no text visible, no heraldry",
-   "animate": "omnihuman",
-   "lines": [
+   "set": "s10",
+   "direction": "(~10 s) Date-and-place card over an establishing still. Late autumn afternoon on the crown of Llandough hill. Low grey cloud and wet grass. Below and far off, the River Ely winds through broad reed marshes toward a hazy tidal estuary. The view is inland from a hilltop, with no shoreline at the foot of the hill. A slow push-in. Ambience: wind in the grass, distant curlews over the marsh.",
+   "image_prompt": "Photoreal 16:9 landscape, early medieval Wales c. 650 AD. View from the grassy crown of an inland hill looking down over a winding river through wide brown reed marshes toward a distant hazy tidal estuary. Late autumn, overcast soft light, damp grass, scattered hawthorn, a few curlews in flight. No buildings in the foreground, no beach, no cliffs, no modern structures, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "I_NIA",
-     "en": "Bore da. Hundreds of graves on this one hill. Who were they? The dig is in Medieval Archaeology, volume forty-nine: Holbrook and Thomas.",
+     "text": "c. 650 · Llandough hill, above the Ely",
      "cite": [
-      "CH-0363",
-      "CH-0364"
-     ],
-     "cy": "Bore da. Cannoedd o feddau ar yr un bryn hwn. Pwy oedden nhw? Mae'r cloddio yn Medieval Archaeology, cyfrol pedwar deg naw: Holbrook a Thomas.",
-     "es": "Bore da. Cientos de tumbas en esta misma colina. ¿Quiénes eran? La excavación está en Medieval Archaeology, volumen cuarenta y nueve: Holbrook y Thomas.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "CH-0001"
+     ]
     }
    ],
-   "lip_sync": "en"
+   "lines": []
   },
   {
    "shot": 2,
    "set": "s10",
-   "direction": "Close on the monk leaning on a wooden spade beside a freshly cut grave; old stones show in the spoil at his feet (no walls, no villa).",
-   "image_prompt": "Photoreal early-medieval Welsh hillside c. 650, weathered monk in his 50s with a broad face and grey-flecked beard, tonsured, in a plain undyed wool habit, leaning on a wooden spade beside a fresh earth grave, low tumbled Roman stone wall footings half under turf, overcast sky, river valley below, no text, no heraldry",
-   "animate": "omnihuman",
-   "lines": [
+   "direction": "(~14 s) A small funeral procession crosses the hilltop burial ground. Low turf mounds and fresh-cut graves run in rough rows, aligned west to east. Two lay brothers carry a body wrapped in a plain undyed linen shroud on a wooden bier. The monk walks ahead, and the woman follows with her cloak drawn close. In the background stands a small timber church with a thatched roof, with smoke rising from a hut beyond. Slow lateral drift. Ambience: footsteps, low Latin psalm chant under the wind.",
+   "image_prompt": "Photoreal 16:9, early medieval Wales c. 650 AD. A small funeral procession on an inland grassy hilltop cemetery. Rows of low turf grave mounds and freshly dug graves are aligned west to east. Two men in undyed wool tunics carry a linen-shrouded body on a simple wooden bier. Ahead walks a monk in his 40s-70s with a broad weathered face, grey-flecked beard, Insular frontal tonsure, rough undyed wool habit and heavy hands. Behind follows a Welsh woman in her 20s-30s with dark brown hair under a wool head-cloth, strong cheekbones, grey-green eyes, a small mole on her left cheek and a dark wool cloak. A small timber church with a thatched roof stands in the background, with marshland and river far below. Overcast light. No stone ruins shown, no text, no heraldry, invented faces.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "B_JOHN",
-     "en": "Old stones lie under the turf here; my spade still finds them. Another grave today.",
+     "text": "5th–11th century: an early-medieval monastic cemetery grows beside the old Roman buildings on the hill (PX-03)",
      "cite": [
       "PX-03"
-     ],
-     "cy": "Mae hen gerrig o dan y dywarchen yma; mae fy rhaw yn dal i'w taro nhw. Bedd arall heddiw.",
-     "es": "Hay piedras viejas bajo el césped; mi pala todavía las encuentra. Otra tumba hoy.",
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     ]
     }
    ],
-   "lip_sync": "cy"
+   "lines": []
   },
   {
    "shot": 3,
-   "set": "s08",
-   "direction": "Nia reads aloud, one gloved finger tracing the line on the page. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal close shot in a modern archive reading room, Welsh woman in her 30s, black bob, round tortoiseshell glasses, mustard cardigan, white cotton gloves, reading intently from an open journal, warm lamplight, shallow depth of field, no legible text, no heraldry",
+   "set": "s10",
+   "direction": "(~10 s) Medium close on the monk at the graveside as the shrouded body is lowered, head to the west. He scatters a handful of earth and speaks gently to the dead woman.",
+   "image_prompt": "Photoreal 16:9 medium close-up, early medieval Wales c. 650 AD. A monk with a broad weathered face, grey-flecked beard, Insular frontal tonsure and undyed wool habit stands at the edge of an open earth grave on a grassy hilltop, letting soil fall from one heavy hand. A linen-shrouded body is visible below the grave edge. Overcast soft light, blurred river marshes far behind. No text, no heraldry, invented face.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "The diggers came in nineteen ninety-four, expecting a small job. Listen: 'At an early stage it became clear that the site contained numerous burials that continued beyond the bounds of the agreed excavation area.'",
+     "who": "B_JOHN",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, low and steady (mark for native review)",
+     "cy": "Pridd i bridd. Gorwedd di yma gyda'r lleill, a'th wyneb tua'r dwyrain, tua'r wawr.",
+     "en": "Earth to earth. Lie here with the others, your face to the east, toward the dawn.",
+     "es": "Tierra a la tierra. Descansá acá con los demás, con la cara hacia el este, hacia el alba.",
      "cite": [
-      "CH-0325"
-     ],
-     "cy": "Daeth y cloddwyr yn un naw naw pedwar, yn disgwyl jobyn bach. Gwrandwch: 'Yn gynnar iawn, daeth yn amlwg bod y safle'n cynnwys llawer o gladdedigaethau a oedd yn ymestyn y tu hwnt i ffiniau'r ardal gloddio y cytunwyd arni.'",
-     "es": "Los excavadores llegaron en mil novecientos noventa y cuatro, esperando poco trabajo. Escuchen: 'En una etapa temprana quedó claro que el sitio contenía numerosos enterramientos que continuaban más allá de los límites del área de excavación acordada.'",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "PX-03"
+     ]
     }
-   ],
-   "lip_sync": "en"
+   ]
   },
   {
    "shot": 4,
    "set": "s10",
-   "direction": "The monk looks out across the slope of graves toward the river, as if answering her across the centuries.",
-   "image_prompt": "Photoreal early-medieval hillside cemetery above a winding river, many low earth grave mounds in the grass, weathered bearded tonsured monk in a wool habit gazing down the valley, mist over the river, soft grey light, no text, no heraldry",
+   "direction": "(~11 s) Close on the woman across the grave. She looks along the rows of mounds stretching away, then back to the monk.",
+   "image_prompt": "Photoreal 16:9 close-up, early medieval Wales c. 650 AD. A Welsh woman with dark brown hair under a wool head-cloth, strong cheekbones, grey-green eyes, a small mole on her left cheek and a dark wool cloak stands at a graveside, grief held in check. Behind her, rows of low turf grave mounds recede across an inland hilltop. Overcast light. No text, no heraldry, invented face.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "B_JOHN",
-     "en": "Beyond the bounds, aye. Every winter takes someone, and every one of them is laid on this hill, row after row, looking down on the Ely.",
+     "who": "A_MARY",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, quiet (mark for native review)",
+     "cy": "Mae cymaint ohonyn nhw, frawd. Rhes ar ôl rhes. Bob gaeaf, mwy. Fydd hi'n unig yma?",
+     "en": "There are so many of them, brother. Row after row. Every winter, more. Will she be lonely here?",
+     "es": "Son tantos, hermano. Fila tras fila. Cada invierno, más. ¿Va a estar sola acá?",
      "cite": [
       "PX-03"
-     ],
-     "cy": "Y tu hwnt i'r ffiniau, ie. Mae pob gaeaf yn cymryd rhywun, a chaiff pob un ei osod ar y bryn hwn, rhes ar ôl rhes, yn edrych i lawr dros yr Elái.",
-     "es": "Más allá de los límites, sí. Cada invierno se lleva a alguien, y a todos los ponen en esta loma, hilera tras hilera, mirando hacia el Ely.",
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     ]
     }
-   ],
-   "lip_sync": "cy"
+   ]
   },
   {
    "shot": 5,
-   "set": "s08",
-   "direction": "Document insert: the excavation report's site plan and burial count page. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Prop insert: open page of an archaeological excavation report showing a site plan of many small grave outlines, printed academic journal, lying on a reading-room desk beside white cotton gloves, no legible text, no heraldry",
+   "set": "s10",
+   "direction": "(~15 s) The monk turns slightly and nods toward the little thatched timber church behind them as he answers her.",
+   "image_prompt": "Photoreal 16:9 medium shot, early medieval Wales c. 650 AD. A monk with a grey-flecked beard, Insular frontal tonsure and undyed wool habit turns toward a small thatched timber church on a grassy hilltop and gestures gently with one hand. Grave mounds lie around him under a soft overcast sky. No stone ruins, no text, no heraldry, invented face.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "So they widened the trench to point two two of a hectare, and counted one thousand and twenty-six burials before work stopped in September nineteen ninety-four.",
+     "who": "B_JOHN",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, warm (mark for native review)",
+     "cy": "Unig? Byth. Mae'r brodyr yn canu'r salmau yma bob cyfnos, uwchben yr Elái. Roedd yr eglwys fach hon yn hen pan ddes i, a bydd hi yma ar ôl i ni fynd.",
+     "en": "Lonely? Never. The brothers sing the psalms here every dusk, above the Ely. This little church was old when I came, and it will be here after we are gone.",
+     "es": "¿Sola? Nunca. Los hermanos cantan los salmos acá todos los atardeceres, sobre el Ely. Esta iglesita ya era vieja cuando llegué, y va a seguir acá cuando nos hayamos ido.",
      "cite": [
-      "CH-0325",
-      "CH-0364"
-     ],
-     "cy": "Felly dyma nhw'n lledu'r ffos i bwynt dau ddau o hectar, a chyfrif mil a dau ddeg chwech o gladdedigaethau cyn i'r gwaith stopio ym mis Medi, un naw naw pedwar.",
-     "es": "Así que ampliaron la trinchera a cero coma veintidós hectáreas, y contaron mil veintiséis enterramientos antes de parar en septiembre de mil novecientos noventa y cuatro.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "CH-0001"
+     ]
     }
-   ],
-   "lip_sync": "en"
+   ]
   },
   {
    "shot": 6,
-   "set": "s08",
-   "direction": "Nia looks up from the page toward the lens, slightly wry.",
-   "image_prompt": "Photoreal medium close-up of a Welsh woman in her 30s with a black bob, round tortoiseshell glasses and a mustard cardigan, in an archive reading room, looking up from papers with a thoughtful half-smile, lamplight, no text, no heraldry",
+   "set": "s10",
+   "direction": "(~9 s) Close on the woman as a lay brother's wooden spade strikes something hard at the edge of the grave with a dull knock. She glances down at the spoil heap, where a squared, weathered stone fragment shows in the soil, then looks back up.",
+   "image_prompt": "Photoreal 16:9 close-up, early medieval Wales c. 650 AD. A Welsh woman with dark brown hair under a wool head-cloth, grey-green eyes and a small mole on her left cheek glances down at a heap of fresh grave soil. A single small weathered squared stone fragment lies half-buried in the earth beside a wooden spade. Overcast light. No buildings or ruins visible, no text, no heraldry, invented face.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "Mind, the Historic Environment Record gives eight hundred and fifty-eight inhumations. Two counts, both in print. We keep both on the page until someone explains the gap.",
+     "who": "A_MARY",
+     "spoken": "cy",
+     "accent": "South Wales Welsh (mark for native review)",
+     "cy": "A dan y dywarchen, yr hen gerrig. Mae'r rhawiau'n eu taro nhw o hyd.",
+     "en": "And under the turf, the old stones. The spades still strike them.",
+     "es": "Y bajo el pasto, las piedras viejas. Las palas siguen dando con ellas.",
      "cite": [
-      "CH-0325"
-     ],
-     "cy": "Cofiwch, mae'r Cofnod Amgylchedd Hanesyddol yn rhoi wyth gant pum deg wyth o gladdedigaethau. Dau gyfrif, y ddau mewn print. Rydyn ni'n cadw'r ddau ar y dudalen nes bod rhywun yn esbonio'r bwlch.",
-     "es": "Ojo, el Registro del Entorno Histórico da ochocientas cincuenta y ocho inhumaciones. Dos conteos, ambos publicados. Dejamos los dos hasta que alguien explique la diferencia.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "PX-03"
+     ]
     }
-   ],
-   "lip_sync": "en"
+   ]
   },
   {
    "shot": 7,
    "set": "s10",
-   "direction": "Close on the monk kneeling to smooth the earth over a grave with his heavy hands.",
-   "image_prompt": "Photoreal close-up of a weathered tonsured monk with a grey-flecked beard and heavy hands, kneeling in a wool habit, pressing down fresh soil on a grave on a grassy hillside, early-medieval Wales, muted light, no text, no heraldry",
+   "direction": "(~11 s) The monk looks at the stone fragment without concern, then offers the woman his hand to lead her from the grave as the lay brothers begin to fill it.",
+   "image_prompt": "Photoreal 16:9 medium shot, early medieval Wales c. 650 AD. A monk with a grey-flecked beard, Insular frontal tonsure and undyed wool habit extends a heavy hand toward a cloaked woman beside a half-filled grave on an inland grassy hilltop. Behind them, two men in wool tunics shovel earth. The light is fading toward dusk. No ruins shown, no text, no heraldry, invented faces.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
      "who": "B_JOHN",
-     "en": "Numbers. I know faces. The shepherd's boy. The old woman from over the water. The ground keeps taking them.",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, gentle (mark for native review)",
+     "cy": "Cerrig y Rhufeiniaid ydyn nhw. Maen nhw wedi hen fynd; ni sy'n aros. Dere. Mae'r brodyr yn disgwyl amdanon ni.",
+     "en": "They are the Romans' stones. They are long gone; we are the ones who stay. Come. The brothers are waiting for us.",
+     "es": "Son piedras de los romanos. Ellos se fueron hace mucho; nosotros somos los que quedamos. Vení. Los hermanos nos esperan.",
      "cite": [
       "PX-03"
-     ],
-     "cy": "Rhifau. Dwi'n nabod wynebau. Bachgen y bugail. Yr hen wraig o'r ochr draw i'r dŵr. Mae'r ddaear yn dal i'w cymryd nhw.",
-     "es": "Números. Yo conozco caras. El hijo del pastor. La anciana de más allá del agua. La tierra sigue llevándoselos.",
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     ]
     }
-   ],
-   "lip_sync": "cy"
+   ]
   },
   {
    "shot": 8,
-   "set": "s08",
-   "direction": "Document insert: printout of the Coflein site record on the Grandson's desk beside a laptop. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Prop insert: a printed monument record sheet with a small map, lying beside a laptop and a manila folder on a modern research desk, soft daylight, no legible text, no heraldry",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Coflein, the Royal Commission's record eight-oh-two-oh-nine-oh, files the cemetery; project archive CA zero seventeen. The datasets are free online at the Archaeology Data Service.",
-     "cite": [
-      "CH-0373",
-      "CH-0363",
-      "CH-0365"
-     ],
-     "cy": "Coflein, cofnod y Comisiwn Brenhinol wyth-dim-dau-dim-naw-dim, yn cadw cofnod o'r fynwent; archif y prosiect CA dim un saith. Mae'r data ar gael am ddim ar-lein gyda'r Archaeology Data Service.",
-     "es": "Coflein, el registro de la Comisión Real ocho-cero-dos-cero-nueve-cero, archiva el cementerio; archivo del proyecto CA cero diecisiete. Los datos están libres en línea en el Archaeology Data Service.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 9,
    "set": "s10",
-   "direction": "The monk walks up to a small, plain timber church with a thatched roof on the hill and rests a hand on its doorpost (early-medieval; a timber church is our interpretation, the form of the first church is not recorded).",
-   "image_prompt": "Photoreal small plain early-medieval stone church with a thatched roof on a Welsh hilltop, weathered bearded tonsured monk in a wool habit resting a hand on the timber doorpost, graves in the grass around, evening light, no text, no heraldry",
-   "animate": "i2v",
-   "lines": [
+   "direction": "(~16 s) Wide closing still at dusk. The monk and the woman walk toward the small thatched church, where a faint light shows in the doorway. The new mound joins the rows on the hill, and the Ely marshes lie dim and silver below. Slow pull-back. Ambience: psalm chant rising from the church, wind, a last curlew.",
+   "image_prompt": "Photoreal 16:9 wide shot at dusk, early medieval Wales c. 650 AD. Two small figures, a tonsured monk in an undyed habit and a cloaked woman, walk across an inland hilltop cemetery of low turf mounds toward a small thatched timber church with a faint warm glow in its doorway. Far below, river marshes and a distant tidal estuary catch the last silver light. No beach, no cliffs, no stone ruins, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "B_JOHN",
-     "en": "And the church? We pray in it. Who built it first, and when, I could not swear. It was old when I came.",
+     "text": "c. 650: St Dochdwy's, beside the later farm, is thought from archaeology to be an early monastery (CH-0001)",
      "cite": [
       "CH-0001"
-     ],
-     "cy": "A'r eglwys? Rydyn ni'n gweddïo ynddi. Pwy gododd hi gyntaf, a phryd, allwn i ddim taeru. Roedd hi'n hen pan ddes i.",
-     "es": "¿Y la iglesia? Rezamos en ella. Quién la construyó primero, y cuándo, no podría jurarlo. Ya era vieja cuando llegué.",
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ]
-  },
-  {
-   "shot": 10,
-   "set": "s08",
-   "direction": "Document insert: the Legal Wiki Master Timeline printout, with an empty evidence folder beside it. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Prop insert: a printed web-page timeline sheet next to an empty open manila folder on a research desk, laptop edge in frame, modern archive light, no legible text, no heraldry",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "The family's Master Timeline on the Legal Wiki puts St Dochdwy's, beside the farm, at about six-fifty, thought to be an early monastery. That's a summary, not a dig, and its evidence folder is still empty.",
-     "cite": [
-      "CH-0001"
-     ],
-     "cy": "Mae Llinell Amser Feistr y teulu ar y Legal Wiki yn gosod Llan Dochdwy, wrth ymyl y fferm, tua chwe chant pum deg, y meddylir ei bod yn fynachlog gynnar. Crynodeb yw hwnnw, nid cloddiad, ac mae ei ffolder dystiolaeth yn dal yn wag.",
-     "es": "La Línea de Tiempo Maestra de la familia en el Wiki Legal pone a St Dochdwy's, junto a la granja, hacia el seiscientos cincuenta, un posible monasterio temprano. Eso es un resumen, no una excavación, y su carpeta de evidencia sigue vacía.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     ]
     }
    ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 11,
-   "set": "s08",
-   "direction": "Nia turns to a second paper in the same volume and sets the two side by side. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal archive reading room, Welsh woman in her 30s, black bob, tortoiseshell glasses, mustard cardigan, white cotton gloves, laying two open journal articles side by side on a desk, lamplight, no legible text, no heraldry",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "The same volume sets Llandough in context. The graves show a great early-medieval burial ground on this hill. They don't show who ran it, its name, or any deed.",
-     "cite": [
-      "CH-0366",
-      "PX-03"
-     ],
-     "cy": "Mae'r un gyfrol yn gosod Llandochau yn ei chyd-destun. Mae'r beddau'n dangos mynwent fawr gynnar o'r Oesoedd Canol ar y bryn hwn. Dydyn nhw ddim yn dangos pwy oedd yn ei rhedeg, ei henw, na dim gweithred.",
-     "es": "El mismo volumen sitúa Llandough en su contexto. Las tumbas muestran un gran cementerio altomedieval en esta colina. No muestran quién lo dirigía, su nombre, ni ningún documento.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 12,
-   "set": "s10",
-   "direction": "Wide at dusk: the little church, the graves and the monk small against the Ely valley as the light fades.",
-   "image_prompt": "Photoreal wide dusk landscape of a Welsh hill over a winding river, small thatched stone church, many grassy grave mounds, a lone bearded monk in a wool habit standing among them, faint glow from the church doorway, deep blue sky, no text, no heraldry",
-   "animate": "i2v",
-   "lines": [
-    {
-     "who": "B_JOHN",
-     "en": "Then write us down as we were: graves above the Ely, a little church, psalms at dusk.",
-     "cite": [
-      "PX-03",
-      "CH-0001"
-     ],
-     "cy": "Felly ysgrifennwch amdanon ni fel yr oedden ni: beddau uwchben yr Elái, eglwys fach, salmau gyda'r hwyr.",
-     "es": "Entonces que nos describan como fuimos: tumbas sobre el Ely, una pequeña iglesia, salmos al atardecer.",
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ]
+   "lines": []
   }
  ],
  "covers": [
   "PX-03",
   "CH-0001"
  ],
- "left_out": [],
- "continuity": "Nia stays at the reading-room desk and turns from the excavation report to a 2011 Penarth Times letter on Fitzhamon's grant to Tewkesbury Abbey. The same hilltop church becomes St Dochdwy's beside the Irbic cross.",
+ "continuity": "Dusk settles on the hilltop graves and the little church of the brothers. The same monk, habit and churchyard carry forward to the hauling and raising of the carved Irbic cross.",
+ "script_version": "v0.4.0",
+ "status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
  "translation": {
-  "cy": "machine translation (claude-sonnet-5), for native review",
-  "es": "machine translation (claude-sonnet-5), for review"
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
  },
- "status": "v0.2.0 27 Oct 2026 script review: villa wording removed, timber church, hook; for hive review",
- "words_en": 299,
- "estimated_seconds": 138,
- "script_version": "v0.2.0",
- "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
- "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
- "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue"
+ "target_seconds": 120,
+ "left_out": [],
+ "accent_rule": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "words_en": 98,
+ "estimated_seconds": 51
 }

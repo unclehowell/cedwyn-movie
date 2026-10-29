@@ -1,250 +1,220 @@
 {
  "frame": 6,
- "title": "The family's account, and the papers in question",
+ "title": "The surveyor's chain",
+ "date": "c. 1786",
+ "place": "Fields of the Herbert of White Friars estate, Llandough-juxta-Penarth",
  "cast": {
-  "I_NIA": "Nia, the archivist (on camera, 2020s)",
-  "D_BILLY": "the Grandson (on camera, 2020s; invented face)"
+  "E_AGENT": "the estate surveyor (Herbert of White Friars / Hurst estate), unnamed",
+  "G_DAI": "Dai, the chain-man (fictional)"
  },
- "setting": "s08",
- "target_seconds": 120,
+ "setting": "s09",
+ "spoken_language": "cy",
  "shots": [
   {
    "shot": 1,
-   "set": "s08",
-   "direction": "HOOK (0-5 s): talking close-up of Nia at the reading-room table, two thin folders and a typed statement in front of her.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
+   "set": "s09",
+   "direction": "About 9 s. Date-and-place card over a wide establishing still on an early autumn morning around 1786. The camera stands on the inland crest of Llandough hill and looks down over hedged fields, Leckwith woods, the River Ely winding through the marshes, and the estuary far off in a pale haze. Two small figures and a plane-table stand in the middle distance. A slow push-in. Ambience: wind, rooks, a distant cowbell.",
+   "image_prompt": "Photoreal 16:9 landscape, Vale of Glamorgan c. 1786, early autumn morning. The view runs from an inland hilltop down over small hedged fields and earth banks, oak woods to one side, and a winding river through flat green-brown marshland, with a distant estuary in soft haze. The hill is not on the coast. Two tiny figures in 18th-century dress stand in a field beside a wooden plane-table on a tripod, with a thin measuring chain on the grass. Overcast silver light, muted greens and browns. No text, no heraldry, no buildings in the foreground.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "I_NIA",
-     "en": "Bore da. How far back can we follow Tŷ Mawr on paper? Today we sort what we hold from what we're still chasing.",
-     "cy": "Bore da. Pa mor bell yn ôl allwn ni ddilyn Tŷ Mawr ar bapur? Heddiw, rydyn ni'n gwahanu'r hyn sydd gyda ni oddi wrth yr hyn rydyn ni'n dal i chwilio amdano.",
-     "es": "Bore da. ¿Hasta dónde podemos seguir Tŷ Mawr en el papel? Hoy separamos lo que tenemos de lo que aún buscamos.",
+     "text": "c. 1786 · Fields of the Herbert of White Friars estate, Llandough-juxta-Penarth",
      "cite": [
-      "CH-0003",
-      "EV-0211"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "CH-0004"
+     ]
     }
    ],
-   "lip_sync": "en"
+   "lines": []
   },
   {
    "shot": 2,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson laying the typed statement on the foam cradle.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
+   "set": "s09",
+   "direction": "About 10 s. A low angle along the grass. A Gunter's chain lies taut between two iron arrows, and its brass tallies catch the light. Dai's boots plant a ranging pole at the hedge-bank. The camera tracks slowly along the chain. Ambience: chain links clinking, wind in the hedge. Caption only, no voice.",
+   "image_prompt": "Photoreal 16:9 close low-angle shot in a Welsh field c. 1786. An iron surveyor's Gunter's chain is stretched taut across rough grass between iron marking arrows, with small brass tally tags on the links. A big man's worn leather buckled shoes and woollen stockings stand at the far end beside a red-and-white wooden ranging pole planted at a hawthorn hedge-bank. Overcast light, shallow depth of field. Period-accurate. No text, no heraldry.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "D_BILLY",
-     "en": "Start with the family's own account. Mary (Nancy) Williams's statement.",
-     "cy": "Dechreuwch gyda hanes y teulu ei hun. Datganiad Mary (Nancy) Williams.",
-     "es": "Empecemos por el relato de la propia familia. La declaración de Mary (Nancy) Williams.",
+     "text": "Estate plans of lands in Cogan, Llandough, Penarth, St Andrews Major and Sully, 1786–1832, survive in the Percy Randell collection (CH-0004). This survey day is recreated as the most likely moment.",
      "cite": [
-      "CH-0003"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+      "CH-0004"
+     ]
     }
    ],
-   "lip_sync": "en"
+   "lines": []
   },
   {
    "shot": 3,
-   "set": "s08",
-   "direction": "Talking close-up of Nia, a gloved finger on the statement.",
-   "image_prompt": "",
+   "set": "s09",
+   "direction": "About 7 s. Medium shot of the surveyor at his plane-table, pencil in hand. He looks down the field and calls to Dai, who is off-frame at the far end of the chain.",
+   "image_prompt": "Photoreal 16:9 medium shot, Welsh hillside field c. 1786. A pale, clean-shaven man in his 50s wears thin-rimmed round spectacles, a dark wool frock coat, a waistcoat, breeches and a black round hat. He stands at a wooden plane-table on a tripod with a brass sighting rule and a sheet of paper pinned down, and a leather document case hangs at his side. He is calling across the field. Overcast light, hedgerows behind him. Invented face. No text, no heraldry.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "I_NIA",
-     "en": "In it she sets down that the Williams family came to Tŷ Mawr in sixteen sixty-seven. That's the family's account, and the Master Timeline lists it that way.",
-     "cy": "Ynddo mae hi'n nodi bod teulu Williams wedi dod i Dŷ Mawr yn un fil chwe chant chwe deg saith. Dyna hanes y teulu, ac felly mae'r Brif Linell Amser yn ei restru.",
-     "es": "En ella deja constancia de que la familia Williams llegó a Tŷ Mawr en mil seiscientos sesenta y siete. Ese es el relato de la familia, y así lo recoge la Cronología principal.",
-     "cite": [
-      "CH-0003"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 4,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson, leaning in.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "And the oldest record that names the house?",
-     "cy": "A'r cofnod hynaf sy'n enwi'r tŷ?",
-     "es": "¿Y el registro más antiguo que nombra la casa?",
-     "cite": [
-      "EV-0211"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 5,
-   "set": "s08",
-   "direction": "Talking close-up of Nia, turning a printed catalogue sheet toward him.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "So far, eighteen twenty-four: David Stewart's survey of the Bute estates, plan nineteen, Cedfin or Tŷ Mawr. We open that next.",
-     "cy": "Hyd yma, un fil wyth cant dau ddeg pedwar: arolwg David Stewart o ystadau Bute, cynllun pedwar ar bymtheg, Cedfin neu Dŷ Mawr. Fe agorwn ni hwnnw nesaf.",
-     "es": "Por ahora, mil ochocientos veinticuatro: el levantamiento de David Stewart de las fincas de Bute, plano diecinueve, Cedfin o Tŷ Mawr. Lo abriremos a continuación.",
-     "cite": [
-      "EV-0211"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 6,
-   "set": "s08",
-   "direction": "Wordless insert (3 s): two thin family research folders, unlabelled, beside an empty archive box.",
-   "image_prompt": "",
-   "animate": "still",
-   "lines": []
-  },
-  {
-   "shot": 7,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson, tapping the two folders.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "What about the older notes in my folders? The long lease of Cydwin, the Bute papers.",
-     "cy": "Beth am yr hen nodiadau yn fy ffolderi? Y les hir ar Gydwin, papurau Bute.",
-     "es": "¿Y las notas antiguas de mis carpetas? El arrendamiento largo de Cydwin, los papeles de Bute.",
-     "cite": [
-      "EV-0002",
-      "EV-0003"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 8,
-   "set": "s08",
-   "direction": "Talking close-up of Nia, careful and even.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "They're notes about other people's papers, and nobody here has seen the originals. Whether any of them touches Tŷ Mawr, and whether the Bute freeholds were ever good, is under forensic examination. Until then, they're not Tŷ Mawr records.",
-     "cy": "Nodiadau am bapurau pobl eraill ydyn nhw, a does neb yma wedi gweld y rhai gwreiddiol. Mae p'un a yw unrhyw un ohonyn nhw'n cyffwrdd â Thŷ Mawr, ac a oedd rhyddfreiniau Bute erioed yn ddilys, dan archwiliad fforensig. Tan hynny, nid cofnodion Tŷ Mawr ydyn nhw.",
-     "es": "Son notas sobre papeles de otros, y nadie aquí ha visto los originales. Si alguno toca Tŷ Mawr, y si las propiedades de Bute fueron alguna vez válidas, está bajo examen forense. Hasta entonces, no son registros de Tŷ Mawr.",
-     "cite": [
-      "EV-0002",
-      "EV-0003"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 9,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson, nodding.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "So the family's account stands, and those papers have to earn their place.",
-     "cy": "Felly mae hanes y teulu'n sefyll, ac mae'n rhaid i'r papurau hynny ennill eu lle.",
-     "es": "Entonces el relato de la familia se mantiene, y esos papeles tienen que ganarse su sitio.",
-     "cite": [
-      "CH-0003",
-      "EV-0002",
-      "EV-0003"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 10,
-   "set": "s08",
-   "direction": "Wordless moving shot (4 s): Nia unrolls large reproduction estate plans across the table and weights the corners with boxes.",
-   "image_prompt": "",
-   "animate": "i2v",
-   "lines": []
-  },
-  {
-   "shot": 11,
-   "set": "s08",
-   "direction": "Talking close-up of Nia over the plans.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "And here's company for the search: the Percy Randell collection, estate plans from seventeen eighty-six to eighteen thirty-two, for Cogan, Llandough, Penarth, St Andrews Major and Sully. What they show of Tŷ Mawr, we'll learn field by field.",
-     "cy": "A dyma gwmni i'r chwilio: casgliad Percy Randell, cynlluniau ystad o un fil saith cant wyth deg chwech hyd un fil wyth cant tri deg dau, ar gyfer Cogan, Llandochau, Penarth, St Andrews Major a Sully. Beth maen nhw'n ei ddangos o Dŷ Mawr, fe ddysgwn ni gae wrth gae.",
-     "es": "Y aquí hay compañía para la búsqueda: la colección Percy Randell, planos de fincas de mil setecientos ochenta y seis a mil ochocientos treinta y dos, de Cogan, Llandough, Penarth, St Andrews Major y Sully. Lo que muestren de Tŷ Mawr, lo aprenderemos campo a campo.",
+     "who": "E_AGENT",
+     "spoken": "cy",
+     "accent": "educated Glamorgan Welsh, precise",
+     "cy": "Dai, tyn y gadwyn yn dynn. Cant o ddolenni, dim un yn llai.",
+     "en": "Dai, pull the chain tight. A hundred links, not one fewer.",
+     "es": "Dai, tensá bien la cadena. Cien eslabones, ni uno menos.",
      "cite": [
       "CH-0004"
      ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "review": "cy: native review (mutations: yn dynn, o ddolenni)"
     }
-   ],
-   "lip_sync": "en"
+   ]
   },
   {
-   "shot": 12,
+   "shot": 4,
    "set": "s09",
-   "direction": "Wordless drift (5 s) across the Llandough hill over the Ely marsh toward the distant estuary.",
-   "image_prompt": "",
-   "animate": "i2v",
+   "direction": "About 9 s. Medium shot of Dai at the hedge-bank, ranging pole in one fist and the chain end in the other. He counts with his eyes back along the chain, then grins across the field at the surveyor.",
+   "image_prompt": "Photoreal 16:9 medium shot, c. 1786. A big bald Welshman in his 60s with ginger-grey mutton-chop whiskers wears a coarse linen shirt with rolled sleeves, a brown wool waistcoat, breeches and woollen stockings. He holds a red-and-white wooden ranging pole and the brass handle of an iron surveyor's chain beside a hawthorn hedge-bank and a wooden stile. He has a good-humoured, weathered face and is speaking across the field. Overcast light. Invented face. No text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "G_DAI",
+     "spoken": "cy",
+     "accent": "broad Vale of Glamorgan Welsh (Gwenhwyseg)",
+     "cy": "Dyna hi, syr. Pedair cadwyn o'r clawdd i'r gamfa. Ond pam mesur bryn sy wedi bod 'ma erioed?",
+     "en": "There she is, sir. Four chains from the hedge to the stile. But why measure a hill that's always been here?",
+     "es": "Ahí está, señor. Cuatro cadenas del cerco al paso. ¿Pero para qué medir una loma que estuvo acá desde siempre?",
+     "cite": [
+      "CH-0004"
+     ],
+     "review": "cy: native review (i'r gamfa, sy wedi, 'ma)"
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "set": "s09",
+   "direction": "About 9 s. Close on the surveyor. He lifts his eyes from the pinned sheet and gestures with the pencil across the wide view, naming the parishes one by one.",
+   "image_prompt": "Photoreal 16:9 close-medium shot, c. 1786. A pale, clean-shaven estate surveyor in his 50s with thin-rimmed spectacles, a dark frock coat and a round hat gestures with a pencil toward a wide valley of hedged fields and distant marshes. A plane-table with a pinned paper sheet and a brass sighting rule stands before him. He is speaking calmly. Overcast inland hilltop light. Invented face. No text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "E_AGENT",
+     "spoken": "cy",
+     "accent": "educated Glamorgan Welsh, precise",
+     "cy": "Achos mae'r ystad moyn gweld ar bapur beth sy 'da hi. Cogan, Llandochau, Penarth, Sain Andras, Sili. Pob cae, pob clawdd.",
+     "en": "Because the estate wants to see on paper what it holds. Cogan, Llandough, Penarth, St Andrews, Sully. Every field, every hedge.",
+     "es": "Porque la finca quiere ver en papel lo que tiene. Cogan, Llandough, Penarth, St Andrews, Sully. Cada campo, cada cerco.",
+     "cite": [
+      "CH-0004"
+     ],
+     "review": "cy: native review (moyn, sy 'da hi: southern forms; Sain Andras for St Andrews Major)"
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "set": "s09",
+   "direction": "About 7 s. Dai turns and looks downhill toward the river and marshes. Over his shoulder, the Ely glints far below. He nods toward it and speaks.",
+   "image_prompt": "Photoreal 16:9 over-the-shoulder shot, c. 1786. A big bald man with ginger-grey mutton-chops and a brown waistcoat looks down from an inland hillside over hedged fields to a winding river and broad marshland, with a hazy estuary very far off. He holds a ranging pole and turns his head slightly to speak. Overcast light. Invented face. No text, no heraldry, no coastline in the foreground.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "G_DAI",
+     "spoken": "cy",
+     "accent": "broad Vale of Glamorgan Welsh (Gwenhwyseg)",
+     "cy": "A'r afon? Elái a'r morfa lawr fan 'na. Chi'n mesur rheiny 'fyd?",
+     "en": "And the river? The Ely and the marsh down there. Are you measuring those too?",
+     "es": "¿Y el río? El Ely y el bañado allá abajo. ¿También los va a medir?",
+     "cite": [
+      "CH-0004"
+     ],
+     "review": "cy: native review (rheiny, 'fyd: southern forms)"
+    }
+   ]
+  },
+  {
+   "shot": 7,
+   "set": "s09",
+   "direction": "About 8 s. The surveyor bends to the sighting rule, one eye closed, and answers without looking up.",
+   "image_prompt": "Photoreal 16:9 medium close shot, c. 1786. A spectacled, clean-shaven surveyor in a dark frock coat bends over a wooden plane-table and sights along a brass alidade, one eye closed and a pencil poised over a pinned paper sheet. He speaks quietly. Grassy inland hillside and hedgerows behind him, soft overcast light. Invented face. No text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "E_AGENT",
+     "spoken": "cy",
+     "accent": "educated Glamorgan Welsh, precise",
+     "cy": "Dim ond tir yr ystad. Dal y polyn yn syth. Mae'r cynllun cynta'n dechrau heddi.",
+     "en": "Only the estate's land. Hold the pole straight. The first plan starts today.",
+     "es": "Solo la tierra de la finca. Sostené el jalón derecho. El primer plano empieza hoy.",
+     "cite": [
+      "CH-0004"
+     ],
+     "review": "cy: native review (cynta'n, heddi: southern forms)"
+    }
+   ]
+  },
+  {
+   "shot": 8,
+   "set": "s09",
+   "direction": "About 14 s. A top-down still of the plane-table sheet. A pencil traces the first field boundaries as faint lines, without lettering. A slow drift across the paper. Ambience: pencil scratch, wind. Captions only.",
+   "image_prompt": "Photoreal 16:9 top-down close-up, c. 1786. A sheet of laid paper is pinned to a wooden plane-table, with faint graphite lines sketching irregular field boundaries and hedge lines and no writing or letters. A brass sighting rule and a hand holding a pencil in a dark wool cuff rest on it, with a small brass compass at the corner. Soft overcast light. No text, no heraldry, no seals or devices.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "1547: a family research note records a 1,000-year lease of 'Cydwin' from Sir George Herbert to Vaughan. The lease itself is not yet found (EV-0002).",
+     "cite": [
+      "EV-0002"
+     ]
+    },
+    {
+     "text": "1552–1824: a family research note gives the holding as 'Cedfin / Cydfin / Ken fin Farm or Ty Mawr Farm' in Bute estate records. The documents are not yet produced (EV-0003).",
+     "cite": [
+      "EV-0003"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 9,
+   "set": "s09",
+   "direction": "About 14 s. A wide closing still. Dai walks the chain forward to the next hedge while the surveyor stays at the table. Beyond them, a farmhouse roof and yard sit among the fields on the hill. A slow pull-back. Captions only.",
+   "image_prompt": "Photoreal 16:9 wide shot, inland Llandough hillside c. 1786. A big man in a waistcoat drags a surveyor's chain across a hedged field toward the next hedge-bank. A spectacled man in a dark frock coat stands at a plane-table in the foreground. Further up the hill stand a stone farmhouse with a slate roof and a farmyard among small fields, with oak woods and a distant river marsh below. Overcast late-morning light. No text, no heraldry, no coast.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "1667: Williams family occupancy begins, as Mary Buckler later recounted. An earlier written source is awaited (CH-0003).",
+     "cite": [
+      "CH-0003"
+     ]
+    },
+    {
+     "text": "Looking ahead to 1824: David Stewart's survey of the Bute estates, plan 19, names the holding 'Cedfin or Tŷ Mawr', the oldest record found so far that names the house (EV-0211).",
+     "cite": [
+      "EV-0211"
+     ]
+    }
+   ],
    "lines": []
   }
  ],
  "covers": [
-  "CH-0003",
   "EV-0211",
   "EV-0002",
   "EV-0003",
+  "CH-0003",
   "CH-0004"
  ],
- "left_out": [],
- "continuity": "Chronology rule (owner 26 Oct 11:45): Tŷ Mawr first named in the record found so far in 1824 (EV-0211); family account 1667 (CH-0003); third-party papers (EV-0002, EV-0003) are never shown as Tŷ Mawr records and their dates are not spoken (editorial: third-party paper dates are not given in public text). F008 opens the 1824 survey.",
+ "continuity": "The chain moves on toward the farmhouse on the hill. In the next scene a surveyor sets up his board in its yard and draws the plan of Tŷ Mawr, then 'Gedrych property'.",
+ "script_version": "v0.4.0",
+ "status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
  "translation": {
-  "cy": "machine translation (claude-sonnet-5), for native review",
-  "es": "machine translation (claude-sonnet-5), for review"
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
  },
- "status": "v0.2.0 27 Oct 2026 script review: re-titled and rewritten to the chronology rule; for hive review",
- "words_en": 196,
- "estimated_seconds": 101,
- "script_version": "v0.2.0",
- "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
- "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
- "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue"
+ "target_seconds": 120,
+ "left_out": [],
+ "accent_rule": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "words_en": 81,
+ "estimated_seconds": 49
 }

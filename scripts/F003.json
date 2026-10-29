@@ -1,318 +1,166 @@
 {
  "frame": 3,
  "title": "Same hill, new neighbours",
+ "date": "c. AD 200",
+ "place": "Fields on Llandough hill, above the River Ely",
  "cast": {
-  "B_JOHN": "a Romano-British farmer (prologue, invented portrait cast/B_JOHN_ironage.jpg aged on)",
-  "A_MARY": "a Romano-British farm woman (prologue, invented portrait cast/A_MARY_ironage.jpg)",
-  "I_NIA": "Nia, the archivist (on camera, 2020s)",
-  "D_BILLY": "the Grandson (on camera, 2020s; invented face)"
+  "B_JOHN": "a Romano-British farmer (prologue, invented)",
+  "A_MARY": "a Romano-British farm woman, his wife (prologue, invented)"
  },
  "setting": "s10",
- "target_seconds": 120,
+ "spoken_language": "cy",
  "shots": [
   {
    "shot": 1,
-   "set": "s08",
-   "direction": "HOOK (0-5 s): talking close-up of Nia at the reading-room table, looking up from a closed folder; she asks the scene's question straight to camera.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
+   "set": "s10",
+   "direction": "About 12 s. Date-and-place card over a wide establishing still. It is late summer on the upper slope of Llandough hill. Half the field is reaped spelt stubble and half is standing golden grain. Below, the River Ely winds through green marshland towards a hazy estuary on the far horizon. The view is inland: no shore, no waves. No buildings are in frame except a small wattle-and-thatch barn at the field edge. Very slow push-in. Ambience: wind in the grain, skylarks, distant geese.",
+   "image_prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200, late summer afternoon. Inland hillside field on a gentle slope, half reaped stubble and half standing golden spelt wheat, sheaves stooked in rows. Below, a winding river through flat green marshland, a faint estuary haze far on the horizon, wooded valley sides. Small wattle-and-daub barn with thatched roof at the field edge. No people in close view, no stone buildings visible, no sea, no coastline, no beach. Soft natural light, muted earthy palette. No text, no heraldry.",
+   "animate": "still",
+   "captions": [
     {
-     "who": "I_NIA",
-     "en": "Bore da. Same hill, a few hundred years on. Who was farming it, and what was on their minds?",
-     "cy": "Bore da. Yr un bryn, ychydig gannoedd o flynyddoedd yn ddiweddarach. Pwy oedd yn ei ffermio, a beth oedd ar eu meddwl?",
-     "es": "Bore da. La misma colina, unos siglos después. ¿Quién la cultivaba y qué les preocupaba?",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "text": "c. AD 200 · Fields on Llandough hill, above the River Ely",
+     "cite": []
     }
    ],
-   "lip_sync": "en"
+   "lines": []
   },
   {
    "shot": 2,
    "set": "s10",
-   "direction": "Wordless wide (5 s): the hilltop fields at harvest, smoke from an unseen hearth beyond the hedge, the Ely marsh and the distant estuary below. Era card in post: 'Second to fourth century AD. Spoken in modern Welsh, the nearest living descendant of the Brittonic language of the time.'",
-   "image_prompt": "Photoreal late-summer hilltop farmland in south-east Wales in the Roman period (2nd-3rd century AD): small hedged fields of ripe spelt, a beaten-earth threshing floor, wooden hurdles, oxen, a few cattle and geese; below, the Ely river winding through wide green marsh to a distant silver estuary far away; no sea at the hill's foot; no buildings in frame except a low timber-and-thatch barn edge; no villa, no stone walls, no tiled roofs, no mosaics, no text, no heraldry",
-   "animate": "i2v",
+   "direction": "About 10 s. Medium still with a slow lateral move. The farmer cuts spelt with an iron sickle. Behind him his wife binds a sheaf with a twist of straw. Hands, straw and dust are lit by the sun. Over the brow of the hill, out of frame, a thin thread of chimney smoke rises from the stone house; the house itself is never shown. Ambience only.",
+   "image_prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200. A weathered man in his fifties with a broad face, grey-flecked beard and heavy hands, wearing a coarse undyed wool tunic and leather belt, cuts golden spelt wheat with an iron sickle. Behind him a woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, wearing a plain wool dress and shawl, binds a sheaf with straw. Inland hillside field, a thin line of smoke rising beyond the crest of the hill with no building visible. Golden late-summer light, dust in the air. Invented faces, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "2nd–4th century AD: Roman buildings stood on this same hill at Llandough, occupied from the 2nd to the 4th century. (PX-02)",
+     "cite": [
+      "PX-02"
+     ]
+    }
+   ],
    "lines": []
   },
   {
    "shot": 3,
    "set": "s10",
-   "direction": "Wordless moving wide (6 s): oxen draw a cart along the field edge, swallows low over the spelt, the Ely marsh below.",
-   "image_prompt": "Photoreal late-summer hilltop farmland in south-east Wales in the Roman period (2nd-3rd century AD): small hedged fields of ripe spelt, a beaten-earth threshing floor, wooden hurdles, oxen, a few cattle and geese; below, the Ely river winding through wide green marsh to a distant silver estuary far away; no sea at the hill's foot; no buildings in frame except a low timber-and-thatch barn edge; no villa, no stone walls, no tiled roofs, no mosaics, no text, no heraldry",
-   "animate": "i2v",
-   "lines": []
+   "direction": "About 14 s. Medium close-up on the farmer. He straightens, rubs a spelt ear between his palms and blows off the chaff. He glances up at the smoke over the brow, then speaks to his wife.",
+   "image_prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy work-worn hands rubs an ear of spelt wheat between his palms. He wears a coarse wool tunic and a brown wool cloak pinned with a plain bronze brooch, bareheaded. Golden field behind him, soft late-afternoon light. Invented face, no text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "B_JOHN",
+     "spoken": "cy",
+     "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+     "cy": "Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm. Drych, mwg dros y grib. Ma' tân 'da nhw lan yn y tŷ cerrig yn barod.",
+     "en": "Good spelt this year. Dry enough to thresh before the rain comes up the valley. Look, smoke over the brow. They've the fires lit up at the stone house already.",
+     "es": "Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle. Mirá, humo sobre la cresta. Ya prendieron los fuegos allá arriba en la casa de piedra.",
+     "cite": [
+      "PX-02"
+     ]
+    }
+   ]
   },
   {
    "shot": 4,
    "set": "s10",
-   "direction": "Talking close-up of the farmer at the threshing floor, rubbing an ear of spelt between his palms.",
-   "image_prompt": "",
+   "direction": "About 14 s. Medium close-up on the wife, who keeps binding the sheaf as she answers. She tilts her head towards a basket where a red glossy bowl sits among bread and cheese.",
+   "image_prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, in a plain wool dress and wool shawl, ties a sheaf of spelt with straw. Beside her a wicker basket holds a glossy red pottery bowl, bread and a cloth. Hillside harvest field, warm late-summer light. Invented face, no text, no heraldry.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "B_JOHN",
-     "en": "Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
-     "cy": "Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod i fyny'r cwm.",
-     "es": "Buena espelta este año. Lo bastante seca para trillarla antes de que la lluvia suba por el valle.",
-     "cite": [
-      "PX-02"
-     ],
+     "who": "A_MARY",
      "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+     "cy": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw.",
+     "en": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+     "es": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+     "cite": []
     }
-   ],
-   "lip_sync": "cy"
+   ]
   },
   {
    "shot": 5,
    "set": "s10",
-   "direction": "Talking close-up of the farm woman kneeling at a rotary quern, grain in her lap.",
-   "image_prompt": "",
+   "direction": "About 12 s. Medium shot of the farmer leaning on the sickle. He looks across to the wattle barn and the yoked oxen beside it, where the old roundhouse of the previous scene once stood.",
+   "image_prompt": "Photoreal 16:9 cinematic medium shot, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy hands leans on an iron sickle, looking towards a small wattle-and-thatch barn where two yoked oxen stand beside a wooden cart. Inland hillside, marshland and river far below. Golden afternoon light. Invented face, no text, no heraldry.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "A_MARY",
-     "en": "Then thresh it quick. The quern's hungry, and so are the children.",
-     "cy": "Dyrna fe'n glou, 'te. Mae'r maen breuan yn llwglyd, a'r plant hefyd.",
-     "es": "Pues trilla rápido. El molino de mano tiene hambre, y los niños también.",
-     "cite": [
-      "PX-02"
-     ],
+     "who": "B_JOHN",
      "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+     "cy": "Ro'dd Mam-gu'n arfer gweud bod ei phobol hi'n cadw tŷ crwn fan hyn. Nawr, y sgubor a'r ychen sy 'ma.",
+     "en": "Gran used to tell us her people kept a round house right here. Now it's the barn and the oxen.",
+     "es": "La abuela contaba que su gente tenía una casa redonda justo acá. Ahora es el granero y los bueyes.",
+     "cite": []
     }
-   ],
-   "lip_sync": "cy"
+   ]
   },
   {
    "shot": 6,
    "set": "s10",
-   "direction": "Moving two-shot: the pair load sacks onto an ox cart at the field gate; a track runs down toward the river. The farmer's line plays as he talks while working (no face close-up).",
-   "image_prompt": "",
-   "animate": "i2v",
+   "direction": "About 18 s. Medium close-up on the wife. She looks down the slope, where grey cloud is rising off the marshes of the Ely. A gaggle of fat geese waddles along the stubble behind her, and she half-smiles at them.",
+   "image_prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, in a wool dress and shawl, looks down a hillside towards grey cloud rising over a river marsh far below. Plump white and grey geese walk across the stubble behind her. Inland landscape, no sea. Changing light, the first shadows of cloud. Invented face, no text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "B_JOHN",
-     "en": "The soldiers' buyers are at the river ford tomorrow. They pay for the grain in salt and good red pots.",
-     "cy": "Bydd prynwyr y milwyr wrth y rhyd yfory. Maen nhw'n talu am y grawn mewn halen a photiau coch da.",
-     "es": "Los compradores de los soldados estarán en el vado mañana. Pagan el grano con sal y buenas vasijas rojas.",
-     "cite": [
-      "PX-02"
-     ],
+     "who": "A_MARY",
      "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+     "cy": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth.",
+     "en": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+     "es": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+     "cite": []
     }
    ]
   },
   {
    "shot": 7,
    "set": "s10",
-   "direction": "Talking close-up of the farm woman holding up a glossy red bowl, amused.",
-   "image_prompt": "",
+   "direction": "About 8 s. Close shot of the farmer laughing. He waves the geese off the sheaves with his cap of straw rather than chasing them.",
+   "image_prompt": "Photoreal 16:9 cinematic close shot, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy hands laughs warmly and waves a hand at geese wandering past stooked spelt sheaves. Coarse wool tunic and cloak, bareheaded. Hillside field, soft overcast light arriving. Invented face, no text, no heraldry.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "A_MARY",
-     "en": "Pots from far away, and we still eat the same porridge out of them.",
-     "cy": "Potiau o bell, ac rydyn ni'n dal i fwyta'r un uwd ohonyn nhw.",
-     "es": "Vasijas de muy lejos, y seguimos comiendo las mismas gachas en ellas.",
-     "cite": [
-      "PX-02"
-     ],
+     "who": "B_JOHN",
      "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+     "cy": "Gad iddyn nhw redeg. Ma'r bryn yn ddigon mawr i bob un ohonon ni.",
+     "en": "Let them run. The hill's big enough for all of us.",
+     "es": "Dejalos correr. La loma es bastante grande para todos nosotros.",
+     "cite": []
     }
-   ],
-   "lip_sync": "cy"
+   ]
   },
   {
    "shot": 8,
    "set": "s10",
-   "direction": "Talking close-up of the farmer, glancing across the field to a low bump in the grass.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "B_JOHN",
-     "en": "Mam's mother used to say her people kept a round house right here. Now it's the barn and the oxen.",
-     "cy": "Roedd mam Mam yn arfer dweud bod ei phobl hi'n cadw tŷ crwn yn union fan hyn. Nawr, yr ysgubor a'r ychen sydd yma.",
-     "es": "La madre de mamá decía que su gente tenía una casa redonda justo aquí. Ahora están el granero y los bueyes.",
-     "cite": [
-      "PX-01",
-      "PX-02"
-     ],
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "cy"
-  },
-  {
-   "shot": 9,
-   "set": "s10",
-   "direction": "Moving wide: two small children chase geese along the field edge, cattle lift their heads; cloud builds over the marsh. The woman's line is called out off-screen.",
-   "image_prompt": "",
-   "animate": "i2v",
-   "lines": [
-    {
-     "who": "A_MARY",
-     "en": "Call them in. There's cloud coming up off the marsh.",
-     "cy": "Galw nhw i mewn. Mae cwmwl yn codi oddi ar y gors.",
-     "es": "Llámalos. Viene una nube desde la marisma.",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ]
-  },
-  {
-   "shot": 10,
-   "set": "s10",
-   "direction": "Moving medium shot: the woman scatters grain for the geese by the barn edge; the farmer leans on the hurdle. Both lines play as they work (no close-up).",
-   "image_prompt": "",
-   "animate": "i2v",
-   "lines": [
-    {
-     "who": "A_MARY",
-     "en": "The geese are fat this year. One for the turn of the year.",
-     "cy": "Mae'r gwyddau'n dew eleni. Un ar gyfer troad y flwyddyn.",
-     "es": "Los gansos están gordos este año. Uno para el cambio de año.",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "B_JOHN",
-     "en": "And one for your mother, or we'll never hear the end of it.",
-     "cy": "Ac un i dy fam, neu chlywn ni byth mo'i diwedd hi.",
-     "es": "Y uno para tu madre, o no oiremos el final.",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ]
-  },
-  {
-   "shot": 11,
-   "set": "s10",
-   "direction": "Talking close-up of the farmer, laughing, wind in his hair.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "B_JOHN",
-     "en": "Let them run. The hill's big enough for all of us.",
-     "cy": "Gad iddyn nhw redeg. Mae'r bryn yn ddigon mawr i ni i gyd.",
-     "es": "Déjalos correr. La colina es lo bastante grande para todos.",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "cy",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "cy"
-  },
-  {
-   "shot": 12,
-   "set": "s08",
-   "direction": "Match-cut to the reading room: talking close-up of Nia, a closed excavation report under her gloved hand.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "That's a picture built from what the digs found on this hill: grain, pottery, people at work. The digs keep their own dates, and we'll read them there.",
-     "cy": "Darlun yw hwnna, wedi'i adeiladu o'r hyn a gafodd y cloddio ar y bryn hwn: grawn, crochenwaith, pobl wrth eu gwaith. Mae i'r cloddio ei ddyddiadau ei hun, a byddwn ni'n eu darllen nhw yno.",
-     "es": "Es una imagen construida con lo que hallaron las excavaciones en esta colina: grano, cerámica, gente trabajando. Las excavaciones tienen sus propias fechas, y allí las leeremos.",
-     "cite": [
-      "PX-02",
-      "CH-0174",
-      "CH-0143",
-      "CH-0173"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 13,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson across the table.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "And their names?",
-     "cy": "A'u henwau nhw?",
-     "es": "¿Y sus nombres?",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 14,
-   "set": "s08",
-   "direction": "Talking close-up of Nia closing the folder, half a smile.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Not one, yet. Next, the graves by the church.",
-     "cy": "Dim un, eto. Nesaf, y beddau wrth yr eglwys.",
-     "es": "Ninguno, todavía. Lo siguiente, las tumbas junto a la iglesia.",
-     "cite": [
-      "PX-02"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 15,
-   "set": "s10",
-   "direction": "Wordless closing hold (4 s): the hill at dusk, smoke rising, slow push-in.",
-   "image_prompt": "Photoreal dusk hilltop farmland in south-east Wales in the Roman period (2nd-3rd century AD): small hedged fields of ripe spelt, a beaten-earth threshing floor, wooden hurdles, oxen, a few cattle and geese; below, the Ely river winding through wide green marsh to a distant silver estuary far away; no sea at the hill's foot; no buildings in frame except a low timber-and-thatch barn edge; no villa, no stone walls, no tiled roofs, no mosaics, no text, no heraldry",
+   "direction": "About 12 s. Wide closing still with a slow pull-back. The ox cart, loaded with sheaves, creaks up the track towards the brow with the couple walking beside it. The smoke from beyond the crest drifts in the wind; the stone house stays out of frame. Cloud rolls up over the marshes and the river below. Ambience: cart wheels, oxen, geese, the first drops of rain.",
+   "image_prompt": "Photoreal 16:9 cinematic wide still, Roman-period Britain c. AD 200. A wooden ox cart piled with golden spelt sheaves is pulled up an earth track towards the crest of an inland hill by two oxen. A man and a woman in wool clothing walk beside it, seen small from behind. A thin line of smoke rises beyond the crest with no building visible. Below, a winding river and marshland under rolling grey cloud, distant estuary haze. No sea, no coastline. Moody late-afternoon light. No text, no heraldry.",
    "animate": "still",
+   "captions": [],
    "lines": []
   }
  ],
  "covers": [
   "PX-02"
  ],
- "left_out": [],
- "continuity": "Owner rule 27 Oct 06:59: no villa shown or named in the prologue; dig reports (CH-0143 1968, CH-0173/0175 1978-79, CH-0172 1980, CH-0174 1988) are read in their own dated frames (F056, F057, F097 area). Research: research/roman-F003.md.",
+ "continuity": "The rain comes up the valley over the cart track; on the same slope, centuries later, the next scene finds a monk of Llandough leading a burial in the monastic cemetery above the marshes of the Ely.",
+ "script_version": "v0.4.0",
+ "status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
  "translation": {
-  "cy": "machine translation (claude-sonnet-5), for native review",
-  "es": "machine translation (claude-sonnet-5), for review"
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
  },
- "status": "v0.2.0 27 Oct 2026 script review: rewritten without the villa (owner rule); Welsh spoken (lip-sync cy), narrators on camera, hook in first 5 s; for hive review",
- "words_en": 187,
- "estimated_seconds": 91,
- "script_version": "v0.2.0",
- "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
- "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
- "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue"
+ "target_seconds": 120,
+ "left_out": [],
+ "accent_rule": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "words_en": 127,
+ "estimated_seconds": 63
 }

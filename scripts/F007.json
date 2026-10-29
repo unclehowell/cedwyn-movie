@@ -1,386 +1,186 @@
 {
  "frame": 7,
  "title": "Two plans of Tŷ Mawr",
+ "date": "c. 1790",
+ "place": "Tŷ Mawr farmyard, Llandough",
  "cast": {
-  "D_BILLY": "the Grandson (2020s, 40s); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member",
-  "I_NIA": "Nia, the archivist"
+  "E_AGENT": "the land surveyor drawing the plan of Tŷ Mawr",
+  "C_FRED": "a drover crossing the yard with cattle"
  },
- "setting": "s08",
- "target_seconds": 120,
+ "setting": "s01",
+ "spoken_language": "cy",
  "shots": [
   {
    "shot": 1,
-   "set": "s08",
-   "direction": "HOOK (0-5 s): talking close-up of Nia laying two thin folders side by side.",
-   "image_prompt": "",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Bore da. Two old plans of Tŷ Mawr. Who drew them, and for whom?",
-     "cy": "Bore da. Dau hen gynllun o Dŷ Mawr. Pwy a'u lluniodd nhw, ac i bwy?",
-     "es": "Bore da. Dos planos antiguos de Tŷ Mawr. ¿Quién los dibujó, y para quién?",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 2,
-   "set": "s08",
-   "direction": "Slow push-in across the reading-room table as Nia lays two thin folders side by side and pulls on cotton gloves; the Grandson leans in. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal modern county records office reading room, soft daylight from tall windows, long oak table with grey archive folders and pencils. Welsh woman in her 30s with a black bob, round tortoiseshell glasses and a mustard cardigan pulling on white cotton gloves. Beside her a man in his 40s with dark curly hair, blue eyes, short beard and waxed jacket, laptop open. Calm, warm, documentary feel, no text, no heraldry.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Two plans of Tŷ Mawr, about ten years apart, from two different family collections.",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Dau gynllun o Tŷ Mawr, ryw ddeng mlynedd ar wahân, o ddwy gasgliad teuluol wahanol.",
-     "es": "Dos planos de Tŷ Mawr, con unos diez años de diferencia, de dos colecciones familiares distintas.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "D_BILLY",
-     "en": "These are printouts.",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Printiadau ydy'r rhain.",
-     "es": "Estas son impresiones.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "Catalogue entries. We haven't seen either original plan yet. The request slips go in today.",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Cofnodion catalog. Dŷn ni heb weld yr un o'r cynlluniau gwreiddiol eto. Mae'r slipiau cais yn mynd i mewn heddiw.",
-     "es": "Fichas de catálogo. Aún no vimos ninguno de los planos originales. Los pedidos salen hoy.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 3,
-   "set": "s08",
-   "direction": "Overhead insert of the first catalogue printout under Nia's gloved finger. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Overhead close-up of a single printed archive catalogue page on an oak table, a white-gloved fingertip resting beside it, pencil nearby, shallow depth of field, lettering too soft to read, no heraldry.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Glamorgan Archives: 'Late 18th-century plan of Ty Mawr farm, Llandough, then Gedrych property.'",
-     "cite": [
-      "CH-0005"
-     ],
-     "cy": "Archifau Morgannwg: 'Cynllun o ddiwedd y 18fed ganrif o fferm Tŷ Mawr, Llandochau, eiddo Gedrych bryd hynny.'",
-     "es": "Glamorgan Archives: 'Plano de finales del siglo XVIII de la granja Ty Mawr, Llandough, entonces propiedad de Gedrych.'",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "D_BILLY",
-     "en": "Gedrych. Not a name I've met in any of the family papers.",
-     "cite": [
-      "CH-0005"
-     ],
-     "cy": "Gedrych. Dim enw dwi wedi dod ar ei draws mewn unrhyw bapurau teuluol.",
-     "es": "Gedrych. Un nombre que no encontré en ningún papel familiar.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 4,
-   "set": "s08",
-   "direction": "Talking close-up of Nia, glasses pushed up, explaining while she taps the printout.",
-   "image_prompt": "Photoreal close-up of a Welsh woman in her 30s, black bob, round tortoiseshell glasses, mustard cardigan, white cotton gloves, speaking thoughtfully across a records-office table, soft window light, no text.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "Nor me. It sits among the estate plans of the Mathew family of Radyr and Llandaff, dated about 1790. It shows the farm was worth drawing, and was filed with that family's estates. From the entry alone it doesn't show who farmed it.",
-     "cite": [
-      "CH-0005"
-     ],
-     "cy": "Na finnau chwaith. Mae'n eistedd ymysg cynlluniau stad teulu Mathew o Radur a Llandaf, wedi'i ddyddio tua 1790. Mae'n dangos bod y fferm werth ei darlunio, ac fe'i cadwyd gydag ystadau'r teulu hwnnw. O'r cofnod yn unig, dyw e ddim yn dangos pwy oedd yn ffermio yno.",
-     "es": "Ni yo. Está entre los planos de la propiedad de la familia Mathew de Radyr y Llandaff, de alrededor de 1790. Muestra que la granja merecía dibujarse, y fue archivada con esas propiedades. Solo con la ficha no se sabe quién la trabajaba.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 5,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson, frowning at his laptop notes.",
-   "image_prompt": "Photoreal close-up of a man in his 40s with dark curly hair, blue eyes, short beard, waxed jacket, laptop glow on his face in a records-office reading room, no text.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "So no Williams on it.",
-     "cite": [
-      "CH-0005"
-     ],
-     "cy": "Felly does dim Williams arno.",
-     "es": "Entonces ningún Williams aparece ahí.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "No tenants named in the entry at all. When the original comes up, we look for fields, buildings and any writing in the margins.",
-     "cite": [
-      "CH-0005"
-     ],
-     "cy": "Dim tenantiaid wedi'u henwi yn y cofnod o gwbl. Pan ddaw'r gwreiddiol i'r golwg, edrychwn ni am gaeau, adeiladau ac unrhyw ysgrifen ar yr ymylon.",
-     "es": "La ficha no nombra arrendatarios en absoluto. Cuando llegue el original, buscamos campos, edificios y anotaciones en los márgenes.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 6,
-   "set": "s08",
-   "direction": "Insert of the second catalogue printout as the Grandson slides it into the light. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Overhead close-up of a second printed archive catalogue page on an oak table next to a laptop, a man's hand sliding it into a pool of daylight, lettering too soft to read, no heraldry.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "DXJF/61/12. 'Plan of Ty Mawr farm, Llandough', circa 1800. Corbett Family of Cogan Pill Papers.",
-     "cite": [
-      "CH-0006"
-     ],
-     "cy": "DXJF/61/12. 'Cynllun o fferm Tŷ Mawr, Llandochau', tua 1800. Papurau Teulu Corbett o Cogan Pill.",
-     "es": "DXJF/61/12. 'Plano de la granja Ty Mawr, Llandough', circa 1800. Papeles de la familia Corbett de Cogan Pill.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 7,
-   "set": "s08",
-   "direction": "Two-shot across the table, the two printouts between them, slight handheld drift. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal two-shot in a records-office reading room: Welsh woman in her 30s with black bob, tortoiseshell glasses, mustard cardigan and cotton gloves facing a bearded man in his 40s in a waxed jacket, two printed sheets between them on the oak table, no text.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "A different family's papers. Did the farm change hands between the two?",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Papurau teulu gwahanol. Wnaeth y fferm newid dwylo rhwng y ddau?",
-     "es": "Papeles de otra familia distinta. ¿La granja cambió de dueño entre un plano y otro?",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "Maybe. Or one family kept a copy of another's plan; estates passed surveys around. Two catalogue lines can't tell us which. And 'circa' means the date was judged from the drawing, not written on it.",
-     "cite": [
-      "CH-0006"
-     ],
-     "cy": "Efallai. Neu fe gadwodd un teulu gopi o gynllun teulu arall; roedd stadau'n rhannu arolygon rhyngddyn nhw. Dyw dwy linell gatalog ddim yn gallu dweud wrthon ni pa un. Ac mae 'tua' yn golygu bod y dyddiad wedi'i farnu o'r darlun, nid wedi'i ysgrifennu arno.",
-     "es": "Puede ser. O una familia guardó copia del plano de otra; las propiedades se pasaban los relevamientos. Dos líneas de catálogo no nos dicen cuál. Y 'circa' significa que la fecha se calculó por el dibujo, no está escrita.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 8,
-   "set": "s08",
-   "direction": "Talking close-up of the Grandson as he types a heading.",
-   "image_prompt": "Photoreal close-up of a bearded man in his 40s, dark curly hair, waxed jacket, typing on a laptop, half-smile, records-office background softly blurred, no text.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "Then it goes in as two plans, two collections, one open question.",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Felly fe aiff i mewn fel dau gynllun, dwy gasgliad, un cwestiwn agored.",
-     "es": "Entonces va como dos planos, dos colecciones, una pregunta abierta.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "Ingredients, not a verdict.",
-     "cite": [
-      "CH-0005",
-      "CH-0006"
-     ],
-     "cy": "Cynhwysion, nid dyfarniad.",
-     "es": "Son datos, no una conclusión.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 9,
-   "set": "s04",
-   "direction": "Tracking shot following the pair up a quiet modern Llandough street on a bright autumn morning. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal modern Llandough village street on a hill near Cardiff, autumn morning, stone walls and terraced houses, a Welsh woman with a black bob and mustard cardigan under a coat walking with a bearded man in a waxed jacket carrying folders, no signage text, no heraldry.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "I_NIA",
-     "en": "While surveyors paced those fields, the village was building. It's up the hill.",
-     "cite": [
-      "CH-0007"
-     ],
-     "cy": "Tra oedd y syrfewyr yn cerdded y caeau hynny, roedd y pentref yn adeiladu. Mae i fyny'r bryn.",
-     "es": "Mientras los agrimensores recorrían esos campos, el pueblo crecía. Está cuesta arriba.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "lip_sync": "en"
-  },
-  {
-   "shot": 10,
-   "set": "s04",
-   "direction": "Slow tilt up the front of a small 19th-century stone school building at a road corner, the pair stopping at the pavement. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal exterior of a small early-19th-century stone former church school building with pointed-arch windows on a road corner in Llandough, Vale of Glamorgan, two people seen from behind on the pavement, overcast autumn light, no text, no plaques, no heraldry.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "Penlan Road, corner of Lewis Road. This is it?",
-     "cite": [
-      "CH-0007"
-     ],
-     "cy": "Heol Penlan, cornel Heol Lewis. Dyma fe?",
-     "es": "Penlan Road, esquina con Lewis Road. ¿Es esto?",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "The former National School, built 1821. Coflein, the national monuments record, has it as site 31824, grid reference ST 16740 73140.",
-     "cite": [
-      "CH-0007"
-     ],
-     "cy": "Yr hen Ysgol Genedlaethol, wedi'i hadeiladu ym 1821. Mae Coflein, y gofnod henebion cenedlaethol, yn ei nodi fel safle 31824, cyfeirnod grid ST 16740 73140.",
-     "es": "La antigua Escuela Nacional, construida en 1821. Coflein, el registro nacional de monumentos, la tiene como sitio 31824, referencia de cuadrícula ST 16740 73140.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
-  },
-  {
-   "shot": 11,
-   "set": "s08",
-   "direction": "Insert of the monuments-record printout clipped into the Grandson's folder.",
-   "image_prompt": "Close-up of a printed heritage record page with a small grey site map clipped into an open card folder, held in a man's hand outdoors, lettering too soft to read, no heraldry.",
+   "set": "s01",
+   "direction": "About 7 seconds. Date-and-place card over an establishing still. Early morning, late 18th century. Tŷ Mawr's long stone farmhouse and outbuildings stand round a muddy yard on Llandough hill, which is inland. Beyond the hedges the ground falls away to the Ely valley and grey marshland under low cloud. A slow push-in from the gateway. Ambience: rooks, a distant cow, wind in the hedges.",
+   "image_prompt": "Photoreal 16:9 establishing still, Glamorgan, Wales, c. 1790, early morning. A long whitewashed rubble-stone farmhouse with a slate and thatch roofline and low stone outbuildings around a muddy farmyard with puddles and straw. A wooden field gate in the foreground and hawthorn hedges. The land slopes down inland to a river valley and flat grey marshes under low cloud, with no sea and no coastline. Soft overcast light, muted greens and browns, period-accurate, no people, no text, no heraldry.",
    "animate": "still",
+   "captions": [
+    {
+     "text": "c. 1790: Tŷ Mawr, Llandough",
+     "cite": [
+      "CH-0005"
+     ]
+    }
+   ],
    "lines": []
   },
   {
-   "shot": 12,
-   "set": "s04",
-   "direction": "Talking close-up of Nia outside the old school, wind in her hair.",
-   "image_prompt": "Photoreal close-up of a Welsh woman in her 30s with black bob and tortoiseshell glasses, coat over mustard cardigan, speaking outdoors in front of an old stone school wall, autumn light, no text.",
-   "animate": "omnihuman",
-   "lines": [
-    {
-     "who": "D_BILLY",
-     "en": "Did Tŷ Mawr children learn their letters here?",
-     "cite": [
-      "CH-0007"
-     ],
-     "cy": "Oedd plant Tŷ Mawr yn dysgu eu llythrennau yma?",
-     "es": "¿Los chicos de Tŷ Mawr aprendieron sus letras aquí?",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
-    {
-     "who": "I_NIA",
-     "en": "The record dates the building and puts it on the map. It doesn't list pupils. If registers survive, they're somewhere else.",
-     "cite": [
-      "CH-0007"
-     ],
-     "cy": "Mae'r cofnod yn dyddio'r adeilad ac yn ei osod ar y map. Dyw e ddim yn rhestru disgyblion. Os yw cofrestri wedi goroesi, maen nhw yn rhywle arall.",
-     "es": "El registro fecha el edificio y lo ubica en el mapa. No lista alumnos. Si quedan registros, están en otro lado.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    }
-   ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
+   "shot": 2,
+   "set": "s01",
+   "direction": "About 8 seconds. Wide still with a slow lateral drift. The surveyor stands in the yard beside a plane table on a wooden tripod. Paper is pinned to the board, and a brass sighting rule and a coiled measuring chain lie beside it. Through the gate behind him a drover drives a few black cattle into the yard with a hazel stick. Ambience: hooves in mud, the chain clinking, a dog barking once.",
+   "image_prompt": "Photoreal 16:9 still, Welsh farmyard, c. 1790. A pale clean-shaven man in his 50s wears thin-rimmed spectacles, a dark wool frock coat, a waistcoat, breeches, boots and a dark round hat. He stands at a wooden plane table on a tripod with paper pinned to it, a brass alidade on top, and a leather document case and a coiled iron surveyor's chain at his feet. In the background a lean man in his 30s with sandy hair and a moustache, wearing a long coarse wool coat, a battered felt hat and gaiters, drives four black Welsh cattle through a wooden gate with a hazel stick. The ground is muddy, the light overcast, the style period-accurate. Invented faces, no text, no heraldry.",
+   "animate": "still",
+   "captions": [],
+   "lines": []
   },
   {
-   "shot": 13,
-   "set": "s04",
-   "direction": "Wide closing shot from down the hill, the pair turning back toward the view over the Ely. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
-   "image_prompt": "Photoreal wide shot of Llandough hill street with a small old stone school building, two small figures turning downhill, view toward the Ely valley and Cardiff Bay in hazy distance, autumn, no text, no heraldry.",
+   "shot": 3,
+   "set": "s01",
+   "direction": "About 9 seconds. Medium shot of the drover, who pulls up beside the plane table as the cattle mill behind him. He is half amused and half wary, and he speaks to the surveyor.",
+   "image_prompt": "Photoreal 16:9 medium shot, Welsh farmyard, c. 1790. A lean man in his 30s with sandy hair, a moustache and a shy half-smile wears a long coarse brown wool coat and a battered felt hat, and leans on a hazel drover's stick. Black cattle stand behind him in the mud. Soft overcast light, period-accurate. Invented face, no text, no heraldry.",
    "animate": "omnihuman",
+   "captions": [],
    "lines": [
     {
-     "who": "D_BILLY",
-     "en": "Thirty-one years: two drawings of the farm, and a schoolroom on the hill.",
-     "cite": [
-      "CH-0005",
-      "CH-0006",
-      "CH-0007"
-     ],
-     "cy": "Un deg tri mlynedd ar hugain: dau ddarlun o'r fferm, ac ystafell ysgol ar y bryn.",
-     "es": "Treinta y un años: dos dibujos de la granja, y un aula en la colina.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
-    },
+     "who": "C_FRED",
+     "spoken": "cy",
+     "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+     "cy": "Bore da, syr. Gofalwch am y bwrdd 'na, ma'r da 'ma'n moyn yr hewl i gyd. Beth y'ch chi'n neud 'ma, 'te?",
+     "en": "Morning, sir. Mind that board, these cattle want the whole road. What are you doing here, then?",
+     "es": "Buen día, señor. Cuidado con ese tablero, que estas vacas quieren todo el camino. ¿Y qué anda haciendo acá?",
+     "cite": []
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "set": "s01",
+   "direction": "About 8 seconds. Medium close-up of the surveyor. He does not look up at first. He sights along the brass rule toward the farmhouse corner, makes a pencil mark, and only then answers.",
+   "image_prompt": "Photoreal 16:9 medium close-up, c. 1790. A pale clean-shaven man in his 50s with thin-rimmed spectacles, a dark wool frock coat and a dark round hat bends over a plane table and sights along a brass alidade, holding a pencil over pinned paper with faint pencil lines. A whitewashed farmhouse wall is blurred behind him. Overcast light, period-accurate. Invented face, no legible text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
     {
-     "who": "I_NIA",
-     "en": "Next, an 1824 surveyor who wrote the farm's name two ways. Bring a pencil.",
-     "cite": [],
-     "cy": "Nesaf, syrfëwr o 1824 a ysgrifennodd enw'r fferm mewn dwy ffordd. Dewch â phensil.",
-     "es": "Ahora, un agrimensor de 1824 que escribió el nombre de la granja de dos formas. Traigan un lápiz.",
-     "spoken": "en",
-     "accent": "thick Welsh (Vale of Glamorgan)"
+     "who": "E_AGENT",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, educated and measured; NATIVE REVIEW NEEDED",
+     "cy": "Tynnu cynllun o fferm y Tŷ Mawr. Y fferm i gyd, fel y mae hi heddi, i'r gadwyn.",
+     "en": "Drawing a plan of Tŷ Mawr farm. The whole farm, as it lies today, to the chain.",
+     "es": "Dibujo un plano de la chacra de Tŷ Mawr. Toda entera, tal como está hoy, medida con la cadena.",
+     "cite": [
+      "CH-0005"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "set": "s01",
+   "direction": "About 5 seconds. Back on the drover, who pushes his hat back, curious.",
+   "image_prompt": "Photoreal 16:9 medium shot, c. 1790. A lean sandy-haired man in his 30s with a moustache, a long wool coat and a felt hat pushed back on his head looks across with curiosity. A black cow's head is in the foreground out of focus, and a muddy farmyard lies behind him. Overcast, period-accurate. Invented face, no text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "C_FRED",
+     "spoken": "cy",
+     "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+     "cy": "I bwy, 'te? Pwy sy'n talu am waith fel 'na?",
+     "en": "For whom, then? Who pays for work like that?",
+     "es": "¿Para quién, entonces? ¿Quién paga un trabajo así?",
+     "cite": []
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "set": "s01",
+   "direction": "About 12 seconds. The surveyor straightens and taps the head of the sheet with his pencil, where the title will be inked. He is dry and businesslike. The writing on the paper is not legible to camera.",
+   "image_prompt": "Photoreal 16:9 medium close-up, c. 1790. A pale clean-shaven surveyor in his 50s with thin-rimmed spectacles and a dark frock coat straightens at his plane table and taps the top margin of a pinned paper sheet with a pencil. His expression is dry and businesslike. A farmyard and stone outbuildings are soft behind him, under overcast light. Period-accurate. Invented face, no legible text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "E_AGENT",
+     "spoken": "cy",
+     "accent": "South Wales Welsh, educated and measured; the phrase 'Gedrych property' is spoken in English as it is written on the plan; NATIVE REVIEW NEEDED",
+     "cy": "Eiddo Gedrych yw e. 'Gedrych property', dyna fydd ar ben y papur. Pwy sy'n ei ffermo, nid 'y musnes i yw hynny. Caeau dw i'n eu cyfri, nid pobol.",
+     "en": "It's Gedrych property. 'Gedrych property', that's what goes at the head of the sheet. Who farms it is no business of mine. I count fields, not people.",
+     "es": "Es propiedad Gedrych. 'Gedrych property', eso va arriba del papel. Quién la trabaja no es asunto mío. Yo cuento campos, no gente.",
+     "cite": [
+      "CH-0005"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 7,
+   "set": "s01",
+   "direction": "About 7 seconds. The drover glances over his shoulder at the sky over the valley, then back at the surveyor with a grin, and moves his stick to set the cattle going.",
+   "image_prompt": "Photoreal 16:9 medium shot, c. 1790. A lean sandy-haired drover in his 30s with a moustache, a long wool coat and a felt hat grins over his shoulder and raises a hazel stick. Dark rain clouds gather over an inland river valley and flat marshes behind him, and black cattle stand in a muddy farmyard. Period-accurate. Invented face, no text, no heraldry.",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "C_FRED",
+     "spoken": "cy",
+     "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+     "cy": "Wel, cyfrwch yn glou, syr. Ma'r glaw'n dod lan o'r morfa.",
+     "en": "Well, count quickly, sir. The rain's coming up off the marsh.",
+     "es": "Bueno, cuente rápido, señor. La lluvia ya viene subiendo la loma desde los bañados.",
+     "cite": []
+    }
+   ]
+  },
+  {
+   "shot": 8,
+   "set": "s01",
+   "direction": "About 10 seconds. Slow overhead push onto the plane table. The surveyor's hand inks a fine boundary line around field shapes in pencil, with the house drawn as a small block. No writing is legible. Ambience: the pen scratching and the first drops of rain on paper.",
+   "image_prompt": "Photoreal 16:9 overhead close-up, c. 1790. A hand in a dark wool cuff holds a quill and inks fine boundary lines over pencil field outlines on cream laid paper pinned to a wooden plane table. A small rectangle marks a farmhouse, and a brass alidade, an inkwell and a few raindrops sit on the paper. Period-accurate surveying, no legible text, no heraldry, no crest or cartouche emblem.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "c. 1790: plan of Ty Mawr farm, Llandough, then 'Gedrych property' (Glamorgan Archives DMAT/279) (CH-0005)",
+     "cite": [
+      "CH-0005"
+     ]
     }
    ],
-   "omnihuman_split": "one talking shot per speaker (D_BILLY, I_NIA); OmniHuman drives one face per render",
-   "lip_sync": "en"
+   "lines": []
+  },
+  {
+   "shot": 9,
+   "set": "s01",
+   "direction": "About 9 seconds. Wide still with a slow pull-back. The drover drives the cattle out through the far gate as the rain thickens. The surveyor, alone in the yard, shelters his board under his coat-tail. Ambience: rain, hooves fading.",
+   "image_prompt": "Photoreal 16:9 wide still, Welsh farmyard, c. 1790, in light rain. A drover in a long wool coat drives black cattle out through a far wooden gate. In the foreground a surveyor in a dark frock coat and round hat shields a plane table with the skirt of his coat. A whitewashed stone farmhouse and outbuildings stand around him, with wet mud, grey light and inland hills. Period-accurate. Invented faces, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "c. 1800: a second plan of Ty Mawr farm, Llandough, is drawn (Glamorgan Archives DXJF/61/12) (CH-0006)",
+     "cite": [
+      "CH-0006"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 10,
+   "set": "s09",
+   "direction": "About 10 seconds. Closing landscape still from the same moment. A slow tilt from the farm's top field up the open hillside of Llandough, with the Ely and the marshes below and Leckwith woods across the valley under rain. No school is shown; the caption carries the later event. Ambience: rain, wind, rooks.",
+   "image_prompt": "Photoreal 16:9 landscape still, c. 1790, inland Glamorgan in rain. An open green hillside with hedged fields and a few scattered stone cottages slopes down to a winding river and flat grey marshes, with dark woods on the far side of the valley. Low rain clouds, no sea and no coastline, no modern buildings, period-accurate. No people, no text, no heraldry.",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "1821: the National School on Penlan Road / Lewis Road, Llandough, is built (Coflein NPRN 31824) (CH-0007)",
+     "cite": [
+      "CH-0007"
+     ]
+    }
+   ],
+   "lines": []
   }
  ],
  "covers": [
@@ -388,17 +188,17 @@
   "CH-0006",
   "CH-0007"
  ],
- "left_out": [],
- "continuity": "The Man from the Estate presents David Stewart's 1824 survey of 'Cedfin or Ty Mawr Farm'; request slips for DMAT/279 and DXJF/61/12 are still pending.",
+ "continuity": "The surveyor rolls the wet sheet into his leather case. Cut to the Bute estate office, where an agent checks plan 19 of Stewart's survey, 'Cedfin or Ty Mawr Farm'.",
+ "script_version": "v0.4.0",
+ "status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
  "translation": {
-  "cy": "machine translation (claude-sonnet-5), for native review",
-  "es": "machine translation (claude-sonnet-5), for review"
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
  },
- "status": "v0.2.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review",
- "words_en": 320,
- "estimated_seconds": 150,
- "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
- "accent_rule": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
- "subtitles_rule": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue",
- "script_version": "v0.2.0"
+ "target_seconds": 120,
+ "left_out": [],
+ "accent_rule": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "subtitles_rule": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "words_en": 81,
+ "estimated_seconds": 53
 }
