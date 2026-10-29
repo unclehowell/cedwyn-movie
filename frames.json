@@ -1,9 +1,9 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "2.0.2",
+ "version": "2.1.0",
  "built": "2026-10-29T17:43Z",
  "chronology_version": "1.0.0",
- "frames": 148,
+ "frames": 147,
  "target_seconds_each": 120,
  "estimated_runtime": "4 h 56 min",
  "rule": "Every chronology event sits in exactly one frame. One frame = one ~2-minute scene (90-150 s). A frame may hold many events or one event may span several frames (part n/m). From scene 3 (29 Oct 2026): one moment per scene, in-period, no narrator, no fourth wall.",
@@ -141,7 +141,65 @@
    "script_version": "v0.2.0",
    "spoken_language": "cy",
    "subtitles": "en/es (cy for English speech)",
-   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
+   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+   "description": {
+    "en": {
+     "intro": "Today, in an archive reading room. Nia, an archivist, and the Grandson, a man in his forties from the family, lay out the place-name notes behind the story: Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn, Cedfin, Cydfin, Cydwin and Tŷ Mawr, the Great House. They sort what each note rests on, what is catalogued and what still has to be checked, before the film goes back to the hill itself. Spoken in Welsh and English; invented faces.",
+     "shots": [
+      "1. Title card held over a slow push-in on a closed archive box under a reading lamp; the title 'CEDWYN' and 'A tab.bot production' appear on screen.",
+      "2. Talking close-up of Nia, gloved, a single note card in her hand. Nia: “Before any deed, there was a name. Whose name, and whose hill?”",
+      "3. Wide establishing shot of the archive reading room; Nia pulls on cotton gloves and slides a stack of folders across to the Grandson, who sits down with his laptop. Nia: “Bore da. Gloves on before you touch anything. Before a single deed, we've got names. Just names, written in your family's research notes.” The Grandson: “Cedwyn. That's the word I keep tripping over. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Then Cedfin, Cydfin, Cydwin. And Tŷ Mawr, the Great House.”",
+      "4. Overhead insert: Nia's gloved finger runs down a printed index sheet laid on the table. Nia: “This is the index. Six research leads. It shows where each name turns up, and which notes lean on which. Pull one out, you see what wobbles.”",
+      "5. Close-up on the Grandson, leaning in, hopeful. The Grandson: “So does it prove the Great House stood on Cedwyn land? That my family's roots there go back before any deed?”",
+      "6. Close-up on Nia, gentle but firm, taking off her glasses. Nia: “Not on its own. It proves the leads are catalogued. Whether the variants are one place, whether they mean Tŷ Mawr, and what any old lease meant for the land after 1877: those are the next checks.”",
+      "7. Insert: the Grandson lays a typed note card beside an unmarked sketch of a river bend. The Grandson: “Cwm-Cedwyn. A wooded dell on the Ely, between Leckwith and Llandough. My notes use it all the time.” Nia: “They do. But there's no source attached yet. We don't know when the name was first written, where its edges ran, or whether it ever touched Tŷ Mawr. Checking is still to do.”",
+      "8. Slow drift through Leckwith woods down to the River Ely in morning mist, birdsong, no people.",
+      "9. Insert: an empty labelled folder sleeve, nothing inside, held up to the lamp. The Grandson: “And Nant-Cedwyn. A brook running into the Ely near Leckwith.” Nia: “That one points to a primary document, and we haven't got it yet. So for now it shows us one thing: the family noted the name. Name, place, date, link to Tŷ Mawr: all still to be checked.”",
+      "10. Insert: a third note card set apart from the others, at the edge of the table. The Grandson: “Ynys-Cedwyn's the odd one out.” Nia: “Ynys-Cedwyn sits up where the Twrch meets the Tawe, a long way from here. The note ties it to Cedwyn Gawr, Cedwyn the Giant.”",
+      "11. Close-up on the Grandson, amused, half a laugh. The Grandson: “A giant. Lovely. Is there anything linking him to Llandough?”",
+      "12. Close-up on Nia, tapping the card once. Nia: “Not yet. No primary source, the place and the giant both waiting to be checked, and no link to Tŷ Mawr written down.”",
+      "13. Two-shot: the Grandson closes his laptop, Nia gathers the cards into one pile; the window light shifts toward the hills outside. The Grandson: “So the film starts with a name we can't pin down.” Nia: “It starts honest. A name, and a hill that came before it. Let's go and stand on the hill.”"
+     ]
+    }
+   },
+   "evidence_links": [
+    {
+     "id": "EV-0195",
+     "title": "Evidence catalogue EV-0195: Cedwyn / Cwm-Cedwyn place-name notes: reference index and dependency register",
+     "href": "/wayback/go/?u=https%3A%2F%2Fgreathousefarmwiki.wordpress.com%2Fevidence%2Fev-0195-cedwyn-cwm-cedwyn-reference-index%2F",
+     "url": "https://greathousefarmwiki.wordpress.com/evidence/ev-0195-cedwyn-cwm-cedwyn-reference-index/",
+     "supports": [
+      "EV-0195"
+     ]
+    },
+    {
+     "id": "EV-0198",
+     "title": "Evidence catalogue EV-0198: Nant-Cedwyn: place-name note for a brook near Leckwith/Llandough",
+     "href": "/wayback/go/?u=https%3A%2F%2Fgreathousefarmwiki.wordpress.com%2Fevidence%2Fev-0198-nant-cedwyn-brook-place-name%2F",
+     "url": "https://greathousefarmwiki.wordpress.com/evidence/ev-0198-nant-cedwyn-brook-place-name/",
+     "supports": [
+      "EV-0198"
+     ]
+    },
+    {
+     "id": "EV-0200",
+     "title": "Evidence catalogue EV-0200: Place-name note: Cwm-Cedwyn, wooded dell on the Ely between Leckwith and Llandough",
+     "href": "/wayback/go/?u=https%3A%2F%2Fgreathousefarmwiki.wordpress.com%2Fevidence%2Fev-0200-cwm-cedwyn-place-name-note%2F",
+     "url": "https://greathousefarmwiki.wordpress.com/evidence/ev-0200-cwm-cedwyn-place-name-note/",
+     "supports": [
+      "EV-0200"
+     ]
+    },
+    {
+     "id": "EV-0210",
+     "title": "Evidence catalogue EV-0210: Ynys-Cedwyn: place-name associated with Cedwyn Gawr (research note)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fgreathousefarmwiki.wordpress.com%2Fevidence%2Fev-0210-ynys-cedwyn-place-name-note%2F",
+     "url": "https://greathousefarmwiki.wordpress.com/evidence/ev-0210-ynys-cedwyn-place-name-note/",
+     "supports": [
+      "EV-0210"
+     ]
+    }
+   ]
   },
   {
    "n": 2,
@@ -152,115 +210,182 @@
     "cy": "Cyn y gweithredoedd",
     "es": "Antes de las escrituras"
    },
-   "date_from": "late Iron Age (c. 2,200 years ago)",
-   "date_to": "late Iron Age (c. 2,200 years ago)",
+   "date_from": "late Iron Age (c. 200 BC)",
+   "date_to": "Romano-British (c. AD 200)",
    "sort_from": "-0200",
-   "sort_to": "-0200",
-   "date_range": "late Iron Age (c. 2,200 years ago)",
+   "sort_to": "0200",
+   "date_range": "c. 200 BC and c. AD 200 (late Iron Age, then Romano-British)",
    "events": [
-    "PX-01"
+    "PX-01",
+    "PX-02"
    ],
-   "evidence": [],
+   "evidence": [
+    "CH-0174",
+    "CH-0173",
+    "CH-0174",
+    "CH-0175",
+    "CH-0143"
+   ],
    "parts": [],
-   "title": "Roundhouse on the hill",
-   "logline": "The Iron-Age elder and the roundhouse mother stand on the hill south of the future church, the ground not yet marked by any record.",
+   "title": "The hill before the records",
+   "logline": "One hill, two moments four hundred years apart: an Iron Age family at their roundhouse bring in the corn and ready for winter; then a Romano-British farmer and his wife harvest spelt on the same slope.",
    "setting": "s10",
    "cast": [
-    "B_JOHN=the Iron-Age elder",
-    "A_MARY=the roundhouse mother",
-    "I_NIA=Nia, the Archivist (archive bookend)",
-    "D_BILLY=the Grandson (on screen in the archive bookend, no lines)"
+    "B_JOHN=the Iron Age elder; then a Romano-British farmer (invented faces)",
+    "A_MARY=the roundhouse mother; then the farmer's wife (invented faces)",
+    "a boy and a small girl of the roundhouse (wide shots, no lines)"
    ],
    "target_seconds": 120,
    "status": "filled",
-   "clip": "clips/F002.webm",
+   "clip": "clips/F002.v5.webm",
    "script": "scripts/F002.json",
    "logline_status": "draft (machine-written, for hive review)",
    "estimated_seconds": 116,
    "i18n": {
     "cy": {
-     "title": "Tŷ crwn ar y bryn",
-     "logline": "Mae'r henuriad o Oes yr Haearn a mam y tŷ crwn yn sefyll ar y bryn i'r de o'r eglwys yn y dyfodol, y tir heb ei nodi eto gan unrhyw gofnod."
+     "title": "Y bryn cyn y cofnodion",
+     "logline": "Un bryn, dwy foment bedwar can mlynedd ar wahân: teulu o Oes yr Haearn wrth eu tŷ crwn yn cywain yr ŷd ac yn paratoi at y gaeaf; yna ffermwr Brythonig-Rufeinig a'i wraig yn medi sbelt ar yr un llethr."
     },
     "es": {
-     "title": "La casa redonda en la colina",
-     "logline": "El anciano de la Edad del Hierro y la madre de la casa redonda se hallan en la colina al sur de la futura iglesia, un terreno aún sin marcar por registro alguno."
+     "title": "La loma antes de los registros",
+     "logline": "Una loma, dos momentos separados por cuatrocientos años: una familia de la Edad del Hierro en su casa redonda junta el grano y se prepara para el invierno; después, un granjero romanobritano y su mujer cosechan espelta en la misma ladera."
     }
    },
-   "thumb": "thumbs/F002.webp",
+   "thumb": "thumbs/F002.v5.webp",
    "release_date": "2026-10-27",
-   "seconds": 147.0,
-   "script_version": "v0.1.1",
+   "seconds": 138.9,
+   "script_version": "v1.0.0",
    "spoken_language": "cy",
    "subtitles": "en/es (cy for English speech)",
-   "accent": "thick Welsh for every Welsh character and both narrators; non-Welsh characters keep their own accents"
+   "accent": "thick South Wales Welsh for every character; no narrator; no fourth wall",
+   "merged_from": [
+    "F003"
+   ],
+   "merged_note": "29 Oct 2026: former Scene 3 (c. AD 200, Same hill, new neighbours) merged into Scene 2 at the producer's word; later scenes move up one door.",
+   "description": {
+    "en": {
+     "intro": "One unbroken scene on the same hilltop at Llandough, above the River Ely, in two moments four hundred years apart. First, about 200 BC: a late Iron Age family at their roundhouse bringing in the corn, minding the cattle on the marsh and preparing for winter. Then, about AD 200: a Romano-British farmer and his wife harvesting spelt on the same slope, with the stone house of the villa beyond the brow. Nobody speaks to the camera: they talk to each other, to a child, to the animals. They speak in modern Welsh, the nearest living language to their Brittonic, with English and Spanish subtitles. The faces are invented; no real person is shown.",
+     "shots": [
+      "1. Dawn, about 200 BC. A small homestead on the top of Llandough hill: thatched roundhouses with wattle-and-daub walls inside an earth bank, a raised granary on posts and a hurdle fold with a few small dark cattle. Smoke seeps up through the thatch and mist lifts off the reed marsh of the Ely far below. Caption: c. 200 BC, Llandough hill above the River Ely; spoken in modern Welsh, the nearest living language to theirs.",
+      "2. The roundhouse mother stands in the low doorway, the hearth glowing behind her. She looks up at the smoke and speaks to her husband: the weather should hold, so they can bring the corn in today.",
+      "3. The elder, grey-bearded in a brown wool cloak, stands in the field with a handful of cut ears and an iron sickle. He tells her to cut only the heads, high on the stalk, and leave the straw standing for the cattle to graze.",
+      "4. The harvest on the slope: the family cut the ear heads with small sickles and drop them into baskets while the wind runs through the standing grain.",
+      "5. Below them a boy drives the cattle up from the marsh with a hazel switch, the reeds swaying behind.",
+      "6. The mother watches him from the doorway and tells him the boy is bringing the cattle up off the marsh before the big tides come.",
+      "7. The elder, leaning on the wattle fence, answers quietly: last autumn the water came over the marsh in the night and they lost a calf.",
+      "8. Inside, at the upright loom, she keeps weaving as she answers: not this year. The pig is fat, the store is full, and the cloth is nearly ready for the little one's cloak.",
+      "9. Dusk. A skein of geese crosses the sky over the marsh; the elder watches them go, smoke curling from the roundhouse.",
+      "10. He crouches beside his small granddaughter, points at the geese and tells her the cold is coming, and to bring wood in by the door tonight.",
+      "11. Before dark the mother kneels at the spring below the homestead with a handful of the new corn: an offering to the water that has always kept them.",
+      "12. Time jump. Caption: c. AD 200, the same hill four hundred years on, a Romano-British farm at harvest. A late-summer field of spelt wheat, half reaped and stooked in rows, the river and marsh below; skylarks and wind.",
+      "13. The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
+      "14. His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
+      "15. The farmer swings his iron sickle through the spelt and lays the stalks down as she gathers and binds behind him.",
+      "16. She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it.",
+      "17. He laughs and waves the geese off the sheaves: let them run, the hill is big enough for all of them.",
+      "18. Rain cloud rolls in as the ox cart, loaded with sheaves, creaks up the earth track and the geese scatter beside it. End card: Cedwyn, Scene 2, The hill before the records. A tab.bot production."
+     ]
+    }
+   },
+   "evidence_links": [
+    {
+     "id": "CH-0174",
+     "title": "Coflein (RCAHMW), NPRN 400051: Llandough Roman villa and the possible late Iron Age roundhouse beneath it",
+     "href": "/wayback/go/?u=https%3A%2F%2Fcoflein.gov.uk%2Fen%2Fsite%2F400051%2F",
+     "url": "https://coflein.gov.uk/en/site/400051/",
+     "supports": [
+      "PX-01",
+      "PX-02"
+     ]
+    },
+    {
+     "id": "CH-0173",
+     "title": "Heneb Historic Environment Record (Archwilio), PRN 00768s: Llandough Roman villa, salvage excavation 1978–79",
+     "href": "/wayback/go/?u=https%3A%2F%2Farchwilio.org.uk%2Fher%2Fchi3%2Freport%2Fpage.php%3Fwatprn%3DGGAT00768s",
+     "url": "https://archwilio.org.uk/her/chi3/report/page.php?watprn=GGAT00768s",
+     "supports": [
+      "PX-01",
+      "PX-02"
+     ]
+    },
+    {
+     "id": "CH-0174",
+     "title": "Holbrook & Thomas (Cotswold Archaeology), excavation report on the Llandough Roman site, 2005 (PDF)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fcotswoldarchaeology.co.uk%2Fwp-content%2Fuploads%2F2011%2F07%2Fllandough-pdf-1.pdf",
+     "url": "https://cotswoldarchaeology.co.uk/wp-content/uploads/2011/07/llandough-pdf-1.pdf",
+     "supports": [
+      "PX-01",
+      "PX-02"
+     ]
+    },
+    {
+     "id": "CH-0175",
+     "title": "Penarth Nub News: \"Romans in South Wales\", an excerpt from Karl James Langford's book (the 1979 excavation)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fpenarth.nub.news%2Fnews%2Flocal-news%2F39romans-in-south-wales39-an-excerpt-from-karl-james-langford39s-new-book",
+     "url": "https://penarth.nub.news/news/local-news/39romans-in-south-wales39-an-excerpt-from-karl-james-langford39s-new-book",
+     "supports": [
+      "PX-02"
+     ]
+    },
+    {
+     "id": "CH-0143",
+     "title": "Glamorgan Archives D1230/7: excavations of the Roman settlement at Llandough-juxta-Penarth, c. 1968",
+     "href": "/wayback/go/?u=https%3A%2F%2Fcanfod.glamarchives.gov.uk%2Frecords%2FD1230%2F7",
+     "url": "https://canfod.glamarchives.gov.uk/records/D1230/7",
+     "supports": [
+      "PX-02"
+     ]
+    },
+    {
+     "id": "BG-01",
+     "title": "Amgueddfa Cymru – Museum Wales: Bryn Eryr Iron Age roundhouses (how a roundhouse was built and lived in)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fmuseum.wales%2Fcollections%2Fhistoric-buildings%2F3%2FBryn-Eryr-Iron-Age-Roundhouses",
+     "url": "https://museum.wales/collections/historic-buildings/3/Bryn-Eryr-Iron-Age-Roundhouses",
+     "supports": [
+      "PX-01"
+     ]
+    },
+    {
+     "id": "BG-02",
+     "title": "Amgueddfa Cymru – Museum Wales: Prehistoric feasting in south Wales (cattle, pigs and seasonal food)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fmuseum.wales%2Farticles%2F1339%2FPrehistoric-feasting-in-south-Wales%2F",
+     "url": "https://museum.wales/articles/1339/Prehistoric-feasting-in-south-Wales/",
+     "supports": [
+      "PX-01"
+     ]
+    },
+    {
+     "id": "BG-03",
+     "title": "Grain storage in Iron Age Britain (storage pits and granaries)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fpenelope.uchicago.edu%2FThayer%2FE%2FJournals%2FLacusCurtius%2FGrain_Storage_in_Iron_Age_Britain%2A%2A.html",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Journals/LacusCurtius/Grain_Storage_in_Iron_Age_Britain**.html",
+     "supports": [
+      "PX-01"
+     ]
+    },
+    {
+     "id": "BG-04",
+     "title": "Diodorus Siculus, Library of History, book 5: the Britons gather in the ears and store them",
+     "href": "/wayback/go/?u=https%3A%2F%2Fpenelope.uchicago.edu%2FThayer%2FE%2FRoman%2FTexts%2FDiodorus_Siculus%2F5B%2A.html",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5B*.html",
+     "supports": [
+      "PX-01"
+     ]
+    },
+    {
+     "id": "BG-05",
+     "title": "Castell Henllys reconstructed Iron Age village (Pembrokeshire Coast National Park)",
+     "href": "/wayback/go/?u=https%3A%2F%2Fwww.pembrokeshirecoast.wales%2Fcastell-henllys%2F",
+     "url": "https://www.pembrokeshirecoast.wales/castell-henllys/",
+     "supports": [
+      "PX-01"
+     ]
+    }
+   ],
+   "revised": "2026-10-29"
   },
   {
    "n": 3,
-   "id": "F003",
-   "act": {
-    "n": 1,
-    "en": "Before the deeds",
-    "cy": "Cyn y gweithredoedd",
-    "es": "Antes de las escrituras"
-   },
-   "date_from": "2nd–4th century AD",
-   "date_to": "2nd–4th century AD",
-   "sort_from": "0150",
-   "sort_to": "0150",
-   "date_range": "2nd–4th century AD",
-   "events": [
-    "PX-02"
-   ],
-   "evidence": [],
-   "parts": [],
-   "title": "Same hill, new neighbours",
-   "logline": "A Romano-British farmer and his wife bring in the harvest on the slopes of Llandough hill above the Ely.",
-   "setting": "s10",
-   "cast": [
-    "B_JOHN=a Romano-British farmer (prologue, invented)",
-    "A_MARY=a Romano-British farm woman, his wife (prologue, invented)"
-   ],
-   "target_seconds": 120,
-   "status": "filled",
-   "clip": "clips/F003.webm",
-   "script": "scripts/F003.json",
-   "logline_status": "in-period scene plan v2.0.0 (29 Oct 2026), machine-drafted from the chronology, for hive review",
-   "estimated_seconds": 63,
-   "i18n": {
-    "cy": {
-     "title": "Yr un bryn, cymdogion newydd",
-     "logline": "Mae ffermwr Brythonig-Rufeinig a'i wraig yn cywain y cynhaeaf ar lethrau bryn Llandochau uwchben afon Elái; mae'r fila y tu hwnt i'r ffrâm."
-    },
-    "es": {
-     "title": "La misma loma, vecinos nuevos",
-     "logline": "Un granjero romanobritano y su mujer levantan la cosecha en las laderas de la loma de Llandough, sobre el río Ely; la Roman site queda fuera de cuadro."
-    }
-   },
-   "thumb": "thumbs/F003.webp",
-   "script_version": "v0.4.0",
-   "spoken_language": "cy",
-   "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
-   "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
-   "moment": {
-    "date": "c. AD 200",
-    "place": "Fields on Llandough hill, above the River Ely",
-    "present": [
-     "B_JOHN=a Romano-British farmer (prologue, invented)",
-     "A_MARY=a Romano-British farm woman (prologue, invented)"
-    ],
-    "summary": "A Romano-British farmer and his wife bring in the harvest on the slopes of Llandough hill above the Ely.",
-    "anchor": "PX-02",
-    "captions": [],
-    "basis": "Archaeology shows a Roman site on the hill occupied 2nd–4th century (PX-02). The couple, the harvest and the season are invented as the most likely daily life, and the Roman site is kept off-screen by production rule.",
-    "source": [],
-    "source_in_sitemap": false
-   },
-   "script_status": "in-period v0.4.0 written 29 Oct",
-   "release_date": "2026-10-29"
-  },
-  {
-   "n": 4,
    "id": "F004",
    "act": {
     "n": 1,
@@ -329,7 +454,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 5,
+   "n": 4,
    "id": "F005",
    "act": {
     "n": 1,
@@ -402,7 +527,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 6,
+   "n": 5,
    "id": "F006",
    "act": {
     "n": 1,
@@ -481,7 +606,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 7,
+   "n": 6,
    "id": "F007",
    "act": {
     "n": 1,
@@ -550,7 +675,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 8,
+   "n": 7,
    "id": "F008",
    "act": {
     "n": 2,
@@ -633,7 +758,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 9,
+   "n": 8,
    "id": "F009",
    "act": {
     "n": 2,
@@ -713,7 +838,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 10,
+   "n": 9,
    "id": "F010",
    "act": {
     "n": 2,
@@ -791,7 +916,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 11,
+   "n": 10,
    "id": "F011",
    "act": {
     "n": 2,
@@ -874,7 +999,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 12,
+   "n": 11,
    "id": "F012",
    "act": {
     "n": 2,
@@ -956,7 +1081,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 13,
+   "n": 12,
    "id": "F013",
    "act": {
     "n": 2,
@@ -1033,7 +1158,7 @@
    "script_status": "in-period v0.4.0 written 29 Oct"
   },
   {
-   "n": 14,
+   "n": 13,
    "id": "F014",
    "act": {
     "n": 2,
@@ -1111,7 +1236,7 @@
    "estimated_seconds": 115
   },
   {
-   "n": 15,
+   "n": 14,
    "id": "F015",
    "act": {
     "n": 2,
@@ -1191,7 +1316,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 16,
+   "n": 15,
    "id": "F016",
    "act": {
     "n": 2,
@@ -1265,7 +1390,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 17,
+   "n": 16,
    "id": "F017",
    "act": {
     "n": 2,
@@ -1343,7 +1468,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 18,
+   "n": 17,
    "id": "F018",
    "act": {
     "n": 2,
@@ -1421,7 +1546,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 19,
+   "n": 18,
    "id": "F019",
    "act": {
     "n": 2,
@@ -1497,7 +1622,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 20,
+   "n": 19,
    "id": "F020",
    "act": {
     "n": 2,
@@ -1572,7 +1697,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 21,
+   "n": 20,
    "id": "F021",
    "act": {
     "n": 2,
@@ -1646,7 +1771,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 22,
+   "n": 21,
    "id": "F022",
    "act": {
     "n": 2,
@@ -1722,7 +1847,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 23,
+   "n": 22,
    "id": "F023",
    "act": {
     "n": 2,
@@ -1800,7 +1925,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 24,
+   "n": 23,
    "id": "F024",
    "act": {
     "n": 2,
@@ -1870,7 +1995,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 25,
+   "n": 24,
    "id": "F025",
    "act": {
     "n": 3,
@@ -1946,7 +2071,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 26,
+   "n": 25,
    "id": "F026",
    "act": {
     "n": 3,
@@ -2023,7 +2148,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 27,
+   "n": 26,
    "id": "F027",
    "act": {
     "n": 3,
@@ -2101,7 +2226,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 28,
+   "n": 27,
    "id": "F028",
    "act": {
     "n": 3,
@@ -2175,7 +2300,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 29,
+   "n": 28,
    "id": "F029",
    "act": {
     "n": 3,
@@ -2250,7 +2375,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 30,
+   "n": 29,
    "id": "F030",
    "act": {
     "n": 3,
@@ -2325,7 +2450,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 31,
+   "n": 30,
    "id": "F031",
    "act": {
     "n": 3,
@@ -2401,7 +2526,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 32,
+   "n": 31,
    "id": "F032",
    "act": {
     "n": 3,
@@ -2479,7 +2604,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 33,
+   "n": 32,
    "id": "F033",
    "act": {
     "n": 3,
@@ -2560,7 +2685,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 34,
+   "n": 33,
    "id": "F034",
    "act": {
     "n": 3,
@@ -2636,7 +2761,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 35,
+   "n": 34,
    "id": "F035",
    "act": {
     "n": 3,
@@ -2717,7 +2842,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 36,
+   "n": 35,
    "id": "F036",
    "act": {
     "n": 3,
@@ -2792,7 +2917,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 37,
+   "n": 36,
    "id": "F037",
    "act": {
     "n": 3,
@@ -2865,7 +2990,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 38,
+   "n": 37,
    "id": "F038",
    "act": {
     "n": 4,
@@ -2943,7 +3068,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 39,
+   "n": 38,
    "id": "F039",
    "act": {
     "n": 4,
@@ -3020,7 +3145,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 40,
+   "n": 39,
    "id": "F040",
    "act": {
     "n": 4,
@@ -3097,7 +3222,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 41,
+   "n": 40,
    "id": "F041",
    "act": {
     "n": 4,
@@ -3175,7 +3300,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 42,
+   "n": 41,
    "id": "F042",
    "act": {
     "n": 4,
@@ -3249,7 +3374,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 43,
+   "n": 42,
    "id": "F043",
    "act": {
     "n": 4,
@@ -3325,7 +3450,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 44,
+   "n": 43,
    "id": "F044",
    "act": {
     "n": 4,
@@ -3397,7 +3522,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 45,
+   "n": 44,
    "id": "F045",
    "act": {
     "n": 4,
@@ -3472,7 +3597,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 46,
+   "n": 45,
    "id": "F046",
    "act": {
     "n": 4,
@@ -3547,7 +3672,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 47,
+   "n": 46,
    "id": "F047",
    "act": {
     "n": 4,
@@ -3622,7 +3747,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 48,
+   "n": 47,
    "id": "F048",
    "act": {
     "n": 4,
@@ -3697,7 +3822,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 49,
+   "n": 48,
    "id": "F049",
    "act": {
     "n": 5,
@@ -3776,7 +3901,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 50,
+   "n": 49,
    "id": "F050",
    "act": {
     "n": 5,
@@ -3851,7 +3976,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 51,
+   "n": 50,
    "id": "F051",
    "act": {
     "n": 5,
@@ -3932,7 +4057,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 52,
+   "n": 51,
    "id": "F052",
    "act": {
     "n": 5,
@@ -4009,7 +4134,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 53,
+   "n": 52,
    "id": "F053",
    "act": {
     "n": 5,
@@ -4087,7 +4212,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 54,
+   "n": 53,
    "id": "F054",
    "act": {
     "n": 5,
@@ -4164,7 +4289,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 55,
+   "n": 54,
    "id": "F055",
    "act": {
     "n": 5,
@@ -4240,7 +4365,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 56,
+   "n": 55,
    "id": "F056",
    "act": {
     "n": 5,
@@ -4314,7 +4439,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 57,
+   "n": 56,
    "id": "F057",
    "act": {
     "n": 5,
@@ -4397,7 +4522,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 58,
+   "n": 57,
    "id": "F058",
    "act": {
     "n": 5,
@@ -4474,7 +4599,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 59,
+   "n": 58,
    "id": "F059",
    "act": {
     "n": 5,
@@ -4557,7 +4682,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 60,
+   "n": 59,
    "id": "F060",
    "act": {
     "n": 5,
@@ -4640,7 +4765,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 61,
+   "n": 60,
    "id": "F061",
    "act": {
     "n": 5,
@@ -4723,7 +4848,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 62,
+   "n": 61,
    "id": "F062",
    "act": {
     "n": 5,
@@ -4805,7 +4930,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 63,
+   "n": 62,
    "id": "F063",
    "act": {
     "n": 6,
@@ -4883,7 +5008,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 64,
+   "n": 63,
    "id": "F064",
    "act": {
     "n": 6,
@@ -4959,7 +5084,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 65,
+   "n": 64,
    "id": "F065",
    "act": {
     "n": 6,
@@ -5036,7 +5161,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 66,
+   "n": 65,
    "id": "F066",
    "act": {
     "n": 6,
@@ -5112,7 +5237,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 67,
+   "n": 66,
    "id": "F067",
    "act": {
     "n": 6,
@@ -5193,7 +5318,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 68,
+   "n": 67,
    "id": "F068",
    "act": {
     "n": 6,
@@ -5271,7 +5396,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 69,
+   "n": 68,
    "id": "F069",
    "act": {
     "n": 6,
@@ -5345,7 +5470,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 70,
+   "n": 69,
    "id": "F070",
    "act": {
     "n": 6,
@@ -5418,7 +5543,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 71,
+   "n": 70,
    "id": "F071",
    "act": {
     "n": 7,
@@ -5505,7 +5630,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 72,
+   "n": 71,
    "id": "F072",
    "act": {
     "n": 7,
@@ -5582,7 +5707,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 73,
+   "n": 72,
    "id": "F073",
    "act": {
     "n": 7,
@@ -5660,7 +5785,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 74,
+   "n": 73,
    "id": "F074",
    "act": {
     "n": 7,
@@ -5742,7 +5867,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 75,
+   "n": 74,
    "id": "F075",
    "act": {
     "n": 7,
@@ -5823,7 +5948,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 76,
+   "n": 75,
    "id": "F076",
    "act": {
     "n": 7,
@@ -5901,7 +6026,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 77,
+   "n": 76,
    "id": "F077",
    "act": {
     "n": 7,
@@ -5985,7 +6110,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 78,
+   "n": 77,
    "id": "F078",
    "act": {
     "n": 7,
@@ -6056,7 +6181,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 79,
+   "n": 78,
    "id": "F079",
    "act": {
     "n": 7,
@@ -6145,7 +6270,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 80,
+   "n": 79,
    "id": "F080",
    "act": {
     "n": 7,
@@ -6221,7 +6346,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 81,
+   "n": 80,
    "id": "F081",
    "act": {
     "n": 7,
@@ -6297,7 +6422,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 82,
+   "n": 81,
    "id": "F082",
    "act": {
     "n": 7,
@@ -6380,7 +6505,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 83,
+   "n": 82,
    "id": "F083",
    "act": {
     "n": 7,
@@ -6461,7 +6586,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 84,
+   "n": 83,
    "id": "F084",
    "act": {
     "n": 7,
@@ -6538,7 +6663,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 85,
+   "n": 84,
    "id": "F085",
    "act": {
     "n": 7,
@@ -6605,7 +6730,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 86,
+   "n": 85,
    "id": "F086",
    "act": {
     "n": 8,
@@ -6689,7 +6814,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 87,
+   "n": 86,
    "id": "F087",
    "act": {
     "n": 8,
@@ -6771,7 +6896,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 88,
+   "n": 87,
    "id": "F088",
    "act": {
     "n": 8,
@@ -6854,7 +6979,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 89,
+   "n": 88,
    "id": "F089",
    "act": {
     "n": 8,
@@ -6929,7 +7054,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 90,
+   "n": 89,
    "id": "F090",
    "act": {
     "n": 8,
@@ -7005,7 +7130,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 91,
+   "n": 90,
    "id": "F091",
    "act": {
     "n": 8,
@@ -7075,7 +7200,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 92,
+   "n": 91,
    "id": "F092",
    "act": {
     "n": 8,
@@ -7160,7 +7285,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 93,
+   "n": 92,
    "id": "F093",
    "act": {
     "n": 8,
@@ -7235,7 +7360,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 94,
+   "n": 93,
    "id": "F094",
    "act": {
     "n": 8,
@@ -7317,7 +7442,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 95,
+   "n": 94,
    "id": "F095",
    "act": {
     "n": 8,
@@ -7396,7 +7521,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 96,
+   "n": 95,
    "id": "F096",
    "act": {
     "n": 8,
@@ -7475,7 +7600,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 97,
+   "n": 96,
    "id": "F097",
    "act": {
     "n": 8,
@@ -7564,7 +7689,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 98,
+   "n": 97,
    "id": "F098",
    "act": {
     "n": 8,
@@ -7636,7 +7761,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 99,
+   "n": 98,
    "id": "F099",
    "act": {
     "n": 8,
@@ -7716,7 +7841,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 100,
+   "n": 99,
    "id": "F100",
    "act": {
     "n": 8,
@@ -7789,7 +7914,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 101,
+   "n": 100,
    "id": "F101",
    "act": {
     "n": 8,
@@ -7867,7 +7992,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 102,
+   "n": 101,
    "id": "F102",
    "act": {
     "n": 8,
@@ -7942,7 +8067,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 103,
+   "n": 102,
    "id": "F103",
    "act": {
     "n": 8,
@@ -8018,7 +8143,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 104,
+   "n": 103,
    "id": "F104",
    "act": {
     "n": 8,
@@ -8089,7 +8214,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 105,
+   "n": 104,
    "id": "F105",
    "act": {
     "n": 8,
@@ -8160,7 +8285,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 106,
+   "n": 105,
    "id": "F106",
    "act": {
     "n": 8,
@@ -8240,7 +8365,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 107,
+   "n": 106,
    "id": "F107",
    "act": {
     "n": 8,
@@ -8321,7 +8446,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 108,
+   "n": 107,
    "id": "F108",
    "act": {
     "n": 8,
@@ -8398,7 +8523,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 109,
+   "n": 108,
    "id": "F109",
    "act": {
     "n": 8,
@@ -8474,7 +8599,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 110,
+   "n": 109,
    "id": "F110",
    "act": {
     "n": 8,
@@ -8549,7 +8674,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 111,
+   "n": 110,
    "id": "F111",
    "act": {
     "n": 8,
@@ -8622,7 +8747,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 112,
+   "n": 111,
    "id": "F112",
    "act": {
     "n": 8,
@@ -8695,7 +8820,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 113,
+   "n": 112,
    "id": "F113",
    "act": {
     "n": 8,
@@ -8770,7 +8895,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 114,
+   "n": 113,
    "id": "F114",
    "act": {
     "n": 8,
@@ -8835,7 +8960,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 115,
+   "n": 114,
    "id": "F115",
    "act": {
     "n": 9,
@@ -8919,7 +9044,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 116,
+   "n": 115,
    "id": "F116",
    "act": {
     "n": 9,
@@ -8995,7 +9120,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 117,
+   "n": 116,
    "id": "F117",
    "act": {
     "n": 9,
@@ -9070,7 +9195,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 118,
+   "n": 117,
    "id": "F118",
    "act": {
     "n": 9,
@@ -9150,7 +9275,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 119,
+   "n": 118,
    "id": "F119",
    "act": {
     "n": 9,
@@ -9231,7 +9356,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 120,
+   "n": 119,
    "id": "F120",
    "act": {
     "n": 9,
@@ -9314,7 +9439,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 121,
+   "n": 120,
    "id": "F121",
    "act": {
     "n": 9,
@@ -9397,7 +9522,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 122,
+   "n": 121,
    "id": "F122",
    "act": {
     "n": 9,
@@ -9480,7 +9605,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 123,
+   "n": 122,
    "id": "F123",
    "act": {
     "n": 9,
@@ -9564,7 +9689,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 124,
+   "n": 123,
    "id": "F124",
    "act": {
     "n": 9,
@@ -9644,7 +9769,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 125,
+   "n": 124,
    "id": "F125",
    "act": {
     "n": 9,
@@ -9721,7 +9846,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 126,
+   "n": 125,
    "id": "F126",
    "act": {
     "n": 9,
@@ -9798,7 +9923,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 127,
+   "n": 126,
    "id": "F127",
    "act": {
     "n": 9,
@@ -9880,7 +10005,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 128,
+   "n": 127,
    "id": "F128",
    "act": {
     "n": 9,
@@ -9949,7 +10074,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 129,
+   "n": 128,
    "id": "F129",
    "act": {
     "n": 9,
@@ -10038,7 +10163,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 130,
+   "n": 129,
    "id": "F130",
    "act": {
     "n": 9,
@@ -10124,7 +10249,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 131,
+   "n": 130,
    "id": "F131",
    "act": {
     "n": 9,
@@ -10201,7 +10326,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 132,
+   "n": 131,
    "id": "F132",
    "act": {
     "n": 9,
@@ -10283,7 +10408,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 133,
+   "n": 132,
    "id": "F133",
    "act": {
     "n": 9,
@@ -10363,7 +10488,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 134,
+   "n": 133,
    "id": "F134",
    "act": {
     "n": 9,
@@ -10440,7 +10565,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 135,
+   "n": 134,
    "id": "F135",
    "act": {
     "n": 9,
@@ -10518,7 +10643,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 136,
+   "n": 135,
    "id": "F136",
    "act": {
     "n": 9,
@@ -10608,7 +10733,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 137,
+   "n": 136,
    "id": "F137",
    "act": {
     "n": 9,
@@ -10698,7 +10823,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 138,
+   "n": 137,
    "id": "F138",
    "act": {
     "n": 9,
@@ -10784,7 +10909,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 139,
+   "n": 138,
    "id": "F139",
    "act": {
     "n": 9,
@@ -10857,7 +10982,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 140,
+   "n": 139,
    "id": "F140",
    "act": {
     "n": 9,
@@ -10941,7 +11066,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 141,
+   "n": 140,
    "id": "F141",
    "act": {
     "n": 9,
@@ -11020,7 +11145,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 142,
+   "n": 141,
    "id": "F142",
    "act": {
     "n": 9,
@@ -11095,7 +11220,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 143,
+   "n": 142,
    "id": "F143",
    "act": {
     "n": 9,
@@ -11172,7 +11297,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 144,
+   "n": 143,
    "id": "F144",
    "act": {
     "n": 9,
@@ -11258,7 +11383,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 145,
+   "n": 144,
    "id": "F145",
    "act": {
     "n": 9,
@@ -11340,7 +11465,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 146,
+   "n": 145,
    "id": "F146",
    "act": {
     "n": 9,
@@ -11431,7 +11556,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 147,
+   "n": 146,
    "id": "F147",
    "act": {
     "n": 10,
@@ -11509,7 +11634,7 @@
    "script_status": "to write in-period (old narrator script, if any, superseded)"
   },
   {
-   "n": 148,
+   "n": 147,
    "id": "F148",
    "act": {
     "n": 10,
@@ -11589,7 +11714,7 @@
  "chronology_checked": "2026-10-27T06:03Z (755 events, no changes)",
  "changelog_1_2_0": "27 Oct 2026 script review (SCRIPT-REVIEW-2026-10-27.md): F003 retitled/logline (no villa); F004 retitled/logline; F006 retitled/logline (chronology rule); F055 family member name removed; F129 family member name removed; F056 villa wording neutral; F057 villa wording neutral; F097 villa wording neutral; F073 five bailiffs / about fifteen police added; F082 demolition-date open note; sets s10/s13 rewritten; spoken_language/subtitles/accent on all 148 frames",
  "changelog_2_0_0": "29 Oct 2026 IN-PERIOD rewrite (owner WhatsApp 16:04 GMT): from scene 3 onward every scene is one dated moment in strict chronological order, recreating who was there, what was most likely said and what it looked like; no narrator, no fourth wall, no archivist; other events of a scene become dated on-screen captions; each item carries moment{date, place, present, summary, anchor, captions, basis, source}; scenes 1-2 unchanged; scripts F003-F013 rewritten v0.4.0 (not rendered).",
- "updated": "2026-10-29T20:25Z",
+ "updated": "2026-10-29T23:45Z",
  "changelog": [
   {
    "v": "2.0.1",
@@ -11600,6 +11725,11 @@
    "v": "2.0.2",
    "at": "2026-10-29T20:56Z",
    "note": "Door 3 opened (released 2026-10-29); release_planned re-run (F004 on 2026-10-30). — Sion's Tab agent"
+  },
+  {
+   "version": "2.1.0",
+   "date": "2026-10-29",
+   "note": "Scene 3 (c. AD 200) merged into Scene 2 'The hill before the records' at the producer's word; every later door moves up one (door 3 = c. 650 monastic burial, script F004). Scene 2 carries a shot-by-shot description and an evidence list linking to Cedwyn's own archived copies (/wayback/go/)."
   }
  ]
 }

@@ -1,9 +1,19 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.0.4",
- "updated": "2026-10-29T20:56Z",
- "frames_total": 148,
- "pricing": {"rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before", "free": "0.0.1", "free_scenes": [1, 2], "step_gbp": 4.99, "currency": "GBP", "set": "2026-10-29"},
+ "version": "1.1.0",
+ "updated": "2026-10-29T23:45Z",
+ "frames_total": 147,
+ "pricing": {
+  "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
+  "free": "0.0.1",
+  "free_scenes": [
+   1,
+   2
+  ],
+  "step_gbp": 4.99,
+  "currency": "GBP",
+  "set": "2026-10-29"
+ },
  "filled": [
   {
    "n": 1,
@@ -31,64 +41,51 @@
   {
    "n": 2,
    "version": "0.0.1",
-   "clip": "clips/F002.webm",
+   "clip": "clips/F002.v5.webm",
    "audio": {
-    "cy": "audio/F002.cy.webm",
-    "en": "audio/F002.en.webm",
-    "es": "audio/F002.es.webm"
+    "cy": "audio/F002.v5.cy.webm",
+    "en": "audio/F002.v5.en.webm",
+    "es": "audio/F002.v5.es.webm"
    },
    "subs": {
-    "cy": "subs/F002.cy.vtt",
-    "en": "subs/F002.en.vtt",
-    "es": "subs/F002.es.vtt"
+    "cy": "subs/F002.v5.cy.vtt",
+    "en": "subs/F002.v5.en.vtt",
+    "es": "subs/F002.v5.es.vtt"
    },
-   "poster": "stills/F002.jpg",
-   "seconds": 91.6,
-   "made": "2026-10-28T05:04Z",
+   "poster": "stills/F002.v5.jpg",
+   "seconds": 138.9,
+   "made": "2026-10-29T23:45Z",
    "released": "2026-10-27",
-   "script_version": "v0.3.0",
-   "prompt_sha": "eb6775d",
-   "left_out": [],
-   "notes": "720p VP9; 11 shots: 5 talking close-ups (Welsh lip-sync), 6 stills with slow moves; title card PX-01, closing card CH-0174. Welsh lines machine-assisted, for native review.",
-   "revised": "2026-10-28T05:04Z",
-   "revision_note": "v0.3.0 redo: the whole frame remade. Five on-camera talking shots (the roundhouse mother and the elder) lip-synced in Welsh; Welsh-only soundtrack (people of the time speak Welsh) with en/es subtitles marked [in Welsh]; hook question on camera at 0:04; no villa or coast wording; 1979 trench card cites CH-0174.",
-   "previous_cut": {
-    "clip": "clips/F002.v1.webm",
-    "audio": {
-     "cy": "audio/F002.v1.cy.webm",
-     "en": "audio/F002.v1.en.webm",
-     "es": "audio/F002.v1.es.webm"
-    },
-    "made": "2026-10-27T06:39Z"
-   },
-   "dub_note": "29 Oct 2026: English and Spanish dub tracks added beside the original Welsh soundtrack (Welsh-accented English voices; Rioplatense / Patagonian Spanish wording, the mother's lines in a Patagonian voice). Spanish subtitles rewritten in Rioplatense Spanish. Scene 2 is free.",
-   "default_audio": "cy"
-  },
-  {
-   "n": 3,
-   "version": "0.0.2",
-   "clip": "clips/F003.webm",
-   "audio": {
-    "cy": "audio/F003.cy.webm",
-    "en": "audio/F003.en.webm",
-    "es": "audio/F003.es.webm"
-   },
-   "subs": {
-    "cy": "subs/F003.cy.vtt",
-    "en": "subs/F003.en.vtt",
-    "es": "subs/F003.es.vtt"
-   },
-   "poster": "stills/F003.jpg",
-   "seconds": 92.2,
-   "made": "2026-10-29T20:56Z",
-   "released": "2026-10-29",
-   "script_version": "v0.4.1",
-   "prompt_sha": "6f7ab6d",
+   "script_version": "v1.0.0",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9; in-period scene, c. AD 200, fields on Llandough hill above the River Ely; no narrator. 10 shots: 5 talking close-ups of the farming couple speaking to each other in Welsh (OmniHuman 2.0 lip-sync), 4 stills with slow moves, end card; caption PX-02 after 0:30. Welsh original with Welsh-accented English and Rioplatense Spanish dubs over it at 15%; en/es subtitles marked [in Welsh]. Welsh and Spanish machine-written, for native review."
+   "notes": "720p VP9, 18 shots, every shot moving: 10 OmniHuman 2.0 talking shots (Welsh lip-sync; speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. Two date cards: c. 200 BC and c. AD 200. Welsh soundtrack; English and Spanish dub tracks; cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
+   "revised": "2026-10-29T23:45Z",
+   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage.",
+   "previous_cut": {
+    "clip": "clips/F002.webm",
+    "audio": {
+     "cy": "audio/F002.cy.webm",
+     "en": "audio/F002.en.webm",
+     "es": "audio/F002.es.webm"
+    },
+    "made": "2026-10-28T05:04Z"
+   },
+   "merged": [
+    {
+     "from": "F003",
+     "clip": "clips/F003.webm",
+     "audio": {
+      "cy": "audio/F003.cy.webm",
+      "en": "audio/F003.en.webm",
+      "es": "audio/F003.es.webm"
+     },
+     "note": "former Scene 3, now the second half of Scene 2"
+    }
+   ]
   }
  ],
  "left_out_register": [],
- "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door."
+ "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door.",
+ "merge_note": "29 Oct 2026: Scene 3 merged into Scene 2 at the producer's word; door 3 is now the c. 650 monastic burial (script F004), not yet released."
 }
