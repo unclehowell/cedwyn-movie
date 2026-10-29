@@ -1,0 +1,207 @@
+{
+ "frame": 14,
+ "title": "Apples Over the Hedge",
+ "date": "August 1889 (between 11 and 16 August)",
+ "place": "Penarth police court, Glamorgan",
+ "cast": {
+  "B_JOHN": "John Williams junior, farmer's son, giving evidence",
+  "H_CLERK": "the magistrate, presiding (public office, English-speaking)",
+  "F_GWEN": "Gwen, a village woman and neighbour in the public seats (invented)"
+ },
+ "setting": "s07",
+ "spoken_language": "en",
+ "shots": [
+  {
+   "shot": 1,
+   "set": "s07",
+   "direction": "Date-and-place card. Establishing still of the police court interior on a warm August morning in 1889: wooden benches, a raised bench for the magistrate, gas lamps unlit on brass brackets, tall windows with dusty daylight. Slow push-in toward the public seats. Ambience: shuffling boots, a cough, a door closing. About 4 seconds.",
+   "image_prompt": "photoreal 16:9 still, interior of a small Victorian police court in Glamorgan, Wales, August 1889, varnished wooden benches, a raised magistrate's bench with a panelled front, unlit brass gas lamps on wall brackets, tall sash windows letting in dusty summer daylight, bare floorboards, no people, no text, no signage, no heraldry, no coat of arms",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "August 1889 · Police court, Penarth, Glamorgan",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 2,
+   "set": "s07",
+   "direction": "Public seats, before the case is called. Gwen leans toward John, who sits just off camera to her right, and whispers. Medium close on Gwen only. Background: soft-focus wooden benches and other villagers' shoulders, faces not featured. About 10 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court public seats, a Welsh village woman in her forties with a round weathered face, brown eyes, faint freckles and dark hair under a plain black straw bonnet, a grey wool shawl over a dark print dress, leaning sideways to whisper to someone just out of frame, wooden bench behind her, blurred figures in the background, soft window light, invented face, no text, no heraldry",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "F_GWEN",
+     "spoken": "cy",
+     "accent": "thick Glamorgan Welsh, whispered (Welsh marked for native review)",
+     "cy": "Ti sy nesa, John? Ti'n barod i weud wrth y fainc am yr afale?",
+     "en": "You're next, John? Ready to tell the bench about the apples?",
+     "es": "¿Sos el próximo, John? ¿Estás listo para contarle al juez lo de las manzanas?",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 3,
+   "set": "s07",
+   "direction": "Reverse angle. John, cap in his hands and Sunday coat buttoned, answers Gwen in a low voice. She sits just off camera to his left. Medium close on John only. About 16 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court public seats, a Welsh farmer's son in his twenties with a lean sunburnt face, light brown hair cut short, a thin moustache and pale blue eyes, wearing a dark wool Sunday coat buttoned over a waistcoat and a collarless shirt, holding a cloth cap in his hands, turning his head to whisper to someone just out of frame, wooden bench behind him, soft window light, invented face, no text, no heraldry",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "B_JOHN",
+     "spoken": "cy",
+     "accent": "thick Glamorgan Welsh, whispered (Welsh marked for native review)",
+     "cy": "Odw, glei. Ond yn Saesneg fydd e, cofia, a'r Saesneg yn sownd yn 'y ngheg i. Perllan 'Nhad, dros y clawdd o'r rheilffordd. 'Na i gyd sy gen i i weud.",
+     "en": "I am, aye. But it'll be in English, mind, and the English sticks in my mouth. Father's orchard, over the hedge from the railway. That's all I've got to tell.",
+     "es": "Sí, che. Pero va a ser en inglés, ojo, y el inglés se me traba en la boca. El huerto de mi padre, por encima del seto desde el ferrocarril. Es todo lo que tengo para decir.",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "set": "s07",
+   "direction": "Wide still of the court in session. The usher stands by the door in a dark uniform coat. A man sits in the dock, seen only from behind in a corduroy jacket. His face is never shown. John walks forward from the public seats, a small figure in mid-frame. Slow lateral drift along the benches. Ambience: an usher's call, muffled and unintelligible, boots on boards. About 18 seconds.",
+   "image_prompt": "photoreal 16:9 wide still, small Victorian police court in Glamorgan in 1889, wooden benches with seated villagers seen mostly from behind, a court usher in a dark uniform coat standing by a panelled door, a man in a man's corduroy jacket seated in a wooden dock seen from behind with his face not visible, a young man in a dark coat walking forward holding a cap, unlit gas lamps on brass brackets, dusty summer window light, invented figures, no faces featured, no legible text, no heraldry, no coat of arms",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "1883: An abstract of title is compiled for land in St Andrews Major and Llandough-juxta-Penarth, 1837–1877. The catalogue does not state which Llandough land it covers.",
+     "cite": [
+      "CH-0031"
+     ]
+    },
+    {
+     "text": "1887: Owen's Cardiff Directory lists a Williams at Great House farm, Llandough.",
+     "cite": [
+      "CH-0032"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 5,
+   "set": "s07",
+   "direction": "The magistrate on the raised bench, pen in hand and a ledger open before him, looks down at John, who stands just off camera below him. Medium close on the magistrate only. About 10 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court, an English gentleman magistrate in his sixties with a long narrow face, grey mutton-chop whiskers, a high forehead and steel-rimmed half spectacles, wearing a black frock coat, a wing collar and a dark cravat, seated at a raised panelled bench with an open ledger and a dip pen, looking down toward someone out of frame, unlit gas lamp behind him, soft daylight, invented face, no legible text, no heraldry, no coat of arms",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "H_CLERK",
+     "spoken": "en",
+     "accent": "educated English, measured and dry",
+     "cy": "John Williams yr ieuengaf. Dywedwch wrth y fainc: perllan pwy yw hi, a ble mae'r clawdd 'ma'n sefyll?",
+     "en": "John Williams junior. Tell the bench: whose orchard is it, and where does this hedge stand?",
+     "es": "John Williams hijo. Dígale al tribunal: ¿de quién es el huerto, y dónde está ese seto?",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "set": "s07",
+   "direction": "John in the witness box, both hands on the wooden rail, looking up at the magistrate just off camera above him. He speaks carefully in English with a thick Glamorgan accent. Medium close on John only. About 15 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court witness box, a Welsh farmer's son in his twenties with a lean sunburnt face, light brown short hair, a thin moustache and pale blue eyes, in a dark wool Sunday coat and waistcoat, both hands gripping a varnished wooden rail, looking upward at someone out of frame, panelled wall behind, soft window light, invented face, no text, no heraldry",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "B_JOHN",
+     "spoken": "en",
+     "accent": "thick Glamorgan Welsh accent, speaking English carefully",
+     "cy": "Perllan Fferm y Tŷ Mawr yw hi, syr, lan yn Llandochau. Eiddo John Williams, 'y nhad i, 'na fe. Ma'r clawdd yn rhedeg ar hyd y rheilffordd, chweld, a'r afale wedi'u cyrraedd dros y clawdd o'r lein.",
+     "en": "It's the orchard of Great House Farm, sir, up at Llandough. The property of John Williams, my father, that is. The hedge do run along the railway, see, and the apples was reached over from the line.",
+     "es": "Es el huerto de Great House Farm, señor, allá arriba en Llandough. Propiedad de John Williams, mi padre, digamos. El seto corre a lo largo del ferrocarril, ¿vio?, y las manzanas las alcanzaron por encima desde la vía.",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 7,
+   "set": "s09",
+   "direction": "Still of the place John describes. A hawthorn hedge tops the railway embankment below the hill at Llandough. Apple trees heavy with August fruit lean over it, and the iron rails run below toward Penarth. A thin drift of lime-kiln smoke rises from the far hillside. No people and no train. Slow push along the hedge line. Ambience: wasps, wind in leaves, a distant train whistle. About 20 seconds.",
+   "image_prompt": "photoreal 16:9 landscape still, rural Glamorgan, August 1889, a hawthorn hedge along the top of a grassy railway embankment, old apple trees heavy with ripening red and green apples leaning over the hedge, a Victorian double-track railway with iron rails and wooden sleepers below, an inland wooded hillside behind with a faint plume of smoke from a distant lime kiln, warm hazy summer light, no people, no train, no text, no signage, no heraldry, no modern structures",
+   "animate": "still",
+   "captions": [
+    {
+     "text": "15 Dec 1887: Daniel Thomas of Penylan dies. He was a contractor under Lord Bute, with lime kilns at Llandough.",
+     "cite": [
+      "CH-0033",
+      "EV-0280"
+     ]
+    },
+    {
+     "text": "24 Apr 1888: A man is described as a labourer at Llandough Quarry.",
+     "cite": [
+      "CH-0033",
+      "EV-0280"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 8,
+   "set": "s07",
+   "direction": "Back in the public seats after John has stepped down. Gwen speaks low to John, who has just sat beside her off camera to her right. Medium close on Gwen only. The court business continues behind her, out of focus and unheard. No outcome is shown. About 10 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court public seats, a Welsh village woman in her forties with a round weathered face, brown eyes, faint freckles and dark hair under a plain black straw bonnet, a grey wool shawl, giving a small approving nod and whispering to someone just out of frame, wooden bench, blurred court interior behind, soft window light, invented face, no text, no heraldry",
+   "animate": "omnihuman",
+   "captions": [],
+   "lines": [
+    {
+     "who": "F_GWEN",
+     "spoken": "cy",
+     "accent": "thick Glamorgan Welsh, whispered (Welsh marked for native review)",
+     "cy": "Da iawn, bach. Wedest ti beth oedd 'da ti i weud, a dim mwy.",
+     "en": "Well done, love. You said what you had to say, and no more.",
+     "es": "Muy bien, querido. Dijiste lo que tenías que decir, y nada más.",
+     "cite": [
+      "CH-0034",
+      "EV-0279"
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 9,
+   "set": "s07",
+   "direction": "Closing still. The panelled court door stands ajar onto a bright street, and the usher's hand rests on the handle. Nothing of the case's result is shown. Slow pull-back. Ambience: murmuring, a cart passing outside. About 12 seconds.",
+   "image_prompt": "photoreal 16:9 still, 1889 Victorian police court interior, a panelled wooden door standing ajar onto a bright sunlit street, a court usher's hand in a dark uniform sleeve resting on the brass handle, wooden benches in the foreground, unlit gas lamp on a bracket, dust in the light, invented figure, no faces, no text, no signage, no heraldry",
+   "animate": "still",
+   "captions": [],
+   "lines": []
+  }
+ ],
+ "est_seconds": 115,
+ "basis": "Recorded: the Barry Dock News, 16 Aug 1889, p.2 (EV-0279) reports John Williams junior giving evidence that apples were taken from 'the orchard of Great House Farm … the property of John Williams', reached over the hedge from the railway. Recorded in captions: the 1883 abstract of title (CH-0031), the 1887 Owen's Cardiff Directory entry (CH-0032), and Daniel Thomas's death and the Llandough Quarry labourer (CH-0033, EV-0280). Inferred: that the hearing was at the Penarth police court, the exact day (between 11 and 16 August 1889), the magistrate's wording, and the Welsh whispered exchanges. Gwen is invented. The accused is not named and the outcome is not shown.",
+ "script_version": "v0.4.0",
+ "status": "v0.4.0 29 Oct 2026 IN-PERIOD, machine-drafted for hive review: one moment, no narrator, no fourth wall, not rendered. Court English with a thick Glamorgan accent for John and an educated English accent for the magistrate. Welsh (cy lines and subtitles) machine-written, for native review. Spanish machine-written in Rioplatense voseo, for review.",
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation, for review"
+ },
+ "words_en": 107,
+ "estimated_seconds": 115
+}

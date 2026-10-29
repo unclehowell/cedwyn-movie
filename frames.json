@@ -222,8 +222,8 @@
     "A_MARY=a Romano-British farm woman, his wife (prologue, invented)"
    ],
    "target_seconds": 120,
-   "status": "empty",
-   "clip": null,
+   "status": "filled",
+   "clip": "clips/F003.webm",
    "script": "scripts/F003.json",
    "logline_status": "in-period scene plan v2.0.0 (29 Oct 2026), machine-drafted from the chronology, for hive review",
    "estimated_seconds": 63,
@@ -1061,14 +1061,14 @@
    "logline": "Before the magistrate, John Williams junior gives evidence that apples were taken from 'the orchard of Great House Farm … the property of John Williams', reached over the hedge from the railway.",
    "setting": "s07",
    "cast": [
-    "B_JOHN=John Williams junior",
-    "H_CLERK=the magistrate",
-    "F_GWEN=Gwen, in the public seats"
+    "B_JOHN=John Williams junior, farmer's son, giving evidence",
+    "H_CLERK=the magistrate, presiding (public office, English-speaking)",
+    "F_GWEN=Gwen, a village woman and neighbour in the public seats (invented)"
    ],
    "target_seconds": 120,
-   "status": "empty",
+   "status": "scripted",
    "clip": null,
-   "script": null,
+   "script": "scripts/F014.json",
    "logline_status": "in-period scene plan v2.0.0 (29 Oct 2026), machine-drafted from the chronology, for hive review",
    "i18n": {
     "cy": {
@@ -1107,7 +1107,8 @@
     ],
     "source_in_sitemap": true
    },
-   "script_status": "to write in-period (old narrator script, if any, superseded)"
+   "script_status": "v0.4.0 in-period written 29 Oct 2026 (not rendered)",
+   "estimated_seconds": 115
   },
   {
    "n": 15,
