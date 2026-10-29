@@ -1,11 +1,13 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.0.3",
+ "version": "1.0.4",
  "updated": "2026-10-29T20:56Z",
  "frames_total": 148,
+ "pricing": {"rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before", "free": "0.0.1", "free_scenes": [1, 2], "step_gbp": 4.99, "currency": "GBP", "set": "2026-10-29"},
  "filled": [
   {
    "n": 1,
+   "version": "0.0.1",
    "clip": "clips/F001.webm",
    "audio": {
     "cy": "audio/F001.cy.webm",
@@ -28,6 +30,7 @@
   },
   {
    "n": 2,
+   "version": "0.0.1",
    "clip": "clips/F002.webm",
    "audio": {
     "cy": "audio/F002.cy.webm",
@@ -63,6 +66,7 @@
   },
   {
    "n": 3,
+   "version": "0.0.2",
    "clip": "clips/F003.webm",
    "audio": {
     "cy": "audio/F003.cy.webm",
