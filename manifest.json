@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
  "version": "1.0.2",
- "updated": "2026-10-28T05:04Z",
+ "updated": "2026-10-29T09:32Z",
  "frames_total": 148,
  "filled": [
   {
@@ -31,8 +31,8 @@
    "clip": "clips/F002.webm",
    "audio": {
     "cy": "audio/F002.cy.webm",
-    "en": "audio/F002.cy.webm",
-    "es": "audio/F002.cy.webm"
+    "en": "audio/F002.en.webm",
+    "es": "audio/F002.es.webm"
    },
    "subs": {
     "cy": "subs/F002.cy.vtt",
@@ -49,7 +49,6 @@
    "notes": "720p VP9; 11 shots: 5 talking close-ups (Welsh lip-sync), 6 stills with slow moves; title card PX-01, closing card CH-0174. Welsh lines machine-assisted, for native review.",
    "revised": "2026-10-28T05:04Z",
    "revision_note": "v0.3.0 redo: the whole frame remade. Five on-camera talking shots (the roundhouse mother and the elder) lip-synced in Welsh; Welsh-only soundtrack (people of the time speak Welsh) with en/es subtitles marked [in Welsh]; hook question on camera at 0:04; no villa or coast wording; 1979 trench card cites CH-0174.",
-   "default_audio": "cy",
    "previous_cut": {
     "clip": "clips/F002.v1.webm",
     "audio": {
@@ -58,7 +57,9 @@
      "es": "audio/F002.v1.es.webm"
     },
     "made": "2026-10-27T06:39Z"
-   }
+   },
+   "dub_note": "29 Oct 2026: English and Spanish dub tracks added beside the original Welsh soundtrack (Welsh-accented English voices; Rioplatense / Patagonian Spanish wording, the mother's lines in a Patagonian voice). Spanish subtitles rewritten in Rioplatense Spanish. Scene 2 is free.",
+   "default_audio": "cy"
   }
  ],
  "left_out_register": [],
