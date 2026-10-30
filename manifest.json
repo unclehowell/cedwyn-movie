@@ -1,10 +1,10 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.3.0",
- "updated": "2026-10-30T04:12Z",
+ "version": "1.4.0",
+ "updated": "2026-10-30T05:10Z",
  "frames_total": 147,
  "pricing": {
-  "rule": "Pricing: all documentary versions free until the producer says a version is paid quality; each door's latest cut = v0.0.1; older cuts = v0.0.1-0.0.N (oldest lowest)",
+  "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
   "all_free": true,
   "free": "0.0.1",
   "free_scenes": [
@@ -14,13 +14,14 @@
   "step_gbp": 4.99,
   "currency": "GBP",
   "set": "2026-10-30",
-  "previous_rule": "29 Oct 2026: v0.0.1 free, each later version +£4.99 (suspended 30 Oct 2026: nothing is of paid quality yet)",
-  "sub_versions": "Each door's newest cut is v0.0.1. Its earlier cuts are pre-releases of it, numbered v0.0.1-0.0.1 (oldest), v0.0.1-0.0.2, ...; they are listed in the entry's 'cuts' and stay playable from the version menu."
+  "previous_rule": "29 Oct 2026: v0.0.1 free, each later version +\u00a34.99 (suspended 30 Oct 2026: nothing is of paid quality yet)",
+  "sub_versions": "Each door's earlier cuts are pre-releases numbered v0.0.1-0.0.1 (oldest), v0.0.1-0.0.2, ...; the entry's own 'version' names the cut that plays by default, its 'cuts' list the older ones, and 'next_version' a reserved version that is not yet playable. The page shows them as hashtag chips under each scene.",
+  "no_dubbing": "30 Oct 2026: no dubbing from now on. Each language gets its own separately performed video. A door's dubbed cuts stay playable as older versions (v0.0.1-0.0.N). Until a door's native-language performances exist, its newest cut plays under its sub-version and v0.0.1 is listed as coming (entry 'next_version')."
  },
  "filled": [
   {
    "n": 1,
-   "version": "0.0.1",
+   "version": "0.0.1-0.0.2",
    "clip": "clips/F001.v2.webm",
    "audio": {
     "cy": "audio/F001.cy.webm",
@@ -48,62 +49,62 @@
     "cy|cy": {
      "path": "downloads/F001/a-cy_s-cy.mp4",
      "bytes": 10827743,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – Welsh subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Cymraeg audio \u2013 Welsh subtitles"
     },
     "cy|en": {
      "path": "downloads/F001/a-cy_s-en.mp4",
      "bytes": 10762132,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – English subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Cymraeg audio \u2013 English subtitles"
     },
     "cy|es": {
      "path": "downloads/F001/a-cy_s-es.mp4",
      "bytes": 10840955,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – Spanish subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Cymraeg audio \u2013 Spanish subtitles"
     },
     "cy|off": {
      "path": "downloads/F001/a-cy_s-off.mp4",
      "bytes": 10256766,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – No subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Cymraeg audio \u2013 No subtitles"
     },
     "en|cy": {
      "path": "downloads/F001/a-en_s-cy.mp4",
      "bytes": 10827895,
-     "title": "Cedwyn – Door 1 – English audio – Welsh subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 English audio \u2013 Welsh subtitles"
     },
     "en|en": {
      "path": "downloads/F001/a-en_s-en.mp4",
      "bytes": 10762284,
-     "title": "Cedwyn – Door 1 – English audio – English subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 English audio \u2013 English subtitles"
     },
     "en|es": {
      "path": "downloads/F001/a-en_s-es.mp4",
      "bytes": 10841107,
-     "title": "Cedwyn – Door 1 – English audio – Spanish subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 English audio \u2013 Spanish subtitles"
     },
     "en|off": {
      "path": "downloads/F001/a-en_s-off.mp4",
      "bytes": 10256918,
-     "title": "Cedwyn – Door 1 – English audio – No subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 English audio \u2013 No subtitles"
     },
     "es|cy": {
      "path": "downloads/F001/a-es_s-cy.mp4",
      "bytes": 10832286,
-     "title": "Cedwyn – Door 1 – Español audio – Welsh subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Espa\u00f1ol audio \u2013 Welsh subtitles"
     },
     "es|en": {
      "path": "downloads/F001/a-es_s-en.mp4",
      "bytes": 10766675,
-     "title": "Cedwyn – Door 1 – Español audio – English subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Espa\u00f1ol audio \u2013 English subtitles"
     },
     "es|es": {
      "path": "downloads/F001/a-es_s-es.mp4",
      "bytes": 10845498,
-     "title": "Cedwyn – Door 1 – Español audio – Spanish subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Espa\u00f1ol audio \u2013 Spanish subtitles"
     },
     "es|off": {
      "path": "downloads/F001/a-es_s-off.mp4",
      "bytes": 10261309,
-     "title": "Cedwyn – Door 1 – Español audio – No subtitles"
+     "title": "Cedwyn \u2013 Door 1 \u2013 Espa\u00f1ol audio \u2013 No subtitles"
     }
    },
    "cuts": [
@@ -123,11 +124,19 @@
      "made": "2026-10-26",
      "note": "first cut: English lip-sync with a Welsh dub"
     }
-   ]
+   ],
+   "cut_note": "Welsh performance with Welsh lip-sync; the English and Spanish tracks are dubbed over the Welsh video (30 Oct 2026).",
+   "next_version": {
+    "version": "0.0.1",
+    "status": "coming",
+    "kind": "native-language",
+    "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
+    "plan": "RERENDER-QUEUE.md"
+   }
   },
   {
    "n": 2,
-   "version": "0.0.1",
+   "version": "0.0.1-0.0.5",
    "clip": "clips/F002.v6.webm",
    "audio": {
     "cy": "audio/F002.v6.cy.webm",
@@ -148,7 +157,7 @@
    "default_audio": "cy",
    "notes": "720p VP9, 18 shots, every shot moving: 11 OmniHuman 2.0 talking shots (speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. One video per language: the Welsh video is lip-synced to the Welsh track; the English and Spanish videos carry the same shots with the mouths re-synced to their own track (Kling LipSync). Two date cards: c. 200 BC and c. AD 200; the AD 200 farmer and wife are different people with different voices from the Iron Age couple. cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
    "revised": "2026-10-30T03:22Z",
-   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage. v1.0.1 (30 Oct 2026): AD 200 farmer and wife recast as different people (4 talking shots + 1 harvest shot re-rendered). v1.0.2 (30 Oct 2026): the last two talking shots had the faces swapped (the wife's line lip-synced on the farmer and the farmer's on the wife, in every track) — fixed; the AD 200 couple re-voiced with voices not used in the Iron Age half (cy/en/es) and their 4 talking shots re-lip-synced; English and Spanish lip-synced videos added.",
+   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage. v1.0.1 (30 Oct 2026): AD 200 farmer and wife recast as different people (4 talking shots + 1 harvest shot re-rendered). v1.0.2 (30 Oct 2026): the last two talking shots had the faces swapped (the wife's line lip-synced on the farmer and the farmer's on the wife, in every track) \u2014 fixed; the AD 200 couple re-voiced with voices not used in the Iron Age half (cy/en/es) and their 4 talking shots re-lip-synced; English and Spanish lip-synced videos added.",
    "previous_cut": "clips/F002.v5.1.webm",
    "merged": [
     {
@@ -171,73 +180,73 @@
     "cy|cy": {
      "path": "downloads/F002/a-cy_s-cy.mp4",
      "bytes": 18467351,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – Welsh subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Cymraeg audio \u2013 Welsh subtitles",
      "from_video": true
     },
     "cy|en": {
      "path": "downloads/F002/a-cy_s-en.mp4",
      "bytes": 18440535,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – English subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Cymraeg audio \u2013 English subtitles",
      "from_video": true
     },
     "cy|es": {
      "path": "downloads/F002/a-cy_s-es.mp4",
      "bytes": 18453894,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – Spanish subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Cymraeg audio \u2013 Spanish subtitles",
      "from_video": true
     },
     "cy|off": {
      "path": "downloads/F002/a-cy_s-off.mp4",
      "bytes": 18111777,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – No subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Cymraeg audio \u2013 No subtitles",
      "from_video": true
     },
     "en|cy": {
      "path": "downloads/F002/a-en_s-cy.mp4",
      "bytes": 17472011,
-     "title": "Cedwyn – Door 2 – English audio – Welsh subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 English audio \u2013 Welsh subtitles",
      "from_video": true
     },
     "en|en": {
      "path": "downloads/F002/a-en_s-en.mp4",
      "bytes": 17464870,
-     "title": "Cedwyn – Door 2 – English audio – English subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 English audio \u2013 English subtitles",
      "from_video": true
     },
     "en|es": {
      "path": "downloads/F002/a-en_s-es.mp4",
      "bytes": 17476689,
-     "title": "Cedwyn – Door 2 – English audio – Spanish subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 English audio \u2013 Spanish subtitles",
      "from_video": true
     },
     "en|off": {
      "path": "downloads/F002/a-en_s-off.mp4",
      "bytes": 17170337,
-     "title": "Cedwyn – Door 2 – English audio – No subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 English audio \u2013 No subtitles",
      "from_video": true
     },
     "es|cy": {
      "path": "downloads/F002/a-es_s-cy.mp4",
      "bytes": 17499067,
-     "title": "Cedwyn – Door 2 – Español audio – Welsh subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Espa\u00f1ol audio \u2013 Welsh subtitles",
      "from_video": true
     },
     "es|en": {
      "path": "downloads/F002/a-es_s-en.mp4",
      "bytes": 17477287,
-     "title": "Cedwyn – Door 2 – Español audio – English subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Espa\u00f1ol audio \u2013 English subtitles",
      "from_video": true
     },
     "es|es": {
      "path": "downloads/F002/a-es_s-es.mp4",
      "bytes": 17495045,
-     "title": "Cedwyn – Door 2 – Español audio – Spanish subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Espa\u00f1ol audio \u2013 Spanish subtitles",
      "from_video": true
     },
     "es|off": {
      "path": "downloads/F002/a-es_s-off.mp4",
      "bytes": 17195523,
-     "title": "Cedwyn – Door 2 – Español audio – No subtitles",
+     "title": "Cedwyn \u2013 Door 2 \u2013 Espa\u00f1ol audio \u2013 No subtitles",
      "from_video": true
     }
    },
@@ -306,7 +315,15 @@
      "made": "2026-10-30",
      "note": "AD 200 couple recast (30 Oct 00:56)"
     }
-   ]
+   ],
+   "cut_note": "Welsh performance; the English and Spanish videos are the Welsh shots with the mouths re-synced to dubbed tracks (30 Oct 2026).",
+   "next_version": {
+    "version": "0.0.1",
+    "status": "coming",
+    "kind": "native-language",
+    "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
+    "plan": "RERENDER-QUEUE.md"
+   }
   }
  ],
  "left_out_register": [],

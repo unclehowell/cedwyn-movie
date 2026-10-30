@@ -1,3 +1,27 @@
+# Multi-language video — NO DUBBING from 30 Oct 2026 05:00Z (supersedes the Kling LipSync verdict below)
+
+Producer 04:58 GMT 30 Oct: "Forget dubbing and make 3 language specific seperate videos but keep the current as older versions." GO 05:05: "Do it even if it takes days."
+
+## Rule
+- Each language (cy, en, es) is its own separately performed video: its own lines spoken by a native voice for that language, and its own OmniHuman 2.0 (`bytedance/omnihuman/v2`, $0.105/s) render of every shot where a character speaks on camera. No mouth re-sync of another language's performance (Kling LipSync, sync. lipsync-2, LatentSync etc. are no longer used for the film).
+- Shots where nobody speaks on camera (i2v landscapes, document inserts, date cards, end card) are rendered once and shared by all three videos; only the audio bed changes (ambience shared, dialogue per language).
+- Voices: cy = the designed Welsh voices (eleven_v4 language_code cy; Gemini TTS fallback). en = the same characters in Welsh-accented English (the characters are Welsh). es = native Spanish voices (Rioplatense, designed per character; never a Welsh voice reading Spanish). The voice account was at its custom-voice limit on 29 Oct: free or reuse a slot before designing (not checked today).
+- Each language file carries only its own audio. Manifest: `video: {cy, en, es}` on the v0.0.1 entry; `clip` = cy.
+- The dubbed cuts stay playable as older versions (#v0.0.1-0.0.N chips on /documentary/): Door 2 #v0.0.1-0.0.5 = F002.v6 (Welsh) + F002.v6.en/.es (Kling dubs); Door 1 #v0.0.1-0.0.2 = F001.v2 (Welsh lip-sync, en/es dub tracks). v0.0.1 is reserved for the native release (`next_version` status "coming").
+
+## Per door: what needs its own render (detail and costs in RERENDER-QUEUE.md JOB 1)
+| door | talking shots (own render per language) | shared shots | cy | en | es | door total |
+|---|---|---|---|---|---|---|
+| 2 (F002 v1.0.2) | 2, 3, 6, 7, 8, 10, 11, 13, 14, 16, 17 (11 shots, 91 s) | 1, 4, 5, 9, 12, 15, 18 i2v + end card | reuse Welsh OmniHuman renders ($0) | ≈ $9.5 | ≈ $9.9 | ≈ $20–23 incl. voices + ~15% retakes |
+| 1 (F001 v0.3.0, cut v2) | cut shots 2, 5, 6, 8, 13, 14 (6 close-ups, ≈ 66 s; Welsh renders cost $6.94) | title still, wide i2v, document inserts, stills | reuse ($0) | ≈ $6.4 | ≈ $6.9–7.2 | ≈ $14–16 |
+All figures are list-price estimates (bible/MODELS.md), NOT CHECKED against receipts. If the cy shots must also be re-performed: + ≈ $9.6 (Door 2), + ≈ $6.9 (Door 1).
+Every new door from Door 3 on is made this way from the start (three performances, shared non-speaking shots): ≈ 3 × talking seconds × $0.105.
+
+## Verification per shot per language
+audio-proof on the line; transcribe back ≥ 0.8; 3 frames per shot against the line (open on vowels, closed on silence); the face matches the character's reference portrait.
+
+---
+
 # Multi-language lip-sync — research, plan, rule (30 Oct 2026, worker c52025d8)
 
 Owner ask, WhatsApp 02:39 GMT 30 Oct (m:5a76d0ad), verbatim: "Surely you can make 3 variations of the webm in the 3 different languages so lipsync always matches the spoken language. I'm sure there's been innovations in ai for doing this recently. Research a bit first. Plan a big. Then attempt it."

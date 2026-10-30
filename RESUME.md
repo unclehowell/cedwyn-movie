@@ -22,12 +22,16 @@ the next scene is here or listed in ASSETS.md with where it lives.
 
 ## 2. Versions and pricing (rule from 30 Oct 2026)
 All documentary versions are FREE until the producer names a version as paid quality.
-- Each door's newest cut is `"version": "0.0.1"`.
-- When a new cut replaces it, move the old one into that entry's `cuts` list as
-  `{"version": "0.0.1-0.0.N", "clip", "audio", "subs", "made", "note"}` with the next N (oldest = `0.0.1-0.0.1`).
-- A newly opened door also gets `0.0.1`. `pricing.all_free` stays `true`.
-- The page (documentary.js 1.5.0, movie.js 1.4.6) plays every door with no licence or checkout and lists the earlier
-  cuts in the player's version menu. Do not create or change payment links or products.
+- No dubbing (30 Oct 2026 05:00Z): `0.0.1` of each door is its native-language release, three separately performed
+  videos (cy, en, es). Until a door has them, its entry's `version` names the cut that plays (Door 2 `0.0.1-0.0.5`,
+  Door 1 `0.0.1-0.0.2`, the dubbed cuts) and `next_version: {"version": "0.0.1", "status": "coming"}` reserves 0.0.1.
+- When a new cut replaces the playing one, move the old one into that entry's `cuts` list as
+  `{"version": "0.0.1-0.0.N", "clip", "audio", "subs", "video"?, "made", "note"}` with the next N (oldest = `0.0.1-0.0.1`).
+- A newly opened door, performed natively in all three languages, gets `0.0.1`. `pricing.all_free` stays `true`.
+- The page (page 1.6.0: documentary.js 1.6.0, movie.js 1.5.0) plays every door with no licence or checkout and shows
+  each door's versions as hashtag chips under the scene (default cut marked free and selected; `next_version` shown as
+  "coming", not playable). A card-size control above the scenes sets small / medium / large for every card.
+  Do not create or change payment links or products.
 
 ## 3. Making the next scene (the recipe that produced Door 2 v0.0.1)
 1. Take the next item in `bible/RERENDER-QUEUE.md` (redos first), then the next unfilled door in `frames.json` order.
@@ -40,11 +44,12 @@ All documentary versions are FREE until the producer names a version as paid qua
    (settings there). Transcribe each line back and require a word match of at least 0.8. Voice gender must match the
    on-screen speaker in every track (median pitch: male about 85–160 Hz, female about 180–260 Hz). The voice account is
    full, so rotate existing voices; never reuse one voice for two eras in the same scene.
-5. Talking shots: ByteDance OmniHuman 2.0 (fal `bytedance/omnihuman/v2`, about $0.105 per output second) on the Welsh
-   line, only where a character speaks on camera. Everything else moves too: Kling 2.5 turbo image-to-video. No stills,
+5. Talking shots: ByteDance OmniHuman 2.0 (fal `bytedance/omnihuman/v2`, about $0.105 per output second), one render per
+   language, only where a character speaks on camera. Everything else moves too: Kling 2.5 turbo image-to-video. No stills,
    no slideshows. Archive scans are never animated.
-6. English and Spanish videos: re-sync the mouths of each talking shot to that language's track with Kling LipSync
-   (fal `fal-ai/kling-video/lipsync/audio-to-video`); fallback sync. lipsync-2. Details: `bible/LIPSYNC-MULTILANG.md`.
+6. English and Spanish videos: NO DUBBING and no mouth re-sync (30 Oct 2026). Each language is its own performance:
+   native voice lines and its own OmniHuman 2.0 render of every on-camera talking shot; non-speaking shots are shared.
+   Plan and cost per door: `bible/LIPSYNC-MULTILANG.md` (top) and `bible/RERENDER-QUEUE.md` JOB 1.
 7. NEVER the Wav2Lip / Piper talking-portrait route (rejected by the producer).
 8. Mix with ffmpeg; 720p VP9 webm, about 2 minutes, under 25 MB; cy/en/es VTT subtitles; one video per language.
 9. Upload large files in parts through the `fetch-media` workflow (parts mode: blobs on a short-lived `inbox-*` branch,

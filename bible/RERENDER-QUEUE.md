@@ -1,3 +1,56 @@
+## JOB 1 (TOP) — NATIVE-LANGUAGE PERFORMANCES cy/en/es, Door 2 then Door 1 | GO from the producer 30 Oct 05:05; pace within the render budget; take as long as needed
+Producer 04:58 GMT 30 Oct: "Forget dubbing and make 3 language specific seperate videos but keep the current as older versions." Producer 05:05: "Do it even if it takes days. Just update hubspot".
+Progress: every movie run appends a dated line to the production task in the team's CRM (what rendered, $ spent, what is next). Done when all three languages are live for both doors.
+Rule: no dubbing and no mouth re-sync (Kling LipSync / sync.) from now on. Each language is its own performance: its own native voice lines and its own OmniHuman 2.0 render of every on-camera talking shot. Non-speaking shots are shared by all three videos.
+Page/manifest state (done 30 Oct, task 55c81952): the dubbed cuts are older versions — Door 2 plays #v0.0.1-0.0.5 (F002.v6 + .en/.es Kling dubs), Door 1 plays #v0.0.1-0.0.2 (F001.v2); each entry has `next_version: {version: "0.0.1", status: "coming"}`, shown as a disabled "#v0.0.1 coming" chip.
+
+### Door 2 (F002, script v1.0.2; shot list scripts/F002.json + the v1.0.2 recast) — FIRST
+| shot | s | kind | per language? |
+|---|---|---|---|
+| 1 | 6.32 | Kling i2v, dawn homestead + caption | shared |
+| 2 | 9.0 | talking: A_MARY (roundhouse mother) | own render per language |
+| 3 | 7.0 | talking: B_JOHN (Iron Age elder) | own render per language |
+| 4, 5 | 5.8 each | Kling i2v | shared |
+| 6 | 5.0 | talking: A_MARY | own render |
+| 7 | 7.0 | talking: B_JOHN | own render |
+| 8 | 8.0 | talking: A_MARY | own render |
+| 9 | 5.8 | Kling i2v | shared |
+| 10 | 8.0 | talking: B_JOHN | own render |
+| 11 | 8.0 | talking: A_MARY | own render |
+| 12 | 6.32 | Kling i2v (AD 200 date card) | shared |
+| 13 | 11.0 | talking: AD 200 farmer (recast, H_CLERK voice in v1.0.2) | own render |
+| 14 | 11.0 | talking: AD 200 wife (recast, F_GWEN voice) | own render |
+| 15 | 5.8 | Kling i2v | shared |
+| 16 | 11.0 | talking: AD 200 wife | own render |
+| 17 | 6.0 | talking: AD 200 farmer | own render |
+| 18 | 7.04 | Kling i2v | shared |
+| 19 | 5 | end card | shared (text per language) |
+Talking: 11 shots, 91 s. Shared: 7 i2v shots (42.9 s) + end card.
+- cy: REUSE the existing Welsh OmniHuman renders in clips/F002.v6.webm (already a native Welsh performance; voices designed Welsh). $0.
+- en: 11 new lines in eleven_v4 with the characters' Welsh-accented English voices → 11 OmniHuman 2.0 renders from the same 16:9 stills. ≈ 90 s × $0.105 ≈ **$9.5**.
+- es: 11 new lines in Rioplatense Spanish with native Spanish voices (designed, not the Welsh voices) → 11 renders. ≈ 94 s × $0.105 ≈ **$9.9**.
+- Voices/TTS ≈ $0.4. Retake allowance ~15% ≈ $3.
+- **Door 2 total ≈ $20–23.** Output: clips/F002.v7.webm (cy, = v6 Welsh), clips/F002.v7.en.webm, clips/F002.v7.es.webm, each carrying only its own audio.
+
+### Door 1 (F001, script v0.3.0, cut v2) — SECOND
+- Talking close-ups needing their own render per language: cut shots 2, 5, 6, 8, 13, 14 (the Welsh renders cost $6.94 on 30 Oct ≈ 66 s).
+- Shared, no render: shot 1 title still, the wide i2v shot, document inserts and stills. Lines heard over shared shots only need the new language's audio track.
+- cy: REUSE the 30 Oct Welsh OmniHuman close-ups (native Welsh). $0.
+- en: ≈ 61 s × $0.105 ≈ **$6.4** (English lines run ~8% shorter by subtitle cue time). es: ≈ 66 s × $0.105 ≈ **$6.9–7.2**.
+- Voices ≈ $0.3; retakes ≈ $2. **Door 1 total ≈ $14–16.**
+- The separate Door 1 all-motion redo (stills → i2v, ≈ $6–8, see below) can be done in the same pass; then the shared shots are new for all three languages at once.
+
+### Both doors ≈ $34–39 at list prices (bible/MODELS.md: OmniHuman 2.0 $0.105 per output second). NOT CHECKED against receipts.
+Not checked / risks: (1) the voice account was at its custom-voice limit on 29 Oct (the Spanish elder used B_JOHN's voice); native Spanish voices may need a slot freed or the Gemini TTS fallback. (2) es/en line lengths estimated from subtitle cue spans (F002.v6 cy 93.6 s, en 90.0 s, es 94.3 s; F001 cy 136.2, en 124.9, es 136.3). (3) The cy reuse assumes the producer counts the existing Welsh OmniHuman renders as the Welsh performance; if not, add ≈ $9.6 (Door 2) and ≈ $6.9 (Door 1).
+
+### When a door's three native videos are live
+Manifest: move the current top-level cut into `cuts` as its sub-version (Door 2: 0.0.1-0.0.5 with its `video`; Door 1: 0.0.1-0.0.2), set the new entry `version: "0.0.1"` with `clip` = the cy video and `video: {cy, en, es}`, remove `next_version`, run tools/download_variants.py N --upload. The page then shows #v0.0.1 free (default) followed by the older chips. Append a dated progress line to the production task.
+
+### Budget
+Spend only what the 24 h render budget allows; when it is $0, prepare everything (lines, voices, audio) and wait — log the wait in the agent's problems queue.
+
+---
+
 > **CURRENT RULES (29 Oct 2026).** Owner, WhatsApp 16:04 GMT 29 Oct: the film is a scene-by-scene recount and recreation of what most likely happened, in strict chronological order, with no fourth wall (full text and meaning: BIBLE.md "IN-PERIOD RULE"). This replaces the narrator-on-camera rule from scene 3 onward. Still in force: OmniHuman 2.0 (`bytedance/omnihuman/v2`, $0.105 per output second) used moderately, only for a character speaking on camera to another character, quality first, minimal spend; NEVER the free Piper/Wav2Lip route (rejected 27 Oct 13:35); Welsh spoken before about 1970 with en/es subtitles (Rioplatense Spanish); Welsh accents; no likeness of real family members; banned public words; never name the producer; no heraldry; no villa shown; the hill is inland.
 
 # RERENDER-QUEUE (rewritten 29 Oct 2026, in-period plan v2.0.0)
