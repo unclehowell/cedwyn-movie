@@ -1,6 +1,32 @@
-> **27 Oct 2026, 12:50 GMT — keep it free (producer's rule).** Zero spend, free tools only, for every scene from now on. No paid video, image or voice models.
-> Free route proved 27 Oct: Piper TTS with the Welsh `cy_GB-bu_tts-medium` voices (South Wales speakers benyw-de-pro and gwryw-de-1) → Wav2Lip (ONNX, CPU) talking portraits from the bible cast → ffmpeg moves on stills, cards and VP9. About 30 s of CPU per 10 s of talking shot.
-> Limits: the mouth moves, the head and eyes stay still; ambient shots are stills with slow moves; new looks come from existing bible images or credited, openly licensed archive photos. Welsh before ~1970 with en/es subtitles, Welsh accents and on-camera narrators still apply.
+> **PRICING — owner, WhatsApp 04:08 GMT 30 Oct 2026 (m:6657222f), verbatim:** "Make sub versions for the old versions I.e. -0.0.1 and -0.0.2 so the latest remains free and considered v0.0.1 - nothing is of paid quality standard yet. Also i can't play it unless its free."
+> RULE: all documentary versions are free until the owner reads a version is paid quality. Each door's latest cut = **v0.0.1** (manifest entry `"version": "0.0.1"`); its older cuts are pre-releases listed in the entry's `"cuts"` as `{version: "0.0.1-0.0.N", clip, audio, subs, made, note}`, oldest = `0.0.1-0.0.1`. When a new cut replaces the current one, move the current one into `cuts` with the next N and keep `version` at 0.0.1. A newly opened door also gets `"version": "0.0.1"` (NOT 0.0.<N-1>). manifest `pricing.all_free: true` (1.3.0); documentary.js 1.5.0 treats every scene as open, lists the earlier cuts in the version menu, and movie.js 1.4.6 plays the chosen earlier cut. Stripe products/links are untouched; only the page's gating is off. This supersedes the 29 Oct semantic-version billing section below. — Tab agent (task 059f8955)
+
+> **PER-LANGUAGE LIP-SYNC — owner, WhatsApp 02:39 GMT 30 Oct 2026 (m:5a76d0ad):** every talking shot is lip-synced per language track: one video per language (cy/en/es), each with its own audio, listed in the manifest entry as `video: {cy,en,es}` beside the back-compat `clip`. cy shots: OmniHuman 2.0; en/es: Kling LipSync video-to-video on the cy shot (fallback sync. lipsync-2). Never Wav2Lip/Piper. See bible/LIPSYNC-MULTILANG.md. — Tab agent, 30 Oct 2026
+
+> **CAST, VOICE AND MOTION RULES — owner, WhatsApp 02:21 GMT 30 Oct 2026 (m:c01cf65f), verbatim:** "You have the female voice saying a male lipsync clip and vice versa towards the end of scene 2 (I had welsh language audio set). Also the second half of scene 2 reads its hundreds of years apart from the first half, and while the people change which makes it more realistic, the voices do not which ruins an otherwise perfect scene. Also note scene 1 still has still scenes/ photo slides. All clips should be video and motion. So when you are sure scene 2 fixes are made redo scene 1"
+> (i) Voice gender must match the on-screen speaker in EVERY language track (cy, en, es). Check each talking shot's still/face against the line's speaker before any OmniHuman call, and after the mix measure each talking window's pitch per track (male ≈ 85–160 Hz, female ≈ 180–260 Hz median F0) — a language-model gender guess is not reliable (it called a female voice 'baritone' on 30 Oct).
+> (ii) A new era means a new cast AND new voices: no voice id may be heard in two different eras of the same scene, and avoid voices used in the scene before. The shared voice account is full (2200/2200 custom voices, 30 Oct), so new voices cannot be designed: rotate the existing 'Cedwyn' voices (bible/VOICES.json) and record which voice played whom in each scene's script `voices` field.
+> (iii) No stills or photo slides anywhere: every shot is motion video — OmniHuman 2.0 for speech, image-to-video (Kling 2.5 turbo) for establishing, scenery and action shots. Archive scans are never animated: show a document as a filmed physical object with a real camera move (hands, desk, light), not a static slide. A Ken Burns zoom on a still counts as a still.
+> — Tab agent, 30 Oct 2026
+
+> **IN-PERIOD RULE — owner, WhatsApp 16:04 GMT 29 Oct 2026 (verbatim):** "Work on the whole chronology of the documentry because the first 2 scenes are ok, but i don't see the remaining being a fluid move through time in chronological order. Each scene should talk about its scene and time in history. Its a retelling of what happened, the characters in the scene aren't supposed to be breaking the fourth wall which I see in the script so fix it so its just a scene by scene recount and recreation of what most likely happened, what was said, who was there, what it looked like using all avaliable knowledge we have in cedwyn.bucklerfamily.estate ."
+> What this means from scene 3 onward (it REPLACES the 27 Oct narrator-on-camera rule for scene 3+; scenes 1 and 2 stay as made):
+> - Strict chronological order. Each scene is ONE moment in time, opened with an on-screen date and place card, recreating who was there, what was most likely said and what it looked like. FRAMES.json v2.0.0 `items[].moment` = {date, place, present, summary, anchor, captions, basis, source}; SCENE-LIST.md is the readable list.
+> - No narrator and no fourth wall: nobody addresses the camera or the viewer. Nia the archivist (I_NIA) is retired from scene 3 on; the archive reading room (s08) is not used. D_BILLY plays William (Billy) Buckler in-period (b. 1948) and, in 2014+ scenes only, the Grandson as an in-period participant (writing, reading replies, visiting), never explaining to camera.
+> - Other events in a scene, record references and evidence ids become short dated on-screen CAPTIONS, never voice-over. A record that is a document is shown at the moment it was made or received (the surveyor drawing, the clerk entering, the family reading the letter). Inferred detail is chosen as the most likely and named in `moment.basis`.
+> - Unchanged: Welsh spoken before about 1970 (en/es subtitles; Spanish is Rioplatense), English after with Welsh accents; talking shots via OmniHuman 2.0 used moderately (only a character speaking on camera, to another character); stills with slow moves carry ambience and captions only; no likeness of real family members; banned public words; never name the producer; no heraldry; no villa shown; Llandough hill is inland.
+> — Tab agent, 29 Oct 2026
+
+> **CURRENT RULE — the producer 27 Oct 13:35 GMT (m:d458523a), verbatim: "Never do that method again. Its so bad. Just use ByteDance Omnihuman 2.0 moderately so the scene gets done to perfection and take as long as it takes so we keep it minimal cost".**
+> This SUPERSEDES the 12:50 "keep it free" block below (restored 28 Oct 2026 04:50 UTC by the CEDWYN MOVIE RUN worker). Talking shots (only where a character speaks on camera) = fal `bytedance/omnihuman/v2` (OmniHuman 2.0, $0.105 per output second, 16:9 1280x720 still + the Welsh line; recipe in bible/MODELS.md section 1). Ambient shots = stills with slow ffmpeg moves; new stills may be generated cheaply (gpt-image-2.5, era/scene looks as EDITS of the bible reference). Voices: ElevenLabs eleven_v4 cy (bible/VOICES.json). Spend only inside the render budget left in live-state; if it is $0, prepare everything and wait (log the wait to work/problems/QUEUE.md). Retakes only when a shot is visibly wrong.
+> The free Piper + Wav2Lip talking-portrait route is **REJECTED by the producer 27 Oct 13:35 — never use it again**; its models were deleted 28 Oct. The "free" text below is kept only as history.
+
+
+> **the producer 27 Oct 12:50: keep it free.** WhatsApp 12:50 GMT 27 Oct 2026 (m:6553aaa3), replying to the budget question: "Keep it free whatever that takes".
+> RULE: ZERO SPEND, FREE TOOLS ONLY, for every scene from now on (F002 v2 included). No OmniHuman, no Kling/Seedance/Veo, no paid image models, no ElevenLabs/Gemini TTS, no paid transcription. The 6-hourly cadence stays.
+> Proven free route (27 Oct 13:11 UTC, proof (agent box) files/movie-free-proof.webm): Piper TTS with `free/models/cy_GB-bu_tts-medium.onnx` (speakers benyw-de-pro = female South, gwryw-de-1 = male South) → `free/lipsync.py` (Wav2Lip GAN ONNX on CPU, on the actor's existing portrait) → ffmpeg push-ins, cards, VP9. About 30 s of CPU per 10 s of talking shot. Details: bible/MODELS.md §0.
+> Honest limits: the mouth moves but the head and eyes stay still, and the mouth area is softer than the face. Ambient shots are stills with slow moves (no AI motion). New scenes or era looks come from portraits/sets already on disk or openly licensed archive photos (credited), never new generation. Files already paid for (e.g. F002v2/audio) may be reused at $0.
+
 
 # CEDWYN — consistency bible (v1.0.0, 25 Oct 2026)
 
@@ -15,8 +41,8 @@ family supplies photographs and approves. The present-day researcher is never na
 
 | id | role | plays | reference | voice (ElevenLabs, eleven_v4, cy/en/es) |
 |---|---|---|---|---|
-| A_MARY | the Williams woman | Mary (Nancy) Williams (b. 1913) and the earlier Williams women (Amy Williams 1860s); the roundhouse mother in the prologue | `cast/A_MARY.jpg` | `uZ2F64pQ4awvfM38w9V9` |
-| B_JOHN | the Williams man | the John Williamses (1841–1949); Iron-Age elder, villa steward, monk in the prologue | `cast/B_JOHN.jpg` | `ft0WkOZmCF3NFIbyp280` |
+| A_MARY | the Williams woman | Mary (Nancy) Williams (b. 1913) and the earlier Williams women (Amy Williams 1860s); the roundhouse mother in the prologue (invented portrait `cast/A_MARY_ironage.jpg`, never Mary's real photo) | `cast/A_MARY.jpg` | `uZ2F64pQ4awvfM38w9V9` |
+| B_JOHN | the Williams man | the John Williamses (1841–1949); Iron-Age elder (`cast/B_JOHN_ironage.jpg`), villa steward, monk in the prologue | `cast/B_JOHN.jpg` | `ft0WkOZmCF3NFIbyp280` |
 | C_FRED | the in-law | Frederick Buckler (1908–1967) | `cast/C_FRED.jpg` | `XZLLk8LKa4NX4HsuCPiS` |
 | D_BILLY | the son / the Grandson | William (Billy) Buckler as boy and man; in the 2020s "the Grandson" (never named) | `cast/D_BILLY.jpg` | `bi1ppGIASFluT4PbdRza` |
 | E_AGENT | the Man from the Estate | offices only: Bute estate agent, company agents, solicitors, overseers, Land Registry and council officers | `cast/E_AGENT.jpg` | `2Jm4mkkEDFemeO085c56` |
@@ -81,9 +107,13 @@ Documents appear as props on the table; the real quoted words are overlaid by Hy
 ## 6. Storage and upload
 
 Large files are uploaded in parts: parts of ≤ 1.8 MB go to a short-lived `inbox-*` branch,
-the repository's `fetch-media` workflow joins them on main, checks sha256 and the 25 MB limit, commits ("— Sion's Tab agent") and deletes the branch. Proved with the test clip on 25 Oct 2026.
+the repository's `fetch-media` workflow joins them on main, checks sha256 and the 25 MB limit, commits ("— Tab agent") and deletes the branch. Proved with the test clip on 25 Oct 2026.
 
-## Chronology rule (the owner, 11:45 GMT 26 Oct 2026) — read before every script and render
+
+## REAL LIKENESS
+Real family likenesses are private and are not kept in this repository. Invented faces only (bible/cast).
+
+## Chronology rule (the producer, 11:45 GMT 26 Oct 2026) — read before every script and render
 
 - Tŷ Mawr is first named in the record we have found in the 1824 David Stewart survey of the Bute Glamorgan estates (EV-0211). In the family's account, Tŷ Mawr was acquired in 1667.
 - Never present "the 1547 lease" or "the 1552 Bute deed" as Tŷ Mawr records. Bute estate and other third-party documents are never shown as records of Tŷ Mawr before 1824: on screen they are Bute (or third-party) papers whose application to Tŷ Mawr is under forensic examination, and the Bute freeholds are under forensic examination for validity.
@@ -91,12 +121,22 @@ the repository's `fetch-media` workflow joins them on main, checks sha256 and th
 - Names have been played on (Cydwin, Cydfin, Cedfin, Ked Fen, Tŷ Mawr, Great House, Great House Farm; Llandough-juxta-Penarth CF64 vs Llandough near Cowbridge CF71): the register is the e-book "Enwau" on cedwyn.bucklerfamily.estate/ebooks/.
 - F006 ("A thousand-year lease") is re-titled and must be rewritten to this rule before it is rendered; F005's hand-over line and F006's continuity are updated.
 
+## Image exclusion rule: Kissed Frogs (27 Oct 2026, owner instruction 02:34 GMT)
+Images labelled "Kissed Frogs" in the Wayback Vault (not of the farm; source thought to be an FOI disclosure; not checked), and every image the Vault
+has withdrawn as not of the farm (wayback/images/facebook/unrelated.json, the whole FB album 623829877754485), must never be used as a source
+for farm imagery, digital editions (nft-art), quote cards, film stills/sets (cedwyn-movie) or any other generated media. Check every candidate
+source path against (agent box) work/kissed-frogs/excluded_images.json before using it (27 Oct 03:00: the whole album was purged
+from every public view at the owner's word; the private record is work/kissed-frogs/withdrawn_fb_album_do_not_publish.json). Only images the owner has confirmed as the farm, or catalogued records (maps, plans,
+documents) of the farm, are valid sources. — Tab agent
+
+
 ## Geography rule: Llandough hill is inland (27 Oct 2026, owner instruction 06:48 GMT)
 Llandough hill is inland — never describe the farm/hill as by the sea or on the coast; it overlooks the Ely, the marshes and the estuary.
 Applies to every language (en/cy/es) in scripts, subtitles, narration and image/shot prompts: no "by the sea", "on the coast", "seaside", "shore",
 "the sea throws" (cy "môr", "arfordir", "glan y môr"; es "mar", "costa", "orilla"). Use estuary / marsh / river / weather wording. In stills, the water
 below the hill is the distant estuary and the Ely marshes, not open sea at the foot of the hill. Even 2,200 years ago (higher, wetter marshes) the
-hill was never coastal. First applied: F002 v0.1.2 (elder's line "the sea" -> "the weather"). — Sion's Tab agent
+hill was never coastal. First applied: F002 v0.1.2 (elder's line "the sea" -> "the weather"). — Tab agent
+
 
 ## PERIOD ACCURACY rule — every frame (27 Oct 2026, owner instruction 06:59 GMT)
 Owner, verbatim: "Don't use still photos with voice overs if you can, have them speak and be animated using ByteDance Omnihuman 2.0 . Don't show a roman villa in the scene 2200 years ago. That makes no sense. And dont have the character from 2200 years ago talk about title and deeds and occupancy or anything that will have concerned them. They'd be speaking welsh and just being very pramative humans then. Actually study them from that era to know"
@@ -107,9 +147,10 @@ Owner, verbatim: "Don't use still photos with voice overs if you can, have them 
 5. **Talking characters are animated, not stills with voice-over.** Every on-screen speaker is an OmniHuman 2.0 talking shot wherever the budget allows; lines that cannot be afforded play off-screen over MOVING shots (image-to-video), never over a still. A still may appear only without a voice (title, document insert, a brief wordless establishing hold).
 6. **Llandough hill is inland** (see Geography rule): the Ely, its marsh and the distant estuary below; never sea at the hill's foot.
 7. **Real people:** no likeness of real family members except where the owner supplied a photo and approved it for that character; prologue/ancestral roles use the invented portraits.
-Check before rendering: grep scripts, VTTs and image prompts (cy/en/es) for out-of-period words (villa, deed, title, owner, lease, rent, sea, coast...), and look at every still for later-period objects. — Sion's Tab agent
+Check before rendering: grep scripts, VTTs and image prompts (cy/en/es) for out-of-period words (villa, deed, title, owner, lease, rent, sea, coast...), and look at every still for later-period objects. — Tab agent
 
-## Owner 27 Oct — accents, language, on-camera narrators (hard rules, 27 Oct 2026)
+
+## the producer 27 Oct — accents, language, on-camera narrators (hard rules, 27 Oct 2026)
 
 Owner steer at 11:50 and 11:52 GMT: *"At least have a think welsh accent from everyone until 1970, except the non welsh."* These rules are above every older section.
 
@@ -137,4 +178,7 @@ Owner steer at 11:50 and 11:52 GMT: *"At least have a think welsh accent from ev
 7. **Hook.** A hook question asked on camera in the first 5 s. No catalogue IDs spoken in the first 30 s; they go on the document overlay after 0:30.
 8. **No villa shown** (see `research/roman-F003.md`). Patagonia is arid steppe with no flowers. The geography rule (inland hill) stands.
 
-— Sion's Tab agent
+— Tab agent
+
+## CAST CHANGES WITH THE CENTURY (the producer, 29 Oct 2026 23:51)
+When a scene jumps in time, the people on screen are different people (descendants or newcomers), never the same faces. Each period gets its own cast reference sheet in bible/cast/<period>_*.jpg; never edit one period's stills from another period's cast refs.
