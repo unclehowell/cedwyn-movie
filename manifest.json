@@ -1,10 +1,11 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.2.1",
- "updated": "2026-10-30T04:02Z",
+ "version": "1.3.0",
+ "updated": "2026-10-30T04:12Z",
  "frames_total": 147,
  "pricing": {
-  "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
+  "rule": "Pricing: all documentary versions free until the producer says a version is paid quality; each door's latest cut = v0.0.1; older cuts = v0.0.1-0.0.N (oldest lowest)",
+  "all_free": true,
   "free": "0.0.1",
   "free_scenes": [
    1,
@@ -12,7 +13,9 @@
   ],
   "step_gbp": 4.99,
   "currency": "GBP",
-  "set": "2026-10-29"
+  "set": "2026-10-30",
+  "previous_rule": "29 Oct 2026: v0.0.1 free, each later version +£4.99 (suspended 30 Oct 2026: nothing is of paid quality yet)",
+  "sub_versions": "Each door's newest cut is v0.0.1. Its earlier cuts are pre-releases of it, numbered v0.0.1-0.0.1 (oldest), v0.0.1-0.0.2, ...; they are listed in the entry's 'cuts' and stay playable from the version menu."
  },
  "filled": [
   {
@@ -102,11 +105,29 @@
      "bytes": 10261309,
      "title": "Cedwyn – Door 1 – Español audio – No subtitles"
     }
-   }
+   },
+   "cuts": [
+    {
+     "version": "0.0.1-0.0.1",
+     "clip": "clips/F001.webm",
+     "audio": {
+      "cy": "audio/F001.cy.webm",
+      "en": "audio/F001.en.webm",
+      "es": "audio/F001.es.webm"
+     },
+     "subs": {
+      "cy": "subs/F001.cy.vtt",
+      "en": "subs/F001.en.vtt",
+      "es": "subs/F001.es.vtt"
+     },
+     "made": "2026-10-26",
+     "note": "first cut: English lip-sync with a Welsh dub"
+    }
+   ]
   },
   {
    "n": 2,
-   "version": "0.0.2",
+   "version": "0.0.1",
    "clip": "clips/F002.v6.webm",
    "audio": {
     "cy": "audio/F002.v6.cy.webm",
@@ -219,7 +240,73 @@
      "title": "Cedwyn – Door 2 – Español audio – No subtitles",
      "from_video": true
     }
-   }
+   },
+   "cuts": [
+    {
+     "version": "0.0.1-0.0.1",
+     "clip": "clips/F002.v1.webm",
+     "audio": {
+      "cy": "audio/F002.cy.v1.webm",
+      "en": "audio/F002.en.v1.webm",
+      "es": "audio/F002.es.v1.webm"
+     },
+     "subs": {
+      "cy": "subs/F002.cy.v1.vtt",
+      "en": "subs/F002.en.v1.vtt",
+      "es": "subs/F002.es.v1.vtt"
+     },
+     "made": "2026-10-27",
+     "note": "first cut (27 Oct)"
+    },
+    {
+     "version": "0.0.1-0.0.2",
+     "clip": "clips/F002.webm",
+     "audio": {
+      "cy": "audio/F002.cy.webm",
+      "en": "audio/F002.en.webm",
+      "es": "audio/F002.es.webm"
+     },
+     "subs": {
+      "cy": "subs/F002.cy.vtt",
+      "en": "subs/F002.en.vtt",
+      "es": "subs/F002.es.vtt"
+     },
+     "made": "2026-10-28",
+     "note": "second cut (28 Oct)"
+    },
+    {
+     "version": "0.0.1-0.0.3",
+     "clip": "clips/F002.v5.webm",
+     "audio": {
+      "cy": "audio/F002.v5.cy.webm",
+      "en": "audio/F002.v5.en.webm",
+      "es": "audio/F002.v5.es.webm"
+     },
+     "subs": {
+      "cy": "subs/F002.v5.cy.vtt",
+      "en": "subs/F002.v5.en.vtt",
+      "es": "subs/F002.v5.es.vtt"
+     },
+     "made": "2026-10-29",
+     "note": "former Scene 3 merged in, every shot moving (29 Oct)"
+    },
+    {
+     "version": "0.0.1-0.0.4",
+     "clip": "clips/F002.v5.1.webm",
+     "audio": {
+      "cy": "audio/F002.v5.cy.webm",
+      "en": "audio/F002.v5.en.webm",
+      "es": "audio/F002.v5.es.webm"
+     },
+     "subs": {
+      "cy": "subs/F002.v5.cy.vtt",
+      "en": "subs/F002.v5.en.vtt",
+      "es": "subs/F002.v5.es.vtt"
+     },
+     "made": "2026-10-30",
+     "note": "AD 200 couple recast (30 Oct 00:56)"
+    }
+   ]
   }
  ],
  "left_out_register": [],
