@@ -202,7 +202,7 @@
    "start": 82.04,
    "seconds": 11.0,
    "animate": "omnihuman",
-   "direction": "The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
+   "direction": "A different family works the hill now. The farmer, a lean man in his thirties with cropped dark hair, in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
    "lines": [
     {
      "who": "B_JOHN",
@@ -220,7 +220,7 @@
    "start": 93.04,
    "seconds": 11.0,
    "animate": "omnihuman",
-   "direction": "His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
+   "direction": "His wife, younger, in a linen headscarf and a madder-red wool dress, keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
    "lines": [
     {
      "who": "A_MARY",
@@ -310,8 +310,8 @@
     "10. He crouches beside his small granddaughter, points at the geese and tells her the cold is coming, and to bring wood in by the door tonight.",
     "11. Before dark the mother kneels at the spring below the homestead with a handful of the new corn: an offering to the water that has always kept them.",
     "12. Time jump. Caption: c. AD 200, the same hill four hundred years on, a Romano-British farm at harvest. A late-summer field of spelt wheat, half reaped and stooked in rows, the river and marsh below; skylarks and wind.",
-    "13. The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
-    "14. His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
+    "13. A different family works the hill now. The farmer, a lean man in his thirties with cropped dark hair, in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
+    "14. His wife, younger, in a linen headscarf and a madder-red wool dress, keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
     "15. The farmer swings his iron sickle through the spelt and lays the stalks down as she gathers and binds behind him.",
     "16. She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it.",
     "17. He laughs and waves the geese off the sheaves: let them run, the hill is big enough for all of them.",
@@ -413,5 +413,6 @@
     "PX-01"
    ]
   }
- ]
+ ],
+ "version": "v1.0.1"
 }
