@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.2.0",
- "updated": "2026-10-30T03:22Z",
+ "version": "1.2.1",
+ "updated": "2026-10-30T04:02Z",
  "frames_total": 147,
  "pricing": {
   "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
@@ -149,63 +149,75 @@
    "downloads": {
     "cy|cy": {
      "path": "downloads/F002/a-cy_s-cy.mp4",
-     "bytes": 18968508,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – Welsh subtitles"
+     "bytes": 18467351,
+     "title": "Cedwyn – Door 2 – Cymraeg audio – Welsh subtitles",
+     "from_video": true
     },
     "cy|en": {
      "path": "downloads/F002/a-cy_s-en.mp4",
-     "bytes": 18959170,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – English subtitles"
+     "bytes": 18440535,
+     "title": "Cedwyn – Door 2 – Cymraeg audio – English subtitles",
+     "from_video": true
     },
     "cy|es": {
      "path": "downloads/F002/a-cy_s-es.mp4",
-     "bytes": 18956650,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – Spanish subtitles"
+     "bytes": 18453894,
+     "title": "Cedwyn – Door 2 – Cymraeg audio – Spanish subtitles",
+     "from_video": true
     },
     "cy|off": {
      "path": "downloads/F002/a-cy_s-off.mp4",
-     "bytes": 18661820,
-     "title": "Cedwyn – Door 2 – Cymraeg audio – No subtitles"
+     "bytes": 18111777,
+     "title": "Cedwyn – Door 2 – Cymraeg audio – No subtitles",
+     "from_video": true
     },
     "en|cy": {
      "path": "downloads/F002/a-en_s-cy.mp4",
-     "bytes": 18955596,
-     "title": "Cedwyn – Door 2 – English audio – Welsh subtitles"
+     "bytes": 17472011,
+     "title": "Cedwyn – Door 2 – English audio – Welsh subtitles",
+     "from_video": true
     },
     "en|en": {
      "path": "downloads/F002/a-en_s-en.mp4",
-     "bytes": 18946258,
-     "title": "Cedwyn – Door 2 – English audio – English subtitles"
+     "bytes": 17464870,
+     "title": "Cedwyn – Door 2 – English audio – English subtitles",
+     "from_video": true
     },
     "en|es": {
      "path": "downloads/F002/a-en_s-es.mp4",
-     "bytes": 18943738,
-     "title": "Cedwyn – Door 2 – English audio – Spanish subtitles"
+     "bytes": 17476689,
+     "title": "Cedwyn – Door 2 – English audio – Spanish subtitles",
+     "from_video": true
     },
     "en|off": {
      "path": "downloads/F002/a-en_s-off.mp4",
-     "bytes": 18648908,
-     "title": "Cedwyn – Door 2 – English audio – No subtitles"
+     "bytes": 17170337,
+     "title": "Cedwyn – Door 2 – English audio – No subtitles",
+     "from_video": true
     },
     "es|cy": {
      "path": "downloads/F002/a-es_s-cy.mp4",
-     "bytes": 18953884,
-     "title": "Cedwyn – Door 2 – Español audio – Welsh subtitles"
+     "bytes": 17499067,
+     "title": "Cedwyn – Door 2 – Español audio – Welsh subtitles",
+     "from_video": true
     },
     "es|en": {
      "path": "downloads/F002/a-es_s-en.mp4",
-     "bytes": 18944546,
-     "title": "Cedwyn – Door 2 – Español audio – English subtitles"
+     "bytes": 17477287,
+     "title": "Cedwyn – Door 2 – Español audio – English subtitles",
+     "from_video": true
     },
     "es|es": {
      "path": "downloads/F002/a-es_s-es.mp4",
-     "bytes": 18942026,
-     "title": "Cedwyn – Door 2 – Español audio – Spanish subtitles"
+     "bytes": 17495045,
+     "title": "Cedwyn – Door 2 – Español audio – Spanish subtitles",
+     "from_video": true
     },
     "es|off": {
      "path": "downloads/F002/a-es_s-off.mp4",
-     "bytes": 18647196,
-     "title": "Cedwyn – Door 2 – Español audio – No subtitles"
+     "bytes": 17195523,
+     "title": "Cedwyn – Door 2 – Español audio – No subtitles",
+     "from_video": true
     }
    }
   }
