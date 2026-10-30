@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.5.0",
+ "version": "1.5.1",
  "updated": "2026-10-30",
  "frames_total": 147,
  "pricing": {
@@ -301,19 +301,39 @@
     },
     {
      "version": "0.0.1-0.0.4",
-     "clip": "clips/F002.v5.1.webm",
+     "clip": "clips/F002.v5.1c.webm",
      "audio": {
-      "cy": "audio/F002.v5.cy.webm",
-      "en": "audio/F002.v5.en.webm",
-      "es": "audio/F002.v5.es.webm"
+      "cy": "audio/F002.v5.1c.cy.webm",
+      "en": "audio/F002.v5.1c.en.webm",
+      "es": "audio/F002.v5.1c.es.webm"
      },
      "subs": {
-      "cy": "subs/F002.v5.cy.vtt",
-      "en": "subs/F002.v5.en.vtt",
-      "es": "subs/F002.v5.es.vtt"
+      "cy": "subs/F002.v5.1c.cy.vtt",
+      "en": "subs/F002.v5.1c.en.vtt",
+      "es": "subs/F002.v5.1c.es.vtt"
      },
      "made": "2026-10-30",
-     "note": "AD 200 couple recast (30 Oct 00:56)"
+     "note": "AD 200 couple recast (30 Oct 00:56)",
+     "history": [
+      {
+       "clip": "clips/F002.v5.1.webm",
+       "audio": {
+        "cy": "audio/F002.v5.cy.webm",
+        "en": "audio/F002.v5.en.webm",
+        "es": "audio/F002.v5.es.webm"
+       },
+       "subs": {
+        "cy": "subs/F002.v5.cy.vtt",
+        "en": "subs/F002.v5.en.vtt",
+        "es": "subs/F002.v5.es.vtt"
+       },
+       "seconds": 138.9,
+       "note": "full-length cut before the 30 Oct 21:40Z trim (files kept)"
+      }
+     ],
+     "seconds": 106.0,
+     "trimmed": "2026-10-30T21:45Z",
+     "trim_note": "Trimmed to end at 1:46 (106 s) at the producer's request, with a 0.5 s fade-out of picture and sound; the AD 200 closing exchange (1:50–2:07) is left out of this cut. Subtitles cut to match."
     }
    ],
    "cut_note": "Welsh performance; the English and Spanish videos are the Welsh shots with the mouths re-synced to dubbed tracks (30 Oct 2026).",
