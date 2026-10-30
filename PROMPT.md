@@ -4,6 +4,12 @@
 
 ## Current steer
 
+### 30 Oct 2026 (owner, 00:44 GMT): CSSCPSG reading for records presented on screen
+- When a scene's subject is a record that the chronology data marks against rules S1-S6 (cedwyn repo, branch `csscpsg`, `public/data/chronology.json` and `record.json`), the scene carries that reading naturally: a character says what the record does and does not show, in their own words, the way the existing scripts already talk about sources. The rule id may appear where it fits (for example a subtitle card or an archivist naming "text gap: known only from a later recital"); do not bolt a score onto lines where it would sound unnatural.
+- A CSSCPSG mark is an observation about the record, never a finding of wrongdoing. Where a court ruled, the court's view still comes first (existing rule unchanged).
+- `cite` arrays with EV ids stay mandatory on every line that rests on a record. A line may add an optional `"csscpsg"` array listing the rule ids the scene conveys, each traceable to the chronology data.
+- Structural non-compliance under S1-S6 is not proof of intent, misconduct or legal effect; scripts never present it as such.
+
 ### 27 Oct 2026 (owner, 11:50 and 11:52 GMT): accents, Welsh first, narrators on camera. HARD RULES
 - **Thick Welsh accent** for every Welsh character and both narrators in any scene set before about 1970. The narrators keep it in the 2020s. Non-Welsh characters (Estate, BP and Land Registry officials, outside bailiffs, English officials, Elena) keep their own accents.
 - **Welsh (`cy`) is the default spoken language before about 1970**: lip-synced on camera with en/es subtitles led by `[in Welsh]`. No dubbed English track for period lines. The 2020s narrators speak English.
