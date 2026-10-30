@@ -1,0 +1,60 @@
+{
+ "_note": "Set ids used in frames.json and scripts (setting field). Plates: bible/sets/sNN.jpg (reference stills, our own AI renders). Era looks are EDITS of these plates (gpt-image-2.5), never a new location.",
+ "sets": {
+  "s01": {
+   "description": "Great House Farm / Tŷ Mawr farmhouse exterior and yard (c.1850–1974)",
+   "plate": "bible/sets/s01.jpg"
+  },
+  "s02": {
+   "description": "the farmhouse kitchen (inglenook, flagstones, dresser)",
+   "plate": "bible/sets/s02.jpg"
+  },
+  "s03": {
+   "description": "St Dochdwy's church and churchyard, Llandough",
+   "plate": "bible/sets/s03.jpg"
+  },
+  "s04": {
+   "description": "Llandough village street and green",
+   "plate": "bible/sets/s04.jpg"
+  },
+  "s05": {
+   "description": "the village inn (taproom)",
+   "plate": "bible/sets/s05.jpg"
+  },
+  "s06": {
+   "description": "a Cardiff office (Bute estate office / solicitors / company office, by era)",
+   "plate": "bible/sets/s06.jpg"
+  },
+  "s07": {
+   "description": "a courtroom (magistrates, county court, High Court, Court of Appeal, by era)",
+   "plate": "bible/sets/s07.jpg"
+  },
+  "s08": {
+   "description": "the archive reading room (modern records office) and the Grandson's desk",
+   "plate": "bible/sets/s08.jpg"
+  },
+  "s09": {
+   "description": "Llandough hill landscape over the Ely, Leckwith woods and Cardiff Bay",
+   "plate": "bible/sets/s09.jpg"
+  },
+  "s10": {
+   "description": "prologue: the hill in prehistory and the early-medieval period (roundhouse, Romano-British fields, monastic cemetery); no villa shown (owner rule 27 Oct)",
+   "plate": "bible/sets/s10.jpg",
+   "era_plates": {
+    "Iron Age": "bible/sets/s10_ironage.jpg"
+   }
+  },
+  "s11": {
+   "description": "the farmhouse 1974–88: aged, threatened, development around",
+   "plate": "bible/sets/s11.jpg"
+  },
+  "s12": {
+   "description": "the site after demolition (1988–2026): housing estate, verge, green",
+   "plate": "bible/sets/s12.jpg"
+  },
+  "s13": {
+   "description": "Patagonia (Argentina): arid steppe - dry tussock grass, gravel, low scrub, ochre and dun palette, wide sky; no flowers, gardens or lush green (owner rule 27 Oct 10:10); Welsh-Patagonian settlement setting kept separate from Wales",
+   "plate": "bible/sets/s13.jpg"
+  }
+ }
+}

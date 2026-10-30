@@ -1,0 +1,235 @@
+{
+ "_note": "Invented faces only (a repertory company of AI-generated actors). Real family likenesses are private and not in this repository. Voice ids are ElevenLabs voice ids on the production's shared account (not secrets; no API key is stored here). Rule: a new era means a new cast AND new voices; voice gender must match the on-screen speaker in every language track.",
+ "actors": {
+  "A_MARY": {
+   "portrait": "bible/cast/A_MARY.jpg",
+   "voice_id": "uZ2F64pQ4awvfM38w9V9",
+   "voice_name": "Cedwyn A_MARY",
+   "gender": "female",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A Welsh woman in her late thirties from the Vale of Glamorgan, warm, low, steady voice with a gentle South Wales lilt, plain-spoken farm woman, natural and unhurried.",
+   "voice_samples": {
+    "cy": "bible/voices/A_MARY_cy.mp3",
+    "en": "bible/voices/A_MARY_en.mp3",
+    "es": "bible/voices/A_MARY_es.mp3"
+   },
+   "era_variants": {
+    "c. 200 BC roundhouse mother": "bible/cast/A_MARY_ironage.jpg",
+    "1974": "bible/cast/A_MARY_1974.jpg (and _gptedit)"
+   }
+  },
+  "B_JOHN": {
+   "portrait": "bible/cast/B_JOHN.jpg",
+   "voice_id": "ft0WkOZmCF3NFIbyp280",
+   "voice_name": "Cedwyn B_JOHN",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A Welsh farmer in his late fifties from the Vale of Glamorgan, deep weathered gravelly voice, slow and plain-spoken, strong South Wales accent, kindly but stubborn.",
+   "voice_samples": {
+    "cy": "bible/voices/B_JOHN_cy.mp3",
+    "en": "bible/voices/B_JOHN_en.mp3",
+    "es": "bible/voices/B_JOHN_es.mp3"
+   },
+   "era_variants": {
+    "c. 200 BC Iron Age elder": "bible/cast/B_JOHN_ironage.jpg",
+    "1890s": "bible/cast/B_JOHN_1890s.jpg"
+   }
+  },
+  "C_FRED": {
+   "portrait": "bible/cast/C_FRED.jpg",
+   "voice_id": "XZLLk8LKa4NX4HsuCPiS",
+   "voice_name": "Cedwyn C_FRED",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "An English-born man of about forty who has lived long in South Wales, soft gentle tenor voice, shy and polite, light mixed Welsh-English accent, careful speech.",
+   "voice_samples": {
+    "cy": "bible/voices/C_FRED_cy.mp3",
+    "en": "bible/voices/C_FRED_en.mp3",
+    "es": "bible/voices/C_FRED_es.mp3"
+   }
+  },
+  "D_BILLY": {
+   "portrait": "bible/cast/D_BILLY.jpg",
+   "voice_id": "bi1ppGIASFluT4PbdRza",
+   "voice_name": "Cedwyn D_BILLY",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A Welsh man in his mid-forties from Cardiff, clear warm baritone, thoughtful and determined, modern South Wales accent, conversational.",
+   "voice_samples": {
+    "cy": "bible/voices/D_BILLY_cy.mp3",
+    "en": "bible/voices/D_BILLY_en.mp3",
+    "es": "bible/voices/D_BILLY_es.mp3"
+   }
+  },
+  "E_AGENT": {
+   "portrait": "bible/cast/E_AGENT.jpg",
+   "voice_id": "2Jm4mkkEDFemeO085c56",
+   "voice_name": "Cedwyn E_AGENT",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A formal English estate official in his fifties, precise dry clipped voice, received pronunciation, measured and unreadable, a lawyer's calm.",
+   "voice_samples": {
+    "cy": "bible/voices/E_AGENT_cy.mp3",
+    "en": "bible/voices/E_AGENT_en.mp3",
+    "es": "bible/voices/E_AGENT_es.mp3"
+   }
+  },
+  "F_GWEN": {
+   "portrait": "bible/cast/F_GWEN.jpg",
+   "voice_id": "UmQyXL5FYPCIbuUQZKqK",
+   "voice_name": "Cedwyn F_GWEN",
+   "gender": "female",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A chatty Welsh woman in her mid-sixties, bright rosy sing-song voice, strong Valleys accent, warm, nosy and quick, a village gossip reading from the newspaper.",
+   "voice_samples": {
+    "cy": "bible/voices/F_GWEN_cy.mp3",
+    "en": "bible/voices/F_GWEN_en.mp3",
+    "es": "bible/voices/F_GWEN_es.mp3"
+   }
+  },
+  "G_DAI": {
+   "portrait": "bible/cast/G_DAI.jpg",
+   "voice_id": "bjneJtpl97NGdlhAINbN",
+   "voice_name": "Cedwyn G_DAI",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A big Welsh innkeeper in his sixties, booming hearty bass voice, broad South Wales accent, jovial and teasing, a pub landlord.",
+   "voice_samples": {
+    "cy": "bible/voices/G_DAI_cy.mp3",
+    "en": "bible/voices/G_DAI_en.mp3",
+    "es": "bible/voices/G_DAI_es.mp3"
+   }
+  },
+  "H_CLERK": {
+   "portrait": "bible/cast/H_CLERK.jpg",
+   "voice_id": "nzPzKJE9RrymxViKMFhm",
+   "voice_name": "Cedwyn H_CLERK",
+   "gender": "male",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "An austere elderly British judge in his sixties, deep slow grave voice, crisp received pronunciation with faint Welsh vowels, authoritative and solemn.",
+   "voice_samples": {
+    "cy": "bible/voices/H_CLERK_cy.mp3",
+    "en": "bible/voices/H_CLERK_en.mp3",
+    "es": "bible/voices/H_CLERK_es.mp3"
+   }
+  },
+  "I_NIA": {
+   "portrait": "bible/cast/I_NIA.jpg",
+   "voice_id": "XEKRPEMYQPpow8lb1XZN",
+   "voice_name": "Cedwyn I_NIA",
+   "gender": "female",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "A Welsh woman archivist in her early thirties, clear bright intelligent voice, North-and-South mixed Welsh accent, precise and friendly, curious.",
+   "voice_samples": {
+    "cy": "bible/voices/I_NIA_cy.mp3",
+    "en": "bible/voices/I_NIA_en.mp3",
+    "es": "bible/voices/I_NIA_es.mp3"
+   }
+  },
+  "J_ELENA": {
+   "portrait": "bible/cast/J_ELENA.jpg",
+   "voice_id": "VJAA1A5gQklMXZjm0smO",
+   "voice_name": "Cedwyn J_ELENA",
+   "gender": "female",
+   "voice_model": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   },
+   "voice_design_prompt": "An Argentine woman in her thirties from Patagonia of Welsh descent, warm husky voice, rioplatense Spanish accent when speaking English, lively and warm.",
+   "voice_samples": {
+    "cy": "bible/voices/J_ELENA_cy.mp3",
+    "en": "bible/voices/J_ELENA_en.mp3",
+    "es": "bible/voices/J_ELENA_es.mp3"
+   }
+  },
+  "K_FARMER_AD200": {
+   "portrait": "bible/cast/K_FARMER_AD200.jpg",
+   "look": "lean, about 34, cropped dark hair, stubble; Romano-British dress",
+   "made": "30 Oct 2026, text-to-image (gpt-image-2.5), not an edit (edits kept the old faces)",
+   "voice": "H_CLERK voice (nzPzKJE9RrymxViKMFhm), male — rotated, since the voice account is full",
+   "gender": "male"
+  },
+  "L_WIFE_AD200": {
+   "portrait": "bible/cast/L_WIFE_AD200.jpg",
+   "look": "about 28, freckled, black hair under a linen headscarf, madder-red dress",
+   "made": "30 Oct 2026, text-to-image (gpt-image-2.5)",
+   "voice": "F_GWEN voice (UmQyXL5FYPCIbuUQZKqK), female — rotated",
+   "gender": "female"
+  }
+ },
+ "per_scene": {
+  "F001 (Door 1, v0.0.1 = clips/F001.v2.webm)": {
+   "cast": "I_NIA (archivist) and D_BILLY (the Grandson), talking to each other in 3/4 profile",
+   "talking_stills": "assets/F001/stills/f1s*.jpg",
+   "voices": "I_NIA, D_BILLY; en/es dubs by the same voices"
+  },
+  "F002 (Door 2, v0.0.1 = clips/F002.v6{,.en,.es}.webm)": {
+   "c. 200 BC": "B_JOHN_ironage (elder) + A_MARY_ironage (mother), children in wide shots only; voices B_JOHN / A_MARY",
+   "c. AD 200": "K_FARMER_AD200 + L_WIFE_AD200; voices H_CLERK (farmer) / F_GWEN (wife)",
+   "es dub note": "29 Oct dub: Spanish mother in J_ELENA's voice, elder in B_JOHN's (account at custom-voice limit); v1.0.2 re-voiced only the AD 200 couple",
+   "talking_stills": "assets/F002/stills/iL*.jpg (Iron Age), rL*.jpg (AD 200)"
+  },
+  "F004 (Door 3, c. 650, parked)": {
+   "cast": "a monk and a woman (assets/F004/stills/p_monk.jpg, p_woman.jpg)",
+   "voices": "G_DAI (monk), F_GWEN (woman) — CLASH with Door 2's AD 200 wife voice: re-voice before release",
+   "voice_tests": "assets/F004/voices/K_BROTHER_*.mp3, L_ELIN_*.mp3"
+  }
+ }
+}
