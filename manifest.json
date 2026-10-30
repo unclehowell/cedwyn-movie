@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.1.3",
- "updated": "2026-10-30T01:54Z",
+ "version": "1.2.0",
+ "updated": "2026-10-30T03:22Z",
  "frames_total": 147,
  "pricing": {
   "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
@@ -106,29 +106,29 @@
   },
   {
    "n": 2,
-   "version": "0.0.1",
-   "clip": "clips/F002.v5.1.webm",
+   "version": "0.0.2",
+   "clip": "clips/F002.v6.webm",
    "audio": {
-    "cy": "audio/F002.v5.cy.webm",
-    "en": "audio/F002.v5.en.webm",
-    "es": "audio/F002.v5.es.webm"
+    "cy": "audio/F002.v6.cy.webm",
+    "en": "audio/F002.v6.en.webm",
+    "es": "audio/F002.v6.es.webm"
    },
    "subs": {
-    "cy": "subs/F002.v5.cy.vtt",
-    "en": "subs/F002.v5.en.vtt",
-    "es": "subs/F002.v5.es.vtt"
+    "cy": "subs/F002.v6.cy.vtt",
+    "en": "subs/F002.v6.en.vtt",
+    "es": "subs/F002.v6.es.vtt"
    },
    "poster": "stills/F002.v5.jpg",
-   "seconds": 138.9,
+   "seconds": 138.2,
    "made": "2026-10-29T23:45Z",
    "released": "2026-10-27",
-   "script_version": "v1.0.0",
+   "script_version": "v1.0.2",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, 18 shots, every shot moving: 10 OmniHuman 2.0 talking shots (Welsh lip-sync; speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. Two date cards: c. 200 BC and c. AD 200; the AD 200 family is a new cast (different people from the Iron Age family). Welsh soundtrack; English and Spanish dub tracks; cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
-   "revised": "2026-10-30T00:48Z",
-   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage. v1.0.1 (30 Oct 2026): AD 200 farmer and wife recast as different people (4 talking shots + 1 harvest shot re-rendered).",
-   "previous_cut": "clips/F002.v5.webm",
+   "notes": "720p VP9, 18 shots, every shot moving: 11 OmniHuman 2.0 talking shots (speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. One video per language: the Welsh video is lip-synced to the Welsh track; the English and Spanish videos carry the same shots with the mouths re-synced to their own track (Kling LipSync). Two date cards: c. 200 BC and c. AD 200; the AD 200 farmer and wife are different people with different voices from the Iron Age couple. cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
+   "revised": "2026-10-30T03:22Z",
+   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage. v1.0.1 (30 Oct 2026): AD 200 farmer and wife recast as different people (4 talking shots + 1 harvest shot re-rendered). v1.0.2 (30 Oct 2026): the last two talking shots had the faces swapped (the wife's line lip-synced on the farmer and the farmer's on the wife, in every track) — fixed; the AD 200 couple re-voiced with voices not used in the Iron Age half (cy/en/es) and their 4 talking shots re-lip-synced; English and Spanish lip-synced videos added.",
+   "previous_cut": "clips/F002.v5.1.webm",
    "merged": [
     {
      "from": "F003",
@@ -141,6 +141,11 @@
      "note": "former Scene 3, now the second half of Scene 2"
     }
    ],
+   "video": {
+    "cy": "clips/F002.v6.webm",
+    "en": "clips/F002.v6.en.webm",
+    "es": "clips/F002.v6.es.webm"
+   },
    "downloads": {
     "cy|cy": {
      "path": "downloads/F002/a-cy_s-cy.mp4",
@@ -207,5 +212,6 @@
  ],
  "left_out_register": [],
  "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door.",
- "merge_note": "29 Oct 2026: Scene 3 merged into Scene 2 at the producer's word; door 3 is now the c. 650 monastic burial (script F004), not yet released."
+ "merge_note": "29 Oct 2026: Scene 3 merged into Scene 2 at the producer's word; door 3 is now the c. 650 monastic burial (script F004), not yet released.",
+ "video_note": "An entry may carry 'video': {cy,en,es}: one video per spoken language, each lip-synced to its own audio track (and carrying only that track). When the listener picks an audio language, play video[lang] if present; otherwise play 'clip' with the separate audio[lang] track. 'clip' stays the Welsh video for back-compat."
 }
