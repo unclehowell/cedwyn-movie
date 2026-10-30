@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.1.1",
- "updated": "2026-10-30T00:48Z",
+ "version": "1.1.2",
+ "updated": "2026-10-30T01:50Z",
  "frames_total": 147,
  "pricing": {
   "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
@@ -40,7 +40,69 @@
    "default_audio": "cy",
    "revised": "2026-10-30T00:48Z",
    "previous_cut": "clips/F001.webm",
-   "revision_note": "v0.0.1 recut 30 Oct 2026: Welsh lip-sync on every talking shot (was English lip-sync with a Welsh dub)."
+   "revision_note": "v0.0.1 recut 30 Oct 2026: Welsh lip-sync on every talking shot (was English lip-sync with a Welsh dub).",
+   "downloads": {
+    "cy|cy": {
+     "path": "downloads/F001/a-cy_s-cy.mp4",
+     "bytes": 10827743,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – Welsh subtitles"
+    },
+    "cy|en": {
+     "path": "downloads/F001/a-cy_s-en.mp4",
+     "bytes": 10762132,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – English subtitles"
+    },
+    "cy|es": {
+     "path": "downloads/F001/a-cy_s-es.mp4",
+     "bytes": 10840955,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – Spanish subtitles"
+    },
+    "cy|off": {
+     "path": "downloads/F001/a-cy_s-off.mp4",
+     "bytes": 10256766,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – No subtitles"
+    },
+    "en|cy": {
+     "path": "downloads/F001/a-en_s-cy.mp4",
+     "bytes": 10827895,
+     "title": "Cedwyn – Door 1 – English audio – Welsh subtitles"
+    },
+    "en|en": {
+     "path": "downloads/F001/a-en_s-en.mp4",
+     "bytes": 10762284,
+     "title": "Cedwyn – Door 1 – English audio – English subtitles"
+    },
+    "en|es": {
+     "path": "downloads/F001/a-en_s-es.mp4",
+     "bytes": 10841107,
+     "title": "Cedwyn – Door 1 – English audio – Spanish subtitles"
+    },
+    "en|off": {
+     "path": "downloads/F001/a-en_s-off.mp4",
+     "bytes": 10256918,
+     "title": "Cedwyn – Door 1 – English audio – No subtitles"
+    },
+    "es|cy": {
+     "path": "downloads/F001/a-es_s-cy.mp4",
+     "bytes": 10832286,
+     "title": "Cedwyn – Door 1 – Español audio – Welsh subtitles"
+    },
+    "es|en": {
+     "path": "downloads/F001/a-es_s-en.mp4",
+     "bytes": 10766675,
+     "title": "Cedwyn – Door 1 – Español audio – English subtitles"
+    },
+    "es|es": {
+     "path": "downloads/F001/a-es_s-es.mp4",
+     "bytes": 10845498,
+     "title": "Cedwyn – Door 1 – Español audio – Spanish subtitles"
+    },
+    "es|off": {
+     "path": "downloads/F001/a-es_s-off.mp4",
+     "bytes": 10261309,
+     "title": "Cedwyn – Door 1 – Español audio – No subtitles"
+    }
+   }
   },
   {
    "n": 2,
