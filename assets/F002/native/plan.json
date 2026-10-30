@@ -1,0 +1,454 @@
+{
+ "door": 2,
+ "frame": "F002",
+ "script_version": "v1.0.2",
+ "made": "2026-10-30",
+ "model": "bytedance/omnihuman/v2",
+ "usd_per_s": 0.105,
+ "note": "Native-language performances (no dubbing). cy = reuse clips/F002.v6.webm. Shared shots are cut from clips/F002.v6.webm at v6_windows. Each talking shot is rendered once per language from the same still.",
+ "v6_windows": [
+  [
+   1,
+   0,
+   6.334
+  ],
+  [
+   2,
+   6.334,
+   15.334
+  ],
+  [
+   3,
+   15.334,
+   22.334
+  ],
+  [
+   4,
+   22.334,
+   28.134
+  ],
+  [
+   5,
+   28.134,
+   33.934
+  ],
+  [
+   6,
+   33.934,
+   38.934
+  ],
+  [
+   7,
+   38.934,
+   45.934
+  ],
+  [
+   8,
+   45.934,
+   53.934
+  ],
+  [
+   9,
+   53.934,
+   59.734
+  ],
+  [
+   10,
+   59.734,
+   67.734
+  ],
+  [
+   11,
+   67.734,
+   75.734
+  ],
+  [
+   12,
+   75.734,
+   82.054
+  ],
+  [
+   13,
+   82.054,
+   92.734
+  ],
+  [
+   14,
+   92.734,
+   102.974
+  ],
+  [
+   15,
+   102.974,
+   108.774
+  ],
+  [
+   16,
+   108.774,
+   120.974
+  ],
+  [
+   17,
+   120.974,
+   126.134
+  ],
+  [
+   18,
+   126.134,
+   133.174
+  ],
+  [
+   19,
+   133.174,
+   138.167
+  ]
+ ],
+ "voices": {
+  "en": {
+   "c. 200 BC": {
+    "mother": "ElevenLabs A_MARY (en)",
+    "elder": "ElevenLabs B_JOHN (en)"
+   },
+   "c. AD 200": {
+    "wife": "ElevenLabs F_GWEN (en)",
+    "farmer": "ElevenLabs C_FRED (en) — H_CLERK is received pronunciation (wrong accent) and G_DAI measured 200–275 Hz median (gender risk), so C_FRED (male, ~123 Hz, lived in South Wales)"
+   }
+  },
+  "es": {
+   "c. 200 BC": {
+    "mother": "ElevenLabs J_ELENA (Argentine, Patagonian of Welsh descent)",
+    "elder": "OpenAI gpt-4o-mini-tts onyx, Rioplatense instructions"
+   },
+   "c. AD 200": {
+    "wife": "OpenAI gpt-4o-mini-tts coral, Rioplatense instructions",
+    "farmer": "OpenAI gpt-4o-mini-tts ash, Rioplatense instructions"
+   },
+   "why": "the shared ElevenLabs voice account is full (2200/2200), J_ELENA is its only native Rioplatense voice; Gemini TTS on Vertex answered 403 (API disabled) and the AI Studio free tier allows 10 TTS calls a day; accents not checked by ear"
+  }
+ },
+ "shots": [
+  {
+   "shot": 2,
+   "who": "A_MARY",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL1.jpg",
+   "prompt": "The roundhouse mother stands in the low doorway, the hearth glowing behind her. She looks up at the smoke and speaks to her husband: the weather should hold, so they can bring the corn in today. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Will the weather hold today? Smoke's going straight up. No wind, no rain. We'll get the corn in.",
+    "voice": "A_MARY",
+    "speech_s": 6.687,
+    "shot_s": 7.89,
+    "f0_median_hz": 246.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s02.adj.wav",
+    "line": "assets/F002/native/en/s02.mp3"
+   },
+   "es": {
+    "text": "¿Aguantará el tiempo hoy? El humo sube derecho. Ni viento ni lluvia. Vamos a entrar el grano.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.0,
+    "speech_s": 6.3,
+    "shot_s": 7.5,
+    "f0_median_hz": 219.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s02.adj.wav",
+    "line": "assets/F002/native/es/s02.mp3"
+   },
+   "cy_text": "Wnaiff y tywydd ddal heddiw? Mae'r mwg yn codi'n syth. Dim gwynt, dim glaw. Fe gawn ni'r ŷd i mewn."
+  },
+  {
+   "shot": 3,
+   "who": "B_JOHN",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL2.jpg",
+   "prompt": "The elder, grey-bearded in a brown wool cloak, stands in the field with a handful of cut ears and an iron sickle. He tells her to cut only the heads, high on the stalk, and leave the straw standing for the cattle to graze. The speaker talks to his wife beside him, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Heads only, mind. Cut them high. Leave the straw standing for the cattle.",
+    "voice": "B_JOHN",
+    "speech_s": 5.068,
+    "shot_s": 6.27,
+    "f0_median_hz": 158.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s03.adj.wav",
+    "line": "assets/F002/native/en/s03.mp3"
+   },
+   "es": {
+    "text": "Solo las espigas, ojo. Cortalas arriba. Dejá la paja en pie para el ganado.",
+    "voice": "oai:onyx",
+    "tempo": 1.084,
+    "speech_s": 6.19,
+    "shot_s": 7.0,
+    "f0_median_hz": 99.0,
+    "transcribe_match": 0.9,
+    "audio": "assets/F002/native/es/s03.adj.wav",
+    "line": "assets/F002/native/es/s03.mp3"
+   },
+   "cy_text": "Y pennau'n unig, cofia. Torra nhw'n uchel. Gad y gwellt yn sefyll i'r gwartheg."
+  },
+  {
+   "shot": 6,
+   "who": "A_MARY",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL3.jpg",
+   "prompt": "The mother watches him from the doorway and tells him the boy is bringing the cattle up off the marsh before the big tides come. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "The boy's bringing the cattle up off the marsh, before the big tides come.",
+    "voice": "A_MARY",
+    "speech_s": 4.127,
+    "shot_s": 5.0,
+    "f0_median_hz": 237.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s06.adj.wav",
+    "line": "assets/F002/native/en/s06.mp3"
+   },
+   "es": {
+    "text": "El muchacho está subiendo el ganado del bañado, antes de que lleguen las mareas grandes.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.12,
+    "speech_s": 4.41,
+    "shot_s": 5.21,
+    "f0_median_hz": 208.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s06.adj.wav",
+    "line": "assets/F002/native/es/s06.mp3"
+   },
+   "cy_text": "Mae'r bachgen yn dod â'r gwartheg lan o'r gors, cyn i'r llanw mawr ddod."
+  },
+  {
+   "shot": 7,
+   "who": "B_JOHN",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL4.jpg",
+   "prompt": "The elder, leaning on the wattle fence, answers quietly: last autumn the water came over the marsh in the night and they lost a calf. The speaker talks to his wife beside him, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Good. Last autumn the water came over the marsh in the night, and we lost a calf.",
+    "voice": "B_JOHN",
+    "speech_s": 6.191,
+    "shot_s": 7.0,
+    "f0_median_hz": 110.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s07.adj.wav",
+    "line": "assets/F002/native/en/s07.mp3"
+   },
+   "es": {
+    "text": "Bien. El otoño pasado el agua tapó el bañado de noche, y perdimos un ternero.",
+    "voice": "oai:onyx",
+    "tempo": 1.12,
+    "speech_s": 6.29,
+    "shot_s": 7.09,
+    "f0_median_hz": 92.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s07.adj.wav",
+    "line": "assets/F002/native/es/s07.mp3"
+   },
+   "cy_text": "Da iawn. Yr hydref diwethaf daeth y dŵr dros y gors yn y nos, a chollon ni lo."
+  },
+  {
+   "shot": 8,
+   "who": "A_MARY",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL5.jpg",
+   "prompt": "Inside, at the upright loom, she keeps weaving as she answers: not this year. The pig is fat, the store is full, and the cloth is nearly ready for the little one's cloak. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Not this year. The pig's fat, the store's full, and the cloth's nearly done for the little one's cloak.",
+    "voice": "A_MARY",
+    "speech_s": 6.269,
+    "shot_s": 7.47,
+    "f0_median_hz": 225.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s08.adj.wav",
+    "line": "assets/F002/native/en/s08.mp3"
+   },
+   "es": {
+    "text": "Este año no. El chancho está gordo, el granero lleno, y la tela casi lista para la capa de la más chica.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.0,
+    "speech_s": 7.13,
+    "shot_s": 8.0,
+    "f0_median_hz": 234.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s08.adj.wav",
+    "line": "assets/F002/native/es/s08.mp3"
+   },
+   "cy_text": "Nid eleni. Mae'r mochyn yn dew, mae'r stôr yn llawn, ac mae'r brethyn bron yn barod at glogyn y fechan."
+  },
+  {
+   "shot": 10,
+   "who": "B_JOHN",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills/iL6.jpg",
+   "prompt": "He crouches beside his small granddaughter, points at the geese and tells her the cold is coming, and to bring wood in by the door tonight. The speaker talks to his wife beside him, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Listen, little one. Geese, going over. The cold's coming. Bring wood in by the door tonight.",
+    "voice": "B_JOHN",
+    "speech_s": 7.314,
+    "shot_s": 8.0,
+    "f0_median_hz": 109.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s10.adj.wav",
+    "line": "assets/F002/native/en/s10.mp3"
+   },
+   "es": {
+    "text": "Escuchá, chiquita. Gansos que pasan. Viene el frío. Esta noche traé leña junto a la puerta.",
+    "voice": "oai:onyx",
+    "tempo": 1.003,
+    "speech_s": 7.2,
+    "shot_s": 8.0,
+    "f0_median_hz": 92.0,
+    "transcribe_match": 0.94,
+    "audio": "assets/F002/native/es/s10.adj.wav",
+    "line": "assets/F002/native/es/s10.mp3"
+   },
+   "cy_text": "Gwranda, fach. Gwyddau'n mynd drosodd. Mae'r oerfel yn dod. Dere â choed at y drws heno."
+  },
+  {
+   "shot": 11,
+   "who": "A_MARY",
+   "era": "c. 200 BC",
+   "still": "assets/F002/stills_v4/s11.jpg",
+   "prompt": "Before dark the mother kneels at the spring below the homestead with a handful of the new corn: an offering to the water that has always kept them. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "And before dark, a handful of the new corn goes down to the spring. It has always given us water.",
+    "voice": "A_MARY",
+    "speech_s": 6.348,
+    "shot_s": 7.55,
+    "f0_median_hz": 235.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s11.adj.wav",
+    "line": "assets/F002/native/en/s11.mp3"
+   },
+   "es": {
+    "text": "Y antes de que oscurezca, un puñado del grano nuevo baja al manantial. Siempre nos dio agua.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.0,
+    "speech_s": 6.32,
+    "shot_s": 7.52,
+    "f0_median_hz": 216.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s11.adj.wav",
+    "line": "assets/F002/native/es/s11.mp3"
+   },
+   "cy_text": "A chyn iddi nosi, mae llond llaw o'r ŷd newydd yn mynd lawr i'r ffynnon. Mae hi wastad wedi rhoi dŵr i ni."
+  },
+  {
+   "shot": 13,
+   "who": "B_JOHN",
+   "era": "c. AD 200",
+   "still": "assets/F002/stills/rL1.jpg",
+   "prompt": "The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley. The speaker talks to his wife beside him, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+    "voice": "C_FRED",
+    "speech_s": 9.247,
+    "shot_s": 10.45,
+    "f0_median_hz": 123.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s13.adj.wav",
+    "line": "assets/F002/native/en/s13.mp3"
+   },
+   "es": {
+    "text": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
+    "voice": "oai:ash",
+    "tempo": 1.12,
+    "speech_s": 12.77,
+    "shot_s": 13.57,
+    "f0_median_hz": 124.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s13.adj.wav",
+    "line": "assets/F002/native/es/s13.mp3"
+   },
+   "cy_text": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm."
+  },
+  {
+   "shot": 14,
+   "who": "A_MARY",
+   "era": "c. AD 200",
+   "still": "assets/F002/stills/rL2.jpg",
+   "prompt": "His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+    "voice": "F_GWEN",
+    "speech_s": 9.561,
+    "shot_s": 10.76,
+    "f0_median_hz": 258.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s14.adj.wav",
+    "line": "assets/F002/native/en/s14.mp3"
+   },
+   "es": {
+    "text": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+    "voice": "oai:coral",
+    "tempo": 1.118,
+    "speech_s": 10.22,
+    "shot_s": 11.02,
+    "f0_median_hz": 216.0,
+    "transcribe_match": 0.96,
+    "audio": "assets/F002/native/es/s14.adj.wav",
+    "line": "assets/F002/native/es/s14.mp3"
+   },
+   "cy_text": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw."
+  },
+  {
+   "shot": 16,
+   "who": "A_MARY",
+   "era": "c. AD 200",
+   "still": "assets/F002/stills/rL5.jpg",
+   "prompt": "She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it. The speaker talks to her husband beside her, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+    "voice": "F_GWEN",
+    "speech_s": 10.371,
+    "shot_s": 11.0,
+    "f0_median_hz": 208.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s16.adj.wav",
+    "line": "assets/F002/native/en/s16.mp3"
+   },
+   "es": {
+    "text": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+    "voice": "oai:coral",
+    "tempo": 1.12,
+    "speech_s": 12.89,
+    "shot_s": 13.69,
+    "f0_median_hz": 232.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s16.adj.wav",
+    "line": "assets/F002/native/es/s16.mp3"
+   },
+   "cy_text": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth."
+  },
+  {
+   "shot": 17,
+   "who": "B_JOHN",
+   "era": "c. AD 200",
+   "still": "assets/F002/stills/rL4.jpg",
+   "prompt": "He laughs and waves the geese off the sheaves: let them run, the hill is big enough for all of them. The speaker talks to his wife beside him, eyes on them and never on the camera; natural blinks, small head movements, calm period realism, no text.",
+   "en": {
+    "text": "Let them run. The hill's big enough for all of us.",
+    "voice": "C_FRED",
+    "speech_s": 3.082,
+    "shot_s": 4.5,
+    "f0_median_hz": 119.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/en/s17.adj.wav",
+    "line": "assets/F002/native/en/s17.mp3"
+   },
+   "es": {
+    "text": "Dejalos correr. La loma es bastante grande para todos nosotros.",
+    "voice": "oai:ash",
+    "tempo": 1.089,
+    "speech_s": 5.21,
+    "shot_s": 6.01,
+    "f0_median_hz": 119.0,
+    "transcribe_match": 1.0,
+    "audio": "assets/F002/native/es/s17.adj.wav",
+    "line": "assets/F002/native/es/s17.mp3"
+   },
+   "cy_text": "Gad iddyn nhw redeg. Ma'r bryn yn ddigon mawr i bob un ohonon ni."
+  }
+ ],
+ "est_usd": {
+  "en": 9.02,
+  "es": 9.93
+ }
+}

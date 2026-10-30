@@ -65,3 +65,22 @@ Never name the producer in public text. Do not use the banned public words (base
 `WyJzYXlzIiwgImNsYWltcyIsICJhY2NvcmRpbmcgdG8iLCAiaGVhcnNheSIsICJ1bnZlcmlmaWVkIiwgImFsbGVnZWQiLCAiZnJhdWQiLCAic3RvbGVuIl0=`);
 write "not checked" instead. No heraldry. No likeness of real family members. Never commit API keys, tokens or
 passwords: model and voice calls go through the agent's own key proxy. Commits: no force-push; small commits.
+
+## 6. JOB 1 progress — Door 2 native performances (30 Oct 2026, 08:05–08:30Z, CEDWYN MOVIE RUN 05d200e8)
+Prepared up to the paid render; NO OmniHuman render made this run (budget, see below).
+- en: 11 lines voiced (ElevenLabs eleven_v4, language_code en). Transcribe-back 1.0 on all 11. Median pitch: mothers/wives 208–258 Hz, men 109–158 Hz.
+  Voices: c. 200 BC mother A_MARY, elder B_JOHN; c. AD 200 wife F_GWEN, farmer C_FRED (H_CLERK reads in received pronunciation, the wrong accent
+  for an English-speaking Welsh farmer; G_DAI measured a 200–275 Hz median, a gender risk; C_FRED is male at ~123 Hz and was designed as a man long in South Wales).
+- es: 11 lines. c. 200 BC mother J_ELENA (ElevenLabs, the account's only native Rioplatense voice); elder, AD 200 wife and farmer by OpenAI gpt-4o-mini-tts
+  (onyx / coral / ash) with Rioplatense instructions, because the ElevenLabs account is full and Gemini TTS on Vertex answered 403. Transcribe-back 0.90–1.0;
+  five lines sped up 1.08–1.12× to fit. Accents not checked by ear.
+- Files: assets/F002/native/{en,es}/sNN.mp3 (the voiced line) and sNN.adj.wav (OmniHuman input: 0.4 s lead, padded to the shot length).
+  Shot lengths, stills, prompts and voices per shot: assets/F002/native/plan.json. Scripts: assets/F002/native/render.py, assemble.py.
+- Estimates at $0.105/s: en ≈ $9.0 (85.9 s of output), es ≈ $9.9 (94.6 s). cy = reuse clips/F002.v6.webm (Welsh OmniHuman renders), $0.
+- Pipeline test: assemble.py en --standin (the Welsh renders in place of the English ones) built a 133.8 s 720p VP9 file of 22.2 MB, under 25 MB. Not published.
+- Shot 1 in the en/es cuts: the v6 date card names Welsh as the spoken language, so assemble.py redraws it from the raw image-to-video shot with a caption in that language (en: "Spoken in English; they spoke Brittonic, the ancestor of Welsh"). The AD 200 card (shot 12) is bilingual and is shared as is.
+- Budget: the box's render meter showed $0 of $10 because it does not count these direct renders; the film's own spend logs already held $26.34
+  for 30 Oct (UTC), spent 00:00–03:20Z on the Door 2/Door 1 lip-sync work before the $10/day pacing rule. So renders wait for 31 Oct.
+  render.py enforces the daily limit from those logs (--day-limit 10, --cap per run).
+- Next: 31 Oct: `TAB_TASK_ID=<task> python3 render.py en --cap 9.6` (11 renders, one at a time, ~7 min each), check 3 frames per shot, then
+  `python3 assemble.py en` → F002.v7.en.webm. 1 Nov: es the same way (the cap may leave 1–2 shots for the next day). Then the manifest switch in RERENDER-QUEUE JOB 1.
