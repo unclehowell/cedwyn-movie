@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.1.0",
- "updated": "2026-10-29T23:45Z",
+ "version": "1.1.1",
+ "updated": "2026-10-30T00:48Z",
  "frames_total": 147,
  "pricing": {
   "rule": "semantic versions: everything in v0.0.1 is free; each later version (re)release costs £4.99 more than the one before",
@@ -18,7 +18,7 @@
   {
    "n": 1,
    "version": "0.0.1",
-   "clip": "clips/F001.webm",
+   "clip": "clips/F001.v2.webm",
    "audio": {
     "cy": "audio/F001.cy.webm",
     "en": "audio/F001.en.webm",
@@ -36,12 +36,16 @@
    "script_version": "v0.2.0",
    "prompt_sha": "b9468f3",
    "left_out": [],
-   "notes": "720p VP9; 12 shots: 4 OmniHuman 2.0 close-ups (English lip-sync, cy/es dubbed), 2 image-to-video shots, 6 stills with slow push-ins; document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-translated cy/es for native review."
+   "notes": "720p VP9; Welsh soundtrack with Welsh lip-sync: the 6 talking close-ups re-rendered 30 Oct 2026 with OmniHuman 2.0 on the Welsh lines, Nia and the Grandson turned three-quarters to talk to each other (never to camera); wide shots, document inserts and stills unchanged; English and Spanish dub tracks; cy/en/es subtitles. Document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-assisted cy/es for native review.",
+   "default_audio": "cy",
+   "revised": "2026-10-30T00:48Z",
+   "previous_cut": "clips/F001.webm",
+   "revision_note": "v0.0.1 recut 30 Oct 2026: Welsh lip-sync on every talking shot (was English lip-sync with a Welsh dub)."
   },
   {
    "n": 2,
    "version": "0.0.1",
-   "clip": "clips/F002.v5.webm",
+   "clip": "clips/F002.v5.1.webm",
    "audio": {
     "cy": "audio/F002.v5.cy.webm",
     "en": "audio/F002.v5.en.webm",
@@ -59,18 +63,10 @@
    "script_version": "v1.0.0",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, 18 shots, every shot moving: 10 OmniHuman 2.0 talking shots (Welsh lip-sync; speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. Two date cards: c. 200 BC and c. AD 200. Welsh soundtrack; English and Spanish dub tracks; cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
-   "revised": "2026-10-29T23:45Z",
-   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage.",
-   "previous_cut": {
-    "clip": "clips/F002.webm",
-    "audio": {
-     "cy": "audio/F002.cy.webm",
-     "en": "audio/F002.en.webm",
-     "es": "audio/F002.es.webm"
-    },
-    "made": "2026-10-28T05:04Z"
-   },
+   "notes": "720p VP9, 18 shots, every shot moving: 10 OmniHuman 2.0 talking shots (Welsh lip-sync; speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. Two date cards: c. 200 BC and c. AD 200; the AD 200 family is a new cast (different people from the Iron Age family). Welsh soundtrack; English and Spanish dub tracks; cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
+   "revised": "2026-10-30T00:48Z",
+   "revision_note": "v1.0.0: former Scene 3 (c. AD 200 harvest) merged into Scene 2 as 'The hill before the records'; no narrator or archive bookend; out-of-period line about a round house and the barn removed; every still replaced by moving footage. v1.0.1 (30 Oct 2026): AD 200 farmer and wife recast as different people (4 talking shots + 1 harvest shot re-rendered).",
+   "previous_cut": "clips/F002.v5.webm",
    "merged": [
     {
      "from": "F003",
