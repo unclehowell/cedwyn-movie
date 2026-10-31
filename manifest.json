@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.6.1",
- "updated": "2026-10-31T20:57Z",
+ "version": "1.7.0",
+ "updated": "2026-10-31T23:15Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -132,7 +132,8 @@
     "kind": "native-language",
     "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
     "plan": "RERENDER-QUEUE.md"
-   }
+   },
+   "scene": "F001"
   },
   {
    "n": 2,
@@ -294,7 +295,8 @@
      "made": "2026-10-29T23:45Z",
      "note": "Welsh OmniHuman performance with English and Spanish lip-synced over it (30 Oct); replaced as the default by the native English performance (31 Oct)"
     }
-   ]
+   ],
+   "scene": "F002"
   },
   {
    "n": 3,
@@ -324,12 +326,126 @@
     "kind": "native-language",
     "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language; not yet rendered.",
     "plan": "RERENDER-QUEUE.md"
-   }
+   },
+   "scene": "F004"
   }
  ],
  "left_out_register": [],
  "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door.",
  "merge_note": "29 Oct 2026: Scene 3 merged into Scene 2 at the producer's word; door 3 is now the c. 650 monastic burial (script F004), not yet released.",
  "video_note": "An entry may carry 'video': {cy,en,es}: one video per spoken language, each lip-synced to its own audio track (and carrying only that track). When the listener picks an audio language, play video[lang] if present; otherwise play 'clip' with the separate audio[lang] track. 'clip' stays the Welsh video for back-compat.",
- "paid_media_note": "Paths beginning \"doc:\" are the newest (paid) cut of a scene. Those files are not in this repository; the documentary page streams them from the site's access service (/api/doc/media) with the scene's access code or an active membership."
+ "paid_media_note": "Paths beginning \"doc:\" are the newest (paid) cut of a scene. Those files are not in this repository; the documentary page streams them from the site's access service (/api/doc/media) with the scene's access code or an active membership.",
+ "renders": [
+  {
+   "scene": "F001",
+   "lang": "cy",
+   "version": "0.2.0",
+   "path": "movie/F001/F001.cy.v0.2.0.webm",
+   "native": true,
+   "status": "live",
+   "src": "doc:clips/F001.v2.webm",
+   "note": "Welsh performance, Welsh lip-sync (bytes in the access store; not aliasable in this repo)"
+  },
+  {
+   "scene": "F001",
+   "lang": "en",
+   "version": "0.2.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native English make not yet rendered"
+  },
+  {
+   "scene": "F001",
+   "lang": "es",
+   "version": "0.2.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Spanish make not yet rendered"
+  },
+  {
+   "scene": "F002",
+   "lang": "cy",
+   "version": "1.0.2",
+   "path": "movie/F002/F002.cy.v1.0.2.webm",
+   "native": true,
+   "status": "live",
+   "note": "alias of clips/F002.v6.webm (same bytes). Holds two moments (c. 200 BC and c. AD 200) and the villa beyond the brow: requeued as v2.0.0 (REDOOR.json)"
+  },
+  {
+   "scene": "F002",
+   "lang": "en",
+   "version": "1.0.2",
+   "path": "movie/F002/F002.en.v1.0.2.webm",
+   "native": false,
+   "status": "live",
+   "src": "doc:clips/F002.v7.en.webm",
+   "note": "English lines re-performed over the Welsh cut's stills and timing; not made with English in mind (owner 22:47Z 31 Oct): not native"
+  },
+  {
+   "scene": "F002",
+   "lang": "es",
+   "version": "1.0.2",
+   "path": "movie/F002/F002.es.v1.0.2.webm",
+   "native": false,
+   "status": "live",
+   "note": "alias of clips/F002.v6.es.webm: Welsh video with mouths re-synced to Spanish (lip-sync), not native"
+  },
+  {
+   "scene": "F002",
+   "lang": "cy",
+   "version": "2.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native remake: Iron Age only, no villa; made in Welsh"
+  },
+  {
+   "scene": "F002",
+   "lang": "en",
+   "version": "2.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native remake made in English from scratch"
+  },
+  {
+   "scene": "F002",
+   "lang": "es",
+   "version": "2.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native remake made in Spanish from scratch"
+  },
+  {
+   "scene": "F004",
+   "lang": "cy",
+   "version": "0.4.1",
+   "path": "movie/F004/F004.cy.v0.4.1.webm",
+   "native": true,
+   "status": "live",
+   "note": "alias of clips/F004.v2.webm: Welsh performance (door 3 until the re-door; moves to door 7)"
+  },
+  {
+   "scene": "F004",
+   "lang": "en",
+   "version": "0.4.1",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native English make not yet rendered (English audio was a dub over the Welsh picture)"
+  },
+  {
+   "scene": "F004",
+   "lang": "es",
+   "version": "0.4.1",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Spanish make not yet rendered (Spanish audio was a dub over the Welsh picture)"
+  }
+ ],
+ "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language."
 }
