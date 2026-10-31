@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.6.0",
- "updated": "2026-10-31T20:48Z",
+ "version": "1.6.1",
+ "updated": "2026-10-31T20:57Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -171,7 +171,7 @@
    ],
    "video": {
     "cy": "clips/F002.v6.webm",
-    "en": "clips/F002.v7.en.webm",
+    "en": "doc:clips/F002.v7.en.webm",
     "es": "clips/F002.v6.es.webm"
    },
    "cut_note": "Welsh performance; the English and Spanish videos are the Welsh shots with the mouths re-synced to dubbed tracks (30 Oct 2026).",
