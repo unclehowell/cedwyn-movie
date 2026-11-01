@@ -78,11 +78,11 @@
    "shot": 3,
    "kind": "still",
    "seconds": 9,
-   "direction": "A distant figure walks the ridge where the churchyard will be; small in frame, from behind.",
-   "image_prompt": "Photoreal 16:9, late Roman Britain. A lone figure in a dark wool cloak walks away along a grassy hill ridge at dusk, small in frame, seen from behind; the ruined stone house far off to the left. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "direction": "High wide: the ground immediately north of where the churchyard will be, empty grass to the escarpment edge; small coin-glints in the turf.",
+   "image_prompt": "Photoreal 16:9, late Roman Britain. High wide view of an empty grassy hill crest falling to a steep scarp above a river estuary, late afternoon; no people, no buildings in the foreground. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
    "captions": [
     {
-     "text": "Someone was still using the hill. Who, and whether another building stood under today's churchyard, is not known",
+     "text": "These finds lay in the ground north of today's churchyard, clustered at its southern edge. Whether another Roman building stood there is not known",
      "cite": [
       "RO-5"
      ]
@@ -115,8 +115,11 @@
   "cy": "machine translation, for native review",
   "es": "machine translation (Rioplatense), for native review"
  },
- "script_version": "0.1.0",
+ "script_version": "0.1.1",
  "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
  "seconds_total": 35,
- "talking_seconds": 0
+ "talking_seconds": 0,
+ "estate_location": "Roman coins and pottery later than the villa, in the 1994 grave fills north of the churchyard (MR-0097). ±50 m",
+ "map": "maps/F003A1.map.webp",
+ "premise": "Record: Roman coins and pottery later in date than the villa's abandonment (first third of the 4th century) lay in grave fills of the 1994 excavation immediately north of St Dochdwy's churchyard, clustered in its southernmost part (MR-0097). The excavators call another Roman building beneath the churchyard conceivable, unproven."
 }

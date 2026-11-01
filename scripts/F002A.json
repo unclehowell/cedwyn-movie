@@ -155,8 +155,11 @@
   "cy": "machine translation, for native review",
   "es": "machine translation (Rioplatense), for native review"
  },
- "script_version": "0.1.0",
+ "script_version": "0.1.1",
  "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
  "seconds_total": 45,
- "talking_seconds": 12
+ "talking_seconds": 12,
+ "estate_location": "Possible late Iron Age pit burial B601, 1994 excavation immediately north of the churchyard (MR-0097). ±50 m; overlap with Parcel A not checked",
+ "map": "maps/F002A.map.webp",
+ "premise": "Record: one possible late Iron Age grave, pit burial B601 (a young adult laid in a pit already dug, arms crossed on the pelvis), and 28 sherds of late Iron Age/early Roman pottery (16 in pit 805), found in the 1994 excavation immediately north of St Dochdwy's churchyard, on the ground Museum Wales records as 'Great House Farm, Llandough' (MR-0096, MR-0097). Overlap with Parcel A not checked."
 }

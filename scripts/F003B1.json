@@ -13,7 +13,7 @@
  ],
  "confidence": "medium/low",
  "sources": [
-  "media register MR-0096 / MR-0097 (Holbrook & Thomas 2005, 'An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994', Medieval Archaeology 49), pp. 87–88 (Bii amphorae, 475–550, Dinas Powys) and the burial 631 record (iron girdle, 361–662 cal AD)",
+  "media register MR-0096 / MR-0097 (Holbrook & Thomas 2005, 'An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994', Medieval Archaeology 49), pp. 87–88 (Bii amphorae, 475–550) and the burial 631 record (iron girdle, 361–662 cal AD)",
   "MR-0099 Museum Wales blog 'The suffering of burial 631' (2 May 2007)",
   "CHRONOLOGY PX-03"
  ],
@@ -125,16 +125,10 @@
    "image_prompt": "Photoreal 16:9 close-up: a weathered hand holding a curved, ribbed reddish-buff sherd of an East Mediterranean amphora, clay soil behind. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
    "captions": [
     {
-     "text": "c. 475–550: wine jars from Asia Minor reached Llandough; sherds lay in five graves here",
+     "text": "c. 475–550: wine jars from Asia Minor; sherds lay in five graves on this ground, north of today's churchyard",
      "cite": [
       "EM-4",
       "MR-0097"
-     ]
-    },
-    {
-     "text": "The same jars reached the hilltop at Dinas Powys, 2 km away; the excavators suggest a link between the two places",
-     "cite": [
-      "EM-4"
      ]
     }
    ],
@@ -166,8 +160,12 @@
   "cy": "machine translation, for native review",
   "es": "machine translation (Rioplatense), for native review"
  },
- "script_version": "0.1.0",
+ "script_version": "0.1.1",
  "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
  "seconds_total": 46,
- "talking_seconds": 13
+ "talking_seconds": 13,
+ "estate_location": "Bii amphora sherds in five graves and burial 631, 1994 excavation north of the churchyard (MR-0097, MR-0099). ±50 m",
+ "map": "maps/F003B1.map.webp",
+ "premise": "Record: sherds of imported Bii amphorae from Asia Minor (main import period c. 475–550) in the fills of five graves, and burial 631, a man of about 30 buried with an iron girdle (radiocarbon 361–662), both in the 1994 excavation immediately north of St Dochdwy's churchyard (MR-0097, MR-0099).",
+ "summary_note": "The excavators' comparison with another site is left out: this film shows only what is known from this ground."
 }
