@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "3.1.1",
+ "version": "3.1.2",
  "built": "2026-11-01T02:05Z",
  "chronology_version": "1.0.0",
  "frames": 314,
@@ -274,7 +274,7 @@
    ],
    "parts": [],
    "title": "The hill before the records",
-   "logline": "One hill, two moments four hundred years apart: an Iron Age family at their roundhouse bring in the corn and ready for winter; then a Romano-British farmer and his wife harvest spelt on the same slope.",
+   "logline": "Late Iron Age (c. 200 BC): a household at the possible roundhouse found on the hill (CH-0174). The cut now playing still ends with a c. AD 200 coda; it is being remade as Iron Age only, and the Roman years now have their own doors (4–7).",
    "setting": "s10",
    "cast": [
     "B_JOHN=the Iron Age elder; then a Romano-British farmer (invented faces)",
@@ -290,11 +290,11 @@
    "i18n": {
     "cy": {
      "title": "Y bryn cyn y cofnodion",
-     "logline": "Un bryn, dwy foment bedwar can mlynedd ar wahân: teulu o Oes yr Haearn wrth eu tŷ crwn yn cywain yr ŷd ac yn paratoi at y gaeaf; yna ffermwr Brythonig-Rufeinig a'i wraig yn medi sbelt ar yr un llethr."
+     "logline": "Oes yr Haearn hwyr (c. 200 CC): teulu wrth y tŷ crwn posibl a gafwyd ar y bryn (CH-0174). Mae'r toriad sy'n chwarae nawr yn dal i orffen gyda golygfa c. 200 OC; mae'n cael ei ail-wneud fel Oes yr Haearn yn unig, ac mae gan y blynyddoedd Rhufeinig eu drysau eu hunain (4–7). (cyfieithiad peiriant)"
     },
     "es": {
      "title": "La loma antes de los registros",
-     "logline": "Una loma, dos momentos separados por cuatrocientos años: una familia de la Edad del Hierro en su casa redonda junta el grano y se prepara para el invierno; después, un granjero romanobritano y su mujer cosechan espelta en la misma ladera."
+     "logline": "Edad del Hierro tardía (c. 200 a. C.): una familia junto a la posible casa redonda hallada en la loma (CH-0174). El corte que se reproduce todavía termina con una coda de c. 200 d. C.; se está rehaciendo solo con la Edad del Hierro, y los años romanos ya tienen sus propias puertas (4–7). (traducción automática)"
     }
    },
    "thumb": "thumbs/F002.v5.webp",
