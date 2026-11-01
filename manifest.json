@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.9.0",
- "updated": "2026-11-01T03:03Z",
+ "version": "1.10.0",
+ "updated": "2026-11-01T03:19Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -166,6 +166,9 @@
     "pending": {
      "en": "native en master not rendered yet",
      "es": "native es master not rendered yet"
+    },
+    "src": {
+     "cy": "doc:clips/F001.v2.webm"
     }
    }
   },
@@ -363,6 +366,9 @@
     "pending": {
      "en": "only a non-native (dub/lip-sync) make exists",
      "es": "only a non-native (dub/lip-sync) make exists"
+    },
+    "src": {
+     "cy": "clips/F002.v6.webm"
     }
    }
   },
@@ -427,6 +433,9 @@
     "pending": {
      "en": "native en master not rendered yet",
      "es": "native es master not rendered yet"
+    },
+    "src": {
+     "cy": "movie/F002B/F002B.cy.v1.0.0.webm"
     }
    }
   },
@@ -494,6 +503,9 @@
     "pending": {
      "en": "native en master not rendered yet",
      "es": "native es master not rendered yet"
+    },
+    "src": {
+     "cy": "clips/F004.v2.webm"
     }
    }
   }
