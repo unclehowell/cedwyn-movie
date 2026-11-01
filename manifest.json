@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.7.0",
- "updated": "2026-11-01T01:31Z",
+ "version": "1.8.0",
+ "updated": "2026-11-01T02:15Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -299,7 +299,7 @@
    "scene": "F002"
   },
   {
-   "n": 3,
+   "n": 4,
    "scene": "F002B",
    "version": "1.0.0",
    "clip": "movie/F002B/F002B.cy.v1.0.0.webm",
@@ -325,10 +325,11 @@
    "facts": [
     "RO-1",
     "RO-2"
-   ]
+   ],
+   "renumber_note": "door 3 → 4 on 1 Nov 2026 02:1xZ: intermediate scene F002A (late Iron Age pit burial, c. AD 1) inserted before it in date order (producer m:548f3190); files unchanged."
   },
   {
-   "n": 7,
+   "n": 10,
    "version": "0.0.1-0.0.1",
    "clip": "clips/F004.v2.webm",
    "audio": {
@@ -357,12 +358,13 @@
     "plan": "RERENDER-QUEUE.md"
    },
    "scene": "F004",
-   "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged."
+   "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged.",
+   "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged."
   }
  ],
  "left_out_register": [],
  "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door.",
- "merge_note": "29 Oct 2026: Scene 3 merged into Scene 2 at the producer's word; door 3 is now the c. 650 monastic burial (script F004), not yet released.",
+ "merge_note": "Superseded 1 Nov 2026: scenes are no longer merged. Door order follows SCENES.json v4.1.0 in strict date order (frames.json v3.1.0): 1 F001 · 2 F002 · 3 F002A · 4 F002B · 5 F003 · 6 F003A · 7 F003A1 · 8 F003B · 9 F003B1 · 10 F004 · 11 F005 …",
  "video_note": "An entry may carry 'video': {cy,en,es}: one video per spoken language, each lip-synced to its own audio track (and carrying only that track). When the listener picks an audio language, play video[lang] if present; otherwise play 'clip' with the separate audio[lang] track. 'clip' stays the Welsh video for back-compat.",
  "paid_media_note": "Paths beginning \"doc:\" are the newest (paid) cut of a scene. Those files are not in this repository; the documentary page streams them from the site's access service (/api/doc/media) with the scene's access code or an active membership.",
  "renders": [
@@ -504,5 +506,6 @@
    "note": "native Spanish make not yet rendered"
   }
  ],
- "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language."
+ "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
+ "renumber_2026_11_01": "1.8.0 (task d37f3333): published doors renumbered to strict date order after intermediate scenes were added: F002B door 3 → 4, F004 door 7 → 10. No file moved, no render added (zero paid renders). — Sion's Tab agent"
 }
