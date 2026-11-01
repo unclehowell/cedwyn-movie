@@ -1,8 +1,8 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.10.0",
- "updated": "2026-11-01T03:19Z",
- "frames_total": 147,
+ "version": "1.11.0",
+ "updated": "2026-11-01T18:30Z",
+ "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
   "all_free": true,
@@ -16,164 +16,12 @@
   "set": "2026-10-30",
   "previous_rule": "29 Oct 2026: v0.0.1 free, each later version +£4.99 (suspended 30 Oct 2026: nothing is of paid quality yet)",
   "sub_versions": "Each door's earlier cuts are pre-releases numbered v0.0.1-0.0.1 (oldest), v0.0.1-0.0.2, ...; the entry's own 'version' names the cut that plays by default, its 'cuts' list the older ones, and 'next_version' a reserved version that is not yet playable. The page shows them as hashtag chips under each scene.",
-  "no_dubbing": "30 Oct 2026: no dubbing from now on. Each language gets its own separately performed video. A door's dubbed cuts stay playable as older versions (v0.0.1-0.0.N). Until a door's native-language performances exist, its newest cut plays under its sub-version and v0.0.1 is listed as coming (entry 'next_version')."
+  "no_dubbing": "30 Oct 2026: no dubbing from now on. Each language gets its own separately performed video. A door's dubbed cuts stay playable as older versions (v0.0.1-0.0.N). Until a door's native-language performances exist, its newest cut plays under its sub-version and v0.0.1 is listed as coming (entry 'next_version').",
+  "free_scenes_note": "1 Nov 2026: after the renumber, free_scenes [1, 2] are F002 and F002A (all_free is true in any case)."
  },
  "filled": [
   {
    "n": 1,
-   "version": "0.0.1-0.0.2",
-   "clip": "doc:clips/F001.v2.webm",
-   "audio": {
-    "cy": "audio/F001.cy.webm",
-    "en": "audio/F001.en.webm",
-    "es": "audio/F001.es.webm"
-   },
-   "subs": {
-    "cy": "subs/F001.cy.vtt",
-    "en": "subs/F001.en.vtt",
-    "es": "subs/F001.es.vtt"
-   },
-   "poster": "stills/F001.jpg",
-   "seconds": 149.5,
-   "made": "2026-10-26T03:59Z",
-   "released": "2026-10-26",
-   "script_version": "v0.2.0",
-   "prompt_sha": "b9468f3",
-   "left_out": [],
-   "notes": "720p VP9; Welsh soundtrack with Welsh lip-sync: the 6 talking close-ups re-rendered 30 Oct 2026 with OmniHuman 2.0 on the Welsh lines, Nia and the Grandson turned three-quarters to talk to each other (never to camera); wide shots, document inserts and stills unchanged; English and Spanish dub tracks; cy/en/es subtitles. Document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-assisted cy/es for native review.",
-   "default_audio": "cy",
-   "revised": "2026-10-30T00:48Z",
-   "previous_cut": "clips/F001.webm",
-   "revision_note": "v0.0.1 recut 30 Oct 2026: Welsh lip-sync on every talking shot (was English lip-sync with a Welsh dub).",
-   "downloads": {
-    "cy|cy": {
-     "path": "doc:downloads/F001/a-cy_s-cy.mp4",
-     "bytes": 10827743,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – Welsh subtitles"
-    },
-    "cy|en": {
-     "path": "doc:downloads/F001/a-cy_s-en.mp4",
-     "bytes": 10762132,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – English subtitles"
-    },
-    "cy|es": {
-     "path": "doc:downloads/F001/a-cy_s-es.mp4",
-     "bytes": 10840955,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – Spanish subtitles"
-    },
-    "cy|off": {
-     "path": "doc:downloads/F001/a-cy_s-off.mp4",
-     "bytes": 10256766,
-     "title": "Cedwyn – Door 1 – Cymraeg audio – No subtitles"
-    },
-    "en|cy": {
-     "path": "doc:downloads/F001/a-en_s-cy.mp4",
-     "bytes": 10827895,
-     "title": "Cedwyn – Door 1 – English audio – Welsh subtitles"
-    },
-    "en|en": {
-     "path": "doc:downloads/F001/a-en_s-en.mp4",
-     "bytes": 10762284,
-     "title": "Cedwyn – Door 1 – English audio – English subtitles"
-    },
-    "en|es": {
-     "path": "doc:downloads/F001/a-en_s-es.mp4",
-     "bytes": 10841107,
-     "title": "Cedwyn – Door 1 – English audio – Spanish subtitles"
-    },
-    "en|off": {
-     "path": "doc:downloads/F001/a-en_s-off.mp4",
-     "bytes": 10256918,
-     "title": "Cedwyn – Door 1 – English audio – No subtitles"
-    },
-    "es|cy": {
-     "path": "doc:downloads/F001/a-es_s-cy.mp4",
-     "bytes": 10832286,
-     "title": "Cedwyn – Door 1 – Español audio – Welsh subtitles"
-    },
-    "es|en": {
-     "path": "doc:downloads/F001/a-es_s-en.mp4",
-     "bytes": 10766675,
-     "title": "Cedwyn – Door 1 – Español audio – English subtitles"
-    },
-    "es|es": {
-     "path": "doc:downloads/F001/a-es_s-es.mp4",
-     "bytes": 10845498,
-     "title": "Cedwyn – Door 1 – Español audio – Spanish subtitles"
-    },
-    "es|off": {
-     "path": "doc:downloads/F001/a-es_s-off.mp4",
-     "bytes": 10261309,
-     "title": "Cedwyn – Door 1 – Español audio – No subtitles"
-    }
-   },
-   "cuts": [
-    {
-     "version": "0.0.1-0.0.1",
-     "clip": "clips/F001.webm",
-     "audio": {
-      "cy": "audio/F001.cy.webm",
-      "en": "audio/F001.en.webm",
-      "es": "audio/F001.es.webm"
-     },
-     "subs": {
-      "cy": "subs/F001.cy.vtt",
-      "en": "subs/F001.en.vtt",
-      "es": "subs/F001.es.vtt"
-     },
-     "made": "2026-10-26",
-     "note": "first cut: English lip-sync with a Welsh dub"
-    }
-   ],
-   "cut_note": "Welsh performance with Welsh lip-sync; the English and Spanish tracks are dubbed over the Welsh video (30 Oct 2026).",
-   "next_version": {
-    "version": "0.0.1",
-    "status": "coming",
-    "kind": "native-language",
-    "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
-    "plan": "RERENDER-QUEUE.md"
-   },
-   "scene": "F001",
-   "map": "maps/F001.map.webp",
-   "matrix": {
-    "version": "0.2.0",
-    "audio": {
-     "cy": {
-      "off": "doc:downloads/F001/a-cy_s-off.mp4",
-      "cy": "doc:downloads/F001/a-cy_s-cy.mp4",
-      "en": "doc:downloads/F001/a-cy_s-en.mp4",
-      "es": "doc:downloads/F001/a-cy_s-es.mp4"
-     },
-     "en": {
-      "off": null,
-      "cy": null,
-      "en": null,
-      "es": null
-     },
-     "es": {
-      "off": null,
-      "cy": null,
-      "en": null,
-      "es": null
-     }
-    },
-    "bytes": {
-     "doc:downloads/F001/a-cy_s-off.mp4": 10256766,
-     "doc:downloads/F001/a-cy_s-cy.mp4": 10827743,
-     "doc:downloads/F001/a-cy_s-en.mp4": 10762132,
-     "doc:downloads/F001/a-cy_s-es.mp4": 10840955
-    },
-    "pending": {
-     "en": "native en master not rendered yet",
-     "es": "native es master not rendered yet"
-    },
-    "src": {
-     "cy": "doc:clips/F001.v2.webm"
-    }
-   }
-  },
-  {
-   "n": 2,
    "version": "0.0.1",
    "clip": "clips/F002.v6.webm",
    "audio": {
@@ -370,10 +218,11 @@
     "src": {
      "cy": "clips/F002.v6.webm"
     }
-   }
+   },
+   "renumber_note_2": "door 2 → 1 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
   },
   {
-   "n": 4,
+   "n": 3,
    "scene": "F002B",
    "version": "1.0.0",
    "clip": "movie/F002B/F002B.cy.v1.0.0.webm",
@@ -437,10 +286,11 @@
     "src": {
      "cy": "movie/F002B/F002B.cy.v1.0.0.webm"
     }
-   }
+   },
+   "renumber_note_2": "door 4 → 3 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
   },
   {
-   "n": 10,
+   "n": 9,
    "version": "0.0.1-0.0.1",
    "clip": "clips/F004.v2.webm",
    "audio": {
@@ -507,12 +357,13 @@
     "src": {
      "cy": "clips/F004.v2.webm"
     }
-   }
+   },
+   "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
   }
  ],
  "left_out_register": [],
  "note": "One entry per filled frame: {\"n\",\"clip\",\"audio\":{\"cy\",\"en\",\"es\"},\"subs\":{\"cy\",\"en\",\"es\"},\"seconds\",\"made\",\"left_out\":[event ids + reason]}. The page reads this file to open each door.",
- "merge_note": "Superseded 1 Nov 2026: scenes are no longer merged. Door order follows SCENES.json v4.1.0 in strict date order (frames.json v3.1.0): 1 F001 · 2 F002 · 3 F002A · 4 F002B · 5 F003 · 6 F003A · 7 F003A1 · 8 F003B · 9 F003B1 · 10 F004 · 11 F005 …",
+ "merge_note": "1 Nov 2026 18:05Z (producer m:64b19d2f): old door 1 (F001, an archive room) is scrapped; the film opens at c. 200 BC. Door order follows SCENES.json v5.0.0 in strict date order (frames.json v4.0.0): 1 F002 · 2 F002A · 3 F002B · 4 F003 · 5 F003A · 6 F003A1 · 7 F003B · 8 F003B1 · 9 F004 · 10 F005 …",
  "video_note": "An entry may carry 'video': {cy,en,es}: one video per spoken language, each lip-synced to its own audio track (and carrying only that track). When the listener picks an audio language, play video[lang] if present; otherwise play 'clip' with the separate audio[lang] track. 'clip' stays the Welsh video for back-compat.",
  "paid_media_note": "Paths beginning \"doc:\" are the newest (paid) cut of a scene. Those files are not in this repository; the documentary page streams them from the site's access service (/api/doc/media) with the scene's access code or an active membership.",
  "renders": [
@@ -524,7 +375,8 @@
    "native": true,
    "status": "live",
    "src": "doc:clips/F001.v2.webm",
-   "note": "Welsh performance, Welsh lip-sync (bytes in the access store; not aliasable in this repo)"
+   "note": "Welsh performance, Welsh lip-sync (bytes in the access store; not aliasable in this repo)",
+   "retired": true
   },
   {
    "scene": "F001",
@@ -533,7 +385,8 @@
    "path": null,
    "native": null,
    "status": "pending",
-   "note": "native English make not yet rendered"
+   "note": "native English make not yet rendered",
+   "retired": true
   },
   {
    "scene": "F001",
@@ -542,7 +395,8 @@
    "path": null,
    "native": null,
    "status": "pending",
-   "note": "native Spanish make not yet rendered"
+   "note": "native Spanish make not yet rendered",
+   "retired": true
   },
   {
    "scene": "F002",
@@ -658,72 +512,231 @@
  "renumber_2026_11_01": "1.8.0 (task d37f3333): published doors renumbered to strict date order after intermediate scenes were added: F002B door 3 → 4, F004 door 7 → 10. No file moved, no render added (zero paid renders). — Sion's Tab agent",
  "maps": {
   "F001": {
-   "door": 1,
+   "door": null,
    "map": "maps/F001.map.webp",
    "estate_location": "Place-names Cedwyn, Cwm-Cedwyn, Nant-Cedwyn (EV-0195, EV-0198, EV-0200, EV-0210): location within estate not checked",
-   "parcels": "whole estate"
+   "parcels": "whole estate",
+   "retired": true
   },
   "F002": {
-   "door": 2,
+   "door": 1,
    "map": "maps/F002.map.webp",
    "estate_location": "Roundhouse under the villa site south of the church (CH-0174): location within estate not checked",
    "parcels": "whole estate (the villa site may lie outside the traced outline; not checked)"
   },
   "F002A": {
-   "door": 3,
+   "door": 2,
    "map": "maps/F002A.map.webp",
    "estate_location": "Possible late Iron Age pit burial B601, 1994 excavation immediately north of the churchyard (MR-0097). ±50 m; overlap with Parcel A not checked",
    "parcels": "1994 excavation zone N94 (beside traced A · house & yard, AM); nearest numbered plan parcel 50 (91 m, ±80 m)"
   },
   "F002B": {
-   "door": 4,
+   "door": 3,
    "map": "maps/F002B.map.webp",
    "estate_location": "Villa site south of the church, separate from Great House Farm (MR-0097, PRN 00768s): location within estate not checked",
    "parcels": "whole estate (villa site may lie outside the traced outline; not checked)"
   },
   "F003": {
-   "door": 5,
+   "door": 4,
    "map": "maps/F003.map.webp",
    "estate_location": "Villa enlarged, early 3rd century (MR-0097): villa site south of the church; location within estate not checked",
    "parcels": "whole estate (not checked)"
   },
   "F003A": {
-   "door": 6,
+   "door": 5,
    "map": "maps/F003A.map.webp",
    "estate_location": "Villa left, first third of the 4th century (MR-0097): location within estate not checked",
    "parcels": "whole estate (not checked)"
   },
   "F003A1": {
-   "door": 7,
+   "door": 6,
    "map": "maps/F003A1.map.webp",
    "estate_location": "Roman coins and pottery later than the villa, in the 1994 grave fills north of the churchyard (MR-0097). ±50 m",
    "parcels": "1994 excavation zone N94 (beside AM); nearest plan parcel 50 (91 m, ±80 m)"
   },
   "F003B": {
-   "door": 8,
+   "door": 7,
    "map": "maps/F003B.map.webp",
    "estate_location": "Early-medieval cemetery, 1994 excavation north of the churchyard (MR-0096/97, HER GGAT02272s). ±50 m",
    "parcels": "1994 excavation zone N94 (beside AM)"
   },
   "F003B1": {
-   "door": 9,
+   "door": 8,
    "map": "maps/F003B1.map.webp",
    "estate_location": "Bii amphora sherds in five graves and burial 631, 1994 excavation north of the churchyard (MR-0097, MR-0099). ±50 m",
    "parcels": "1994 excavation zone N94 (beside AM)"
   },
   "F004": {
-   "door": 10,
+   "door": 9,
    "map": "maps/F004.map.webp",
    "estate_location": "Monastic cemetery north of the churchyard (1994 excavation) and St Dochdwy's (CH-0001, MR-0097). ±50 m",
    "parcels": "zone N94 + churchyard"
   },
   "F005": {
-   "door": 11,
+   "door": 10,
    "map": "maps/F005.map.webp",
    "estate_location": "Irbic cross, St Dochdwy's churchyard (PX-04, MR-0159). ±10 m",
    "parcels": "churchyard (outside the numbered plan parcels; not checked)"
   }
  },
  "maps_note": "Estate-map inset per door (producer 02:05Z 1 Nov, m:0fbaddc4): estate outline ±50 m from the estate-maps branch parcels.geojson (read-only), the event's ground highlighted; 'location within estate not checked' where the place is not known. Doors 1–11 done; later doors get theirs when made. — Sion's Tab agent",
- "matrix_rule": "1 Nov 2026 (owner 02:47Z): each scene is offered as 12 MP4 files, audio {cy,en,es} (native renders only) x subtitles {off,cy,en,es} burned in; entry.matrix.audio[L][S] is the file (null = pending, shown disabled). Made by tools/av_matrix.py (ffmpeg, H.264/AAC 720p, faststart, under 25 MB). \"doc:\" = paid file in the access store."
+ "matrix_rule": "1 Nov 2026 (owner 02:47Z): each scene is offered as 12 MP4 files, audio {cy,en,es} (native renders only) x subtitles {off,cy,en,es} burned in; entry.matrix.audio[L][S] is the file (null = pending, shown disabled). Made by tools/av_matrix.py (ffmpeg, H.264/AAC 720p, faststart, under 25 MB). \"doc:\" = paid file in the access store.",
+ "retired": [
+  {
+   "version": "0.0.1-0.0.2",
+   "clip": "doc:clips/F001.v2.webm",
+   "audio": {
+    "cy": "audio/F001.cy.webm",
+    "en": "audio/F001.en.webm",
+    "es": "audio/F001.es.webm"
+   },
+   "subs": {
+    "cy": "subs/F001.cy.vtt",
+    "en": "subs/F001.en.vtt",
+    "es": "subs/F001.es.vtt"
+   },
+   "poster": "stills/F001.jpg",
+   "seconds": 149.5,
+   "made": "2026-10-26T03:59Z",
+   "released": "2026-10-26",
+   "script_version": "v0.2.0",
+   "prompt_sha": "b9468f3",
+   "left_out": [],
+   "notes": "720p VP9; Welsh soundtrack with Welsh lip-sync: the 6 talking close-ups re-rendered 30 Oct 2026 with OmniHuman 2.0 on the Welsh lines, Nia and the Grandson turned three-quarters to talk to each other (never to camera); wide shots, document inserts and stills unchanged; English and Spanish dub tracks; cy/en/es subtitles. Document overlays cite EV-0195, EV-0198, EV-0200, EV-0210. Machine-assisted cy/es for native review.",
+   "default_audio": "cy",
+   "revised": "2026-10-30T00:48Z",
+   "previous_cut": "clips/F001.webm",
+   "revision_note": "v0.0.1 recut 30 Oct 2026: Welsh lip-sync on every talking shot (was English lip-sync with a Welsh dub).",
+   "downloads": {
+    "cy|cy": {
+     "path": "doc:downloads/F001/a-cy_s-cy.mp4",
+     "bytes": 10827743,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – Welsh subtitles"
+    },
+    "cy|en": {
+     "path": "doc:downloads/F001/a-cy_s-en.mp4",
+     "bytes": 10762132,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – English subtitles"
+    },
+    "cy|es": {
+     "path": "doc:downloads/F001/a-cy_s-es.mp4",
+     "bytes": 10840955,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – Spanish subtitles"
+    },
+    "cy|off": {
+     "path": "doc:downloads/F001/a-cy_s-off.mp4",
+     "bytes": 10256766,
+     "title": "Cedwyn – Door 1 – Cymraeg audio – No subtitles"
+    },
+    "en|cy": {
+     "path": "doc:downloads/F001/a-en_s-cy.mp4",
+     "bytes": 10827895,
+     "title": "Cedwyn – Door 1 – English audio – Welsh subtitles"
+    },
+    "en|en": {
+     "path": "doc:downloads/F001/a-en_s-en.mp4",
+     "bytes": 10762284,
+     "title": "Cedwyn – Door 1 – English audio – English subtitles"
+    },
+    "en|es": {
+     "path": "doc:downloads/F001/a-en_s-es.mp4",
+     "bytes": 10841107,
+     "title": "Cedwyn – Door 1 – English audio – Spanish subtitles"
+    },
+    "en|off": {
+     "path": "doc:downloads/F001/a-en_s-off.mp4",
+     "bytes": 10256918,
+     "title": "Cedwyn – Door 1 – English audio – No subtitles"
+    },
+    "es|cy": {
+     "path": "doc:downloads/F001/a-es_s-cy.mp4",
+     "bytes": 10832286,
+     "title": "Cedwyn – Door 1 – Español audio – Welsh subtitles"
+    },
+    "es|en": {
+     "path": "doc:downloads/F001/a-es_s-en.mp4",
+     "bytes": 10766675,
+     "title": "Cedwyn – Door 1 – Español audio – English subtitles"
+    },
+    "es|es": {
+     "path": "doc:downloads/F001/a-es_s-es.mp4",
+     "bytes": 10845498,
+     "title": "Cedwyn – Door 1 – Español audio – Spanish subtitles"
+    },
+    "es|off": {
+     "path": "doc:downloads/F001/a-es_s-off.mp4",
+     "bytes": 10261309,
+     "title": "Cedwyn – Door 1 – Español audio – No subtitles"
+    }
+   },
+   "cuts": [
+    {
+     "version": "0.0.1-0.0.1",
+     "clip": "clips/F001.webm",
+     "audio": {
+      "cy": "audio/F001.cy.webm",
+      "en": "audio/F001.en.webm",
+      "es": "audio/F001.es.webm"
+     },
+     "subs": {
+      "cy": "subs/F001.cy.vtt",
+      "en": "subs/F001.en.vtt",
+      "es": "subs/F001.es.vtt"
+     },
+     "made": "2026-10-26",
+     "note": "first cut: English lip-sync with a Welsh dub"
+    }
+   ],
+   "cut_note": "Welsh performance with Welsh lip-sync; the English and Spanish tracks are dubbed over the Welsh video (30 Oct 2026).",
+   "next_version": {
+    "version": "0.0.1",
+    "status": "coming",
+    "kind": "native-language",
+    "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
+    "plan": "RERENDER-QUEUE.md"
+   },
+   "scene": "F001",
+   "map": "maps/F001.map.webp",
+   "matrix": {
+    "version": "0.2.0",
+    "audio": {
+     "cy": {
+      "off": "doc:downloads/F001/a-cy_s-off.mp4",
+      "cy": "doc:downloads/F001/a-cy_s-cy.mp4",
+      "en": "doc:downloads/F001/a-cy_s-en.mp4",
+      "es": "doc:downloads/F001/a-cy_s-es.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "doc:downloads/F001/a-cy_s-off.mp4": 10256766,
+     "doc:downloads/F001/a-cy_s-cy.mp4": 10827743,
+     "doc:downloads/F001/a-cy_s-en.mp4": 10762132,
+     "doc:downloads/F001/a-cy_s-es.mp4": 10840955
+    },
+    "pending": {
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
+    },
+    "src": {
+     "cy": "doc:clips/F001.v2.webm"
+    }
+   },
+   "retired": "2026-11-01T18:05Z",
+   "retired_note": "Scrapped by the producer (WhatsApp 18:05Z 1 Nov 2026, m:64b19d2f): the film now opens at c. 200 BC. Files kept; not shown as a door.",
+   "was_door": 1
+  }
+ ],
+ "renumber_2026_11_01b": "1.11.0 (task 8f4fea6f): F001 retired (entry under \"retired\", files kept); F002 door 2 → 1, F002B 4 → 3, F004 10 → 9. Each door shows the moment only; its evidence is one internal link under the door (frames.json evidence_page). No file moved, no render added. — Sion's Tab agent"
 }
