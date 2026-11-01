@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
  "version": "1.7.0",
- "updated": "2026-10-31T23:15Z",
+ "updated": "2026-11-01T01:31Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -300,6 +300,35 @@
   },
   {
    "n": 3,
+   "scene": "F002B",
+   "version": "1.0.0",
+   "clip": "movie/F002B/F002B.cy.v1.0.0.webm",
+   "video": {
+    "cy": "movie/F002B/F002B.cy.v1.0.0.webm"
+   },
+   "audio": {
+    "cy": "audio/F002B.cy.v1.0.0.webm"
+   },
+   "subs": {
+    "cy": "subs/F002B.cy.v1.0.0.cy.vtt",
+    "en": "subs/F002B.cy.v1.0.0.en.vtt",
+    "es": "subs/F002B.cy.v1.0.0.es.vtt"
+   },
+   "poster": "stills/F002B.jpg",
+   "seconds": 64.6,
+   "made": "2026-11-01T01:31Z",
+   "released": "2026-11-01",
+   "script_version": "v1.0.0",
+   "left_out": [],
+   "default_audio": "cy",
+   "notes": "720p VP9, 2nd century AD: the first stone house (the Roman villa) is built on Llandough hill. 4 image-to-video shots (Kling 2.5: the site at dawn, builders laying stone, lime mortar, the half-built house at evening) and 4 OmniHuman 2.0 talking shots (the householder and his wife speak to each other, never to camera), Welsh captions citing MR-0097, PX-02, CH-0174, end card. Made in Welsh (native make); English and Spanish native makes pending. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
+   "facts": [
+    "RO-1",
+    "RO-2"
+   ]
+  },
+  {
+   "n": 7,
    "version": "0.0.1-0.0.1",
    "clip": "clips/F004.v2.webm",
    "audio": {
@@ -327,7 +356,8 @@
     "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language; not yet rendered.",
     "plan": "RERENDER-QUEUE.md"
    },
-   "scene": "F004"
+   "scene": "F004",
+   "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged."
   }
  ],
  "left_out_register": [],
@@ -426,7 +456,7 @@
    "path": "movie/F004/F004.cy.v0.4.1.webm",
    "native": true,
    "status": "live",
-   "note": "alias of clips/F004.v2.webm: Welsh performance (door 3 until the re-door; moves to door 7)"
+   "note": "alias of clips/F004.v2.webm: Welsh performance (door 7 since 1 Nov 2026 (was door 3))"
   },
   {
    "scene": "F004",
@@ -445,6 +475,33 @@
    "native": null,
    "status": "pending",
    "note": "native Spanish make not yet rendered (Spanish audio was a dub over the Welsh picture)"
+  },
+  {
+   "scene": "F002B",
+   "lang": "cy",
+   "version": "1.0.0",
+   "path": "movie/F002B/F002B.cy.v1.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "Welsh performance, Welsh lip-sync (native make)"
+  },
+  {
+   "scene": "F002B",
+   "lang": "en",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native English make not yet rendered"
+  },
+  {
+   "scene": "F002B",
+   "lang": "es",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Spanish make not yet rendered"
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language."
