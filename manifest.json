@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.8.1",
- "updated": "2026-11-01T02:20Z",
+ "version": "1.9.0",
+ "updated": "2026-11-01T03:03Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -134,7 +134,40 @@
     "plan": "RERENDER-QUEUE.md"
    },
    "scene": "F001",
-   "map": "maps/F001.map.webp"
+   "map": "maps/F001.map.webp",
+   "matrix": {
+    "version": "0.2.0",
+    "audio": {
+     "cy": {
+      "off": "doc:downloads/F001/a-cy_s-off.mp4",
+      "cy": "doc:downloads/F001/a-cy_s-cy.mp4",
+      "en": "doc:downloads/F001/a-cy_s-en.mp4",
+      "es": "doc:downloads/F001/a-cy_s-es.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "doc:downloads/F001/a-cy_s-off.mp4": 10256766,
+     "doc:downloads/F001/a-cy_s-cy.mp4": 10827743,
+     "doc:downloads/F001/a-cy_s-en.mp4": 10762132,
+     "doc:downloads/F001/a-cy_s-es.mp4": 10840955
+    },
+    "pending": {
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
+    }
+   }
   },
   {
    "n": 2,
@@ -298,7 +331,40 @@
     }
    ],
    "scene": "F002",
-   "map": "maps/F002.map.webp"
+   "map": "maps/F002.map.webp",
+   "matrix": {
+    "version": "1.0.2",
+    "audio": {
+     "cy": {
+      "off": "movie/F002/F002.cy.nosubs.v1.0.2.mp4",
+      "cy": "movie/F002/F002.cy.cy.v1.0.2.mp4",
+      "en": "movie/F002/F002.cy.en.v1.0.2.mp4",
+      "es": "movie/F002/F002.cy.es.v1.0.2.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "movie/F002/F002.cy.nosubs.v1.0.2.mp4": 23661084,
+     "movie/F002/F002.cy.cy.v1.0.2.mp4": 24032664,
+     "movie/F002/F002.cy.en.v1.0.2.mp4": 24008836,
+     "movie/F002/F002.cy.es.v1.0.2.mp4": 24012510
+    },
+    "pending": {
+     "en": "only a non-native (dub/lip-sync) make exists",
+     "es": "only a non-native (dub/lip-sync) make exists"
+    }
+   }
   },
   {
    "n": 4,
@@ -329,7 +395,40 @@
     "RO-2"
    ],
    "renumber_note": "door 3 → 4 on 1 Nov 2026 02:1xZ: intermediate scene F002A (late Iron Age pit burial, c. AD 1) inserted before it in date order (producer m:548f3190); files unchanged.",
-   "map": "maps/F002B.map.webp"
+   "map": "maps/F002B.map.webp",
+   "matrix": {
+    "version": "1.0.0",
+    "audio": {
+     "cy": {
+      "off": "movie/F002B/F002B.cy.nosubs.v1.0.0.mp4",
+      "cy": "movie/F002B/F002B.cy.cy.v1.0.0.mp4",
+      "en": "movie/F002B/F002B.cy.en.v1.0.0.mp4",
+      "es": "movie/F002B/F002B.cy.es.v1.0.0.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "movie/F002B/F002B.cy.nosubs.v1.0.0.mp4": 8927235,
+     "movie/F002B/F002B.cy.cy.v1.0.0.mp4": 9008472,
+     "movie/F002B/F002B.cy.en.v1.0.0.mp4": 9214370,
+     "movie/F002B/F002B.cy.es.v1.0.0.mp4": 9194054
+    },
+    "pending": {
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
+    }
+   }
   },
   {
    "n": 10,
@@ -363,7 +462,40 @@
    "scene": "F004",
    "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged.",
    "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged.",
-   "map": "maps/F004.map.webp"
+   "map": "maps/F004.map.webp",
+   "matrix": {
+    "version": "0.4.1",
+    "audio": {
+     "cy": {
+      "off": "movie/F004/F004.cy.nosubs.v0.4.1.mp4",
+      "cy": "movie/F004/F004.cy.cy.v0.4.1.mp4",
+      "en": "movie/F004/F004.cy.en.v0.4.1.mp4",
+      "es": "movie/F004/F004.cy.es.v0.4.1.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "movie/F004/F004.cy.nosubs.v0.4.1.mp4": 11214755,
+     "movie/F004/F004.cy.cy.v0.4.1.mp4": 11427496,
+     "movie/F004/F004.cy.en.v0.4.1.mp4": 11404116,
+     "movie/F004/F004.cy.es.v0.4.1.mp4": 11433885
+    },
+    "pending": {
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
+    }
+   }
   }
  ],
  "left_out_register": [],
@@ -580,5 +712,6 @@
    "parcels": "churchyard (outside the numbered plan parcels; not checked)"
   }
  },
- "maps_note": "Estate-map inset per door (producer 02:05Z 1 Nov, m:0fbaddc4): estate outline ±50 m from the estate-maps branch parcels.geojson (read-only), the event's ground highlighted; 'location within estate not checked' where the place is not known. Doors 1–11 done; later doors get theirs when made. — Sion's Tab agent"
+ "maps_note": "Estate-map inset per door (producer 02:05Z 1 Nov, m:0fbaddc4): estate outline ±50 m from the estate-maps branch parcels.geojson (read-only), the event's ground highlighted; 'location within estate not checked' where the place is not known. Doors 1–11 done; later doors get theirs when made. — Sion's Tab agent",
+ "matrix_rule": "1 Nov 2026 (owner 02:47Z): each scene is offered as 12 MP4 files, audio {cy,en,es} (native renders only) x subtitles {off,cy,en,es} burned in; entry.matrix.audio[L][S] is the file (null = pending, shown disabled). Made by tools/av_matrix.py (ffmpeg, H.264/AAC 720p, faststart, under 25 MB). \"doc:\" = paid file in the access store."
 }
