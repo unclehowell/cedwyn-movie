@@ -1,0 +1,162 @@
+{
+ "frame": 3,
+ "id": "F002A",
+ "title": "A grave in an old pit",
+ "date": "late Iron Age, before the Roman conquest (c. AD 1)",
+ "place": "Llandough hill, north of where the church will later stand (the 1994 excavation ground)",
+ "covers": [
+  "PX-01"
+ ],
+ "facts": [
+  "IA-2"
+ ],
+ "confidence": "low",
+ "sources": [
+  "media register MR-0096 / MR-0097 (Holbrook & Thomas 2005, 'An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994', Medieval Archaeology 49), p. 86 ('an iron-age burial?') and the B601 grave record",
+  "https://cedwyn.bucklerfamily.estate/research/evidence/ (MR-0096, MR-0097)"
+ ],
+ "evidence_links": [
+  {
+   "id": "MR-0097",
+   "title": "Holbrook & Thomas 2005, An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994 (PDF)",
+   "href": "/wayback/go/?u=https%3A%2F%2Fcotswoldarchaeology.co.uk%2Fwp-content%2Fuploads%2F2011%2F07%2Fllandough-pdf-1.pdf",
+   "url": "https://cotswoldarchaeology.co.uk/wp-content/uploads/2011/07/llandough-pdf-1.pdf",
+   "supports": [
+    "IA-2"
+   ]
+  }
+ ],
+ "cast": {
+  "IA_MOTHER": "a late Iron Age woman of the household (invented), about 45, grey-streaked dark hair in a plait, plain undyed wool dress and a checked wool cloak",
+  "IA_SON": "her son (invented), about 20, fair-brown hair tied back, wool tunic and trousers"
+ },
+ "cast_rule": "New faces; never the c. 200 BC roundhouse family of door 2, never a real family member.",
+ "voices": {
+  "IA_MOTHER": "I_NIA",
+  "IA_SON": "D_BILLY"
+ },
+ "setting": "s10 (late Iron Age hill, north side, above the Ely)",
+ "dialogue_rule": "Lines carry no facts beyond the sources: a family's few words at a burial. The dead person is a young adult (B601, 'YA'); nothing else about them is known and nothing is invented.",
+ "shots": [
+  {
+   "shot": 1,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "Grey late-autumn morning on the north edge of Llandough hill, the Ely marshes below; slow push-in on an old pit cut in the slope.",
+   "image_prompt": "Photoreal 16:9, late Iron Age Britain. Wide shot: the grassy north crest of an inland hill in south-east Wales above a winding river and broad reed marshes; in the foreground an old open pit with sloping sides cut into reddish clay and pale lias stone, low mist. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "Late Iron Age · Llandough hill, north of where the church will later stand",
+     "cite": [
+      "IA-2"
+     ]
+    },
+    {
+     "text": "Spoken in Welsh, the living descendant of the language they spoke",
+     "cite": []
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 2,
+   "kind": "still",
+   "seconds": 8,
+   "direction": "Two figures carry a body wrapped in a wool cloak to the pit edge; no faces close.",
+   "image_prompt": "Photoreal 16:9, late Iron Age. Medium-wide: a woman and a young man carry a body wrapped in a checked wool cloak towards the pit on the hill crest, backs half to camera, marsh mist behind. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [],
+   "lines": []
+  },
+  {
+   "shot": 3,
+   "kind": "talking",
+   "seconds": 6,
+   "actor": "IA_SON",
+   "direction": "IA_SON three-quarters to camera, speaking to his mother off-frame; never to the lens.",
+   "lines": [
+    {
+     "who": "IA_SON",
+     "speaker": "IA_SON",
+     "to": "IA_MOTHER",
+     "en": "The pit is already dug. We lay them here.",
+     "cy": "Mae'r pwll wedi'i dorri'n barod. Fan hyn y gosodwn ni nhw.",
+     "es": "El pozo ya está cavado. Acá los dejamos.",
+     "spoken": "cy",
+     "accent": "South Wales (Welsh standing in for the language of the time)",
+     "est_seconds": 5
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "kind": "talking",
+   "seconds": 6,
+   "actor": "IA_MOTHER",
+   "direction": "IA_MOTHER answers, eyes on the pit.",
+   "lines": [
+    {
+     "who": "IA_MOTHER",
+     "speaker": "IA_MOTHER",
+     "to": "IA_SON",
+     "en": "Gently. Cross the arms. Let them look up the slope.",
+     "cy": "Yn dyner. Croesa'r breichiau. Gad iddyn nhw edrych lan y llethr.",
+     "es": "Despacio. Cruzale los brazos. Que miren cuesta arriba.",
+     "spoken": "cy",
+     "accent": "South Wales (Welsh standing in for the language of the time)",
+     "est_seconds": 5
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "Overhead: the body laid with the upper body on the pit's slope, arms crossed on the pelvis (as recorded for B601); a few dark potsherds in the spoil.",
+   "image_prompt": "Photoreal 16:9, late Iron Age. High angle into a shallow pit: a wrapped body lies with the upper body resting on the pit's sloping side at about 45 degrees, arms crossed over the pelvis; dark hand-made pottery sherds in the clay spoil beside the pit. Respectful, no gore. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "The 1994 excavation found one possible late Iron Age grave here: a body laid in a pit already dug",
+     "cite": [
+      "IA-2",
+      "MR-0097"
+     ]
+    },
+    {
+     "text": "Late Iron Age pottery lay in a pit nearby",
+     "cite": [
+      "MR-0097"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 6,
+   "kind": "card",
+   "seconds": 7,
+   "direction": "End card on #f7f2e7.",
+   "captions": [
+    {
+     "text": "Source: Holbrook & Thomas 2005 (MR-0097). The excavators call this burial possible; its date comes from pottery, not a radiocarbon date (not checked).",
+     "cite": [
+      "MR-0097"
+     ]
+    }
+   ],
+   "lines": []
+  }
+ ],
+ "status": "SCRIPT v0.1.0 1 Nov 2026 (task d37f3333); placeholder door; caption-led, two short lines.",
+ "spoken_language": "cy",
+ "language_rule": "BIBLE PERIOD ACCURACY rule 4: the British language of the time is lost, so modern Welsh is spoken as its closest living descendant and the opening card states this once. Welsh and Spanish machine-written, for native review.",
+ "subtitles_rule": "cy/en/es; Welsh cues start [in Welsh] in en/es; <=2x42 chars, <=20 cps, 0.83-7 s (subtitle_check.py)",
+ "no_fourth_wall": "No narrator, no archivist, no Grandson; characters speak only to each other; side facts as captions only.",
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation (Rioplatense), for native review"
+ },
+ "script_version": "0.1.0",
+ "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
+ "seconds_total": 45,
+ "talking_seconds": 12
+}

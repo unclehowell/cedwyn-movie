@@ -1,0 +1,122 @@
+{
+ "frame": 7,
+ "id": "F003A1",
+ "title": "Coins after the villa",
+ "date": "late 4th century AD (c. AD 375)",
+ "place": "Llandough hill: the empty villa south of the future church, and the ground north of it",
+ "covers": [
+  "PX-02"
+ ],
+ "facts": [
+  "RO-5"
+ ],
+ "confidence": "low",
+ "sources": [
+  "media register MR-0096 / MR-0097 (Holbrook & Thomas 2005, 'An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994', Medieval Archaeology 49), p. 86 (later coins and pottery in grave fills; villa abandoned in the first third of the 4th century; 'conceivable … another Roman building beneath the churchyard') and p. 88 (earliest burial 370–640 cal AD)",
+  "CHRONOLOGY PX-02"
+ ],
+ "evidence_links": [
+  {
+   "id": "MR-0097",
+   "title": "Holbrook & Thomas 2005, An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994 (PDF)",
+   "href": "/wayback/go/?u=https%3A%2F%2Fcotswoldarchaeology.co.uk%2Fwp-content%2Fuploads%2F2011%2F07%2Fllandough-pdf-1.pdf",
+   "url": "https://cotswoldarchaeology.co.uk/wp-content/uploads/2011/07/llandough-pdf-1.pdf",
+   "supports": [
+    "IA-2"
+   ]
+  }
+ ],
+ "cast": {
+  "RB_WALKER": "a passer-by on the hill (invented), seen from behind and at a distance only; no lines"
+ },
+ "cast_rule": "No speaking cast: a caption-led still scene.",
+ "voices": {},
+ "setting": "s10 (the hill, late Roman)",
+ "dialogue_rule": "No dialogue: the site records objects, not people, for these years.",
+ "shots": [
+  {
+   "shot": 1,
+   "kind": "still",
+   "seconds": 10,
+   "direction": "Dusk: the villa house south of the future churchyard, roof partly fallen, rooms empty; slow drift right.",
+   "image_prompt": "Photoreal 16:9, late Roman Britain, late 4th century. Wide dusk shot: a modest single-range Romano-British stone house on an inland hilltop in south-east Wales, roof tiles partly fallen, doorways dark and empty, grass in the yard; below, a winding river and reed marshes. No people. No mosaics, no church, no crosses. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "Late 4th century AD · Llandough hill",
+     "cite": [
+      "RO-5"
+     ]
+    },
+    {
+     "text": "The villa house had been left in the first third of the 4th century",
+     "cite": [
+      "RO-4",
+      "MR-0097"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 2,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "Close: a worn bronze coin and a sherd of late Roman pottery pressed into the turf north of the old house.",
+   "image_prompt": "Photoreal 16:9 macro: a small worn late Roman bronze coin and a sherd of grey Roman pottery half-pressed into wet turf and red clay; shallow depth of field, soft evening light. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "Later coins and pottery than the villa's own were found in the graves dug here centuries afterwards",
+     "cite": [
+      "RO-5",
+      "MR-0097"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 3,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "A distant figure walks the ridge where the churchyard will be; small in frame, from behind.",
+   "image_prompt": "Photoreal 16:9, late Roman Britain. A lone figure in a dark wool cloak walks away along a grassy hill ridge at dusk, small in frame, seen from behind; the ruined stone house far off to the left. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "Someone was still using the hill. Who, and whether another building stood under today's churchyard, is not known",
+     "cite": [
+      "RO-5"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 4,
+   "kind": "card",
+   "seconds": 7,
+   "direction": "End card on #f7f2e7.",
+   "captions": [
+    {
+     "text": "Source: Holbrook & Thomas 2005 (MR-0097): 'conceivable', unproven. The site records nothing for the hill between this and the first graves.",
+     "cite": [
+      "MR-0097"
+     ]
+    }
+   ],
+   "lines": []
+  }
+ ],
+ "status": "SCRIPT v0.1.0 1 Nov 2026 (task d37f3333); placeholder door; caption-led still, no dialogue.",
+ "spoken_language": "cy",
+ "language_rule": "BIBLE PERIOD ACCURACY rule 4: the British language of the time is lost, so modern Welsh is spoken as its closest living descendant and the opening card states this once. Welsh and Spanish machine-written, for native review.",
+ "subtitles_rule": "cy/en/es; Welsh cues start [in Welsh] in en/es; <=2x42 chars, <=20 cps, 0.83-7 s (subtitle_check.py)",
+ "no_fourth_wall": "No narrator, no archivist, no Grandson; characters speak only to each other; side facts as captions only.",
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation (Rioplatense), for native review"
+ },
+ "script_version": "0.1.0",
+ "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
+ "seconds_total": 35,
+ "talking_seconds": 0
+}

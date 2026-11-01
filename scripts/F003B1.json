@@ -1,0 +1,173 @@
+{
+ "frame": 9,
+ "id": "F003B1",
+ "title": "Wine from across the sea",
+ "date": "6th century AD (c. AD 525)",
+ "place": "The burial ground on Llandough hill, north of where the church now stands",
+ "covers": [
+  "PX-03"
+ ],
+ "facts": [
+  "EM-4",
+  "EM-5"
+ ],
+ "confidence": "medium/low",
+ "sources": [
+  "media register MR-0096 / MR-0097 (Holbrook & Thomas 2005, 'An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994', Medieval Archaeology 49), pp. 87–88 (Bii amphorae, 475–550, Dinas Powys) and the burial 631 record (iron girdle, 361–662 cal AD)",
+  "MR-0099 Museum Wales blog 'The suffering of burial 631' (2 May 2007)",
+  "CHRONOLOGY PX-03"
+ ],
+ "evidence_links": [
+  {
+   "id": "MR-0097",
+   "title": "Holbrook & Thomas 2005, An Early-medieval Monastic Cemetery at Llandough, Glamorgan: Excavations in 1994 (PDF)",
+   "href": "/wayback/go/?u=https%3A%2F%2Fcotswoldarchaeology.co.uk%2Fwp-content%2Fuploads%2F2011%2F07%2Fllandough-pdf-1.pdf",
+   "url": "https://cotswoldarchaeology.co.uk/wp-content/uploads/2011/07/llandough-pdf-1.pdf",
+   "supports": [
+    "IA-2"
+   ]
+  }
+ ],
+ "cast": {
+  "EM_ELDER": "an older man of the community (invented), about 55, grey beard, plain brown wool tunic and cloak",
+  "EM_YOUTH": "a young woman of the community (invented), about 22, dark hair under a wool hood"
+ },
+ "cast_rule": "New faces for the 6th century; never the c. 650 monk of door 10.",
+ "voices": {
+  "EM_ELDER": "D_BILLY",
+  "EM_YOUTH": "I_NIA"
+ },
+ "setting": "s10 (the burial ground, early medieval)",
+ "dialogue_rule": "Lines carry no facts beyond the sources: a burial and a broken jar. The dead man is about 30 and wore an iron girdle (burial 631); why he wore it is not stated on the site beyond its blog title, so the lines do not explain it.",
+ "shots": [
+  {
+   "shot": 1,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "Morning on the burial ground north of the hilltop; rows of low grave mounds facing east; the Ely estuary beyond.",
+   "image_prompt": "Photoreal 16:9, early medieval Wales, 6th century. Wide: a grassy hilltop burial ground with low unmarked grave mounds in rough east-west rows, a freshly dug grave, the river estuary and marshes beyond under a pale sky. No church building, no crosses. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "6th century AD · the burial ground on Llandough hill",
+     "cite": [
+      "EM-4"
+     ]
+    },
+    {
+     "text": "Spoken in Welsh, the living descendant of the language they spoke",
+     "cite": []
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 2,
+   "kind": "still",
+   "seconds": 8,
+   "direction": "The body of a man of about thirty, wrapped, an iron band visible at his waist, is lowered east-west.",
+   "image_prompt": "Photoreal 16:9, early medieval. Two people lower a body wrapped in undyed wool into an east-west grave; a plain iron band shows at the waist over the wrapping. Respectful, no gore. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "Burial 631: a man of about 30, buried with an iron girdle",
+     "cite": [
+      "EM-5",
+      "MR-0099"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 3,
+   "kind": "talking",
+   "seconds": 6,
+   "actor": "EM_YOUTH",
+   "direction": "EM_YOUTH three-quarters to camera, to EM_ELDER off-frame; never to the lens.",
+   "lines": [
+    {
+     "who": "EM_YOUTH",
+     "speaker": "EM_YOUTH",
+     "to": "EM_ELDER",
+     "en": "Leave the iron on him. He wore it every day.",
+     "cy": "Gad yr haearn arno fe. Roedd e'n ei wisgo bob dydd.",
+     "es": "Dejale el hierro puesto. Lo usaba todos los días.",
+     "spoken": "cy",
+     "accent": "South Wales (Welsh standing in for the language of the time)",
+     "est_seconds": 5
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "kind": "talking",
+   "seconds": 7,
+   "actor": "EM_ELDER",
+   "direction": "EM_ELDER picks a curved red sherd out of the spoil, turns it in his hand.",
+   "lines": [
+    {
+     "who": "EM_ELDER",
+     "speaker": "EM_ELDER",
+     "to": "EM_YOUTH",
+     "en": "A piece of a wine jar. It came a long way over the sea to break here.",
+     "cy": "Darn o stên win. Fe ddaeth yn bell dros y môr i dorri fan hyn.",
+     "es": "Un pedazo de una tinaja de vino. Vino de muy lejos, por mar, para romperse acá.",
+     "spoken": "cy",
+     "accent": "South Wales (Welsh standing in for the language of the time)",
+     "est_seconds": 6
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "kind": "still",
+   "seconds": 9,
+   "direction": "Close: the ribbed sherd of a Bii amphora in an open hand.",
+   "image_prompt": "Photoreal 16:9 close-up: a weathered hand holding a curved, ribbed reddish-buff sherd of an East Mediterranean amphora, clay soil behind. No text, no lettering, no heraldry or emblems, no modern objects, invented faces only, no likeness of any real person.",
+   "captions": [
+    {
+     "text": "c. 475–550: wine jars from Asia Minor reached Llandough; sherds lay in five graves here",
+     "cite": [
+      "EM-4",
+      "MR-0097"
+     ]
+    },
+    {
+     "text": "The same jars reached the hilltop at Dinas Powys, 2 km away; the excavators suggest a link between the two places",
+     "cite": [
+      "EM-4"
+     ]
+    }
+   ],
+   "lines": []
+  },
+  {
+   "shot": 6,
+   "kind": "card",
+   "seconds": 7,
+   "direction": "End card on #f7f2e7.",
+   "captions": [
+    {
+     "text": "Sources: Holbrook & Thomas 2005 (MR-0097); Museum Wales, burial 631 (MR-0099). Burial 631 is dated 361–662; its place at this moment is our reading.",
+     "cite": [
+      "MR-0097",
+      "MR-0099"
+     ]
+    }
+   ],
+   "lines": []
+  }
+ ],
+ "status": "SCRIPT v0.1.0 1 Nov 2026 (task d37f3333); placeholder door; two short lines.",
+ "spoken_language": "cy",
+ "language_rule": "BIBLE PERIOD ACCURACY rule 4: the British language of the time is lost, so modern Welsh is spoken as its closest living descendant and the opening card states this once. Welsh and Spanish machine-written, for native review.",
+ "subtitles_rule": "cy/en/es; Welsh cues start [in Welsh] in en/es; <=2x42 chars, <=20 cps, 0.83-7 s (subtitle_check.py)",
+ "no_fourth_wall": "No narrator, no archivist, no Grandson; characters speak only to each other; side facts as captions only.",
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation (Rioplatense), for native review"
+ },
+ "script_version": "0.1.0",
+ "render_status": "NOT RENDERED: placeholder door only; zero paid renders in task d37f3333. Render only after chrono_gate --render <id> passes in its turn.",
+ "seconds_total": 46,
+ "talking_seconds": 13
+}
