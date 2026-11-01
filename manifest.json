@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.8.0",
- "updated": "2026-11-01T02:15Z",
+ "version": "1.8.1",
+ "updated": "2026-11-01T02:20Z",
  "frames_total": 147,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -133,7 +133,8 @@
     "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language with native voices; no dubbing. Not yet rendered.",
     "plan": "RERENDER-QUEUE.md"
    },
-   "scene": "F001"
+   "scene": "F001",
+   "map": "maps/F001.map.webp"
   },
   {
    "n": 2,
@@ -296,7 +297,8 @@
      "note": "Welsh OmniHuman performance with English and Spanish lip-synced over it (30 Oct); replaced as the default by the native English performance (31 Oct)"
     }
    ],
-   "scene": "F002"
+   "scene": "F002",
+   "map": "maps/F002.map.webp"
   },
   {
    "n": 4,
@@ -326,7 +328,8 @@
     "RO-1",
     "RO-2"
    ],
-   "renumber_note": "door 3 → 4 on 1 Nov 2026 02:1xZ: intermediate scene F002A (late Iron Age pit burial, c. AD 1) inserted before it in date order (producer m:548f3190); files unchanged."
+   "renumber_note": "door 3 → 4 on 1 Nov 2026 02:1xZ: intermediate scene F002A (late Iron Age pit burial, c. AD 1) inserted before it in date order (producer m:548f3190); files unchanged.",
+   "map": "maps/F002B.map.webp"
   },
   {
    "n": 10,
@@ -359,7 +362,8 @@
    },
    "scene": "F004",
    "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged.",
-   "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged."
+   "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged.",
+   "map": "maps/F004.map.webp"
   }
  ],
  "left_out_register": [],
@@ -507,5 +511,74 @@
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
- "renumber_2026_11_01": "1.8.0 (task d37f3333): published doors renumbered to strict date order after intermediate scenes were added: F002B door 3 → 4, F004 door 7 → 10. No file moved, no render added (zero paid renders). — Sion's Tab agent"
+ "renumber_2026_11_01": "1.8.0 (task d37f3333): published doors renumbered to strict date order after intermediate scenes were added: F002B door 3 → 4, F004 door 7 → 10. No file moved, no render added (zero paid renders). — Sion's Tab agent",
+ "maps": {
+  "F001": {
+   "door": 1,
+   "map": "maps/F001.map.webp",
+   "estate_location": "Place-names Cedwyn, Cwm-Cedwyn, Nant-Cedwyn (EV-0195, EV-0198, EV-0200, EV-0210): location within estate not checked",
+   "parcels": "whole estate"
+  },
+  "F002": {
+   "door": 2,
+   "map": "maps/F002.map.webp",
+   "estate_location": "Roundhouse under the villa site south of the church (CH-0174): location within estate not checked",
+   "parcels": "whole estate (the villa site may lie outside the traced outline; not checked)"
+  },
+  "F002A": {
+   "door": 3,
+   "map": "maps/F002A.map.webp",
+   "estate_location": "Possible late Iron Age pit burial B601, 1994 excavation immediately north of the churchyard (MR-0097). ±50 m; overlap with Parcel A not checked",
+   "parcels": "1994 excavation zone N94 (beside traced A · house & yard, AM); nearest numbered plan parcel 50 (91 m, ±80 m)"
+  },
+  "F002B": {
+   "door": 4,
+   "map": "maps/F002B.map.webp",
+   "estate_location": "Villa site south of the church, separate from Great House Farm (MR-0097, PRN 00768s): location within estate not checked",
+   "parcels": "whole estate (villa site may lie outside the traced outline; not checked)"
+  },
+  "F003": {
+   "door": 5,
+   "map": "maps/F003.map.webp",
+   "estate_location": "Villa enlarged, early 3rd century (MR-0097): villa site south of the church; location within estate not checked",
+   "parcels": "whole estate (not checked)"
+  },
+  "F003A": {
+   "door": 6,
+   "map": "maps/F003A.map.webp",
+   "estate_location": "Villa left, first third of the 4th century (MR-0097): location within estate not checked",
+   "parcels": "whole estate (not checked)"
+  },
+  "F003A1": {
+   "door": 7,
+   "map": "maps/F003A1.map.webp",
+   "estate_location": "Roman coins and pottery later than the villa, in the 1994 grave fills north of the churchyard (MR-0097). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM); nearest plan parcel 50 (91 m, ±80 m)"
+  },
+  "F003B": {
+   "door": 8,
+   "map": "maps/F003B.map.webp",
+   "estate_location": "Early-medieval cemetery, 1994 excavation north of the churchyard (MR-0096/97, HER GGAT02272s). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM)"
+  },
+  "F003B1": {
+   "door": 9,
+   "map": "maps/F003B1.map.webp",
+   "estate_location": "Bii amphora sherds in five graves and burial 631, 1994 excavation north of the churchyard (MR-0097, MR-0099). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM)"
+  },
+  "F004": {
+   "door": 10,
+   "map": "maps/F004.map.webp",
+   "estate_location": "Monastic cemetery north of the churchyard (1994 excavation) and St Dochdwy's (CH-0001, MR-0097). ±50 m",
+   "parcels": "zone N94 + churchyard"
+  },
+  "F005": {
+   "door": 11,
+   "map": "maps/F005.map.webp",
+   "estate_location": "Irbic cross, St Dochdwy's churchyard (PX-04, MR-0159). ±10 m",
+   "parcels": "churchyard (outside the numbered plan parcels; not checked)"
+  }
+ },
+ "maps_note": "Estate-map inset per door (producer 02:05Z 1 Nov, m:0fbaddc4): estate outline ±50 m from the estate-maps branch parcels.geojson (read-only), the event's ground highlighted; 'location within estate not checked' where the place is not known. Doors 1–11 done; later doors get theirs when made. — Sion's Tab agent"
 }

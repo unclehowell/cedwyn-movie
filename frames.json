@@ -1,6 +1,6 @@
 {
  "name": "Cedwyn film - frame map",
- "version": "3.1.0",
+ "version": "3.1.1",
  "built": "2026-11-01T02:05Z",
  "chronology_version": "1.0.0",
  "frames": 314,
@@ -243,7 +243,10 @@
      -300
     ],
     "period": "iron_age"
-   }
+   },
+   "map": "maps/F001.map.webp",
+   "estate_location": "Place-names Cedwyn, Cwm-Cedwyn, Nant-Cedwyn (EV-0195, EV-0198, EV-0200, EV-0210): location within estate not checked",
+   "parcels": "whole estate"
   },
   {
    "n": 2,
@@ -496,7 +499,10 @@
      200
     ],
     "period": "roman"
-   }
+   },
+   "map": "maps/F002.map.webp",
+   "estate_location": "Roundhouse under the villa site south of the church (CH-0174): location within estate not checked",
+   "parcels": "whole estate (the villa site may lie outside the traced outline; not checked)"
   },
   {
    "n": 3,
@@ -519,7 +525,7 @@
    ],
    "parts": [],
    "title": "A grave in an old pit",
-   "logline": "A late Iron Age family lays a young adult in a pit that was already there, arms crossed: the one possible late Iron Age grave the 1994 excavation found.",
+   "logline": "Record: one possible late Iron Age grave, pit burial B601 (a young adult laid in a pit already dug, arms crossed on the pelvis), and 28 sherds of late Iron Age/early Roman pottery (16 in pit 805), found in the 1994 excavation immediately north of St Dochdwy's churchyard, on the ground Museum Wales records as 'Great House Farm, Llandough' (MR-0096, MR-0097). Overlap with Parcel A not checked.",
    "setting": "s10",
    "cast": [
     "IA_MOTHER=a late Iron Age woman of the household (invented), about 45, grey-streaked dark hair in a plait, plain undyed wool dress and a checked wool cloak",
@@ -534,11 +540,11 @@
    "i18n": {
     "cy": {
      "title": "Bedd mewn hen bwll",
-     "logline": "Mae teulu o Oes yr Haearn hwyr yn gosod person ifanc mewn pwll a oedd yno'n barod, y breichiau wedi'u croesi: yr unig fedd posibl o Oes yr Haearn hwyr a gafwyd yn y cloddio yn 1994."
+     "logline": "Cofnod: un bedd posibl o Oes yr Haearn hwyr, claddedigaeth B601 (oedolyn ifanc mewn pwll a oedd yno'n barod), a 28 darn o grochenwaith o Oes yr Haearn hwyr, a gafwyd yn y cloddio yn 1994 yn union i'r gogledd o fynwent Sant Dochdwy, ar y tir a gofnodir fel 'Great House Farm, Llandough' (MR-0096, MR-0097). (cyfieithiad peiriant)"
     },
     "es": {
      "title": "Una tumba en un pozo viejo",
-     "logline": "Una familia de la Edad del Hierro tardía deja a una persona joven en un pozo que ya estaba cavado, con los brazos cruzados: la única tumba posible de la Edad del Hierro tardía que halló la excavación de 1994."
+     "logline": "Registro: una posible tumba de la Edad del Hierro tardía, el entierro B601 (una persona joven en un pozo ya cavado), y 28 tiestos de cerámica de la Edad del Hierro tardía, hallados en la excavación de 1994 justo al norte del cementerio de San Dochdwy, en el terreno registrado como 'Great House Farm, Llandough' (MR-0096, MR-0097). (traducción automática)"
     }
    },
    "thumb": "thumbs/F002A.coming-soon.webp",
@@ -557,7 +563,7 @@
    ],
    "description": {
     "en": {
-     "intro": "A young adult is laid in a pit that was already there, arms crossed on the pelvis, the upper body resting on the pit's slope: the one possible late Iron Age grave the 1994 excavation found (B601), with late Iron Age pottery in a nearby pit (805). Confidence: low. Not yet filmed: a placeholder door.",
+     "intro": "Before this scene — c. 200 BC – c. AD 1: no record yet for this ground. What would fill it: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). Record: one possible late Iron Age grave, pit burial B601 (a young adult laid in a pit already dug, arms crossed on the pelvis), and 28 sherds of late Iron Age/early Roman pottery (16 in pit 805), found in the 1994 excavation immediately north of St Dochdwy's churchyard, on the ground Museum Wales records as 'Great House Farm, Llandough' (MR-0096, MR-0097). Overlap with Parcel A not checked. Not yet filmed: a placeholder door.",
      "shots": [
       "Grey late-autumn morning on the north edge of Llandough hill, the Ely marshes below; slow push-in on an old pit cut in the slope.",
       "Two figures carry a body wrapped in a wool cloak to the pit edge; no faces close.",
@@ -568,11 +574,11 @@
      ]
     },
     "cy": {
-     "intro": "Mae teulu o Oes yr Haearn hwyr yn gosod person ifanc mewn pwll a oedd yno'n barod, y breichiau wedi'u croesi: yr unig fedd posibl o Oes yr Haearn hwyr a gafwyd yn y cloddio yn 1994. Heb ei ffilmio eto. (cyfieithiad peiriant)",
+     "intro": "Before this scene — c. 200 BC – c. AD 1: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (cyfieithiad peiriant, rhannol) Cofnod: un bedd posibl o Oes yr Haearn hwyr, claddedigaeth B601 (oedolyn ifanc mewn pwll a oedd yno'n barod), a 28 darn o grochenwaith o Oes yr Haearn hwyr, a gafwyd yn y cloddio yn 1994 yn union i'r gogledd o fynwent Sant Dochdwy, ar y tir a gofnodir fel 'Great House Farm, Llandough' (MR-0096, MR-0097). (cyfieithiad peiriant) Heb ei ffilmio eto.",
      "shots": []
     },
     "es": {
-     "intro": "Una familia de la Edad del Hierro tardía deja a una persona joven en un pozo que ya estaba cavado, con los brazos cruzados: la única tumba posible de la Edad del Hierro tardía que halló la excavación de 1994. Todavía sin filmar. (traducción automática)",
+     "intro": "Before this scene — c. 200 BC – c. AD 1: todavía no hay registro para este terreno. Qué lo llenaría: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (traducción automática, parcial) Registro: una posible tumba de la Edad del Hierro tardía, el entierro B601 (una persona joven en un pozo ya cavado), y 28 tiestos de cerámica de la Edad del Hierro tardía, hallados en la excavación de 1994 justo al norte del cementerio de San Dochdwy, en el terreno registrado como 'Great House Farm, Llandough' (MR-0096, MR-0097). (traducción automática) Todavía sin filmar.",
      "shots": []
     }
    },
@@ -587,7 +593,20 @@
      ]
     }
    ],
-   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)"
+   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)",
+   "map": "maps/F002A.map.webp",
+   "estate_location": "Possible late Iron Age pit burial B601, 1994 excavation immediately north of the churchyard (MR-0097). ±50 m; overlap with Parcel A not checked",
+   "parcels": "1994 excavation zone N94 (beside traced A · house & yard, AM); nearest numbered plan parcel 50 (91 m, ±80 m)",
+   "silence_before": {
+    "from": -200,
+    "to": 1,
+    "years": 201,
+    "card": {
+     "en": "c. 200 BC – c. AD 1: no record yet for this ground. What would fill it: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097).",
+     "cy": "c. 200 BC – c. AD 1: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (cyfieithiad peiriant, rhannol)",
+     "es": "c. 200 BC – c. AD 1: todavía no hay registro para este terreno. Qué lo llenaría: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (traducción automática, parcial)"
+    }
+   }
   },
   {
    "n": 4,
@@ -637,7 +656,10 @@
      "logline": "Un dueño de casa y su mujer miran cómo se levanta su casa de piedra en la loma, en el siglo II d. C."
     }
    },
-   "thumb": "stills/F002B.jpg"
+   "thumb": "stills/F002B.jpg",
+   "map": "maps/F002B.map.webp",
+   "estate_location": "Villa site south of the church, separate from Great House Farm (MR-0097, PRN 00768s): location within estate not checked",
+   "parcels": "whole estate (villa site may lie outside the traced outline; not checked)"
   },
   {
    "n": 5,
@@ -750,7 +772,10 @@
     ],
     "period": "roman"
    },
-   "coming_soon": true
+   "coming_soon": true,
+   "map": "maps/F003.map.webp",
+   "estate_location": "Villa enlarged, early 3rd century (MR-0097): villa site south of the church; location within estate not checked",
+   "parcels": "whole estate (not checked)"
   },
   {
    "n": 6,
@@ -801,7 +826,10 @@
     }
    },
    "thumb": "thumbs/F003A.coming-soon.webp",
-   "coming_soon": true
+   "coming_soon": true,
+   "map": "maps/F003A.map.webp",
+   "estate_location": "Villa left, first third of the 4th century (MR-0097): location within estate not checked",
+   "parcels": "whole estate (not checked)"
   },
   {
    "n": 7,
@@ -824,7 +852,7 @@
    ],
    "parts": [],
    "title": "Coins after the villa",
-   "logline": "Decades after the villa house was left, Roman coins and pottery are still being dropped on the hill. Who was here is not known.",
+   "logline": "Record: Roman coins and pottery later in date than the villa's abandonment (first third of the 4th century) lay in grave fills of the 1994 excavation immediately north of St Dochdwy's churchyard, clustered in its southernmost part (MR-0097). The excavators call another Roman building beneath the churchyard conceivable, unproven.",
    "setting": "s10",
    "cast": [
     "RB_WALKER=a passer-by on the hill (invented), seen from behind and at a distance only; no lines"
@@ -838,11 +866,11 @@
    "i18n": {
     "cy": {
      "title": "Darnau arian ar ôl y fila",
-     "logline": "Ddegawdau ar ôl gadael tŷ'r fila, mae darnau arian a chrochenwaith Rhufeinig yn dal i gael eu gollwng ar y bryn. Pwy oedd yma, does neb yn gwybod."
+     "logline": "Cofnod: darnau arian a chrochenwaith Rhufeinig diweddarach na gadael y fila (traean cyntaf y 4edd ganrif) ym meddau cloddio 1994, yn union i'r gogledd o fynwent Sant Dochdwy (MR-0097). (cyfieithiad peiriant)"
     },
     "es": {
      "title": "Monedas después de la villa",
-     "logline": "Décadas después de que se abandonara la casa de la villa, todavía caen monedas y cerámica romanas en la loma. Quién andaba por acá, no se sabe."
+     "logline": "Registro: monedas y cerámica romanas posteriores al abandono de la villa (primer tercio del siglo IV) en el relleno de tumbas de la excavación de 1994, justo al norte del cementerio de San Dochdwy (MR-0097). (traducción automática)"
     }
    },
    "thumb": "thumbs/F003A1.coming-soon.webp",
@@ -861,20 +889,20 @@
    ],
    "description": {
     "en": {
-     "intro": "Some decades after the villa house was abandoned (first third of the 4th century), Roman coins and pottery are still being dropped on the hill: later coins and pottery than the villa's own turned up in the 1994 graves north of the church. Who was here is not known. Confidence: low. Not yet filmed: a placeholder door.",
+     "intro": "Record: Roman coins and pottery later in date than the villa's abandonment (first third of the 4th century) lay in grave fills of the 1994 excavation immediately north of St Dochdwy's churchyard, clustered in its southernmost part (MR-0097). The excavators call another Roman building beneath the churchyard conceivable, unproven. Not yet filmed: a placeholder door.",
      "shots": [
       "Dusk: the villa house south of the future churchyard, roof partly fallen, rooms empty; slow drift right.",
       "Close: a worn bronze coin and a sherd of late Roman pottery pressed into the turf north of the old house.",
-      "A distant figure walks the ridge where the churchyard will be; small in frame, from behind.",
+      "High wide: the ground immediately north of where the churchyard will be, empty grass to the escarpment edge; small coin-glints in the turf.",
       "End card on #f7f2e7."
      ]
     },
     "cy": {
-     "intro": "Ddegawdau ar ôl gadael tŷ'r fila, mae darnau arian a chrochenwaith Rhufeinig yn dal i gael eu gollwng ar y bryn. Pwy oedd yma, does neb yn gwybod. Heb ei ffilmio eto. (cyfieithiad peiriant)",
+     "intro": "Cofnod: darnau arian a chrochenwaith Rhufeinig diweddarach na gadael y fila (traean cyntaf y 4edd ganrif) ym meddau cloddio 1994, yn union i'r gogledd o fynwent Sant Dochdwy (MR-0097). (cyfieithiad peiriant) Heb ei ffilmio eto.",
      "shots": []
     },
     "es": {
-     "intro": "Décadas después de que se abandonara la casa de la villa, todavía caen monedas y cerámica romanas en la loma. Quién andaba por acá, no se sabe. Todavía sin filmar. (traducción automática)",
+     "intro": "Registro: monedas y cerámica romanas posteriores al abandono de la villa (primer tercio del siglo IV) en el relleno de tumbas de la excavación de 1994, justo al norte del cementerio de San Dochdwy (MR-0097). (traducción automática) Todavía sin filmar.",
      "shots": []
     }
    },
@@ -889,7 +917,10 @@
      ]
     }
    ],
-   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)"
+   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)",
+   "map": "maps/F003A1.map.webp",
+   "estate_location": "Roman coins and pottery later than the villa, in the 1994 grave fills north of the churchyard (MR-0097). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM); nearest plan parcel 50 (91 m, ±80 m)"
   },
   {
    "n": 8,
@@ -942,7 +973,10 @@
     }
    },
    "thumb": "thumbs/F003B.coming-soon.webp",
-   "coming_soon": true
+   "coming_soon": true,
+   "map": "maps/F003B.map.webp",
+   "estate_location": "Early-medieval cemetery, 1994 excavation north of the churchyard (MR-0096/97, HER GGAT02272s). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM)"
   },
   {
    "n": 9,
@@ -966,7 +1000,7 @@
    ],
    "parts": [],
    "title": "Wine from across the sea",
-   "logline": "Two companions bury a man of about thirty who wore an iron girdle (burial 631); a sherd of a wine jar from Asia Minor lies in the spoil.",
+   "logline": "Record: sherds of imported Bii amphorae from Asia Minor (main import period c. 475–550) in the fills of five graves, and burial 631, a man of about 30 buried with an iron girdle (radiocarbon 361–662), both in the 1994 excavation immediately north of St Dochdwy's churchyard (MR-0097, MR-0099).",
    "setting": "s10",
    "cast": [
     "EM_ELDER=an older man of the community (invented), about 55, grey beard, plain brown wool tunic and cloak",
@@ -981,11 +1015,11 @@
    "i18n": {
     "cy": {
      "title": "Gwin o dros y môr",
-     "logline": "Mae dau gydymaith yn claddu dyn tua deg ar hugain oed a wisgai wregys haearn (claddedigaeth 631); mae darn o stên win o Asia Leiaf yn y pridd."
+     "logline": "Cofnod: darnau o jariau gwin Bii o Asia Leiaf (c. 475–550) mewn pum bedd, a chladdedigaeth 631, dyn tua 30 oed â gwregys haearn (361–662), yng nghloddio 1994 i'r gogledd o fynwent Sant Dochdwy (MR-0097, MR-0099). (cyfieithiad peiriant)"
     },
     "es": {
      "title": "Vino de allende el mar",
-     "logline": "Dos compañeros entierran a un hombre de unos treinta años que llevaba un cinturón de hierro (entierro 631); en la tierra hay un pedazo de una tinaja de vino de Asia Menor."
+     "logline": "Registro: tiestos de tinajas de vino Bii de Asia Menor (c. 475–550) en cinco tumbas, y el entierro 631, un hombre de unos 30 años con un cinturón de hierro (361–662), en la excavación de 1994 al norte del cementerio de San Dochdwy (MR-0097, MR-0099). (traducción automática)"
     }
    },
    "thumb": "thumbs/F003B1.coming-soon.webp",
@@ -1004,7 +1038,7 @@
    ],
    "description": {
     "en": {
-     "intro": "Two companions bury a man of about thirty who wore an iron girdle (burial 631); a broken wine jar from Asia Minor lies in the spoil. Jars like it reached Llandough and the hilltop at Dinas Powys, 2 km away, between about 475 and 550. Confidence: medium/low. Not yet filmed: a placeholder door.",
+     "intro": "Record: sherds of imported Bii amphorae from Asia Minor (main import period c. 475–550) in the fills of five graves, and burial 631, a man of about 30 buried with an iron girdle (radiocarbon 361–662), both in the 1994 excavation immediately north of St Dochdwy's churchyard (MR-0097, MR-0099). Not yet filmed: a placeholder door.",
      "shots": [
       "Morning on the burial ground north of the hilltop; rows of low grave mounds facing east; the Ely estuary beyond.",
       "The body of a man of about thirty, wrapped, an iron band visible at his waist, is lowered east-west.",
@@ -1015,11 +1049,11 @@
      ]
     },
     "cy": {
-     "intro": "Mae dau gydymaith yn claddu dyn tua deg ar hugain oed a wisgai wregys haearn (claddedigaeth 631); mae darn o stên win o Asia Leiaf yn y pridd. Heb ei ffilmio eto. (cyfieithiad peiriant)",
+     "intro": "Cofnod: darnau o jariau gwin Bii o Asia Leiaf (c. 475–550) mewn pum bedd, a chladdedigaeth 631, dyn tua 30 oed â gwregys haearn (361–662), yng nghloddio 1994 i'r gogledd o fynwent Sant Dochdwy (MR-0097, MR-0099). (cyfieithiad peiriant) Heb ei ffilmio eto.",
      "shots": []
     },
     "es": {
-     "intro": "Dos compañeros entierran a un hombre de unos treinta años que llevaba un cinturón de hierro (entierro 631); en la tierra hay un pedazo de una tinaja de vino de Asia Menor. Todavía sin filmar. (traducción automática)",
+     "intro": "Registro: tiestos de tinajas de vino Bii de Asia Menor (c. 475–550) en cinco tumbas, y el entierro 631, un hombre de unos 30 años con un cinturón de hierro (361–662), en la excavación de 1994 al norte del cementerio de San Dochdwy (MR-0097, MR-0099). (traducción automática) Todavía sin filmar.",
      "shots": []
     }
    },
@@ -1034,7 +1068,10 @@
      ]
     }
    ],
-   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)"
+   "added": "1 Nov 2026 (task d37f3333, producer m:548f3190)",
+   "map": "maps/F003B1.map.webp",
+   "estate_location": "Bii amphora sherds in five graves and burial 631, 1994 excavation north of the churchyard (MR-0097, MR-0099). ±50 m",
+   "parcels": "1994 excavation zone N94 (beside AM)"
   },
   {
    "n": 10,
@@ -1112,6 +1149,9 @@
     ],
     "period": "early_medieval"
    },
+   "map": "maps/F004.map.webp",
+   "estate_location": "Monastic cemetery north of the churchyard (1994 excavation) and St Dochdwy's (CH-0001, MR-0097). ±50 m",
+   "parcels": "zone N94 + churchyard",
    "release_date": "2026-10-31"
   },
   {
@@ -1191,6 +1231,33 @@
      1000
     ],
     "period": "early_medieval"
+   },
+   "map": "maps/F005.map.webp",
+   "estate_location": "Irbic cross, St Dochdwy's churchyard (PX-04, MR-0159). ±10 m",
+   "parcels": "churchyard (outside the numbered plan parcels; not checked)",
+   "silence_before": {
+    "from": 650,
+    "to": 1000,
+    "years": 350,
+    "card": {
+     "en": "c. 650 – c. 1000: no record yet for this ground. What would fill it: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century).",
+     "cy": "c. 650 – c. 1000: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (cyfieithiad peiriant, rhannol)",
+     "es": "c. 650 – c. 1000: todavía no hay registro para este terreno. Qué lo llenaría: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (traducción automática, parcial)"
+    }
+   },
+   "description": {
+    "en": {
+     "intro": "Before this scene — c. 650 – c. 1000: no record yet for this ground. What would fill it: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century).",
+     "shots": []
+    },
+    "cy": {
+     "intro": "Cyn yr olygfa hon — c. 650 – c. 1000: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (cyfieithiad peiriant, rhannol)",
+     "shots": []
+    },
+    "es": {
+     "intro": "Antes de esta escena — c. 650 – c. 1000: todavía no hay registro para este terreno. Qué lo llenaría: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (traducción automática, parcial)",
+     "shots": []
+    }
    }
   },
   {
@@ -1339,7 +1406,20 @@
    "moment": null,
    "script_status": null,
    "status_note": null,
-   "description": "The Llandough boundary is recorded, naming Cwm Cedwyn.",
+   "description": {
+    "en": {
+     "intro": "Before this scene — late 12th century – 1392: no record yet for this ground. What would fill it: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. The Llandough boundary is recorded, naming Cwm Cedwyn.",
+     "shots": []
+    },
+    "cy": {
+     "intro": "Cyn yr olygfa hon — late 12th century – 1392: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (cyfieithiad peiriant, rhannol)",
+     "shots": []
+    },
+    "es": {
+     "intro": "Antes de esta escena — late 12th century – 1392: todavía no hay registro para este terreno. Qué lo llenaría: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (traducción automática, parcial)",
+     "shots": []
+    }
+   },
    "evidence_links": [],
    "depicts": {
     "date": "1392",
@@ -1348,6 +1428,16 @@
      1392
     ],
     "period": "late_medieval"
+   },
+   "silence_before": {
+    "from": 1180,
+    "to": 1392,
+    "years": 212,
+    "card": {
+     "en": "late 12th century – 1392: no record yet for this ground. What would fill it: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground.",
+     "cy": "late 12th century – 1392: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (cyfieithiad peiriant, rhannol)",
+     "es": "late 12th century – 1392: todavía no hay registro para este terreno. Qué lo llenaría: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (traducción automática, parcial)"
+    }
    }
   },
   {
@@ -20062,5 +20152,35 @@
   "EV-0003": "Bute catalogue range 1552-1824: not a Tŷ Mawr date (editorial rule 26 Oct); held in F006.",
   "rule": "31 Oct 2026: a waived record that may not be presented as a Tŷ Mawr record is depicted in no scene (it may not sit as a paper in a scene of another date: rule 1(a))."
  },
- "published_by": "frames.json v3.1.0 published 1 Nov 2026 (task d37f3333) from work/cedwyn-movie/FRAMES.json (SCENES.json v4.1.0, 314 scenes in strict date order). — Sion's Tab agent"
+ "documented_silences": [
+  {
+   "after_door": 2,
+   "before_door": 3,
+   "card": {
+    "en": "c. 200 BC – c. AD 1: no record yet for this ground. What would fill it: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097).",
+    "cy": "c. 200 BC – c. AD 1: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (cyfieithiad peiriant, rhannol)",
+    "es": "c. 200 BC – c. AD 1: todavía no hay registro para este terreno. Qué lo llenaría: radiocarbon or pottery dates for the roundhouse (GGAT 1979) and for pit 805 / burial B601 (MR-0097). (traducción automática, parcial)"
+   }
+  },
+  {
+   "after_door": 10,
+   "before_door": 11,
+   "card": {
+    "en": "c. 650 – c. 1000: no record yet for this ground. What would fill it: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century).",
+    "cy": "c. 650 – c. 1000: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (cyfieithiad peiriant, rhannol)",
+    "es": "c. 650 – c. 1000: todavía no hay registro para este terreno. Qué lo llenaría: a dated burial or the Llandaff charter entries for Llandough's monastery placed on this ground (MR-0097 records burial here until the late 10th or early 11th century). (traducción automática, parcial)"
+   }
+  },
+  {
+   "after_door": 13,
+   "before_door": 14,
+   "card": {
+    "en": "late 12th century – 1392: no record yet for this ground. What would fill it: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground.",
+    "cy": "late 12th century – 1392: dim cofnod eto ar gyfer y tir hwn. Beth fyddai'n ei lenwi: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (cyfieithiad peiriant, rhannol)",
+    "es": "late 12th century – 1392: todavía no hay registro para este terreno. Qué lo llenaría: a dated record of the 13th-century timber building over the cemetery (MR-0097, HER GGAT03583s) or a Tewkesbury Abbey record for this ground. (traducción automática, parcial)"
+   }
+  }
+ ],
+ "maps_note": "Every door 1–11 carries 'map': an estate-map inset (maps/<id>.map.webp) with the estate outline (±50 m, from the estate-maps branch parcels.geojson, read-only), the River Ely, the church and the house, and the event's ground highlighted; where the event's place within the estate is not known the whole estate is highlighted and labelled 'location within estate not checked'. Later doors get theirs when their scene is made.",
+ "published_by": "frames.json v3.1.1 published 1 Nov 2026 (task d37f3333) from work/cedwyn-movie/FRAMES.json (SCENES.json v4.1.1, 314 scenes in strict date order). — Sion's Tab agent"
 }
