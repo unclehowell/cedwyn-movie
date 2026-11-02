@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.11.0",
- "updated": "2026-11-01T18:30Z",
+ "version": "1.12.0",
+ "updated": "2026-11-02T22:00Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -224,24 +224,21 @@
   {
    "n": 3,
    "scene": "F002B",
-   "version": "1.0.0",
-   "clip": "movie/F002B/F002B.cy.v1.0.0.webm",
+   "version": "1.1.0",
+   "clip": "movie/F002B/F002B.cy.v1.1.0.webm",
    "video": {
-    "cy": "movie/F002B/F002B.cy.v1.0.0.webm"
-   },
-   "audio": {
-    "cy": "audio/F002B.cy.v1.0.0.webm"
+    "cy": "movie/F002B/F002B.cy.v1.1.0.webm"
    },
    "subs": {
-    "cy": "subs/F002B.cy.v1.0.0.cy.vtt",
-    "en": "subs/F002B.cy.v1.0.0.en.vtt",
-    "es": "subs/F002B.cy.v1.0.0.es.vtt"
+    "cy": "subs/F002B.cy.v1.1.0.cy.vtt",
+    "en": "subs/F002B.cy.v1.1.0.en.vtt",
+    "es": "subs/F002B.cy.v1.1.0.es.vtt"
    },
    "poster": "stills/F002B.jpg",
-   "seconds": 64.6,
+   "seconds": 64.5,
    "made": "2026-11-01T01:31Z",
    "released": "2026-11-01",
-   "script_version": "v1.0.0",
+   "script_version": "v1.1.0",
    "left_out": [],
    "default_audio": "cy",
    "notes": "720p VP9, 2nd century AD: the first stone house (the Roman villa) is built on Llandough hill. 4 image-to-video shots (Kling 2.5: the site at dawn, builders laying stone, lime mortar, the half-built house at evening) and 4 OmniHuman 2.0 talking shots (the householder and his wife speak to each other, never to camera), Welsh captions citing MR-0097, PX-02, CH-0174, end card. Made in Welsh (native make); English and Spanish native makes pending. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
@@ -287,27 +284,24 @@
      "cy": "movie/F002B/F002B.cy.v1.0.0.webm"
     }
    },
-   "renumber_note_2": "door 4 → 3 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
+   "renumber_note_2": "door 4 → 3 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
+   "revised": "2026-11-02T22:00Z",
+   "revision_note": "v1.1.0 (2 Nov 2026): the Welsh make recut from the same renders without on-screen record references (no IDs, no excavation or catalogue lines; the closing card is the title and the date). English and Spanish native makes follow at v1.1.0."
   },
   {
    "n": 9,
    "version": "0.0.1-0.0.1",
-   "clip": "clips/F004.v2.webm",
-   "audio": {
-    "cy": "audio/F004.v2.cy.webm",
-    "en": "audio/F004.v2.en.webm",
-    "es": "audio/F004.v2.es.webm"
-   },
+   "clip": "movie/F004/F004.cy.v0.4.2.webm",
    "subs": {
-    "cy": "subs/F004.v2.cy.vtt",
-    "en": "subs/F004.v2.en.vtt",
-    "es": "subs/F004.v2.es.vtt"
+    "cy": "subs/F004.cy.v0.4.2.cy.vtt",
+    "en": "subs/F004.cy.v0.4.2.en.vtt",
+    "es": "subs/F004.cy.v0.4.2.es.vtt"
    },
    "poster": "stills/F004.jpg",
    "seconds": 91.1,
    "made": "2026-10-31T20:48Z",
    "released": "2026-10-31",
-   "script_version": "v0.4.1",
+   "script_version": "v0.4.2",
    "left_out": [],
    "default_audio": "cy",
    "notes": "720p VP9, c. 650. Every shot moving: 5 image-to-video shots (Kling 2.5: the hill, the procession, the lowering, the spade striking a Roman stone, the walk to the church at dusk) and 5 OmniHuman 2.0 talking shots (the monk and the woman speak to each other, never to camera), date card, two captions (PX-03, CH-0001) and end card. Spoken in Welsh with cy/en/es subtitles; English and Spanish audio tracks over the Welsh performance.",
@@ -358,7 +352,12 @@
      "cy": "clips/F004.v2.webm"
     }
    },
-   "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
+   "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
+   "video": {
+    "cy": "movie/F004/F004.cy.v0.4.2.webm"
+   },
+   "revised": "2026-11-02T22:00Z",
+   "revision_note": "v0.4.2 (2 Nov 2026): the Welsh make recut from the same renders without on-screen record references; Welsh date card; closing card is the title and the date. English and Spanish native makes pending."
   }
  ],
  "left_out_register": [],
@@ -465,7 +464,7 @@
   {
    "scene": "F004",
    "lang": "en",
-   "version": "0.4.1",
+   "version": "0.4.2",
    "path": null,
    "native": null,
    "status": "pending",
@@ -474,7 +473,7 @@
   {
    "scene": "F004",
    "lang": "es",
-   "version": "0.4.1",
+   "version": "0.4.2",
    "path": null,
    "native": null,
    "status": "pending",
@@ -492,7 +491,7 @@
   {
    "scene": "F002B",
    "lang": "en",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "path": null,
    "native": null,
    "status": "pending",
@@ -501,11 +500,29 @@
   {
    "scene": "F002B",
    "lang": "es",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "path": null,
    "native": null,
    "status": "pending",
    "note": "native Spanish make not yet rendered"
+  },
+  {
+   "scene": "F002B",
+   "lang": "cy",
+   "version": "1.1.0",
+   "path": "movie/F002B/F002B.cy.v1.1.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "Welsh performance, Welsh lip-sync; recut of v1.0.0 renders without on-screen record references (2 Nov 2026)"
+  },
+  {
+   "scene": "F004",
+   "lang": "cy",
+   "version": "0.4.2",
+   "path": "movie/F004/F004.cy.v0.4.2.webm",
+   "native": true,
+   "status": "live",
+   "note": "Welsh performance; recut of the v0.4.1 renders without on-screen record references (2 Nov 2026)"
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
