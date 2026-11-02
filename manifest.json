@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.18.0",
- "updated": "2026-11-02T22:57Z",
+ "version": "1.19.0",
+ "updated": "2026-11-02T23:08Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -182,13 +182,13 @@
    "scene": "F002",
    "map": "maps/F002.map.webp",
    "matrix": {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "audio": {
      "cy": {
-      "off": "movie/F002/F002.cy.nosubs.v1.0.2.mp4",
-      "cy": "movie/F002/F002.cy.cy.v1.0.2.mp4",
-      "en": "movie/F002/F002.cy.en.v1.0.2.mp4",
-      "es": "movie/F002/F002.cy.es.v1.0.2.mp4"
+      "off": "movie/F002/F002.cy.nosubs.v2.0.0.mp4",
+      "cy": "movie/F002/F002.cy.cy.v2.0.0.mp4",
+      "en": "movie/F002/F002.cy.en.v2.0.0.mp4",
+      "es": "movie/F002/F002.cy.es.v2.0.0.mp4"
      },
      "en": {
       "off": null,
@@ -204,17 +204,17 @@
      }
     },
     "bytes": {
-     "movie/F002/F002.cy.nosubs.v1.0.2.mp4": 23661084,
-     "movie/F002/F002.cy.cy.v1.0.2.mp4": 24032664,
-     "movie/F002/F002.cy.en.v1.0.2.mp4": 24008836,
-     "movie/F002/F002.cy.es.v1.0.2.mp4": 24012510
+     "movie/F002/F002.cy.nosubs.v2.0.0.mp4": 10060401,
+     "movie/F002/F002.cy.cy.v2.0.0.mp4": 10256197,
+     "movie/F002/F002.cy.en.v2.0.0.mp4": 10275766,
+     "movie/F002/F002.cy.es.v2.0.0.mp4": 10262811
     },
     "pending": {
-     "en": "only a non-native (dub/lip-sync) make exists",
-     "es": "only a non-native (dub/lip-sync) make exists"
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
     },
     "src": {
-     "cy": "clips/F002.v6.webm"
+     "cy": "movie/F002/F002.cy.v2.0.0.webm"
     }
    },
    "renumber_note_2": "door 2 → 1 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
