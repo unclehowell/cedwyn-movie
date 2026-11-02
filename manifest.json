@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.14.0",
- "updated": "2026-11-02T22:03Z",
+ "version": "1.15.0",
+ "updated": "2026-11-02T22:08Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -317,13 +317,13 @@
    "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged.",
    "map": "maps/F004.map.webp",
    "matrix": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "audio": {
      "cy": {
-      "off": "movie/F004/F004.cy.nosubs.v0.4.1.mp4",
-      "cy": "movie/F004/F004.cy.cy.v0.4.1.mp4",
-      "en": "movie/F004/F004.cy.en.v0.4.1.mp4",
-      "es": "movie/F004/F004.cy.es.v0.4.1.mp4"
+      "off": "movie/F004/F004.cy.nosubs.v0.4.2.mp4",
+      "cy": "movie/F004/F004.cy.cy.v0.4.2.mp4",
+      "en": "movie/F004/F004.cy.en.v0.4.2.mp4",
+      "es": "movie/F004/F004.cy.es.v0.4.2.mp4"
      },
      "en": {
       "off": null,
@@ -339,17 +339,17 @@
      }
     },
     "bytes": {
-     "movie/F004/F004.cy.nosubs.v0.4.1.mp4": 11214755,
-     "movie/F004/F004.cy.cy.v0.4.1.mp4": 11427496,
-     "movie/F004/F004.cy.en.v0.4.1.mp4": 11404116,
-     "movie/F004/F004.cy.es.v0.4.1.mp4": 11433885
+     "movie/F004/F004.cy.nosubs.v0.4.2.mp4": 11148798,
+     "movie/F004/F004.cy.cy.v0.4.2.mp4": 11233926,
+     "movie/F004/F004.cy.en.v0.4.2.mp4": 11229073,
+     "movie/F004/F004.cy.es.v0.4.2.mp4": 11242667
     },
     "pending": {
      "en": "native en master not rendered yet",
      "es": "native es master not rendered yet"
     },
     "src": {
-     "cy": "clips/F004.v2.webm"
+     "cy": "movie/F004/F004.cy.v0.4.2.webm"
     }
    },
    "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
