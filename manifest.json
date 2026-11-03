@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.22.0",
- "updated": "2026-11-03T01:25Z",
+ "version": "1.23.0",
+ "updated": "2026-11-03T01:27Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -220,6 +220,32 @@
    "renumber_note_2": "door 2 → 1 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged."
   },
   {
+   "n": 2,
+   "scene": "F002A",
+   "version": "1.0.0",
+   "clip": "movie/F002A/F002A.cy.v1.0.0.webm",
+   "video": {
+    "cy": "movie/F002A/F002A.cy.v1.0.0.webm"
+   },
+   "subs": {
+    "cy": "subs/F002A.cy.v1.0.0.cy.vtt",
+    "en": "subs/F002A.cy.v1.0.0.en.vtt",
+    "es": "subs/F002A.cy.v1.0.0.es.vtt"
+   },
+   "poster": "stills/F002A.jpg",
+   "seconds": 67.0,
+   "made": "2026-11-03T01:27Z",
+   "released": "2026-11-03",
+   "script_version": "v1.0.0",
+   "left_out": [],
+   "default_audio": "cy",
+   "notes": "720p VP9, c. AD 1: a mother and her son lay one of their own, a young adult, in an old pit on the crest of Llandough hill. 4 image-to-video shots (Kling 2.5) and 4 OmniHuman 2.0 talking shots (they speak to each other, never to camera); opening card with date and place; end card with title and date. Made in Welsh (native make); English and Spanish native makes pending. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
+   "facts": [
+    "IA-2"
+   ],
+   "map": "maps/F002A.map.webp"
+  },
+  {
    "n": 3,
    "scene": "F002B",
    "version": "1.1.0",
@@ -241,7 +267,7 @@
    "script_version": "v1.1.0",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, 2nd century AD: the first stone house (the Roman villa) is built on Llandough hill. 4 image-to-video shots (Kling 2.5: the site at dawn, builders laying stone, lime mortar, the half-built house at evening) and 4 OmniHuman 2.0 talking shots (the householder and his wife speak to each other, never to camera), Welsh captions citing MR-0097, PX-02, CH-0174, end card. Made in Welsh (native make); English and Spanish native makes pending. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
+   "notes": "720p VP9, 2nd century AD: the first stone house is built on Llandough hill. 4 image-to-video shots (Kling 2.5: the site at dawn, builders laying stone, lime mortar, the half-built house at evening) and 4 OmniHuman 2.0 talking shots (the householder and his wife speak to each other, never to camera); opening card with date and place; end card with title and date. Native makes in Welsh, English and Spanish (v1.1.0). cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
    "facts": [
     "RO-1",
     "RO-2"
@@ -545,15 +571,6 @@
   },
   {
    "scene": "F002A",
-   "lang": "cy",
-   "version": "1.0.0",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native Welsh make of door 2 (scene a day, 3 Nov 2026)"
-  },
-  {
-   "scene": "F002A",
    "lang": "en",
    "version": "1.0.0",
    "path": null,
@@ -569,6 +586,15 @@
    "native": null,
    "status": "pending",
    "note": "native Spanish make of door 2 (scene a day, 3 Nov 2026)"
+  },
+  {
+   "scene": "F002A",
+   "lang": "cy",
+   "version": "1.0.0",
+   "path": "movie/F002A/F002A.cy.v1.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native Welsh make (OmniHuman 2.0 Welsh performance), 3 Nov 2026 — the day's new scene"
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
