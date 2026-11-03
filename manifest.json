@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.21.0",
- "updated": "2026-11-03T00:29Z",
+ "version": "1.22.0",
+ "updated": "2026-11-03T01:25Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -542,6 +542,33 @@
    "native": true,
    "status": "live",
    "note": "Spanish performance, Spanish lip-sync (native make, OmniHuman 2.0), 3 Nov 2026"
+  },
+  {
+   "scene": "F002A",
+   "lang": "cy",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Welsh make of door 2 (scene a day, 3 Nov 2026)"
+  },
+  {
+   "scene": "F002A",
+   "lang": "en",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native English make of door 2 (scene a day, 3 Nov 2026)"
+  },
+  {
+   "scene": "F002A",
+   "lang": "es",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Spanish make of door 2 (scene a day, 3 Nov 2026)"
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
