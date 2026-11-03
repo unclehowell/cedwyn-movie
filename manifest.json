@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.20.0",
- "updated": "2026-11-03T00:26Z",
+ "version": "1.21.0",
+ "updated": "2026-11-03T00:29Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -264,10 +264,10 @@
       "es": "movie/F002B/F002B.en.es.v1.1.0.mp4"
      },
      "es": {
-      "off": null,
-      "cy": null,
-      "en": null,
-      "es": null
+      "off": "movie/F002B/F002B.es.nosubs.v1.1.0.mp4",
+      "cy": "movie/F002B/F002B.es.cy.v1.1.0.mp4",
+      "en": "movie/F002B/F002B.es.en.v1.1.0.mp4",
+      "es": "movie/F002B/F002B.es.es.v1.1.0.mp4"
      }
     },
     "bytes": {
@@ -278,14 +278,17 @@
      "movie/F002B/F002B.en.nosubs.v1.1.0.mp4": 8837270,
      "movie/F002B/F002B.en.cy.v1.1.0.mp4": 8984468,
      "movie/F002B/F002B.en.en.v1.1.0.mp4": 8917460,
-     "movie/F002B/F002B.en.es.v1.1.0.mp4": 8996766
+     "movie/F002B/F002B.en.es.v1.1.0.mp4": 8996766,
+     "movie/F002B/F002B.es.nosubs.v1.1.0.mp4": 8977916,
+     "movie/F002B/F002B.es.cy.v1.1.0.mp4": 9084115,
+     "movie/F002B/F002B.es.en.v1.1.0.mp4": 9097481,
+     "movie/F002B/F002B.es.es.v1.1.0.mp4": 9054637
     },
-    "pending": {
-     "es": "native es master not rendered yet"
-    },
+    "pending": {},
     "src": {
      "cy": "movie/F002B/F002B.cy.v1.1.0.webm",
-     "en": "movie/F002B/F002B.en.v1.1.0.webm"
+     "en": "movie/F002B/F002B.en.v1.1.0.webm",
+     "es": "movie/F002B/F002B.es.v1.1.0.webm"
     }
    },
    "renumber_note_2": "door 4 → 3 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
