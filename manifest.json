@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.25.0",
- "updated": "2026-11-03T01:30Z",
+ "version": "1.26.0",
+ "updated": "2026-11-07T03:17Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -24,10 +24,6 @@
    "n": 1,
    "version": "0.0.1",
    "clip": "movie/F002/F002.cy.v2.0.0.webm",
-   "audio": {
-    "cy": "audio/F002.v6.cy.webm",
-    "es": "audio/F002.v6.es.webm"
-   },
    "subs": {
     "cy": "subs/F002.cy.v2.0.0.cy.vtt",
     "en": "subs/F002.cy.v2.0.0.en.vtt",
@@ -41,7 +37,7 @@
    "left_out": [],
    "default_audio": "cy",
    "notes": "720p VP9, 18 shots, every shot moving: 11 OmniHuman 2.0 talking shots (speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. One video per language: the Welsh video is lip-synced to the Welsh track; the English and Spanish videos carry the same shots with the mouths re-synced to their own track (Kling LipSync). Two date cards: c. 200 BC and c. AD 200; the AD 200 farmer and wife are different people with different voices from the Iron Age couple. cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
-   "revised": "2026-11-02T22:57Z",
+   "revised": "2026-11-07T03:17Z",
    "revision_note": "v2.0.0 (2 Nov 2026): remade as one moment only — the roundhouse on the hill, c. 200 BC; the villa and the later harvest are gone; no on-screen record references; closing card is the title and the date.",
    "merged": [
     {
@@ -56,20 +52,27 @@
     }
    ],
    "video": {
-    "cy": "movie/F002/F002.cy.v2.0.0.webm"
+    "cy": "movie/F002/F002.cy.v2.0.0.webm",
+    "en": "movie/F002/F002.en.v2.0.0.webm",
+    "es": "movie/F002/F002.es.v2.0.0.webm"
    },
-   "cut_note": "v2.0.0: made natively per language from scratch; Welsh live 2 Nov 2026, English and Spanish native makes pending.",
+   "cut_note": "v2.0.0: made natively per language from scratch; Welsh live 2 Nov 2026, English and Spanish native makes live 7 Nov 2026 (ambient bed lowered and filtered under the dialogue after the producer's 4 Nov note on bird noise). The v6 dubbed audio tracks are retired from this entry (still in the repo under audio/).",
    "vsubs": {
     "en": {
-     "cy": "subs/F002.v7.en.cy.vtt",
-     "en": "subs/F002.v7.en.en.vtt",
-     "es": "subs/F002.v7.en.es.vtt"
+     "cy": "subs/F002.en.v2.0.0.cy.vtt",
+     "en": "subs/F002.en.v2.0.0.en.vtt",
+     "es": "subs/F002.en.v2.0.0.es.vtt"
+    },
+    "es": {
+     "cy": "subs/F002.es.v2.0.0.cy.vtt",
+     "en": "subs/F002.es.v2.0.0.en.vtt",
+     "es": "subs/F002.es.v2.0.0.es.vtt"
     }
    },
    "native": {
-    "cy": "OmniHuman 2.0 Welsh performance (30 Oct, F002.v6)",
-    "en": "OmniHuman 2.0 English performance with Welsh-accented English voices (31 Oct, F002.v7.en, 133.8 s)",
-    "es": "coming: the Spanish native performance; until then the Spanish lip-synced video of the Welsh performance plays"
+    "cy": "OmniHuman 2.0 Welsh performance (v2.0.0, 2 Nov 2026)",
+    "en": "OmniHuman 2.0 English performance made in English (v2.0.0, 7 Nov 2026)",
+    "es": "OmniHuman 2.0 Spanish performance made in Spanish (v2.0.0, 7 Nov 2026)"
    },
    "cuts": [
     {
@@ -225,7 +228,9 @@
    "version": "1.0.0",
    "clip": "movie/F002A/F002A.cy.v1.0.0.webm",
    "video": {
-    "cy": "movie/F002A/F002A.cy.v1.0.0.webm"
+    "cy": "movie/F002A/F002A.cy.v1.0.0.webm",
+    "en": "movie/F002A/F002A.en.v1.0.0.webm",
+    "es": "movie/F002A/F002A.es.v1.0.0.webm"
    },
    "subs": {
     "cy": "subs/F002A.cy.v1.0.0.cy.vtt",
@@ -239,7 +244,7 @@
    "script_version": "v1.0.0",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, c. AD 1: a mother and her son lay one of their own, a young adult, in an old pit on the crest of Llandough hill. 4 image-to-video shots (Kling 2.5) and 4 OmniHuman 2.0 talking shots (they speak to each other, never to camera); opening card with date and place; end card with title and date. Made in Welsh (native make); English and Spanish native makes pending. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
+   "notes": "720p VP9, c. AD 1: a mother and her son lay one of their own, a young adult, in an old pit on the crest of Llandough hill. 4 image-to-video shots (Kling 2.5) and 4 OmniHuman 2.0 talking shots (they speak to each other, never to camera); opening card with date and place; end card with title and date. Native makes in Welsh (3 Nov 2026), English and Spanish (7 Nov 2026). cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
    "facts": [
     "IA-2"
    ],
@@ -279,7 +284,20 @@
     "src": {
      "cy": "movie/F002A/F002A.cy.v1.0.0.webm"
     }
-   }
+   },
+   "vsubs": {
+    "en": {
+     "cy": "subs/F002A.en.v1.0.0.cy.vtt",
+     "en": "subs/F002A.en.v1.0.0.en.vtt",
+     "es": "subs/F002A.en.v1.0.0.es.vtt"
+    },
+    "es": {
+     "cy": "subs/F002A.es.v1.0.0.cy.vtt",
+     "en": "subs/F002A.es.v1.0.0.en.vtt",
+     "es": "subs/F002A.es.v1.0.0.es.vtt"
+    }
+   },
+   "revised": "2026-11-07T03:17Z"
   },
   {
    "n": 3,
@@ -510,19 +528,19 @@
    "scene": "F002",
    "lang": "en",
    "version": "2.0.0",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native remake made in English from scratch"
+   "path": "movie/F002/F002.en.v2.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native remake made in English from scratch; made 7 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync)"
   },
   {
    "scene": "F002",
    "lang": "es",
    "version": "2.0.0",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native remake made in Spanish from scratch"
+   "path": "movie/F002/F002.es.v2.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native remake made in Spanish from scratch; made 7 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync)"
   },
   {
    "scene": "F004",
@@ -609,19 +627,19 @@
    "scene": "F002A",
    "lang": "en",
    "version": "1.0.0",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native English make of door 2 (scene a day, 3 Nov 2026)"
+   "path": "movie/F002A/F002A.en.v1.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native English make of door 2 (scene a day, 3 Nov 2026); made 7 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync)"
   },
   {
    "scene": "F002A",
    "lang": "es",
    "version": "1.0.0",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native Spanish make of door 2 (scene a day, 3 Nov 2026)"
+   "path": "movie/F002A/F002A.es.v1.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native Spanish make of door 2 (scene a day, 3 Nov 2026); made 7 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync)"
   },
   {
    "scene": "F002A",
