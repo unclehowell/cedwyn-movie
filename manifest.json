@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.29.0",
- "updated": "2026-11-08T03:14Z",
+ "version": "1.30.0",
+ "updated": "2026-11-08T03:28Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -432,30 +432,37 @@
       "es": "movie/F004/F004.cy.es.v0.4.2.mp4"
      },
      "en": {
-      "off": null,
-      "cy": null,
-      "en": null,
-      "es": null
+      "off": "movie/F004/F004.en.nosubs.v0.4.2.mp4",
+      "cy": "movie/F004/F004.en.cy.v0.4.2.mp4",
+      "en": "movie/F004/F004.en.en.v0.4.2.mp4",
+      "es": "movie/F004/F004.en.es.v0.4.2.mp4"
      },
      "es": {
-      "off": null,
-      "cy": null,
-      "en": null,
-      "es": null
+      "off": "movie/F004/F004.es.nosubs.v0.4.2.mp4",
+      "cy": "movie/F004/F004.es.cy.v0.4.2.mp4",
+      "en": "movie/F004/F004.es.en.v0.4.2.mp4",
+      "es": "movie/F004/F004.es.es.v0.4.2.mp4"
      }
     },
     "bytes": {
      "movie/F004/F004.cy.nosubs.v0.4.2.mp4": 11148798,
      "movie/F004/F004.cy.cy.v0.4.2.mp4": 11233926,
      "movie/F004/F004.cy.en.v0.4.2.mp4": 11229073,
-     "movie/F004/F004.cy.es.v0.4.2.mp4": 11242667
+     "movie/F004/F004.cy.es.v0.4.2.mp4": 11242667,
+     "movie/F004/F004.en.nosubs.v0.4.2.mp4": 10873271,
+     "movie/F004/F004.en.cy.v0.4.2.mp4": 10970925,
+     "movie/F004/F004.en.en.v0.4.2.mp4": 10963443,
+     "movie/F004/F004.en.es.v0.4.2.mp4": 10981079,
+     "movie/F004/F004.es.nosubs.v0.4.2.mp4": 10917960,
+     "movie/F004/F004.es.cy.v0.4.2.mp4": 11004235,
+     "movie/F004/F004.es.en.v0.4.2.mp4": 11005649,
+     "movie/F004/F004.es.es.v0.4.2.mp4": 11016844
     },
-    "pending": {
-     "en": "native en master not rendered yet",
-     "es": "native es master not rendered yet"
-    },
+    "pending": {},
     "src": {
-     "cy": "movie/F004/F004.cy.v0.4.2.webm"
+     "cy": "movie/F004/F004.cy.v0.4.2.webm",
+     "en": "movie/F004/F004.en.v0.4.2.webm",
+     "es": "movie/F004/F004.es.v0.4.2.webm"
     }
    },
    "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
