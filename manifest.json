@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.28.0",
- "updated": "2026-11-07T03:26Z",
+ "version": "1.29.0",
+ "updated": "2026-11-08T03:14Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -417,14 +417,7 @@
    "script_version": "v0.4.2",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, c. 650. Every shot moving: 5 image-to-video shots (Kling 2.5: the hill, the procession, the lowering, the spade striking a Roman stone, the walk to the church at dusk) and 5 OmniHuman 2.0 talking shots (the monk and the woman speak to each other, never to camera), date card, two captions (PX-03, CH-0001) and end card. Spoken in Welsh with cy/en/es subtitles; English and Spanish audio tracks over the Welsh performance.",
-   "next_version": {
-    "version": "0.0.1",
-    "status": "coming",
-    "kind": "native-language",
-    "note": "Three separately performed videos, Welsh, English and Spanish, each acted and lip-synced in its own language; not yet rendered.",
-    "plan": "RERENDER-QUEUE.md"
-   },
+   "notes": "720p VP9, c. 650. Every shot moving: 5 image-to-video shots (Kling 2.5: the hill, the procession, the lowering, the spade striking a Roman stone, the walk to the church at dusk) and 5 OmniHuman 2.0 talking shots (the monk and the woman speak to each other, never to camera); date card and end card. Native makes in Welsh (2 Nov 2026), English and Spanish (8 Nov 2026), each performed and lip-synced in its own language. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
    "scene": "F004",
    "redoor_note": "Moved from door 3 to door 7 on 1 Nov 2026 when the Roman villa scene F002B took door 3 (chronology re-split, SCENES.json v4); files unchanged.",
    "renumber_note": "door 7 → 10 on 1 Nov 2026 02:1xZ: intermediate scenes F003A1 (c. AD 375) and F003B1 (c. AD 525) and the planned F003/F003A/F003B now sit before it in date order; files unchanged.",
@@ -467,10 +460,24 @@
    },
    "renumber_note_2": "door 10 → 9 on 1 Nov 2026 (task 8f4fea6f): old door 1 (F001) scrapped by the producer; every scene moved up one; files unchanged.",
    "video": {
-    "cy": "movie/F004/F004.cy.v0.4.2.webm"
+    "cy": "movie/F004/F004.cy.v0.4.2.webm",
+    "en": "movie/F004/F004.en.v0.4.2.webm",
+    "es": "movie/F004/F004.es.v0.4.2.webm"
    },
-   "revised": "2026-11-02T22:00Z",
-   "revision_note": "v0.4.2 (2 Nov 2026): the Welsh make recut from the same renders without on-screen record references; Welsh date card; closing card is the title and the date. English and Spanish native makes pending."
+   "revised": "2026-11-08T03:14Z",
+   "revision_note": "v0.4.2 (2 Nov 2026): the Welsh make recut from the same renders without on-screen record references; Welsh date card; closing card is the title and the date. English and Spanish native makes v0.4.2 added 8 Nov 2026.",
+   "vsubs": {
+    "en": {
+     "cy": "subs/F004.en.v0.4.2.cy.vtt",
+     "en": "subs/F004.en.v0.4.2.en.vtt",
+     "es": "subs/F004.en.v0.4.2.es.vtt"
+    },
+    "es": {
+     "cy": "subs/F004.es.v0.4.2.cy.vtt",
+     "en": "subs/F004.es.v0.4.2.en.vtt",
+     "es": "subs/F004.es.v0.4.2.es.vtt"
+    }
+   }
   }
  ],
  "left_out_register": [],
@@ -569,19 +576,19 @@
    "scene": "F004",
    "lang": "en",
    "version": "0.4.2",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native English make not yet rendered (English audio was a dub over the Welsh picture)"
+   "path": "movie/F004/F004.en.v0.4.2.webm",
+   "native": true,
+   "status": "live",
+   "note": "native English make of door 9, made 8 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync; same cut as cy v0.4.2)"
   },
   {
    "scene": "F004",
    "lang": "es",
    "version": "0.4.2",
-   "path": null,
-   "native": null,
-   "status": "pending",
-   "note": "native Spanish make not yet rendered (Spanish audio was a dub over the Welsh picture)"
+   "path": "movie/F004/F004.es.v0.4.2.webm",
+   "native": true,
+   "status": "live",
+   "note": "native Spanish make of door 9, made 8 Nov 2026 (OmniHuman 2.0 talking shots, native lip-sync; same cut as cy v0.4.2)"
   },
   {
    "scene": "F002B",
