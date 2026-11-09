@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.30.0",
- "updated": "2026-11-08T03:28Z",
+ "version": "1.30.1",
+ "updated": "2026-11-09T10:57Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -36,7 +36,7 @@
    "script_version": "v2.0.1",
    "left_out": [],
    "default_audio": "cy",
-   "notes": "720p VP9, 18 shots, every shot moving: 11 OmniHuman 2.0 talking shots (speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. One video per language: the Welsh video is lip-synced to the Welsh track; the English and Spanish videos carry the same shots with the mouths re-synced to their own track (Kling LipSync). Two date cards: c. 200 BC and c. AD 200; the AD 200 farmer and wife are different people with different voices from the Iron Age couple. cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
+   "notes": "720p VP9, 18 shots, every shot moving: 11 OmniHuman 2.0 talking shots (speakers talk to each other, never to camera) and 7 image-to-video shots (Kling 2.5) plus end card. One video per language: the Welsh video is lip-synced to the Welsh track; the English and Spanish videos carry the same shots with the mouths re-synced to their own track (Kling LipSync). One date card: c. 200 BC (the later couple belonged to an earlier cut, since split off). cy/en/es subtitles (Welsh and Spanish machine-assisted, for native review).",
    "revised": "2026-11-07T03:17Z",
    "revision_note": "v2.0.0 (2 Nov 2026): remade as one moment only — the roundhouse on the hill, c. 200 BC; the villa and the later harvest are gone; no on-screen record references; closing card is the title and the date.",
    "merged": [
@@ -56,7 +56,7 @@
     "en": "movie/F002/F002.en.v2.0.0.webm",
     "es": "movie/F002/F002.es.v2.0.0.webm"
    },
-   "cut_note": "v2.0.0: made natively per language from scratch; Welsh live 2 Nov 2026, English and Spanish native makes live 7 Nov 2026 (ambient bed lowered and filtered under the dialogue after the producer's 4 Nov note on bird noise). The v6 dubbed audio tracks are retired from this entry (still in the repo under audio/).",
+   "cut_note": "v2.0.0: one moment only, the roundhouse on the hill, c. 200 BC; made separately in Welsh (2 Nov 2026), English and Spanish (7 Nov 2026), with the background sound lowered under the dialogue.",
    "vsubs": {
     "en": {
      "cy": "subs/F002.en.v2.0.0.cy.vtt",
@@ -121,7 +121,7 @@
       "es": "subs/F002.v5.es.vtt"
      },
      "made": "2026-10-29",
-     "note": "former Scene 3 merged in, every shot moving (29 Oct)"
+     "note": "earlier cut that also held a later moment, since split off (29 Oct)"
     },
     {
      "version": "0.0.1-0.0.4",
@@ -137,7 +137,7 @@
       "es": "subs/F002.v5.1c.es.vtt"
      },
      "made": "2026-10-30",
-     "note": "AD 200 couple recast (30 Oct 00:56)",
+     "note": "earlier two-moment cut with the later couple recast (30 Oct)",
      "history": [
       {
        "clip": "clips/F002.v5.1.webm",
@@ -179,7 +179,7 @@
      },
      "seconds": 138.2,
      "made": "2026-10-29T23:45Z",
-     "note": "Welsh OmniHuman performance with English and Spanish lip-synced over it (30 Oct); replaced as the default by the native English performance (31 Oct)"
+     "note": "Welsh performance with English and Spanish lip-synced over it (30 Oct); replaced by the separate Welsh, English and Spanish makes"
     }
    ],
    "scene": "F002",
