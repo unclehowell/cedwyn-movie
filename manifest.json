@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.30.1",
- "updated": "2026-11-09T10:57Z",
+ "version": "1.31.0",
+ "updated": "2026-11-09T21:47Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -402,6 +402,33 @@
    }
   },
   {
+   "n": 4,
+   "scene": "F003",
+   "version": "1.0.0",
+   "clip": "movie/F003/F003.cy.v1.0.0.webm",
+   "video": {
+    "cy": "movie/F003/F003.cy.v1.0.0.webm"
+   },
+   "subs": {
+    "cy": "subs/F003.cy.v1.0.0.cy.vtt",
+    "en": "subs/F003.cy.v1.0.0.en.vtt",
+    "es": "subs/F003.cy.v1.0.0.es.vtt"
+   },
+   "poster": "stills/F003.jpg",
+   "seconds": 91.3,
+   "made": "2026-11-09T21:47Z",
+   "released": "2026-11-09",
+   "script_version": "v1.1.0",
+   "left_out": [],
+   "default_audio": "cy",
+   "notes": "720p VP9, c. AD 220: the stone house on Llandough hill is enlarged; a mason raises the new room's walls while the master and his wife talk about the harvest and the house. 2 image-to-video shots (Kling 2.5) and 3 slow-move stills; 6 OmniHuman 2.0 talking shots (they speak to each other, never to camera); opening card with date and place, end card with title and date. Native Welsh make 9 Nov 2026; English and Spanish native makes to follow. cy/en/es subtitles (machine-assisted Welsh and Spanish, for native review).",
+   "facts": [
+    "PX-02"
+   ],
+   "map": "maps/F003.map.webp",
+   "revised": "2026-11-09T21:47Z"
+  },
+  {
    "n": 9,
    "version": "0.0.1-0.0.1",
    "clip": "movie/F004/F004.cy.v0.4.2.webm",
@@ -677,6 +704,33 @@
    "native": true,
    "status": "live",
    "note": "native Welsh make (OmniHuman 2.0 Welsh performance), 3 Nov 2026 — the day's new scene"
+  },
+  {
+   "scene": "F003",
+   "lang": "cy",
+   "version": "1.0.0",
+   "path": "movie/F003/F003.cy.v1.0.0.webm",
+   "native": true,
+   "status": "live",
+   "note": "native Welsh make (OmniHuman 2.0 Welsh performance), 9 Nov 2026 — the day's new scene"
+  },
+  {
+   "scene": "F003",
+   "lang": "en",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native English make not yet rendered"
+  },
+  {
+   "scene": "F003",
+   "lang": "es",
+   "version": "1.0.0",
+   "path": null,
+   "native": null,
+   "status": "pending",
+   "note": "native Spanish make not yet rendered"
   }
  ],
  "renders_rule": "31 Oct 2026 (owner, WhatsApp 22:47Z, standing practice): every scene is made three times, once per audible language (cy, en, es), each with that language in mind (lines, timing, performance, lip-sync); never dubbed or re-voiced from another language's video. renders lists every (scene, lang, version) that exists or is pending: path = movie/<scene-id>/<scene-id>.<lang>.v<semver>.webm (src = where the same bytes already live, when not yet at path); native false = an older dub/re-voicing kept as a playable earlier make; status pending = not yet made (the player shows the 'video pending' image). The player (movie.js 1.7.0) loads the chosen language's own file for the chosen version. chrono_gate.py check 11 fails a door with no native render and no pending placeholder for any language.",
