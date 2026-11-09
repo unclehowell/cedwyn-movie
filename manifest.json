@@ -1,7 +1,7 @@
 {
  "name": "Cedwyn film - filled frames",
- "version": "1.31.0",
- "updated": "2026-11-09T21:47Z",
+ "version": "1.32.0",
+ "updated": "2026-11-09T21:57Z",
  "frames_total": 313,
  "pricing": {
   "rule": "Pricing: all documentary versions free until the producer says a version is paid quality. v0.0.1 of each door is its native-language release (each language performed separately, no dubbing); earlier and dubbed cuts are v0.0.1-0.0.N (oldest lowest).",
@@ -426,7 +426,43 @@
     "PX-02"
    ],
    "map": "maps/F003.map.webp",
-   "revised": "2026-11-09T21:47Z"
+   "revised": "2026-11-09T21:47Z",
+   "matrix": {
+    "version": "1.0.0",
+    "audio": {
+     "cy": {
+      "off": "movie/F003/F003.cy.nosubs.v1.0.0.mp4",
+      "cy": "movie/F003/F003.cy.cy.v1.0.0.mp4",
+      "en": "movie/F003/F003.cy.en.v1.0.0.mp4",
+      "es": "movie/F003/F003.cy.es.v1.0.0.mp4"
+     },
+     "en": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     },
+     "es": {
+      "off": null,
+      "cy": null,
+      "en": null,
+      "es": null
+     }
+    },
+    "bytes": {
+     "movie/F003/F003.cy.nosubs.v1.0.0.mp4": 11364435,
+     "movie/F003/F003.cy.cy.v1.0.0.mp4": 11527769,
+     "movie/F003/F003.cy.en.v1.0.0.mp4": 11533165,
+     "movie/F003/F003.cy.es.v1.0.0.mp4": 11553920
+    },
+    "pending": {
+     "en": "native en master not rendered yet",
+     "es": "native es master not rendered yet"
+    },
+    "src": {
+     "cy": "movie/F003/F003.cy.v1.0.0.webm"
+    }
+   }
   },
   {
    "n": 9,
