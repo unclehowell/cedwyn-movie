@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "5.0.0",
+    "version": "5.0.1",
     "date": "2026-11-12",
-    "change": "Structure pass (owner 12 Nov 2026): nine-part 127-scene main film; 132 dated supporting moments retained as full folded records; 55 later/held scenes retained in appendix. F112E's final hyperframe is specified separately as an owner-attributed June 25 account, an anonymous July dramatization, the Wales at Six headline fragment, then only the opening 10 seconds of the owner's separate video. No upload identity, location or causal relationship is inferred; the child identification remains attributed to the owner. — Claude agent / Pally task"
+    "change": "F112E playable final-scene specification. Owner-attributed 25 June 2025 account; explicitly dramatized anonymous July publication scene; original Wales at Six headline-fragment player at 19:48; then only the first ten seconds of the owner's separate video. Identifications remain attributed to the owner; no uploader identity/location or causal link inferred. 127 active scenes, 132 folded records, 55 appendix records remain intact."
   },
   "add": [
     {
@@ -145,7 +145,8 @@
             "manual_play_and_next_controls": true,
             "reduced_motion_supported": true
           }
-        }
+        },
+        "date_sort": "2025-07-25"
       }
     }
   ],
