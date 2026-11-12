@@ -1,0 +1,36 @@
+{
+ "meta": {"version": "5.0.0", "date": "2026-11-12", "change": "Structure pass (cedwyn-documentary#14, owner 12 Nov 2026): the film ends at the ITV footage disclosed on 25 July 2025; later scenes and the two held scenes are parked in the appendix; record-only and duplicate scenes are folded into the nearest real moment as dated captions (kept whole under 'folded'); nine parts of 8 to 20 scenes replace ten uneven acts. Doors 1 to 15 keep their numbers. Nothing deleted. — Claude agent"},
+ "add": [{"after": "F112C", "scene": {"id": "F112E", "date_from": "25 July 2025", "date_to": "25 July 2025", "date_range": "25 July 2025", "date_label": "25 July 2025", "events": [], "evidence": [], "title": "The footage nobody saw", "logline": "A month after the family raises the alarm about the farm's records, ITV's unaired 1988 footage of Great House Farm is disclosed, and the Grandson watches the house standing.", "description": "A month after the family raises the alarm about the farm's records, ITV's unaired 1988 footage of Great House Farm is disclosed, and the Grandson watches the house standing.", "status": "planned; owner's account 12 Nov 2026, catalogue record to be linked", "clip": null, "script": null, "spoken_language": "en", "period": {"en": "2000 onward", "cy": "2000 onward", "es": "2000 onward"}, "i18n": {"cy": {"title": "Y ffilm na welodd neb", "logline": "Fis wedi i'r teulu godi'r larwm am gofnodion y fferm, datgelir ffilm ITV o 1988 na ddarlledwyd erioed o Great House Farm, ac mae'r Ŵyr yn gwylio'r tŷ ar ei draed. (cyfieithiad peiriant)"}, "es": {"title": "Las imágenes que nadie vio", "logline": "Un mes después de que la familia diera la alarma por los registros de la granja, se dan a conocer las imágenes de ITV de 1988 nunca emitidas de Great House Farm, y el Nieto mira la casa en pie. (traducción automática)"}}}}],
+ "appendix": {"from": "F112D", "ids": ["F106C", "F109F"]},
+ "fold": {
+  "F007": ["F007A"], "F008": ["F008A", "F008C"], "F009": ["F009A", "F009B"], "F010": ["F010A", "F011"], "F012": ["F012A", "F013A"],
+  "F013": ["F013B"], "F013C": ["F017B"], "F014": ["F015"], "F015C": ["F015A", "F015B", "F016"], "F017": ["F017A"],
+  "F019A": ["F018", "F019"], "F019C": ["F019B", "F019D", "F019E"], "F020": ["F020A"], "F022": ["F022B"], "F023": ["F022A", "F023A"],
+  "F024": ["F023B", "F023C"], "F025": ["F025A"], "F026": ["F025B", "F025C"], "F027": ["F026A", "F027A", "F027B"], "F028": ["F028A"],
+  "F030": ["F029"], "F031A": ["F031", "F030A"], "F032": ["F031B"], "F032C": ["F032A", "F032B"], "F033": ["F032D", "F033A"],
+  "F036": ["F036B"], "F037": ["F037A", "F037B"], "F038": ["F037C", "F037D"], "F040": ["F039A", "F040A", "F040B"], "F041": ["F042"],
+  "F043": ["F043A", "F043B"], "F044": ["F044A"], "F045": ["F045A", "F045B"], "F046": ["F046A"], "F047": ["F047A"],
+  "F048": ["F047B", "F048A"], "F048D": ["F048C"],
+  "F050": ["F050A"], "F052": ["F051A"], "F055": ["F055A", "F055B"], "F056": ["F055C", "F056A", "F057"], "F058": ["F058A"],
+  "F059": ["F060"], "F061": ["F059A", "F061A", "F061B", "F061C"],
+  "F063": ["F063A"], "F066": ["F065"], "F069": ["F069A"], "F072": ["F071A"],
+  "F076": ["F071"], "F077": ["F076A"], "F079": ["F079A"], "F080": ["F071B"],
+  "F087": ["F086A"], "F088": ["F088A"], "F091": ["F090A"], "F093": ["F092", "F092A", "F093A"], "F093C": ["F094"], "F095": ["F095A"],
+  "F095D": ["F095B", "F095C", "F096"], "F097": ["F096A", "F096B"], "F098": ["F099", "F099A", "F099B"], "F101": ["F101A"],
+  "F102": ["F103B"], "F103": ["F102A", "F103A", "F103C", "F103D", "F103E"], "F104": ["F104A", "F105B"], "F106": ["F105", "F105A"],
+  "F107": ["F106A", "F106B", "F106D", "F106E", "F107A"], "F108": ["F108A", "F108B", "F108C", "F108D"],
+  "F109": ["F108E", "F108F", "F109A", "F109B"], "F109C": ["F109D", "F109E"], "F110": ["F110A", "F110B", "F110C"],
+  "F112": ["F111", "F111A", "F111B"], "F112A": ["F112B", "F112C"]
+ },
+ "parts": [
+  {"n": 1, "en": "Before the deeds", "cy": "Cyn y gweithredoedd", "es": "Antes de las escrituras", "start": "F002"},
+  {"n": 2, "en": "Cedfin or Tŷ Mawr", "cy": "Cedfin neu Dŷ Mawr", "es": "Cedfin o Tŷ Mawr", "start": "F006"},
+  {"n": 3, "en": "The whole of the farm", "cy": "Y fferm gyfan", "es": "Toda la granja", "start": "F024"},
+  {"n": 4, "en": "Parcel A", "cy": "Llain A", "es": "La Parcela A", "start": "F036A"},
+  {"n": 5, "en": "The pension fund", "cy": "Y gronfa bensiwn", "es": "El fondo de pensiones", "start": "F050"},
+  {"n": 6, "en": "Licence", "cy": "Trwydded", "es": "Licencia", "start": "F063"},
+  {"n": 7, "en": "Demolition", "cy": "Dymchwel", "es": "Demolición", "start": "F073"},
+  {"n": 8, "en": "Afterwards", "cy": "Wedyn", "es": "Después", "start": "F086"},
+  {"n": 9, "en": "The search", "cy": "Y chwilio", "es": "La búsqueda", "start": "F107"}
+ ]
+}
