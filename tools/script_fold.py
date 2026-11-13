@@ -53,7 +53,9 @@ def apply(F, P):
         for x in lst: x["n"] = None
     meta = P.get("meta")
     if meta and not any(c.get("version") == meta["version"] for c in F.get("changelog", [])):
-        F["changelog"].append(meta); F["version"] = meta["version"]
+        F["changelog"].append(meta)
+    if meta and tuple(map(int, meta["version"].split("."))) > tuple(map(int, str(F.get("version", "0")).split("."))):
+        F["version"] = meta["version"]          # never lower the version a later patch has set
     F["frames"] = len(items); m = len(items) * F.get("target_seconds_each", 120) // 60
     F["estimated_runtime"] = "%d h %02d min" % (m // 60, m % 60)
     return F
