@@ -7,14 +7,15 @@
 A patch file (patches/<date>-<name>.json) holds:
   "set":      {id: {field: value}}                 plain field values (date, title, logline ...)
   "i18n":     {id: {"cy"|"es": {"title","logline"}}}
-  "replace":  [{id, old, new, lang?}]              exact text swap inside a logline / description
+  "replace":  [{id, old, new, lang?, first?}]      exact text swap inside a logline / description ("first": only the first match)
   "move":     [{"id", "after"}]                    put scene `id` straight after scene `after`
   "date_sort":{id: "YYYY-MM-DD"}                   where the order rests on reasoning, not on the date text
   "act_starts": {act number: id of its first scene}
   "why":      {id: reason}                         read by people, ignored here
   "meta":     {"version", "date", "change"}        one changelog line
 
-Applying is idempotent: a second run changes nothing. Scenes are never dropped and ids never change.
+Applying is idempotent: a second run changes nothing, on the unfolded file or on a file script_fold.py has
+already folded (folded and parked scenes are patched where they sit). Scenes are never dropped and ids never change.
 
 The check (also run after --apply) fails when
   1. a scene's date_sort is earlier than the scene before it;
@@ -83,8 +84,10 @@ def uniso(s):
 
 def apply(F, P):
     items = F["items"]; by = {x["id"]: x for x in items}
+    every = dict(by)                      # folded and parked scenes are patched too, so a patch can be re-run on a folded file
+    for x in (F.get("folded") or []) + (F.get("appendix") or []): every.setdefault(x["id"], x)
     for i, fields in P.get("set", {}).items():
-        x = by[i]
+        x = every[i]
         for k, v in fields.items():
             if k == "date":            # one date for the whole scene
                 x["date_from"] = x["date_to"] = x["date_range"] = v
@@ -93,22 +96,24 @@ def apply(F, P):
         if "logline" in fields and (isinstance(x.get("description"), str) or x.get("description") is None):
             x["description"] = fields["logline"]
     for i, langs in P.get("i18n", {}).items():
-        x = by[i]; x.setdefault("i18n", {})
+        x = every[i]; x.setdefault("i18n", {})
         for lang, v in langs.items():
             x["i18n"].setdefault(lang, {}).update(v)
     for r in P.get("replace", []):
-        x = by[r["id"]]; lang = r.get("lang")
+        x = every[r["id"]]; lang = r.get("lang"); n = 1 if r.get("first") else -1
         tgt = x["i18n"][lang] if lang else x
-        if r["old"] in tgt.get("logline", ""):
-            tgt["logline"] = tgt["logline"].replace(r["old"], r["new"])
-        elif r["new"] not in tgt.get("logline", ""):
+        if r["new"] in tgt.get("logline", ""):
+            continue                       # already applied
+        if r["old"] not in tgt.get("logline", ""):
             raise SystemExit("replace: text not found in %s %s" % (r["id"], lang or "en"))
-        if not lang and isinstance(x.get("description"), str):
-            x["description"] = x["description"].replace(r["old"], r["new"])
+        tgt["logline"] = tgt["logline"].replace(r["old"], r["new"], n)
+        if not lang and isinstance(x.get("description"), str) and r["new"] not in x["description"]:
+            x["description"] = x["description"].replace(r["old"], r["new"], n)
     for mv in P.get("move", []):
+        if mv["id"] not in by or mv["after"] not in by: continue   # one of the two is folded or parked
         x = by[mv["id"]]; items.remove(x); items.insert(items.index(by[mv["after"]]) + 1, x)
     starts = {v: int(k) for k, v in P.get("act_starts", {}).items()}
-    if starts:
+    if starts and not F.get("folded"):     # once folded, the parts come from the fold file
         acts = {a["n"]: a for a in F["acts"]}; cur = 1
         for x in items:
             cur = starts.get(x["id"], cur); x["act"] = dict(acts[cur])

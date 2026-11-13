@@ -1,0 +1,95 @@
+{
+ "meta": {
+  "version": "5.0.1",
+  "date": "2026-11-13",
+  "change": "Owner decision of 12 Nov 2026 (cedwyn-documentary#14): in the four 1988 scenes F076 to F079, Mrs Buckler is named on first mention as Bill's wife, so she cannot be read as his mother, who died in March 1983. Welsh and Spanish machine-assisted, for native review. — Claude agent"
+ },
+ "why": {
+  "F076": "Owner, 12 Nov 2026 20:00 GMT: Mrs Buckler in the 1988 scenes is William Buckler's wife.",
+  "F077": "as F076",
+  "F078": "as F076",
+  "F079": "as F076"
+ },
+ "replace": [
+  {
+   "id": "F076",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, Bill's wife,",
+   "first": true
+  },
+  {
+   "id": "F076",
+   "lang": "cy",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, gwraig Bill,",
+   "first": true
+  },
+  {
+   "id": "F076",
+   "lang": "es",
+   "old": "señora Buckler",
+   "new": "señora Buckler, la esposa de Bill,",
+   "first": true
+  },
+  {
+   "id": "F077",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, Bill's wife,",
+   "first": true
+  },
+  {
+   "id": "F077",
+   "lang": "cy",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, gwraig Bill,",
+   "first": true
+  },
+  {
+   "id": "F077",
+   "lang": "es",
+   "old": "señora Buckler",
+   "new": "señora Buckler, la esposa de Bill,",
+   "first": true
+  },
+  {
+   "id": "F078",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, Bill's wife,",
+   "first": true
+  },
+  {
+   "id": "F078",
+   "lang": "cy",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, gwraig Bill,",
+   "first": true
+  },
+  {
+   "id": "F078",
+   "lang": "es",
+   "old": "señora Buckler",
+   "new": "señora Buckler, la esposa de Bill,",
+   "first": true
+  },
+  {
+   "id": "F079",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, Bill's wife,",
+   "first": true
+  },
+  {
+   "id": "F079",
+   "lang": "cy",
+   "old": "Mrs Buckler",
+   "new": "Mrs Buckler, gwraig Bill,",
+   "first": true
+  },
+  {
+   "id": "F079",
+   "lang": "es",
+   "old": "señora Buckler",
+   "new": "señora Buckler, la esposa de Bill,",
+   "first": true
+  }
+ ]
+}
